@@ -165,7 +165,7 @@ export function convertInlineMarkdown(text: string): string {
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.*?)\*/g, '<em>$1</em>')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="underline hover:text-primary">$1</a>')
+    .replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="underline hover:text-primary">$1</a>')
 }
 
 /**
@@ -184,7 +184,7 @@ export function renderChangelogHtml(md: string): string {
     .replace(/\*(.*?)\*/g, '<em>$1</em>')
     .replace(/```(\w*)\n([\s\S]*?)```/g, '<pre><code>$2</code></pre>')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
+    .replace(/\[((?:[^\[\]]|\[[^\[\]]*\])+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
     .replace(/\n{3,}/g, '\n\n')
 
   html = html.replace(/((?:<li>.*\n?)+)/g, '<ul>$1</ul>')

@@ -92,8 +92,8 @@ function TimelineSection({ releases }: { releases: Release[] }) {
           })}
         </div>
       </div>
-      <div class='text-center mt-8'>
-        <a href='/versions' class='text-muted-foreground hover:text-primary text-sm underline underline-offset-2'>
+      <div className='text-center mt-8'>
+        <a href='/versions' className='text-muted-foreground hover:text-primary text-sm underline underline-offset-2'>
           Browse all {releases.length} releases →
         </a>
       </div>
