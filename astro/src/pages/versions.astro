@@ -27,6 +27,8 @@ try {
 const modern = releases.filter(r => r.version.startsWith('1.'))
 const legacy = releases.filter(r => !r.version.startsWith('1.'))
 
+const latestStable = modern.find(r => !r.is_unreleased)?.version
+
 const pageTitle = 'All Versions — version.rs'
 ---
 
@@ -49,6 +51,9 @@ const pageTitle = 'All Versions — version.rs'
             )}
             {r.is_unreleased && r.release_name === 'beta' && (
               <Badge variant='outline' class='bg-amber-600/10 text-amber-600 dark:bg-amber-400/10 dark:text-amber-400 border-amber-600/20 text-[10px] px-1.5 py-0'>Beta</Badge>
+            )}
+            {!r.is_unreleased && r.version === latestStable && (
+              <Badge variant='outline' class='bg-emerald-600/10 text-emerald-600 dark:bg-emerald-400/10 dark:text-emerald-400 border-emerald-600/20 dark:border-emerald-400/20 text-[10px] px-1.5 py-0'>Stable</Badge>
             )}
           </div>
           <span class='text-muted-foreground text-sm shrink-0'>

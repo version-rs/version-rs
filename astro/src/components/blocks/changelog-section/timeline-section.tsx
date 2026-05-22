@@ -20,6 +20,7 @@ type Release = {
 
 function TimelineSection({ releases }: { releases: Release[] }) {
   const topReleases = releases.slice(-10).reverse()
+  const latestStable = topReleases.find(r => !r.is_unreleased)?.version
 
   return (
     <section>
@@ -43,6 +44,11 @@ function TimelineSection({ releases }: { releases: Release[] }) {
                     {release.is_unreleased && release.release_name === 'beta' && (
                       <Badge variant='outline' className='text-xs bg-amber-600/10 text-amber-600 dark:bg-amber-400/10 dark:text-amber-400 border-amber-600/20 dark:border-amber-400/20'>
                         Beta
+                      </Badge>
+                    )}
+                    {!release.is_unreleased && release.version === latestStable && (
+                      <Badge variant='outline' className='text-xs bg-emerald-600/10 text-emerald-600 dark:bg-emerald-400/10 dark:text-emerald-400 border-emerald-600/20 dark:border-emerald-400/20'>
+                        Stable
                       </Badge>
                     )}
                     {release.is_unreleased && release.release_name !== 'nightly' && release.release_name !== 'beta' && (
