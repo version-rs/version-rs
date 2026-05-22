@@ -1586,7 +1586,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize bool_to_result",
@@ -1779,7 +1779,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
