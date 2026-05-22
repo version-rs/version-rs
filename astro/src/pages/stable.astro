@@ -1,0 +1,30 @@
+---
+import BlankLayout from '@/layouts/BlankLayout.astro'
+
+let redirectUrl = '/'
+
+try {
+  const fs = await import('node:fs')
+  const path = await import('node:path')
+  const jsonPath = path.resolve(process.cwd(), 'src/data/releases.json')
+  if (fs.existsSync(jsonPath)) {
+    const raw = fs.readFileSync(jsonPath, 'utf-8')
+    const parsed = JSON.parse(raw)
+    const stable = parsed.current_versions?.stable
+    if (stable) {
+      redirectUrl = `/v/${stable}`
+    }
+  }
+} catch (e) {
+  console.log('No releases.json found')
+}
+
+const pageTitle = 'Redirecting to latest stable...'
+---
+
+<BlankLayout title={pageTitle} noindex nofollow>
+  <div class='flex h-screen items-center justify-center'>
+    <p>Redirecting to <a href={redirectUrl}>Rust {redirectUrl.replace('/v/', '')}</a>...</p>
+  </div>
+  <script html>window.location.href = "'" + redirectUrl + "'";</script>
+</BlankLayout>

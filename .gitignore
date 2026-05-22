@@ -1,0 +1,32 @@
+# Rust
+target/
+**/*.rs.bk
+
+# Node
+astro/node_modules/
+astro/dist/
+astro/.astro/
+
+# Cache
+.cache/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Nix
+result
+
+# direnv
+.envrc
+.direnv/

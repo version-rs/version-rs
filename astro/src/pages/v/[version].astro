@@ -1,0 +1,132 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import { Badge } from '@/components/ui/badge'
+import BadgeAccordion from '@/components/badge-accordion/badge-accordion'
+import { parseChangelog, renderChangelogHtml, convertInlineMarkdown } from '@/lib/changelog'
+
+type Release = {
+  version: string
+  date: string
+  is_unreleased?: boolean
+  changelog_md: string
+  url?: string
+  branch_date: string
+  release_name?: string
+  issues?: Array<{ title: string; number: number; html_url: string; days_ago: number }>
+}
+
+export async function getStaticPaths() {
+  let releases: Release[] = []
+
+  try {
+    const fs = await import('node:fs')
+    const path = await import('node:path')
+    const jsonPath = path.resolve(process.cwd(), 'src/data/releases.json')
+    if (fs.existsSync(jsonPath)) {
+      const raw = fs.readFileSync(jsonPath, 'utf-8')
+      const parsed = JSON.parse(raw)
+      releases = parsed.releases || []
+    }
+  } catch (e) {
+    console.log('No releases.json found')
+  }
+
+  return releases.map(release => ({
+    params: { version: release.version },
+    props: { release }
+  }))
+}
+
+const { release } = Astro.props
+const pageTitle = `Rust ${release.version} — version.rs`
+const categorized = parseChangelog(release.changelog_md)
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'All Versions', item: `${Astro.site}versions/` },
+    { '@type': 'ListItem', position: 2, name: `Rust ${release.version}`, item: `${Astro.site}v/${release.version}/` }
+  ]
+}
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'TechArticle',
+  headline: `Rust ${release.version} Release`,
+  datePublished: release.date,
+  description: `Rust ${release.version} release details, changelog, and more.`,
+  about: { '@type': 'SoftwareApplication', name: `Rust ${release.version}`, applicationCategory: 'DeveloperApplication' }
+}
+
+const siteDescription = release.is_unreleased
+  ? `Rust ${release.version} (${release.release_name || 'unreleased'}) — expected on ${new Date(release.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}. Track upcoming Rust release milestones and changelog.`
+  : `Rust ${release.version} release — released on ${new Date(release.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}. Browse the changelog, merged issues, and release details.`
+
+const pageType = release.is_unreleased ? 'website' : 'article'
+---
+
+<Layout
+  title={pageTitle}
+  description={siteDescription}
+  type={pageType}
+  publishedTime={release.date}
+  schema={release.is_unreleased ? breadcrumbSchema : articleSchema}
+>
+  <div class='mx-auto max-w-4xl px-4 py-12'>
+    <a href='/' class='text-muted-foreground hover:text-primary text-sm mb-6 inline-block'>&larr; Back to all releases</a>
+
+    <div class='flex items-center gap-3 mb-2'>
+      <h1 class='text-3xl font-bold'>Rust {release.version}{release.release_name ? ` (${release.release_name})` : ''}</h1>
+      {release.is_unreleased && release.release_name === 'nightly' && (
+        <Badge variant='outline' class='bg-purple-600/10 text-purple-600 dark:bg-purple-400/10 dark:text-purple-400 border-purple-600/20 dark:border-purple-400/20'>Nightly</Badge>
+      )}
+      {release.is_unreleased && release.release_name === 'beta' && (
+        <Badge variant='outline' class='bg-amber-600/10 text-amber-600 dark:bg-amber-400/10 dark:text-amber-400 border-amber-600/20 dark:border-amber-400/20'>Beta</Badge>
+      )}
+      {release.is_unreleased && release.release_name !== 'nightly' && release.release_name !== 'beta' && (
+        <Badge variant='destructive'>Unreleased</Badge>
+      )}
+    </div>
+
+    <p class='text-muted-foreground mb-8'>
+      {release.is_unreleased ? 'Expected on' : 'Released on'} {new Date(release.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+      {false && release.url && (
+        <> &middot; <a href={release.url} target='_blank' rel='noopener noreferrer' class='underline hover:text-primary'>Official blog post</a></>
+      )}
+    </p>
+
+    {release.issues && release.issues.length > 0 && (
+      <div class='mb-8'>
+        <h2 class='text-xl font-semibold mb-4'>Merged Issues</h2>
+        <ul class='space-y-2'>
+          {release.issues.map((issue: any) => {
+            const issueTitle = convertInlineMarkdown(issue.title)
+            return (
+              <li key={issue.number}>
+                <a href={issue.html_url} target='_blank' rel='noopener noreferrer' class='hover:underline' set:html={issueTitle}></a>
+                <span class='text-muted-foreground text-sm'> (#{issue.number}, {issue.days_ago}d ago)</span>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
+    )}
+
+    {categorized.length > 0 && (
+      <div class='mb-8'>
+        <h2 class='text-xl font-semibold mb-4'>What's Changed</h2>
+        <BadgeAccordion data={categorized} client:load />
+      </div>
+    )}
+
+    {release.changelog_md && (
+      <details class='prose max-w-none border rounded-lg p-4'>
+        <summary class='cursor-pointer font-medium text-lg'>Full Changelog</summary>
+        <div class='mt-4'>
+          <Fragment set:html={renderChangelogHtml(release.changelog_md)} />
+        </div>
+      </details>
+    )}
+  </div>
+</Layout>

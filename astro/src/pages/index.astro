@@ -1,0 +1,71 @@
+---
+import type { Release } from '@/components/blocks/changelog-section/timeline-section'
+import Layout from '@/layouts/Layout.astro'
+import HeroSection from '@/components/blocks/hero-section/hero-section'
+import TimelineSection from '@/components/blocks/changelog-section/timeline-section'
+import FAQ from '@/components/blocks/faq-section/faq-section'
+import CTASection from '@/components/blocks/cta-section/cta-section'
+
+// Load data at build time
+const fs = await import('node:fs')
+const path = await import('node:path')
+const jsonPath = path.resolve(process.cwd(), 'src/data/releases.json')
+
+let releases: Release[] = []
+let stabilizationPrs: any[] = []
+let currentVersions = { stable: '', beta: '', nightly: '' }
+
+try {
+  if (fs.existsSync(jsonPath)) {
+    const raw = fs.readFileSync(jsonPath, 'utf-8')
+    const parsed = JSON.parse(raw)
+    releases = parsed.releases || []
+    stabilizationPrs = parsed.stabilization_prs || []
+    currentVersions = parsed.current_versions || { stable: '', beta: '', nightly: '' }
+  }
+} catch (e) {
+  console.log('No releases.json found, using empty data')
+}
+
+const pageTitle = 'version.rs — Rust Compiler Release Tracker'
+const pageDescription = 'Track Rust compiler releases, changelogs, upcoming milestones, and stabilization PRs.'
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How often is version.rs updated?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Data is updated on-demand when the developer runs the data pipeline and commits fresh JSON. There is no automated cron job — updates happen when new Rust releases are published or stabilization PRs change.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Where does the data come from?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Release data comes from the official rust-lang/rust repository\'s RELEASES.md file. Milestone and stabilization PR data comes from the GitHub API. All data is fetched by a Rust CLI tool that runs locally.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the release cycle for Rust?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Rust follows a 6-week release cycle. A new stable version is released every 6 weeks, with beta and nightly versions tracking ahead. The exact dates are calculated from Rust\'s first stable release on December 10, 2015.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Is this project open source?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes! version.rs is open source under the MIT license. You can find the source code on GitHub.' }
+    }
+  ]
+}
+---
+
+<Layout title={pageTitle} description={pageDescription} schema={faqSchema}>
+  <main id='main-content'>
+    <HeroSection />
+    <div class='via-primary/20 mx-auto h-px w-4/5 bg-gradient-to-r from-transparent to-transparent'></div>
+    <TimelineSection releases={releases} client:load />
+    <div class='via-primary/20 mx-auto h-px w-4/5 bg-gradient-to-r from-transparent to-transparent'></div>
+    <FAQ client:load />
+    <div class='via-primary/20 mx-auto h-px w-4/5 bg-gradient-to-r from-transparent to-transparent'></div>
+    <CTASection />
+  </main>
+</Layout>

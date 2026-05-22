@@ -1,0 +1,54 @@
+name: Refresh Release Data
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '22 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+            accept-flake-config = true
+
+      - name: Restore cargo cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Load dev shell
+        run: nix develop "$GITHUB_WORKSPACE" --command true
+
+      - name: Run data pipeline
+        run: nix develop "$GITHUB_WORKSPACE" --command cargo run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION_RS_RELEASES_JSON: astro/src/data/releases.json
+          VERSION_RS_PUBLIC_REDIRECTS: astro/public/_redirects
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "version-rs bot"
+          git config user.email "bot@version.rs"
+          git add astro/src/data/releases.json astro/public/_redirects
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh release data"
+            git push
+          fi

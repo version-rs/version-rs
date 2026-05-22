@@ -1,0 +1,120 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import { Badge } from '@/components/ui/badge'
+import { Card, CardContent } from '@/components/ui/card'
+import { convertInlineMarkdown } from '@/lib/changelog'
+
+type Release = {
+  version: string
+  date: string
+  is_unreleased?: boolean
+  release_name?: string
+  issues?: Array<{ title: string; number: number; html_url: string; days_ago: number }>
+}
+
+let upcomingReleases: Release[] = []
+let currentVersions = { stable: '', beta: '', nightly: '' }
+
+try {
+  const fs = await import('node:fs')
+  const path = await import('node:path')
+  const jsonPath = path.resolve(process.cwd(), 'src/data/releases.json')
+  if (fs.existsSync(jsonPath)) {
+    const raw = fs.readFileSync(jsonPath, 'utf-8')
+    const parsed = JSON.parse(raw)
+    upcomingReleases = (parsed.releases || []).filter((r: Release) => r.is_unreleased)
+    currentVersions = parsed.current_versions || { stable: '', beta: '', nightly: '' }
+  }
+} catch (e) {
+  console.log('No releases.json found')
+}
+
+function daysUntil(dateStr: string): number {
+  const target = new Date(dateStr)
+  const now = new Date()
+  return Math.ceil((target.getTime() - now.getTime()) / (1000 * 60 * 60 * 24))
+}
+
+const pageTitle = 'Upcoming Releases — version.rs'
+---
+
+<Layout title={pageTitle} description='Upcoming Rust release milestones, including beta and nightly versions.'>
+  <div class='mx-auto max-w-4xl px-4 py-12'>
+    <h1 class='text-3xl font-bold mb-2'>Upcoming Releases</h1>
+    <p class='text-muted-foreground mb-8'>
+      Upcoming Rust compiler releases and their expected dates.
+    </p>
+
+    {currentVersions.stable && (
+      <div class='grid gap-4 md:grid-cols-3 mb-12'>
+        <Card>
+          <CardContent class='p-4 text-center'>
+            <Badge>Stable</Badge>
+            <p class='text-2xl font-bold mt-2'>{currentVersions.stable}</p>
+          </CardContent>
+        </Card>
+        {currentVersions.beta && (
+          <Card>
+            <CardContent class='p-4 text-center'>
+              <Badge variant='secondary'>Beta</Badge>
+              <p class='text-2xl font-bold mt-2'>{currentVersions.beta}</p>
+            </CardContent>
+          </Card>
+        )}
+        {currentVersions.nightly && (
+          <Card>
+            <CardContent class='p-4 text-center'>
+              <Badge variant='outline'>Nightly</Badge>
+              <p class='text-2xl font-bold mt-2'>{currentVersions.nightly}</p>
+            </CardContent>
+          </Card>
+        )}
+      </div>
+    )}
+
+    <h2 class='text-2xl font-semibold mb-4'>Upcoming Milestones</h2>
+
+    {upcomingReleases.length === 0 && (
+      <p class='text-muted-foreground'>No upcoming releases found. Data may not have been generated yet.</p>
+    )}
+
+    <div class='space-y-4'>
+      {upcomingReleases.map(release => {
+        const daysLeft = daysUntil(release.date)
+        return (
+          <Card key={release.version}>
+            <CardContent class='p-4'>
+              <div class='flex items-center justify-between'>
+                <div>
+                  <a href={`/v/${release.version}`} class='text-lg font-semibold hover:underline'>
+                    Rust {release.version}
+                    {release.release_name && ` (${release.release_name})`}
+                  </a>
+                  <p class='text-muted-foreground text-sm mt-1'>
+                    Expected: {new Date(release.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                  </p>
+                </div>
+                <div class='text-right'>
+                  <p class='text-2xl font-bold'>{daysLeft > 0 ? daysLeft : 0}</p>
+                  <p class='text-muted-foreground text-sm'>{daysLeft > 0 ? 'days left' : 'overdue'}</p>
+                </div>
+              </div>
+              {release.issues && release.issues.length > 0 && (
+                <div class='mt-3 border-t pt-3'>
+                  <p class='text-sm font-medium mb-1'>Merged PRs: {release.issues.length}</p>
+                  <ul class='text-sm text-muted-foreground space-y-1'>
+                    {release.issues.slice(0, 3).map(issue => (
+                      <li key={issue.number}>
+                        <a href={issue.html_url} target='_blank' rel='noopener noreferrer' class='hover:underline' set:html={convertInlineMarkdown(issue.title)}></a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        )
+      })}
+    </div>
+  </div>
+</Layout>

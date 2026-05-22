@@ -1,0 +1,65 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import { Badge } from '@/components/ui/badge'
+import { Card, CardContent } from '@/components/ui/card'
+
+type StabilizationPr = {
+  title: string
+  number: number
+  url: string
+  updated_at: string
+  labels: Array<{ name: string; description?: string }>
+  days_old: number
+}
+
+let prs: StabilizationPr[] = []
+
+try {
+  const fs = await import('node:fs')
+  const path = await import('node:path')
+  const jsonPath = path.resolve(process.cwd(), 'src/data/releases.json')
+  if (fs.existsSync(jsonPath)) {
+    const raw = fs.readFileSync(jsonPath, 'utf-8')
+    const parsed = JSON.parse(raw)
+    prs = parsed.stabilization_prs || []
+  }
+} catch (e) {
+  console.log('No releases.json found')
+}
+
+const pageTitle = 'Stabilization PRs — version.rs'
+---
+
+<Layout title={pageTitle} description='Track ongoing stabilization pull requests in the Rust compiler.'>
+  <div class='mx-auto max-w-4xl px-4 py-12'>
+    <h1 class='text-3xl font-bold mb-2'>Ongoing Stabilization PRs</h1>
+    <p class='text-muted-foreground mb-8'>
+      Pull requests that stabilize features in the Rust compiler. {prs.length} PRs currently open.
+    </p>
+
+    {prs.length === 0 && (
+      <p class='text-muted-foreground'>No stabilization PRs found. Data may not have been generated yet.</p>
+    )}
+
+    <div class='space-y-4'>
+      {prs.map(pr => (
+        <Card key={pr.number}>
+          <CardContent class='p-4'>
+            <a href={pr.url} target='_blank' rel='noopener noreferrer' class='text-lg font-semibold hover:underline'>{pr.title}</a>
+            <div class='flex items-center gap-2 mt-2'>
+              <Badge variant='outline'>#{pr.number}</Badge>
+              <span class='text-muted-foreground text-sm'>{pr.days_old} days old</span>
+            </div>
+            {pr.labels.length > 0 && (
+              <div class='flex flex-wrap gap-1 mt-2'>
+                {pr.labels.map(label => (
+                  <Badge key={label.name} variant='secondary' class='text-xs'>{label.name}</Badge>
+                ))}
+              </div>
+            )}
+          </CardContent>
+        </Card>
+      ))}
+    </div>
+  </div>
+</Layout>
