@@ -3,7 +3,7 @@ name: Refresh Release Data
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: '22 */6 * * *'
   workflow_dispatch:
