@@ -58,22 +58,29 @@ const allValues = (data: CategorizedChange[]) => data.map((_, i) => `item-${i}`)
 
 const BadgeAccordion = ({ data }: BadgeAccordionProps) => {
   const [value, setValue] = useState<string[]>(() => allValues(data))
+  const [accordionKey, setAccordionKey] = useState(0)
 
   if (!data || data.length === 0) return null
 
   const allOpen = data.every((_, i) => value?.includes(`item-${i}`))
 
+  const handleToggleAll = () => {
+    const newValue = allOpen ? [] : allValues(data)
+    setValue(newValue)
+    setAccordionKey((k) => k + 1)
+  }
+
   return (
     <div className='w-full min-w-[320px]'>
       <div className='flex justify-end mb-1'>
         <button
-          onClick={() => setValue(allOpen ? [] : allValues(data))}
-          className='text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer'
+          onClick={handleToggleAll}
+          className='px-3 py-2 -mr-3 text-xs text-muted-foreground hover:text-foreground transition-colors cursor-pointer'
         >
           {allOpen ? 'Collapse all' : 'Expand all'}
         </button>
       </div>
-      <Accordion type='multiple' value={value} onValueChange={setValue} className='-mt-4 mb-0 w-full'>
+      <Accordion key={accordionKey} type='multiple' value={value} onValueChange={setValue} className='-mt-4 mb-0 w-full'>
         {data.map((item, index) => {
           const badgeProps = BADGE_CONFIG[item.type]
           if (item.items.length === 0) return null
