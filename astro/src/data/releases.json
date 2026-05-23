@@ -1557,7 +1557,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1653,7 +1653,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1714,7 +1714,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 29
+      "days_old": 30
     },
     {
       "title": "stabilize never type",
@@ -1821,7 +1821,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 49
+      "days_old": 50
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1888,7 +1888,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 82
+      "days_old": 83
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2038,7 +2038,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 123
+      "days_old": 124
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2264,7 +2264,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 263
+      "days_old": 264
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
