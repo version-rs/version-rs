@@ -9,7 +9,7 @@ export const DEFAULT_OG_IMAGE = "/og-default.svg";
 
 export const SITE_METADATA = {
   title: {
-    default: "version.rs — Rust Compiler Versions",
+    default: "Rust Compiler Version Tracker",
   },
   description:
     "Track Rust compiler versions, releases, changelogs, and stabilization PRs.",
@@ -45,7 +45,7 @@ export const SITE_METADATA = {
     type: "website",
     locale: "en_US",
     siteName: "version.rs",
-    title: "version.rs — Rust Compiler Release Tracker",
+    title: "Rust Compiler Version Tracker",
     description:
       "Track Rust compiler releases, changelogs, upcoming milestones, and stabilization PRs.",
     images: [
