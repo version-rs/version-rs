@@ -3,11 +3,11 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 const faqItems = [
   {
     question: 'How often is version.rs updated?',
-    answer: 'Data is updated on-demand when the developer runs the data pipeline and commits fresh JSON. There is no automated cron job — updates happen when new Rust releases are published or stabilization PRs change.'
+    answer: "Data is updated by a GitHub Action. As long as GitHub stays up, it's scheduled every hour."
   },
   {
     question: 'Where does the data come from?',
-    answer: 'Release data comes from the official rust-lang/rust repository\'s RELEASES.md file. Milestone and stabilization PR data comes from the GitHub API. All data is fetched by a Rust CLI tool that runs locally.'
+    answer: "Release data comes from the official rust-lang/rust repository's RELEASES.md file. Milestone and stabilization PR data comes from the GitHub API. All data is fetched by a Rust CLI tool that runs locally."
   },
   {
     question: 'What is the release cycle for Rust?',

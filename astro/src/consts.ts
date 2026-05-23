@@ -1,4 +1,4 @@
-export const SITE_TITLE = "version.rs — Rust Compiler Release Tracker";
+export const SITE_TITLE = "Rust Compiler Versions - version.rs";
 export const SITE_DESCRIPTION =
   "Track Rust compiler releases, changelogs, upcoming milestones, and stabilization PRs.";
 
@@ -9,15 +9,16 @@ export const DEFAULT_OG_IMAGE = "/og-default.svg";
 
 export const SITE_METADATA = {
   title: {
-    default: "version.rs — Rust Compiler Release Tracker",
+    default: "version.rs — Rust Compiler Versions",
   },
   description:
-    "Track Rust compiler releases, changelogs, upcoming milestones, and stabilization PRs.",
+    "Track Rust compiler versions, releases, changelogs, and stabilization PRs.",
   keywords: [
     "Rust",
     "Rust compiler",
     "Rust releases",
     "Rust toolchain",
+    "Rust versions",
     "rust-lang",
     "Rust language",
     "rustup",

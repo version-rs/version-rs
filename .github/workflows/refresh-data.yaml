@@ -1,8 +1,9 @@
 name: Refresh Release Data
 
 on:
+  # Run at weird minutes because it's not important.
   schedule:
-    - cron: '22 */6 * * *'
+    - cron: '22,52 * * * *'
   workflow_dispatch:
 
 permissions:

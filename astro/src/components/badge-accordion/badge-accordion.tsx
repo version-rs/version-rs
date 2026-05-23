@@ -14,42 +14,42 @@ type BadgeAccordionProps = {
 const BADGE_CONFIG: Record<CategorizedChange['type'], { className: string; label: string }> = {
   language: {
     className:
-      'border-none h-6 rounded-sm bg-purple-600/10 text-purple-600 dark:bg-purple-400/10 dark:text-purple-400',
+      'border-none h-6 rounded-sm bg-purple-600/10 text-purple-600 dark:bg-purple-400/10 dark:text-purple-400 transition-all duration-200 hover:scale-105 hover:brightness-125',
     label: 'Language',
   },
   compiler: {
     className:
-      'border-none h-6 rounded-sm bg-blue-600/10 text-blue-600 dark:bg-blue-400/10 dark:text-blue-400',
+      'border-none h-6 rounded-sm bg-blue-600/10 text-blue-600 dark:bg-blue-400/10 dark:text-blue-400 transition-all duration-200 hover:scale-105 hover:brightness-125',
     label: 'Compiler',
   },
   libraries: {
     className:
-      'border-none h-6 rounded-sm bg-teal-600/10 text-teal-600 dark:bg-teal-400/10 dark:text-teal-400',
+      'border-none h-6 rounded-sm bg-teal-600/10 text-teal-600 dark:bg-teal-400/10 dark:text-teal-400 transition-all duration-200 hover:scale-105 hover:brightness-125',
     label: 'Libraries',
   },
   cargo: {
     className:
-      'border-none h-6 rounded-sm bg-orange-600/10 text-orange-600 dark:bg-orange-400/10 dark:text-orange-400',
+      'border-none h-6 rounded-sm bg-orange-600/10 text-orange-600 dark:bg-orange-400/10 dark:text-orange-400 transition-all duration-200 hover:scale-105 hover:brightness-125',
     label: 'Cargo',
   },
   performance: {
     className:
-      'border-none h-6 rounded-sm bg-green-600/10 text-green-600 dark:bg-green-400/10 dark:text-green-400',
+      'border-none h-6 rounded-sm bg-green-600/10 text-green-600 dark:bg-green-400/10 dark:text-green-400 transition-all duration-200 hover:scale-105 hover:brightness-125',
     label: 'Performance',
   },
   fixes: {
     className:
-      'border-none h-6 rounded-sm bg-amber-600/10 text-amber-600 dark:bg-amber-400/10 dark:text-amber-400',
+      'border-none h-6 rounded-sm bg-amber-600/10 text-amber-600 dark:bg-amber-400/10 dark:text-amber-400 transition-all duration-200 hover:scale-105 hover:brightness-125',
     label: 'Fixes',
   },
   breaking: {
     className:
-      'border-none h-6 rounded-sm bg-red-600/10 text-red-600 dark:bg-red-400/10 dark:text-red-400',
+      'border-none h-6 rounded-sm bg-red-600/10 text-red-600 dark:bg-red-400/10 dark:text-red-400 transition-all duration-200 hover:scale-105 hover:brightness-125',
     label: 'Breaking',
   },
   other: {
     className:
-      'border-none h-6 rounded-sm bg-neutral-600/10 text-neutral-600 dark:bg-neutral-400/10 dark:text-neutral-400',
+      'border-none h-6 rounded-sm bg-neutral-600/10 text-neutral-600 dark:bg-neutral-400/10 dark:text-neutral-400 transition-all duration-200 hover:scale-105 hover:brightness-125',
     label: 'Other',
   },
 }

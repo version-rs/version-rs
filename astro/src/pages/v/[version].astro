@@ -38,7 +38,7 @@ export async function getStaticPaths() {
 }
 
 const { release } = Astro.props
-const pageTitle = `Rust ${release.version} — version.rs`
+const pageTitle = `Rust ${release.version} Changelog`
 const categorized = parseChangelog(release.changelog_md)
 
 const breadcrumbSchema = {

@@ -37,22 +37,28 @@ function TimelineSection({ releases }: { releases: Release[] }) {
                       Version {release.version}
                     </a>
                     {release.is_unreleased && release.release_name === 'nightly' && (
-                      <Badge variant='outline' className='text-xs bg-purple-600/10 text-purple-600 dark:bg-purple-400/10 dark:text-purple-400 border-purple-600/20 dark:border-purple-400/20'>
-                        Nightly
-                      </Badge>
+                      <a href='/nightly'>
+                        <Badge variant='outline' className='text-xs bg-purple-600/10 text-purple-600 dark:bg-purple-400/10 dark:text-purple-400 border-purple-600/20 dark:border-purple-400/20 transition-all duration-200 hover:scale-105 hover:brightness-125'>
+                          Nightly
+                        </Badge>
+                      </a>
                     )}
                     {release.is_unreleased && release.release_name === 'beta' && (
-                      <Badge variant='outline' className='text-xs bg-amber-600/10 text-amber-600 dark:bg-amber-400/10 dark:text-amber-400 border-amber-600/20 dark:border-amber-400/20'>
-                        Beta
-                      </Badge>
+                      <a href='/beta'>
+                        <Badge variant='outline' className='text-xs bg-amber-600/10 text-amber-600 dark:bg-amber-400/10 dark:text-amber-400 border-amber-600/20 dark:border-amber-400/20 transition-all duration-200 hover:scale-105 hover:brightness-125'>
+                          Beta
+                        </Badge>
+                      </a>
                     )}
                     {!release.is_unreleased && release.version === latestStable && (
-                      <Badge variant='outline' className='text-xs bg-emerald-600/10 text-emerald-600 dark:bg-emerald-400/10 dark:text-emerald-400 border-emerald-600/20 dark:border-emerald-400/20'>
-                        Stable
-                      </Badge>
+                      <a href='/stable'>
+                        <Badge variant='outline' className='text-xs bg-emerald-600/10 text-emerald-600 dark:bg-emerald-400/10 dark:text-emerald-400 border-emerald-600/20 dark:border-emerald-400/20 transition-all duration-200 hover:scale-105 hover:brightness-125'>
+                          Stable
+                        </Badge>
+                      </a>
                     )}
                     {release.is_unreleased && release.release_name !== 'nightly' && release.release_name !== 'beta' && (
-                      <Badge variant='destructive' className='text-xs'>
+                      <Badge variant='destructive' className='text-xs transition-all duration-200 hover:scale-105 hover:brightness-125'>
                         Upcoming
                       </Badge>
                     )}
