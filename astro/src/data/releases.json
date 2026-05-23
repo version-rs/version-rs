@@ -1603,7 +1603,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `Result::map_or_default` and `Option::map_or_default`",
@@ -1980,7 +1980,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 107
+      "days_old": 108
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
