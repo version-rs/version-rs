@@ -1859,7 +1859,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 65
+      "days_old": 66
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2001,7 +2001,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 110
+      "days_old": 111
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2384,7 +2384,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 368
+      "days_old": 369
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
