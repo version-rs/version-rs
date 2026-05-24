@@ -1959,7 +1959,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 108
+      "days_old": 109
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2359,7 +2359,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 355
+      "days_old": 356
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2425,7 +2425,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 394
+      "days_old": 395
     },
     {
       "title": "Stabilize `offset_of_slice`",
