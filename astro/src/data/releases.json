@@ -1549,12 +1549,16 @@
       "updated_at": "2026-05-22T19:00:10+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-fcp",
+          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "I-libs-api-nominated",
+          "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
       "days_old": 2
@@ -1779,7 +1783,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 35
+      "days_old": 36
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
