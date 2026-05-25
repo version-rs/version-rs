@@ -1926,7 +1926,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1956,23 +1956,6 @@
         }
       ],
       "days_old": 9
-    },
-    {
-      "title": "Stabilize bool_to_result",
-      "number": 156594,
-      "url": "https://github.com/rust-lang/rust/pull/156594",
-      "updated_at": "2026-05-15T08:21:04+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 10
     },
     {
       "title": "Stabilize `Result::map_or_default` and `Option::map_or_default`",
@@ -2022,7 +2005,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -2087,7 +2070,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 31
+      "days_old": 32
     },
     {
       "title": "stabilize never type",
@@ -2261,7 +2244,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 84
+      "days_old": 85
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2411,7 +2394,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 125
+      "days_old": 126
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2526,7 +2509,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 199
+      "days_old": 200
     },
     {
       "title": "Stabilize Frontmatter",
