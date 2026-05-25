@@ -1607,7 +1607,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize `Result::map_or_default` and `Option::map_or_default`",
@@ -2536,7 +2536,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 838
+      "days_old": 839
     }
   ],
   "current_versions": {
