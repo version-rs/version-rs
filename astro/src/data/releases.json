@@ -1325,21 +1325,383 @@
     },
     {
       "version": "1.95.0",
-      "date": "2026-04-16",
-      "is_unreleased": false,
-      "changelog_md": "\n<a id=\"1.95-Language\"></a>\n\nLanguage\n--------\n- [Stabilize `if let` guards on match arms](https://github.com/rust-lang/rust/pull/141295)\n- [`irrefutable_let_patterns` lint no longer lints on let chains](https://github.com/rust-lang/rust/pull/146832)\n- [Support importing path-segment keywords with renaming](https://github.com/rust-lang/rust/pull/146972)\n- [Stabilize inline assembly for PowerPC and PowerPC64](https://github.com/rust-lang/rust/pull/147996)\n- [const-eval: be more consistent in the behavior of padding during typed copies](https://github.com/rust-lang/rust/pull/148967)\n- [Const blocks are no longer evaluated to determine if expressions involving fallible operations can implicitly be constant-promoted.](https://github.com/rust-lang/rust/pull/150557). Expressions whose ability to implicitly be promoted would depend on the result of a const block are no longer implicitly promoted.\n- [Make operational semantics of pattern matching independent of crate and module](https://github.com/rust-lang/rust/pull/150681)\n\n\n<a id=\"1.95-Compiler\"></a>\n\nCompiler\n--------\n- [Stabilize `--remap-path-scope` for controlling the scoping of how paths get remapped in the resulting binary](https://github.com/rust-lang/rust/pull/147611)\n\n\n<a id=\"1.95-Platform-Support\"></a>\n\nPlatform Support\n----------------\n- [Promote `powerpc64-unknown-linux-musl` to Tier 2 with host tools](https://github.com/rust-lang/rust/pull/149962)\n- [Promote `aarch64-apple-tvos` to Tier 2](https://github.com/rust-lang/rust/pull/152021)\n- [Promote `aarch64-apple-tvos-sim` to Tier 2](https://github.com/rust-lang/rust/pull/152021)\n- [Promote `aarch64-apple-watchos` to Tier 2](https://github.com/rust-lang/rust/pull/152021)\n- [Promote `aarch64-apple-watchos-sim` to Tier 2](https://github.com/rust-lang/rust/pull/152021)\n- [Promote `aarch64-apple-visionos` to Tier 2](https://github.com/rust-lang/rust/pull/152021)\n- [Promote `aarch64-apple-visionos-sim` to Tier 2](https://github.com/rust-lang/rust/pull/152021)\n\n\nRefer to Rust's [platform support page][platform-support-doc]\nfor more information on Rust's tiered platform support.\n\n[platform-support-doc]: https://doc.rust-lang.org/rustc/platform-support.html\n\n<a id=\"1.95-Libraries\"></a>\n\nLibraries\n---------\n- [`thread::scope`: document how join interacts with TLS destructors](https://github.com/rust-lang/rust/pull/149482)\n- [Speed up `str::contains` on aarch64 targets with `neon` target feature enabled by default](https://github.com/rust-lang/rust/pull/152176)\n\n\n<a id=\"1.95-Stabilized-APIs\"></a>\n\nStabilized APIs\n---------------\n\n- [`MaybeUninit<[T; N]>: From<[MaybeUninit<T>; N]>`](https://doc.rust-lang.org/stable/std/mem/union.MaybeUninit.html#impl-From%3CMaybeUninit%3C%5BT;+N%5D%3E%3E-for-%5BMaybeUninit%3CT%3E;+N%5D)\n- [`MaybeUninit<[T; N]>: AsRef<[MaybeUninit<T>; N]>`](https://doc.rust-lang.org/stable/std/mem/union.MaybeUninit.html#impl-AsRef%3C%5BMaybeUninit%3CT%3E;+N%5D%3E-for-MaybeUninit%3C%5BT;+N%5D%3E)\n- [`MaybeUninit<[T; N]>: AsRef<[MaybeUninit<T>]>`](https://doc.rust-lang.org/stable/std/mem/union.MaybeUninit.html#impl-AsRef%3C%5BMaybeUninit%3CT%3E%5D%3E-for-MaybeUninit%3C%5BT;+N%5D%3E)\n- [`MaybeUninit<[T; N]>: AsMut<[MaybeUninit<T>; N]>`](https://doc.rust-lang.org/beta/std/mem/union.MaybeUninit.html#impl-AsMut%3C%5BMaybeUninit%3CT%3E;+N%5D%3E-for-MaybeUninit%3C%5BT;+N%5D%3E)\n- [`MaybeUninit<[T; N]>: AsMut<[MaybeUninit<T>]>`](https://doc.rust-lang.org/stable/std/mem/union.MaybeUninit.html#impl-AsMut%3C%5BMaybeUninit%3CT%3E%5D%3E-for-MaybeUninit%3C%5BT;+N%5D%3E)\n- [`[MaybeUninit<T>; N]: From<MaybeUninit<[T; N]>>`](https://doc.rust-lang.org/stable/std/mem/union.MaybeUninit.html#impl-From%3C%5BMaybeUninit%3CT%3E;+N%5D%3E-for-MaybeUninit%3C%5BT;+N%5D%3E)\n- [`Cell<[T; N]>: AsRef<[Cell<T>; N]>`](https://doc.rust-lang.org/stable/std/cell/struct.Cell.html#impl-AsRef%3C%5BCell%3CT%3E;+N%5D%3E-for-Cell%3C%5BT;+N%5D%3E)\n- [`Cell<[T; N]>: AsRef<[Cell<T>]>`](https://doc.rust-lang.org/stable/std/cell/struct.Cell.html#impl-AsRef%3C%5BCell%3CT%3E%5D%3E-for-Cell%3C%5BT;+N%5D%3E)\n- [`Cell<[T]>: AsRef<[Cell<T>]>`](https://doc.rust-lang.org/stable/std/cell/struct.Cell.html#impl-AsRef%3C%5BCell%3CT%3E%5D%3E-for-Cell%3C%5BT%5D%3E)\n- [`bool: TryFrom<{integer}>`](https://doc.rust-lang.org/stable/std/primitive.bool.html#impl-TryFrom%3Cu128%3E-for-bool)\n- [`AtomicPtr::update`](https://doc.rust-lang.org/stable/std/sync/atomic/struct.AtomicPtr.html#method.update)\n- [`AtomicPtr::try_update`](https://doc.rust-lang.org/stable/std/sync/atomic/struct.AtomicPtr.html#method.try_update)\n- [`AtomicBool::update`](https://doc.rust-lang.org/stable/std/sync/atomic/struct.AtomicBool.html#method.update)\n- [`AtomicBool::try_update`](https://doc.rust-lang.org/stable/std/sync/atomic/struct.AtomicBool.html#method.try_update)\n- [`AtomicIn::update`](https://doc.rust-lang.org/stable/std/sync/atomic/struct.AtomicIsize.html#method.update)\n- [`AtomicIn::try_update`](https://doc.rust-lang.org/stable/std/sync/atomic/struct.AtomicIsize.html#method.try_update)\n- [`AtomicUn::update`](https://doc.rust-lang.org/stable/std/sync/atomic/struct.AtomicUsize.html#method.update)\n- [`AtomicUn::try_update`](https://doc.rust-lang.org/stable/std/sync/atomic/struct.AtomicUsize.html#method.try_update)\n- [`cfg_select!`](https://doc.rust-lang.org/stable/std/macro.cfg_select.html)\n- [`mod core::range`](https://doc.rust-lang.org/stable/core/range/index.html)\n- [`core::range::RangeInclusive`](https://doc.rust-lang.org/stable/core/range/struct.RangeInclusive.html)\n- [`core::range::RangeInclusiveIter`](https://doc.rust-lang.org/stable/core/range/struct.RangeInclusiveIter.html)\n- [`core::hint::cold_path`](https://doc.rust-lang.org/stable/core/hint/fn.cold_path.html)\n- [`<*const T>::as_ref_unchecked`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.as_ref_unchecked)\n- [`<*mut T>::as_ref_unchecked`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.as_ref_unchecked-1)\n- [`<*mut T>::as_mut_unchecked`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.as_mut_unchecked)\n\n\nThese previously stable APIs are now stable in const contexts:\n\n- [`fmt::from_fn`](https://doc.rust-lang.org/stable/std/fmt/fn.from_fn.html)\n- [`ControlFlow::is_break`](https://doc.rust-lang.org/stable/core/ops/enum.ControlFlow.html#method.is_break)\n- [`ControlFlow::is_continue`](https://doc.rust-lang.org/stable/core/ops/enum.ControlFlow.html#method.is_continue)\n\n\n<a id=\"1.95-Cargo\"></a>\n\nCargo\n-----\n- [docs(report): enhance man pages for `cargo report *`](https://github.com/rust-lang/cargo/pull/16430/)<a id=\"1.95-Rustdoc\"></a>\n\nRustdoc\n-----\n- [In search results, rank unstable items lower](https://github.com/rust-lang/rust/pull/149460)\n- [Add new \"hide deprecated items\" setting in rustdoc](https://github.com/rust-lang/rust/pull/151091)\n<a id=\"1.95-Compatibility-Notes\"></a>\n\nCompatibility Notes\n-------------------\n- [Array coercions may now result in less inference constraints than before](https://github.com/rust-lang/rust/pull/140283)\n- Importing `$crate` without renaming, i.e. `use $crate::{self};`, is now no longer permitted due to stricter error checking for `self` imports.\n- [const-eval: be more consistent in the behavior of padding during typed copies.](https://github.com/rust-lang/rust/pull/148967)\n  In very rare cases, this may cause compilation errors due to bytes from parts of a pointer ending up in the padding bytes of a `const` or `static`.\n- [A future-incompatibility warning lint `ambiguous_glob_imported_traits` is now reported when using an ambiguously glob imported trait](https://github.com/rust-lang/rust/pull/149058)\n- [Check lifetime bounds of types mentioning only type parameters](https://github.com/rust-lang/rust/pull/149389)\n- [Report more visibility-related ambiguous import errors](https://github.com/rust-lang/rust/pull/149596)\n- [Deprecate `Eq::assert_receiver_is_total_eq` and emit future compatibility warnings on manual impls](https://github.com/rust-lang/rust/pull/149978)\n- [powerpc64: Use the ELF ABI version set in target spec instead of guessing](https://github.com/rust-lang/rust/pull/150468) (fixes the ELF ABI used by the OpenBSD target)\n- Matching on a `#[non_exhaustive]` enum [now reads the discriminant, even if the enum has only one variant](https://github.com/rust-lang/rust/pull/150681). This can cause closures to capture values that they previously wouldn't.\n- `mut ref` and `mut ref mut` patterns, part of the unstable [Match Ergonomics 2024 RFC](https://github.com/rust-lang/rust/issues/123076), were accidentally allowed on stable within struct pattern field shorthand. These patterns are now correctly feature-gated as unstable in this position.\n- [Add future-compatibility warning for derive helper attributes which conflict with built-in attributes](https://github.com/rust-lang/rust/pull/151152)\n- [JSON target specs](https://doc.rust-lang.org/rustc/targets/custom.html) have been destabilized and now require `-Z unstable-options` to use. Previously, they could not be used without the standard library, which has no stable build mechanism. In preparation for the `build-std` project adding that support, JSON target specs are being proactively gated to ensure they remain unstable even if `build-std` is stabilized. Cargo now includes the `-Z json-target-spec` CLI flag to automatically pass `-Z unstable-options` to the compiler when needed. See [#150151](https://github.com/rust-lang/rust/pull/150151), [#151534](https://github.com/rust-lang/rust/pull/150151), and [rust-lang/cargo#16557](https://github.com/rust-lang/cargo/pull/16557).\n- [The arguments of `#[feature]` attributes on invalid targets are now checked](https://github.com/rust-lang/rust/issues/153764)\n\n\n<a id=\"1.95-Internal-Changes\"></a>\n\nInternal Changes\n----------------\n\nThese changes do not affect any public interfaces of Rust, but they represent\nsignificant improvements to the performance or internals of rustc and related\ntools.\n\n- [Update to LLVM 22](https://github.com/rust-lang/rust/pull/150722)\n\n",
-      "weight": 18446744073692750079,
-      "branch_date": "2026-02-27",
-      "url": "https://blog.rust-lang.org/2026/04/16/Rust-1.95.0.html"
-    },
-    {
-      "version": "1.96.0",
       "date": "2026-05-28",
       "is_unreleased": true,
       "changelog_md": "",
-      "weight": 18446744073692749823,
+      "weight": 18446744073692750079,
       "branch_date": "2026-04-10",
       "release_name": "beta",
+      "issues": [
+        {
+          "title": "Tracking issue for release notes of #141295: Stabilize `if let` guards (`feature(if_let_guard)`)",
+          "number": 142167,
+          "html_url": "https://github.com/rust-lang/rust/issues/142167",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #140283: Fix accidental type inference in array coercion",
+          "number": 147414,
+          "html_url": "https://github.com/rust-lang/rust/issues/147414",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #147400: TryFrom<integer> for bool",
+          "number": 148015,
+          "html_url": "https://github.com/rust-lang/rust/issues/148015",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #55724: Tracking issue for alloc_layout_extra",
+          "number": 148117,
+          "html_url": "https://github.com/rust-lang/rust/issues/148117",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #145504: Add some conversion trait impls",
+          "number": 148584,
+          "html_url": "https://github.com/rust-lang/rust/issues/148584",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #147611: Stabilize `-Zremap-path-scope`",
+          "number": 149100,
+          "html_url": "https://github.com/rust-lang/rust/issues/149100",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #146832: Not linting irrefutable_let_patterns on let chains",
+          "number": 149723,
+          "html_url": "https://github.com/rust-lang/rust/issues/149723",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #151091: Add new \"hide deprecated items\" setting in rustdoc",
+          "number": 151133,
+          "html_url": "https://github.com/rust-lang/rust/issues/151133",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #135974: Tracking Issue for `Vec::push_mut`",
+          "number": 151252,
+          "html_url": "https://github.com/rust-lang/rust/issues/151252",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #147996: Stabilize ppc inline assembly",
+          "number": 151263,
+          "html_url": "https://github.com/rust-lang/rust/issues/151263",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #148967: const-eval: always do mem-to-mem copies if there might be padding involved",
+          "number": 151264,
+          "html_url": "https://github.com/rust-lang/rust/issues/151264",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149058: FCW Lint when using an ambiguously glob imported trait",
+          "number": 151266,
+          "html_url": "https://github.com/rust-lang/rust/issues/151266",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #146972: Support importing path-segment keyword with renaming",
+          "number": 151519,
+          "html_url": "https://github.com/rust-lang/rust/issues/151519",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #150557: Don't try to evaluate const blocks during constant promotion",
+          "number": 151600,
+          "html_url": "https://github.com/rust-lang/rust/issues/151600",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149962: Promote powerpc64-unknown-linux-musl to tier 2 with host tools",
+          "number": 151604,
+          "html_url": "https://github.com/rust-lang/rust/issues/151604",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149389: WF check lifetime bounds for locals with type params",
+          "number": 151677,
+          "html_url": "https://github.com/rust-lang/rust/issues/151677",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149482: thread::scope: document how join interacts with TLS destructors",
+          "number": 151824,
+          "html_url": "https://github.com/rust-lang/rust/issues/151824",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #151102: Feature-gate `mut ref` patterns in struct pattern field shorthand",
+          "number": 151912,
+          "html_url": "https://github.com/rust-lang/rust/issues/151912",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149596: resolve: Report more visibility-related early resolution ambiguities for imports",
+          "number": 151914,
+          "html_url": "https://github.com/rust-lang/rust/issues/151914",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #150300: Constify `fmt::from_fn`",
+          "number": 151916,
+          "html_url": "https://github.com/rust-lang/rust/issues/151916",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #151152: Add FCW for derive helper attributes that will conflict with built-in attributes",
+          "number": 151969,
+          "html_url": "https://github.com/rust-lang/rust/issues/151969",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #151576: Stabilize `core::hint::cold_path`",
+          "number": 152251,
+          "html_url": "https://github.com/rust-lang/rust/issues/152251",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149978: deprecate `Eq::assert_receiver_is_total_eq` and emit FCW on manual impls",
+          "number": 152303,
+          "html_url": "https://github.com/rust-lang/rust/issues/152303",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #152021: Bump tvOS, visionOS and watchOS Aarch64 targets to tier 2",
+          "number": 152423,
+          "html_url": "https://github.com/rust-lang/rust/issues/152423",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #150681: Make operational semantics of pattern matching independent of crate and module",
+          "number": 152461,
+          "html_url": "https://github.com/rust-lang/rust/issues/152461",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149460: rustdoc: sort stable items first",
+          "number": 152630,
+          "html_url": "https://github.com/rust-lang/rust/issues/152630",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #151534: target: fix destabilising target-spec-json",
+          "number": 152723,
+          "html_url": "https://github.com/rust-lang/rust/issues/152723",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149783: stabilize `cfg_select!`",
+          "number": 152944,
+          "html_url": "https://github.com/rust-lang/rust/issues/152944",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #150468: rustc_target: callconv: powerpc64: Use the ABI set in target options instead of guessing",
+          "number": 152975,
+          "html_url": "https://github.com/rust-lang/rust/issues/152975",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #152176: Neon fast path for str::contains",
+          "number": 153031,
+          "html_url": "https://github.com/rust-lang/rust/issues/153031",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #150522: Stabilize new inclusive range type and iterator type",
+          "number": 153306,
+          "html_url": "https://github.com/rust-lang/rust/issues/153306",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #153764: 1.95 beta regression: \"malformed `feature` attribute input\"",
+          "number": 153773,
+          "html_url": "https://github.com/rust-lang/rust/issues/153773",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #152253: Stabilize const ControlFlow predicates",
+          "number": 154681,
+          "html_url": "https://github.com/rust-lang/rust/issues/154681",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #148590: Stabilize `atomic_try_update`and deprecate `fetch_update` starting 1.99.0",
+          "number": 154682,
+          "html_url": "https://github.com/rust-lang/rust/issues/154682",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #151995: stabilize ptr_as_ref_unchecked",
+          "number": 154683,
+          "html_url": "https://github.com/rust-lang/rust/issues/154683",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #150722: Update to LLVM 22",
+          "number": 155158,
+          "html_url": "https://github.com/rust-lang/rust/issues/155158",
+          "days_ago": 39
+        },
+        {
+          "title": "Tracking issue for release notes of #149904: `-Znext-solver` Remove the forced ambiguity hack from search graph",
+          "number": 152750,
+          "html_url": "https://github.com/rust-lang/rust/issues/152750",
+          "days_ago": 44
+        },
+        {
+          "title": "Tracking issue for release notes of #151603: Stabilize `str_as_str`",
+          "number": 152920,
+          "html_url": "https://github.com/rust-lang/rust/issues/152920",
+          "days_ago": 54
+        },
+        {
+          "title": "Tracking issue for release notes of #153018: `unused_must_use` lint improvements",
+          "number": 153019,
+          "html_url": "https://github.com/rust-lang/rust/issues/153019",
+          "days_ago": 54
+        },
+        {
+          "title": "Tracking issue for release notes of #149169: ptr::replace: make calls on ZST null ptr not UB",
+          "number": 153056,
+          "html_url": "https://github.com/rust-lang/rust/issues/153056",
+          "days_ago": 54
+        },
+        {
+          "title": "1.95 beta regression: \"malformed `feature` attribute input\"",
+          "number": 153764,
+          "html_url": "https://github.com/rust-lang/rust/issues/153764",
+          "days_ago": 56
+        },
+        {
+          "title": "deprecate `Eq::assert_receiver_is_total_eq` and emit FCW on manual impls",
+          "number": 149978,
+          "html_url": "https://github.com/rust-lang/rust/pull/149978",
+          "days_ago": 88
+        },
+        {
+          "title": "stabilize `cfg_select!`",
+          "number": 149783,
+          "html_url": "https://github.com/rust-lang/rust/pull/149783",
+          "days_ago": 91
+        },
+        {
+          "title": "rustc_target: callconv: powerpc64: Use the ABI set in target options instead of guessing",
+          "number": 150468,
+          "html_url": "https://github.com/rust-lang/rust/pull/150468",
+          "days_ago": 92
+        },
+        {
+          "title": "Support importing path-segment keyword with renaming",
+          "number": 146972,
+          "html_url": "https://github.com/rust-lang/rust/pull/146972",
+          "days_ago": 93
+        },
+        {
+          "title": "Stabilize `if let` guards (`feature(if_let_guard)`)",
+          "number": 141295,
+          "html_url": "https://github.com/rust-lang/rust/pull/141295",
+          "days_ago": 95
+        },
+        {
+          "title": "rustdoc: sort stable items first",
+          "number": 149460,
+          "html_url": "https://github.com/rust-lang/rust/pull/149460",
+          "days_ago": 100
+        },
+        {
+          "title": "Make operational semantics of pattern matching independent of crate and module",
+          "number": 150681,
+          "html_url": "https://github.com/rust-lang/rust/pull/150681",
+          "days_ago": 100
+        },
+        {
+          "title": "Bump tvOS, visionOS and watchOS Aarch64 targets to tier 2",
+          "number": 152021,
+          "html_url": "https://github.com/rust-lang/rust/pull/152021",
+          "days_ago": 102
+        },
+        {
+          "title": "Stabilize `atomic_try_update`and deprecate `fetch_update` starting 1.99.0",
+          "number": 148590,
+          "html_url": "https://github.com/rust-lang/rust/pull/148590",
+          "days_ago": 107
+        },
+        {
+          "title": "Stabilize new inclusive range type and iterator type",
+          "number": 150522,
+          "html_url": "https://github.com/rust-lang/rust/pull/150522",
+          "days_ago": 107
+        },
+        {
+          "title": "Stabilize `core::hint::cold_path`",
+          "number": 151576,
+          "html_url": "https://github.com/rust-lang/rust/pull/151576",
+          "days_ago": 107
+        },
+        {
+          "title": "Stabilize const ControlFlow predicates",
+          "number": 152253,
+          "html_url": "https://github.com/rust-lang/rust/pull/152253",
+          "days_ago": 107
+        },
+        {
+          "title": "target: fix destabilising target-spec-json",
+          "number": 151534,
+          "html_url": "https://github.com/rust-lang/rust/pull/151534",
+          "days_ago": 110
+        },
+        {
+          "title": "stabilize ptr_as_ref_unchecked",
+          "number": 151995,
+          "html_url": "https://github.com/rust-lang/rust/pull/151995",
+          "days_ago": 111
+        },
+        {
+          "title": "TryFrom<integer> for bool",
+          "number": 147400,
+          "html_url": "https://github.com/rust-lang/rust/pull/147400",
+          "days_ago": 112
+        },
+        {
+          "title": "Update to LLVM 22",
+          "number": 150722,
+          "html_url": "https://github.com/rust-lang/rust/pull/150722",
+          "days_ago": 117
+        },
+        {
+          "title": "Don't try to evaluate const blocks during constant promotion",
+          "number": 150557,
+          "html_url": "https://github.com/rust-lang/rust/pull/150557",
+          "days_ago": 118
+        },
+        {
+          "title": "Promote powerpc64-unknown-linux-musl to tier 2 with host tools",
+          "number": 149962,
+          "html_url": "https://github.com/rust-lang/rust/pull/149962",
+          "days_ago": 120
+        },
+        {
+          "title": "Add new \"hide deprecated items\" setting in rustdoc",
+          "number": 151091,
+          "html_url": "https://github.com/rust-lang/rust/pull/151091",
+          "days_ago": 125
+        }
+      ]
+    },
+    {
+      "version": "1.96.0",
+      "date": "2026-07-09",
+      "is_unreleased": true,
+      "changelog_md": "",
+      "weight": 18446744073692749823,
+      "branch_date": "2026-05-22",
+      "release_name": "nightly",
       "issues": [
         {
           "title": "Tracking issue for release notes of #152911: Stabilize `control_flow_ok`",
@@ -1495,12 +1857,11 @@
     },
     {
       "version": "1.97.0",
-      "date": "2026-07-09",
+      "date": "2026-08-20",
       "is_unreleased": true,
       "changelog_md": "",
       "weight": 18446744073692749567,
-      "branch_date": "2026-05-22",
-      "release_name": "nightly",
+      "branch_date": "2026-07-03",
       "issues": [
         {
           "title": "stabilize `feature(cfg_target_has_atomic_equal_alignment)`",
@@ -1599,8 +1960,8 @@
       "updated_at": "2026-05-15T08:21:04+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1946,7 +2307,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 101
+      "days_old": 102
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2367,7 +2728,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 356
+      "days_old": 357
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2458,7 +2819,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 408
+      "days_old": 409
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
@@ -2544,8 +2905,8 @@
     }
   ],
   "current_versions": {
-    "stable": "1.95.0",
-    "beta": "1.96.0",
-    "nightly": "1.97.0"
+    "stable": "1.94.1",
+    "beta": "1.95.0",
+    "nightly": "1.96.0"
   }
 }
