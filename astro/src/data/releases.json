@@ -1888,6 +1888,12 @@
           "days_ago": 23
         },
         {
+          "title": "NVPTX: Drop support for old architectures and old ISAs",
+          "number": 152443,
+          "html_url": "https://github.com/rust-lang/rust/pull/152443",
+          "days_ago": 26
+        },
+        {
           "title": "prevent deref coercions in `pin!`",
           "number": 153457,
           "html_url": "https://github.com/rust-lang/rust/pull/153457",
@@ -2423,7 +2429,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 142
+      "days_old": 143
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2554,7 +2560,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 213
+      "days_old": 214
     },
     {
       "title": "Stabilize stack-protector",
@@ -2847,7 +2853,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 537
+      "days_old": 538
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
