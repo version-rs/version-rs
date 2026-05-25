@@ -1961,7 +1961,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize `Result::map_or_default` and `Option::map_or_default`",
@@ -2141,7 +2141,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 36
+      "days_old": 37
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
