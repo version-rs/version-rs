@@ -1574,10 +1574,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-api-nominated",
-          "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
       "days_old": 3
@@ -1603,10 +1599,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-api-nominated",
-          "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
       "days_old": 10
@@ -1848,7 +1840,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 65
+      "days_old": 66
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1931,7 +1923,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 94
+      "days_old": 95
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -1948,7 +1940,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 102
+      "days_old": 103
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -1990,7 +1982,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 110
+      "days_old": 111
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2118,7 +2110,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 160
+      "days_old": 161
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2245,7 +2237,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 258
+      "days_old": 259
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2315,7 +2307,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 338
+      "days_old": 339
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2369,7 +2361,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 357
+      "days_old": 358
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2435,7 +2427,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 396
+      "days_old": 397
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2460,7 +2452,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 409
+      "days_old": 410
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
