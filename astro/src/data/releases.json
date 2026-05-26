@@ -2069,7 +2069,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 143
+      "days_old": 144
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2155,7 +2155,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 200
+      "days_old": 201
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2200,7 +2200,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 214
+      "days_old": 215
     },
     {
       "title": "Stabilize stack-protector",
@@ -2493,7 +2493,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 538
+      "days_old": 539
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
