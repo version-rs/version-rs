@@ -1626,7 +1626,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `Result::map_or_default` and `Option::map_or_default`",
