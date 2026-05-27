@@ -1948,7 +1948,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 103
+      "days_old": 104
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2369,7 +2369,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 358
+      "days_old": 359
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2435,7 +2435,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 397
+      "days_old": 398
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2460,7 +2460,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 410
+      "days_old": 411
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
