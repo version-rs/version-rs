@@ -1761,6 +1761,10 @@
           "description": "Area: Rustdoc's JS front-end"
         },
         {
+          "name": "I-lang-nominated",
+          "description": "Nominated for discussion during a lang team meeting."
+        },
+        {
           "name": "T-rustdoc-frontend",
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         },
@@ -2534,7 +2538,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 840
+      "days_old": 841
     }
   ],
   "current_versions": {
