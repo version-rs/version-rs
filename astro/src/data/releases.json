@@ -1403,6 +1403,23 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `Path::is_empty`",
+      "number": 157065,
+      "url": "https://github.com/rust-lang/rust/pull/157065",
+      "updated_at": "2026-05-28T13:16:03+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize feature `float_algebraic`",
       "number": 157029,
       "url": "https://github.com/rust-lang/rust/pull/157029",
@@ -1421,7 +1438,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `PathBuf::into_string`",
@@ -1814,7 +1831,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 104
+      "days_old": 105
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2235,7 +2252,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 359
+      "days_old": 360
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2301,7 +2318,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 398
+      "days_old": 399
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2326,7 +2343,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 411
+      "days_old": 412
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
