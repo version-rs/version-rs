@@ -1375,6 +1375,12 @@
           "days_ago": 26
         },
         {
+          "title": "linker-messages is warn-by-default again",
+          "number": 153968,
+          "html_url": "https://github.com/rust-lang/rust/pull/153968",
+          "days_ago": 27
+        },
+        {
           "title": "NVPTX: Drop support for old architectures and old ISAs",
           "number": 152443,
           "html_url": "https://github.com/rust-lang/rust/pull/152443",
@@ -1708,7 +1714,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 67
+      "days_old": 68
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1791,7 +1797,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 96
+      "days_old": 97
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -1850,7 +1856,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 112
+      "days_old": 113
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -1978,7 +1984,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2105,7 +2111,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 260
+      "days_old": 261
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2175,7 +2181,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 340
+      "days_old": 341
     },
     {
       "title": "Stabilize the `breakpoint` function",
