@@ -1417,7 +1417,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1831,7 +1831,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 105
+      "days_old": 106
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2252,7 +2252,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 360
+      "days_old": 361
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2318,7 +2318,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 399
+      "days_old": 400
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2343,7 +2343,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 412
+      "days_old": 413
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
