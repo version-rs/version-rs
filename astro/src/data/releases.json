@@ -1502,7 +1502,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize `Result::map_or_default` and `Option::map_or_default`",
@@ -1686,7 +1686,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
