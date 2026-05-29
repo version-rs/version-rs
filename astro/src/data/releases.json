@@ -1354,49 +1354,49 @@
           "title": "stabilize `feature(cfg_target_has_atomic_equal_alignment)`",
           "number": 155006,
           "html_url": "https://github.com/rust-lang/rust/pull/155006",
-          "days_ago": 10
+          "days_ago": 11
         },
         {
           "title": "Consider `Result<T, Uninhabited>` and `ControlFlow<Uninhabited, T>` to be equivalent to `T` for must use lint",
           "number": 148214,
           "html_url": "https://github.com/rust-lang/rust/pull/148214",
-          "days_ago": 18
+          "days_ago": 19
         },
         {
           "title": "error on empty `export_name`",
           "number": 155515,
           "html_url": "https://github.com/rust-lang/rust/pull/155515",
-          "days_ago": 18
+          "days_ago": 19
         },
         {
           "title": "Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`",
           "number": 156063,
           "html_url": "https://github.com/rust-lang/rust/pull/156063",
-          "days_ago": 26
+          "days_ago": 27
         },
         {
           "title": "linker-messages is warn-by-default again",
           "number": 153968,
           "html_url": "https://github.com/rust-lang/rust/pull/153968",
-          "days_ago": 27
+          "days_ago": 28
         },
         {
           "title": "NVPTX: Drop support for old architectures and old ISAs",
           "number": 152443,
           "html_url": "https://github.com/rust-lang/rust/pull/152443",
-          "days_ago": 29
+          "days_ago": 30
         },
         {
           "title": "prevent deref coercions in `pin!`",
           "number": 153457,
           "html_url": "https://github.com/rust-lang/rust/pull/153457",
-          "days_ago": 32
+          "days_ago": 33
         },
         {
           "title": "Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression",
           "number": 155698,
           "html_url": "https://github.com/rust-lang/rust/pull/155698",
-          "days_ago": 34
+          "days_ago": 35
         }
       ]
     }
@@ -1509,7 +1509,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `-Zprofile-sample-use` and `-Zdebug-info-for-profiling`",
@@ -1689,7 +1689,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 53
+      "days_old": 54
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -1752,7 +1752,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 70
+      "days_old": 71
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -1894,7 +1894,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 115
+      "days_old": 116
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2231,7 +2231,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 351
+      "days_old": 352
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
@@ -2277,7 +2277,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 373
+      "days_old": 374
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
