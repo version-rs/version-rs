@@ -1740,8 +1740,8 @@
       "updated_at": "2026-03-19T01:30:45+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-crater",
+          "description": "Status: Waiting on a crater run to be completed."
         },
         {
           "name": "T-libs",
@@ -2425,7 +2425,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 842
+      "days_old": 843
     }
   ],
   "current_versions": {
