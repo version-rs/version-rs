@@ -1393,6 +1393,12 @@
           "days_ago": 33
         },
         {
+          "title": "Prefer `-1` for `None`",
+          "number": 155473,
+          "html_url": "https://github.com/rust-lang/rust/pull/155473",
+          "days_ago": 33
+        },
+        {
           "title": "Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression",
           "number": 155698,
           "html_url": "https://github.com/rust-lang/rust/pull/155698",
@@ -1968,7 +1974,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 146
+      "days_old": 147
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2054,7 +2060,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 203
+      "days_old": 204
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2099,7 +2105,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 217
+      "days_old": 218
     },
     {
       "title": "Stabilize stack-protector",
@@ -2392,7 +2398,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 541
+      "days_old": 542
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
