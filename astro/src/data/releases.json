@@ -1409,8 +1409,8 @@
       "updated_at": "2026-05-28T13:16:03+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1731,7 +1731,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 68
+      "days_old": 69
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1814,7 +1814,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 97
+      "days_old": 98
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -1873,7 +1873,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 113
+      "days_old": 114
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2001,7 +2001,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 163
+      "days_old": 164
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2128,7 +2128,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 261
+      "days_old": 262
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2198,7 +2198,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 341
+      "days_old": 342
     },
     {
       "title": "Stabilize the `breakpoint` function",
