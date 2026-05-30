@@ -1409,6 +1409,23 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `RandomSource` and `DefaultRandomSource`",
+      "number": 157168,
+      "url": "https://github.com/rust-lang/rust/pull/157168",
+      "updated_at": "2026-05-30T18:51:01+00:00",
+      "labels": [
+        {
+          "name": "T-libs-api",
+          "description": "Relevant to the library API team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize feature `float_algebraic`",
       "number": 157029,
       "url": "https://github.com/rust-lang/rust/pull/157029",
@@ -1472,7 +1489,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1551,7 +1568,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 31
+      "days_old": 32
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1616,7 +1633,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 36
+      "days_old": 37
     },
     {
       "title": "stabilize never type",
@@ -1727,7 +1744,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 56
+      "days_old": 57
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1794,7 +1811,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 89
+      "days_old": 90
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -1944,7 +1961,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 130
+      "days_old": 131
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2170,7 +2187,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 270
+      "days_old": 271
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
