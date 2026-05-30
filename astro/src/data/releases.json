@@ -1409,23 +1409,6 @@
   ],
   "stabilization_prs": [
     {
-      "title": "Stabilize `Path::is_empty`",
-      "number": 157065,
-      "url": "https://github.com/rust-lang/rust/pull/157065",
-      "updated_at": "2026-05-28T13:16:03+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 1
-    },
-    {
       "title": "stabilize feature `float_algebraic`",
       "number": 157029,
       "url": "https://github.com/rust-lang/rust/pull/157029",
@@ -1539,7 +1522,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "Stabilize `-Zprofile-sample-use` and `-Zdebug-info-for-profiling`",
@@ -2455,7 +2438,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 843
+      "days_old": 844
     }
   ],
   "current_versions": {
