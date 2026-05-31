@@ -1427,7 +1427,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1493,7 +1493,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1576,7 +1576,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 32
+      "days_old": 33
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1641,7 +1641,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 37
+      "days_old": 38
     },
     {
       "title": "stabilize never type",
@@ -1969,7 +1969,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 131
+      "days_old": 132
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2084,7 +2084,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 205
+      "days_old": 206
     },
     {
       "title": "Stabilize Frontmatter",
