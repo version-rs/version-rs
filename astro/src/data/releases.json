@@ -1452,10 +1452,6 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         },
         {
-          "name": "A-rustdoc-json",
-          "description": "Area: Rustdoc JSON backend"
-        },
-        {
           "name": "I-lang-nominated",
           "description": "Nominated for discussion during a lang team meeting."
         },
@@ -1464,7 +1460,7 @@
           "description": "Nominated for discussion during a compiler team meeting."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `box_vec_non_null`",
@@ -1479,6 +1475,14 @@
         {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "needs-fcp",
@@ -1510,7 +1514,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1555,7 +1559,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `PathBuf::into_string`",
@@ -1576,7 +1580,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1667,7 +1671,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 34
+      "days_old": 35
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1732,7 +1736,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 39
+      "days_old": 40
     },
     {
       "title": "stabilize never type",
@@ -1843,7 +1847,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 59
+      "days_old": 60
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1910,7 +1914,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 92
+      "days_old": 93
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -1981,7 +1985,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2060,7 +2064,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 133
+      "days_old": 134
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2175,7 +2179,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 207
+      "days_old": 208
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2286,7 +2290,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 273
+      "days_old": 274
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
