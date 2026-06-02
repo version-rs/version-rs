@@ -1805,7 +1805,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 44
+      "days_old": 45
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2093,7 +2093,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 150
+      "days_old": 151
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2224,7 +2224,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 221
+      "days_old": 222
     },
     {
       "title": "Stabilize stack-protector",
@@ -2517,7 +2517,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 545
+      "days_old": 546
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
