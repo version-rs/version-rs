@@ -1647,8 +1647,12 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "needs-fcp",
@@ -1657,6 +1661,10 @@
         {
           "name": "A-rust-for-linux",
           "description": "Relevant for the Rust-for-Linux project"
+        },
+        {
+          "name": "S-waiting-on-t-compiler",
+          "description": "Status: Awaiting decision from T-compiler"
         }
       ],
       "days_old": 34
@@ -1852,7 +1860,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 72
+      "days_old": 73
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1935,7 +1943,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 101
+      "days_old": 102
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -1952,7 +1960,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 109
+      "days_old": 110
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2319,7 +2327,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 345
+      "days_old": 346
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2373,7 +2381,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 364
+      "days_old": 365
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2439,7 +2447,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 403
+      "days_old": 404
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2464,7 +2472,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 416
+      "days_old": 417
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
