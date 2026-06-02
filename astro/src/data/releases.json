@@ -1415,6 +1415,10 @@
       "updated_at": "2026-06-02T05:59:05+00:00",
       "labels": [
         {
+          "name": "T-bootstrap",
+          "description": "Relevant to the bootstrap subteam: Rust's build system (x.py and src/bootstrap)"
+        },
+        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
@@ -1990,7 +1994,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2118,7 +2122,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 167
+      "days_old": 168
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2245,7 +2249,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 265
+      "days_old": 266
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
