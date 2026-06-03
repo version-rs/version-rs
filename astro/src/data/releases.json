@@ -1464,7 +1464,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize `box_vec_non_null`",
@@ -1518,7 +1518,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1576,7 +1576,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1667,7 +1667,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 35
+      "days_old": 36
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1732,7 +1732,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "stabilize never type",
@@ -1843,7 +1843,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 60
+      "days_old": 61
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1910,7 +1910,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 93
+      "days_old": 94
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2060,7 +2060,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 134
+      "days_old": 135
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2089,7 +2089,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 151
+      "days_old": 152
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2175,7 +2175,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 208
+      "days_old": 209
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2220,7 +2220,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 222
+      "days_old": 223
     },
     {
       "title": "Stabilize stack-protector",
@@ -2286,7 +2286,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 274
+      "days_old": 275
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2513,7 +2513,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 546
+      "days_old": 547
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
