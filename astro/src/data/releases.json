@@ -1427,7 +1427,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "stabilize optimize attribute",
@@ -2554,7 +2554,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 848
+      "days_old": 849
     }
   ],
   "current_versions": {
