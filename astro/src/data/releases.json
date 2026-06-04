@@ -1522,7 +1522,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1559,7 +1559,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `PathBuf::into_string`",
@@ -1580,7 +1580,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1671,7 +1671,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 36
+      "days_old": 37
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1736,7 +1736,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 41
+      "days_old": 42
     },
     {
       "title": "stabilize never type",
@@ -1847,7 +1847,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 61
+      "days_old": 62
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1914,7 +1914,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 94
+      "days_old": 95
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -1985,7 +1985,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 119
+      "days_old": 120
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2064,7 +2064,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 135
+      "days_old": 136
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2290,7 +2290,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 275
+      "days_old": 276
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
