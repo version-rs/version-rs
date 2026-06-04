@@ -1425,6 +1425,10 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "T-clippy",
+          "description": "Relevant to the Clippy team."
         }
       ],
       "days_old": 2
@@ -1456,8 +1460,8 @@
           "description": "Nominated for discussion during a lang team meeting."
         },
         {
-          "name": "I-compiler-nominated",
-          "description": "Nominated for discussion during a compiler team meeting."
+          "name": "S-waiting-on-concerns",
+          "description": "Status: Awaiting concerns to be addressed by the author"
         },
         {
           "name": "P-lang-drag-1",
@@ -1960,7 +1964,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 111
+      "days_old": 112
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2381,7 +2385,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 366
+      "days_old": 367
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2447,7 +2451,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 405
+      "days_old": 406
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2472,7 +2476,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 418
+      "days_old": 419
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
