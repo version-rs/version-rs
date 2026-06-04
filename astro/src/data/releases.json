@@ -1497,7 +1497,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `RandomSource` and `DefaultRandomSource`",
@@ -1626,7 +1626,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1881,7 +1881,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 76
+      "days_old": 77
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2023,7 +2023,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 121
+      "days_old": 122
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2406,7 +2406,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 379
+      "days_old": 380
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
