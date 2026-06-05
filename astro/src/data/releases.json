@@ -1530,7 +1530,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1588,7 +1588,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1679,7 +1679,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 37
+      "days_old": 38
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1744,7 +1744,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 42
+      "days_old": 43
     },
     {
       "title": "stabilize never type",
@@ -1922,7 +1922,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 95
+      "days_old": 96
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2072,7 +2072,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 136
+      "days_old": 137
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2187,7 +2187,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 210
+      "days_old": 211
     },
     {
       "title": "Stabilize Frontmatter",
