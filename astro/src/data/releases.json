@@ -1872,7 +1872,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 75
+      "days_old": 76
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1955,7 +1955,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 104
+      "days_old": 105
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -2014,7 +2014,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 120
+      "days_old": 121
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2142,7 +2142,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 170
+      "days_old": 171
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2269,7 +2269,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 268
+      "days_old": 269
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2339,7 +2339,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 348
+      "days_old": 349
     },
     {
       "title": "Stabilize the `breakpoint` function",
