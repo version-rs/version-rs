@@ -1567,7 +1567,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize `PathBuf::into_string`",
@@ -1855,7 +1855,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 62
+      "days_old": 63
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1972,7 +1972,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 112
+      "days_old": 113
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -1993,7 +1993,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 120
+      "days_old": 121
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2298,7 +2298,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 276
+      "days_old": 277
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2393,7 +2393,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 367
+      "days_old": 368
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2459,7 +2459,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 406
+      "days_old": 407
     },
     {
       "title": "Stabilize `offset_of_slice`",
