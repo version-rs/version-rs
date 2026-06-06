@@ -1601,12 +1601,12 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
         },
         {
           "name": "needs-fcp",
@@ -1615,6 +1615,10 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         }
       ],
       "days_old": 21
@@ -1872,7 +1876,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 76
+      "days_old": 77
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1955,7 +1959,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 105
+      "days_old": 106
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -2142,7 +2146,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 171
+      "days_old": 172
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2269,7 +2273,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 269
+      "days_old": 270
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2339,7 +2343,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 349
+      "days_old": 350
     },
     {
       "title": "Stabilize the `breakpoint` function",
