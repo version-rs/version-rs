@@ -1431,7 +1431,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "stabilize optimize attribute",
@@ -1638,7 +1638,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -2566,7 +2566,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 850
+      "days_old": 851
     }
   ],
   "current_versions": {
