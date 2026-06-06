@@ -1976,7 +1976,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 113
+      "days_old": 114
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2397,7 +2397,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 368
+      "days_old": 369
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2463,7 +2463,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 407
+      "days_old": 408
     },
     {
       "title": "Stabilize `offset_of_slice`",
