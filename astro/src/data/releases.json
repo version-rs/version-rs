@@ -1476,7 +1476,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `box_vec_non_null`",
@@ -1530,7 +1530,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1588,7 +1588,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1634,8 +1634,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1683,7 +1683,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 38
+      "days_old": 39
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1748,7 +1748,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 43
+      "days_old": 44
     },
     {
       "title": "stabilize never type",
@@ -2191,7 +2191,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 211
+      "days_old": 212
     },
     {
       "title": "Stabilize Frontmatter",
