@@ -2121,7 +2121,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 172
+      "days_old": 173
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2248,7 +2248,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 270
+      "days_old": 271
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2318,7 +2318,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 350
+      "days_old": 351
     },
     {
       "title": "Stabilize the `breakpoint` function",
