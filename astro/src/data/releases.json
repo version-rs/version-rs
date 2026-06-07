@@ -1448,6 +1448,10 @@
           "description": "Nominated for discussion during a lang team meeting."
         },
         {
+          "name": "T-opsem",
+          "description": "Relevant to the opsem team"
+        },
+        {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
@@ -1825,7 +1829,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 49
+      "days_old": 50
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2113,7 +2117,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 155
+      "days_old": 156
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2244,7 +2248,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 226
+      "days_old": 227
     },
     {
       "title": "Stabilize stack-protector",
@@ -2537,7 +2541,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 550
+      "days_old": 551
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
