@@ -1431,7 +1431,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "stabilize optimize attribute",
@@ -1509,7 +1509,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `RandomSource` and `DefaultRandomSource`",
@@ -1576,12 +1576,8 @@
       "updated_at": "2026-05-22T19:00:10+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1642,7 +1638,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 31
+      "days_old": 32
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -2039,7 +2035,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 124
+      "days_old": 125
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2570,7 +2566,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 851
+      "days_old": 852
     }
   ],
   "current_versions": {
