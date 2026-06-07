@@ -1405,6 +1405,23 @@
           "days_ago": 44
         }
       ]
+    },
+    {
+      "version": "1.98.0",
+      "date": "2026-08-20",
+      "is_unreleased": true,
+      "changelog_md": "",
+      "weight": 18446744073692749311,
+      "branch_date": "2026-07-03",
+      "release_name": "nightly",
+      "issues": [
+        {
+          "title": "remove solaris implementation for File::lock, it has the wrong semantics",
+          "number": 157509,
+          "html_url": "https://github.com/rust-lang/rust/pull/157509",
+          "days_ago": 0
+        }
+      ]
     }
   ],
   "stabilization_prs": [
@@ -1570,23 +1587,6 @@
       "days_old": 10
     },
     {
-      "title": "Stabilize `PathBuf::into_string`",
-      "number": 156840,
-      "url": "https://github.com/rust-lang/rust/pull/156840",
-      "updated_at": "2026-05-22T19:00:10+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 15
-    },
-    {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
       "number": 156629,
       "url": "https://github.com/rust-lang/rust/pull/156629",
@@ -1618,27 +1618,6 @@
         }
       ],
       "days_old": 22
-    },
-    {
-      "title": "Stabilize `Result::map_or_default` and `Option::map_or_default`",
-      "number": 156222,
-      "url": "https://github.com/rust-lang/rust/pull/156222",
-      "updated_at": "2026-05-06T04:49:46+00:00",
-      "labels": [
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 32
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -2014,7 +1993,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 122
+      "days_old": 123
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
