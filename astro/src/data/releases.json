@@ -1354,55 +1354,55 @@
           "title": "stabilize `feature(cfg_target_has_atomic_equal_alignment)`",
           "number": 155006,
           "html_url": "https://github.com/rust-lang/rust/pull/155006",
-          "days_ago": 19
+          "days_ago": 20
         },
         {
           "title": "Consider `Result<T, Uninhabited>` and `ControlFlow<Uninhabited, T>` to be equivalent to `T` for must use lint",
           "number": 148214,
           "html_url": "https://github.com/rust-lang/rust/pull/148214",
-          "days_ago": 27
+          "days_ago": 28
         },
         {
           "title": "error on empty `export_name`",
           "number": 155515,
           "html_url": "https://github.com/rust-lang/rust/pull/155515",
-          "days_ago": 27
+          "days_ago": 28
         },
         {
           "title": "Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`",
           "number": 156063,
           "html_url": "https://github.com/rust-lang/rust/pull/156063",
-          "days_ago": 35
+          "days_ago": 36
         },
         {
           "title": "linker-messages is warn-by-default again",
           "number": 153968,
           "html_url": "https://github.com/rust-lang/rust/pull/153968",
-          "days_ago": 36
+          "days_ago": 37
         },
         {
           "title": "NVPTX: Drop support for old architectures and old ISAs",
           "number": 152443,
           "html_url": "https://github.com/rust-lang/rust/pull/152443",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "prevent deref coercions in `pin!`",
           "number": 153457,
           "html_url": "https://github.com/rust-lang/rust/pull/153457",
-          "days_ago": 41
+          "days_ago": 42
         },
         {
           "title": "Prefer `-1` for `None`",
           "number": 155473,
           "html_url": "https://github.com/rust-lang/rust/pull/155473",
-          "days_ago": 41
+          "days_ago": 42
         },
         {
           "title": "Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression",
           "number": 155698,
           "html_url": "https://github.com/rust-lang/rust/pull/155698",
-          "days_ago": 43
+          "days_ago": 44
         }
       ]
     }
@@ -1621,7 +1621,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "Stabilize `Result::map_or_default` and `Option::map_or_default`",
@@ -1834,7 +1834,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 62
+      "days_old": 63
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -1897,7 +1897,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 79
+      "days_old": 80
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2376,7 +2376,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 360
+      "days_old": 361
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
@@ -2422,7 +2422,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 382
+      "days_old": 383
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
