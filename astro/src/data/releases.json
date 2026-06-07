@@ -1446,6 +1446,14 @@
         {
           "name": "I-lang-nominated",
           "description": "Nominated for discussion during a lang team meeting."
+        },
+        {
+          "name": "I-lang-radar",
+          "description": "Items that are on lang's radar and will need eventual work or consideration."
+        },
+        {
+          "name": "P-lang-drag-1",
+          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
       "days_old": 0
@@ -1518,7 +1526,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `box_vec_non_null`",
@@ -1572,7 +1580,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1683,7 +1691,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 39
+      "days_old": 40
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1748,7 +1756,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 44
+      "days_old": 45
     },
     {
       "title": "stabilize never type",
@@ -2191,7 +2199,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 212
+      "days_old": 213
     },
     {
       "title": "Stabilize Frontmatter",
