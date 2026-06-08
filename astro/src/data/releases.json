@@ -2005,7 +2005,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 123
+      "days_old": 124
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2133,7 +2133,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 173
+      "days_old": 174
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2260,7 +2260,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 271
+      "days_old": 272
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2330,7 +2330,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 351
+      "days_old": 352
     },
     {
       "title": "Stabilize the `breakpoint` function",
