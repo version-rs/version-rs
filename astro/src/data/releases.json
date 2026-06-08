@@ -1505,7 +1505,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize `box_vec_non_null`",
@@ -2092,7 +2092,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 156
+      "days_old": 157
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2178,7 +2178,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 213
+      "days_old": 214
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2223,7 +2223,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 227
+      "days_old": 228
     },
     {
       "title": "Stabilize stack-protector",
@@ -2516,7 +2516,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 551
+      "days_old": 552
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
