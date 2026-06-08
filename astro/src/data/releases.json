@@ -1460,7 +1460,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "stabilize optimize attribute",
@@ -1863,7 +1863,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 78
+      "days_old": 79
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1946,7 +1946,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 107
+      "days_old": 108
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -1963,7 +1963,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 115
+      "days_old": 116
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2384,7 +2384,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 370
+      "days_old": 371
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2450,7 +2450,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 409
+      "days_old": 410
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2475,7 +2475,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 422
+      "days_old": 423
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
