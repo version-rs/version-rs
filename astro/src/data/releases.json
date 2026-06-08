@@ -1354,55 +1354,55 @@
           "title": "stabilize `feature(cfg_target_has_atomic_equal_alignment)`",
           "number": 155006,
           "html_url": "https://github.com/rust-lang/rust/pull/155006",
-          "days_ago": 20
+          "days_ago": 21
         },
         {
           "title": "Consider `Result<T, Uninhabited>` and `ControlFlow<Uninhabited, T>` to be equivalent to `T` for must use lint",
           "number": 148214,
           "html_url": "https://github.com/rust-lang/rust/pull/148214",
-          "days_ago": 28
+          "days_ago": 29
         },
         {
           "title": "error on empty `export_name`",
           "number": 155515,
           "html_url": "https://github.com/rust-lang/rust/pull/155515",
-          "days_ago": 28
+          "days_ago": 29
         },
         {
           "title": "Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`",
           "number": 156063,
           "html_url": "https://github.com/rust-lang/rust/pull/156063",
-          "days_ago": 36
+          "days_ago": 37
         },
         {
           "title": "linker-messages is warn-by-default again",
           "number": 153968,
           "html_url": "https://github.com/rust-lang/rust/pull/153968",
-          "days_ago": 37
+          "days_ago": 38
         },
         {
           "title": "NVPTX: Drop support for old architectures and old ISAs",
           "number": 152443,
           "html_url": "https://github.com/rust-lang/rust/pull/152443",
-          "days_ago": 39
+          "days_ago": 40
         },
         {
           "title": "prevent deref coercions in `pin!`",
           "number": 153457,
           "html_url": "https://github.com/rust-lang/rust/pull/153457",
-          "days_ago": 42
+          "days_ago": 43
         },
         {
           "title": "Prefer `-1` for `None`",
           "number": 155473,
           "html_url": "https://github.com/rust-lang/rust/pull/155473",
-          "days_ago": 42
+          "days_ago": 43
         },
         {
           "title": "Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression",
           "number": 155698,
           "html_url": "https://github.com/rust-lang/rust/pull/155698",
-          "days_ago": 44
+          "days_ago": 45
         }
       ]
     },
@@ -1419,7 +1419,7 @@
           "title": "remove solaris implementation for File::lock, it has the wrong semantics",
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
-          "days_ago": 0
+          "days_ago": 1
         }
       ]
     }
@@ -1461,31 +1461,6 @@
         }
       ],
       "days_old": 0
-    },
-    {
-      "title": "Stabilize `dyn` subset of `Allocator` as `core::alloc::Alloc`",
-      "number": 157286,
-      "url": "https://github.com/rust-lang/rust/pull/157286",
-      "updated_at": "2026-06-02T05:59:05+00:00",
-      "labels": [
-        {
-          "name": "T-bootstrap",
-          "description": "Relevant to the bootstrap subteam: Rust's build system (x.py and src/bootstrap)"
-        },
-        {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "T-clippy",
-          "description": "Relevant to the Clippy team."
-        }
-      ],
-      "days_old": 5
     },
     {
       "title": "stabilize optimize attribute",
@@ -1654,7 +1629,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1846,7 +1821,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 63
+      "days_old": 64
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -1909,7 +1884,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 80
+      "days_old": 81
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2388,7 +2363,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 361
+      "days_old": 362
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
@@ -2434,7 +2409,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 383
+      "days_old": 384
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
