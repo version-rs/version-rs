@@ -1538,7 +1538,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize `RandomSource` and `DefaultRandomSource`",
@@ -2026,7 +2026,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 125
+      "days_old": 126
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2557,7 +2557,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 852
+      "days_old": 853
     }
   ],
   "current_versions": {
