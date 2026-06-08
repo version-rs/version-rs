@@ -1559,7 +1559,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1596,7 +1596,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1670,7 +1670,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1735,7 +1735,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 45
+      "days_old": 46
     },
     {
       "title": "stabilize never type",
@@ -1846,7 +1846,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 65
+      "days_old": 66
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1913,7 +1913,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 98
+      "days_old": 99
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -1984,7 +1984,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 123
+      "days_old": 124
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2063,7 +2063,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 139
+      "days_old": 140
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2289,7 +2289,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 279
+      "days_old": 280
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
