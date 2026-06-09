@@ -1719,10 +1719,6 @@
           "description": "Relevant to the opsem team"
         },
         {
-          "name": "F-explicit_tail_calls",
-          "description": "`#![feature(explicit_tail_calls)]`"
-        },
-        {
           "name": "A-run-make",
           "description": "Area: port run-make Makefiles to rmake.rs"
         },
@@ -1863,7 +1859,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 79
+      "days_old": 80
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1946,7 +1942,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 108
+      "days_old": 109
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -2005,7 +2001,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 124
+      "days_old": 125
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2133,7 +2129,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 174
+      "days_old": 175
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2260,7 +2256,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 272
+      "days_old": 273
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2330,7 +2326,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 352
+      "days_old": 353
     },
     {
       "title": "Stabilize the `breakpoint` function",
