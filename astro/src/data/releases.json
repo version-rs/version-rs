@@ -1354,55 +1354,55 @@
           "title": "stabilize `feature(cfg_target_has_atomic_equal_alignment)`",
           "number": 155006,
           "html_url": "https://github.com/rust-lang/rust/pull/155006",
-          "days_ago": 21
+          "days_ago": 22
         },
         {
           "title": "Consider `Result<T, Uninhabited>` and `ControlFlow<Uninhabited, T>` to be equivalent to `T` for must use lint",
           "number": 148214,
           "html_url": "https://github.com/rust-lang/rust/pull/148214",
-          "days_ago": 29
+          "days_ago": 30
         },
         {
           "title": "error on empty `export_name`",
           "number": 155515,
           "html_url": "https://github.com/rust-lang/rust/pull/155515",
-          "days_ago": 29
+          "days_ago": 30
         },
         {
           "title": "Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`",
           "number": 156063,
           "html_url": "https://github.com/rust-lang/rust/pull/156063",
-          "days_ago": 37
+          "days_ago": 38
         },
         {
           "title": "linker-messages is warn-by-default again",
           "number": 153968,
           "html_url": "https://github.com/rust-lang/rust/pull/153968",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "NVPTX: Drop support for old architectures and old ISAs",
           "number": 152443,
           "html_url": "https://github.com/rust-lang/rust/pull/152443",
-          "days_ago": 40
+          "days_ago": 41
         },
         {
           "title": "prevent deref coercions in `pin!`",
           "number": 153457,
           "html_url": "https://github.com/rust-lang/rust/pull/153457",
-          "days_ago": 43
+          "days_ago": 44
         },
         {
           "title": "Prefer `-1` for `None`",
           "number": 155473,
           "html_url": "https://github.com/rust-lang/rust/pull/155473",
-          "days_ago": 43
+          "days_ago": 44
         },
         {
           "title": "Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression",
           "number": 155698,
           "html_url": "https://github.com/rust-lang/rust/pull/155698",
-          "days_ago": 45
+          "days_ago": 46
         }
       ]
     },
@@ -1419,7 +1419,7 @@
           "title": "remove solaris implementation for File::lock, it has the wrong semantics",
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
-          "days_ago": 1
+          "days_ago": 2
         }
       ]
     }
@@ -1538,7 +1538,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `RandomSource` and `DefaultRandomSource`",
@@ -1821,7 +1821,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 64
+      "days_old": 65
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -1884,7 +1884,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 81
+      "days_old": 82
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2026,7 +2026,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 126
+      "days_old": 127
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2363,7 +2363,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 362
+      "days_old": 363
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
@@ -2409,7 +2409,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 384
+      "days_old": 385
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
