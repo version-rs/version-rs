@@ -1501,6 +1501,10 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         },
         {
+          "name": "I-lang-radar",
+          "description": "Items that are on lang's radar and will need eventual work or consideration."
+        },
+        {
           "name": "P-lang-drag-1",
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
@@ -2013,7 +2017,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 125
+      "days_old": 126
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
