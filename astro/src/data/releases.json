@@ -1460,7 +1460,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize optimize attribute",
@@ -1875,7 +1875,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 80
+      "days_old": 81
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1958,7 +1958,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 109
+      "days_old": 110
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -2145,7 +2145,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 175
+      "days_old": 176
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2272,7 +2272,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 273
+      "days_old": 274
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2342,7 +2342,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 353
+      "days_old": 354
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2487,7 +2487,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 424
+      "days_old": 425
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
