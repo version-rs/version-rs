@@ -1509,7 +1509,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize `box_vec_non_null`",
@@ -1563,7 +1563,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1674,7 +1674,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 42
+      "days_old": 43
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1735,7 +1735,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 47
+      "days_old": 48
     },
     {
       "title": "stabilize never type",
@@ -1917,7 +1917,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 100
+      "days_old": 101
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2067,7 +2067,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 141
+      "days_old": 142
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2096,7 +2096,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 158
+      "days_old": 159
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2182,7 +2182,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 215
+      "days_old": 216
     },
     {
       "title": "Stabilize Frontmatter",
