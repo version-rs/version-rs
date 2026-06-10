@@ -1600,7 +1600,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
@@ -1788,10 +1788,6 @@
           "description": "Area: Rustdoc's JS front-end"
         },
         {
-          "name": "I-lang-nominated",
-          "description": "Nominated for discussion during a lang team meeting."
-        },
-        {
           "name": "T-rustdoc-frontend",
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         },
@@ -1802,10 +1798,6 @@
         {
           "name": "T-rust-analyzer",
           "description": "Relevant to the rust-analyzer team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "P-lang-drag-1",
-          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         },
         {
           "name": "T-clippy",
@@ -1858,7 +1850,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 67
+      "days_old": 68
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1975,7 +1967,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -1996,7 +1988,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 125
+      "days_old": 126
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2301,7 +2293,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 281
+      "days_old": 282
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2396,7 +2388,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 372
+      "days_old": 373
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2462,7 +2454,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 411
+      "days_old": 412
     },
     {
       "title": "Stabilize `offset_of_slice`",
