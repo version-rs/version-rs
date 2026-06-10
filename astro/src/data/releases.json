@@ -1808,7 +1808,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 52
+      "days_old": 53
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2227,7 +2227,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 229
+      "days_old": 230
     },
     {
       "title": "Stabilize stack-protector",
@@ -2520,7 +2520,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 553
+      "days_old": 554
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
