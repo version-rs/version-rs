@@ -1416,6 +1416,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #157577: Fix parser error recovery treating 'dyn' as a strict keyword in Rust …",
+          "number": 157579,
+          "html_url": "https://github.com/rust-lang/rust/issues/157579",
+          "days_ago": 3
+        },
+        {
           "title": "remove solaris implementation for File::lock, it has the wrong semantics",
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
@@ -1618,39 +1624,6 @@
         }
       ],
       "days_old": 14
-    },
-    {
-      "title": "Stabilize `core::range::{legacy, RangeFull, RangeTo}`",
-      "number": 156629,
-      "url": "https://github.com/rust-lang/rust/pull/156629",
-      "updated_at": "2026-05-15T23:28:35+00:00",
-      "labels": [
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        }
-      ],
-      "days_old": 26
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -2026,7 +1999,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 126
+      "days_old": 127
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2154,7 +2127,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 176
+      "days_old": 177
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2281,7 +2254,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 274
+      "days_old": 275
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2351,7 +2324,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 354
+      "days_old": 355
     },
     {
       "title": "Stabilize the `breakpoint` function",
