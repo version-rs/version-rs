@@ -1426,6 +1426,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `local_key_cell_update`",
+      "number": 157734,
+      "url": "https://github.com/rust-lang/rust/pull/157734",
+      "updated_at": "2026-06-11T02:00:34+00:00",
+      "labels": [
+        {
+          "name": "T-libs-api",
+          "description": "Relevant to the library API team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "I-libs-api-nominated",
+          "description": "Nominated for discussion during a libs-api team meeting."
+        },
+        {
+          "name": "S-waiting-on-t-libs-api",
+          "description": "Status: Awaiting decision from T-libs-api"
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
       "number": 157572,
       "url": "https://github.com/rust-lang/rust/pull/157572",
@@ -1497,10 +1518,6 @@
           "description": "Nominated for discussion during a lang team meeting."
         },
         {
-          "name": "S-waiting-on-concerns",
-          "description": "Status: Awaiting concerns to be addressed by the author"
-        },
-        {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
@@ -1542,7 +1559,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize `RandomSource` and `DefaultRandomSource`",
@@ -1613,8 +1630,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "finished-final-comment-period",
@@ -2030,7 +2047,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 128
+      "days_old": 129
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2561,7 +2578,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 855
+      "days_old": 856
     }
   ],
   "current_versions": {
