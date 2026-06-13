@@ -1636,10 +1636,6 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
@@ -1648,8 +1644,16 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "I-lang-radar",
@@ -1990,7 +1994,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 120
+      "days_old": 121
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2411,7 +2415,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 375
+      "days_old": 376
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2477,7 +2481,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 414
+      "days_old": 415
     },
     {
       "title": "Stabilize `offset_of_slice`",
