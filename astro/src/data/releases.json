@@ -1432,6 +1432,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `#[my_macro] mod foo;` (part of `proc_macro_hygiene`)",
+      "number": 157857,
+      "url": "https://github.com/rust-lang/rust/pull/157857",
+      "updated_at": "2026-06-13T10:40:30+00:00",
+      "labels": [
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `local_key_cell_update`",
       "number": 157734,
       "url": "https://github.com/rust-lang/rust/pull/157734",
@@ -2011,7 +2032,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 128
+      "days_old": 129
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
