@@ -1459,27 +1459,6 @@
       "days_old": 0
     },
     {
-      "title": "Stabilize `#![feature(box_as_ptr)]`",
-      "number": 157876,
-      "url": "https://github.com/rust-lang/rust/pull/157876",
-      "updated_at": "2026-06-13T20:57:57+00:00",
-      "labels": [
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 0
-    },
-    {
       "title": "Stabilize `#[my_macro] mod foo;` (part of `proc_macro_hygiene`)",
       "number": 157857,
       "url": "https://github.com/rust-lang/rust/pull/157857",
@@ -2084,7 +2063,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 129
+      "days_old": 130
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
