@@ -1456,7 +1456,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `#[my_macro] mod foo;` (part of `proc_macro_hygiene`)",
@@ -1862,7 +1862,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 56
+      "days_old": 57
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2150,7 +2150,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2281,7 +2281,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 233
+      "days_old": 234
     },
     {
       "title": "Stabilize stack-protector",
@@ -2574,7 +2574,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 557
+      "days_old": 558
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
