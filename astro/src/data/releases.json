@@ -1592,7 +1592,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1646,7 +1646,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "stabilize feature `float_algebraic`",
@@ -1728,7 +1728,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 46
+      "days_old": 47
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1789,7 +1789,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 51
+      "days_old": 52
     },
     {
       "title": "stabilize never type",
@@ -2236,7 +2236,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 219
+      "days_old": 220
     },
     {
       "title": "Stabilize Frontmatter",
