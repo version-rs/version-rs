@@ -1438,6 +1438,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "stabilize str_from_utf16_endian",
+      "number": 157912,
+      "url": "https://github.com/rust-lang/rust/pull/157912",
+      "updated_at": "2026-06-15T10:56:15+00:00",
+      "labels": [
+        {
+          "name": "T-libs-api",
+          "description": "Relevant to the library API team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `nonzero_from_str_radix`",
       "number": 157877,
       "url": "https://github.com/rust-lang/rust/pull/157877",
@@ -1477,7 +1498,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -1535,7 +1556,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1921,7 +1942,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 85
+      "days_old": 86
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2004,7 +2025,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 114
+      "days_old": 115
     },
     {
       "title": "Stabilize `int_format_into` feature",
@@ -2063,7 +2084,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 130
+      "days_old": 131
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2191,7 +2212,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 180
+      "days_old": 181
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2318,7 +2339,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 278
+      "days_old": 279
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2388,7 +2409,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 358
+      "days_old": 359
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2533,7 +2554,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 429
+      "days_old": 430
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
