@@ -1459,43 +1459,26 @@
       "days_old": 0
     },
     {
-      "title": "Stabilize `nonzero_from_str_radix`",
-      "number": 157877,
-      "url": "https://github.com/rust-lang/rust/pull/157877",
-      "updated_at": "2026-06-13T22:12:35+00:00",
-      "labels": [
-        {
-          "name": "T-libs-api",
-          "description": "Relevant to the library API team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 1
-    },
-    {
       "title": "Stabilize `#[my_macro] mod foo;` (part of `proc_macro_hygiene`)",
       "number": 157857,
       "url": "https://github.com/rust-lang/rust/pull/157857",
       "updated_at": "2026-06-13T10:40:30+00:00",
       "labels": [
         {
+          "name": "T-lang",
+          "description": "Relevant to the language team"
+        },
+        {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "I-lang-nominated",
+          "description": "Nominated for discussion during a lang team meeting."
         },
         {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+          "name": "S-waiting-on-t-lang",
+          "description": "Status: Awaiting decision from T-lang"
         }
       ],
       "days_old": 2
@@ -1667,48 +1650,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 15
-    },
-    {
-      "title": "stabilize feature `float_algebraic`",
-      "number": 157029,
-      "url": "https://github.com/rust-lang/rust/pull/157029",
-      "updated_at": "2026-05-27T17:02:58+00:00",
-      "labels": [
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "I-lang-radar",
-          "description": "Items that are on lang's radar and will need eventual work or consideration."
-        }
-      ],
-      "days_old": 18
+      "days_old": 16
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1925,7 +1867,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 72
+      "days_old": 73
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1992,7 +1934,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 105
+      "days_old": 106
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2038,11 +1980,11 @@
           "description": "Relevant to the library API team, which will review and decide on the PR/issue."
         },
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         }
       ],
-      "days_old": 122
+      "days_old": 123
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2063,7 +2005,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 130
+      "days_old": 131
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2142,7 +2084,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 146
+      "days_old": 147
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2368,7 +2310,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 286
+      "days_old": 287
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2463,7 +2405,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 377
+      "days_old": 378
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2529,7 +2471,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 416
+      "days_old": 417
     },
     {
       "title": "Stabilize `offset_of_slice`",
