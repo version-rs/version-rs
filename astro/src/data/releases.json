@@ -1596,7 +1596,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1691,7 +1691,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 47
+      "days_old": 48
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1752,7 +1752,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 52
+      "days_old": 53
     },
     {
       "title": "stabilize never type",
@@ -2113,7 +2113,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 163
+      "days_old": 164
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2199,7 +2199,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 220
+      "days_old": 221
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2244,7 +2244,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 234
+      "days_old": 235
     },
     {
       "title": "Stabilize stack-protector",
@@ -2279,6 +2279,10 @@
         {
           "name": "PG-exploit-mitigations",
           "description": "Project group: Exploit mitigations"
+        },
+        {
+          "name": "F-autodiff",
+          "description": "`#![feature(autodiff)]`"
         }
       ],
       "days_old": 279
@@ -2537,7 +2541,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 558
+      "days_old": 559
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
