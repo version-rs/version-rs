@@ -1545,7 +1545,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1629,10 +1629,6 @@
         {
           "name": "needs-fcp",
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
-        },
-        {
-          "name": "I-libs-api-nominated",
-          "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
       "days_old": 15
@@ -1890,7 +1886,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 86
+      "days_old": 87
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1973,7 +1969,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 115
+      "days_old": 116
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -1994,7 +1990,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 131
+      "days_old": 132
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2143,7 +2139,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 181
+      "days_old": 182
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2344,7 +2340,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 359
+      "days_old": 360
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2398,7 +2394,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 378
+      "days_old": 379
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2464,7 +2460,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 417
+      "days_old": 418
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2489,7 +2485,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 430
+      "days_old": 431
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
