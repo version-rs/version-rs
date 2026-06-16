@@ -1462,7 +1462,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `#[my_macro] mod foo;` (part of `proc_macro_hygiene`)",
@@ -1487,7 +1487,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -2015,7 +2015,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 131
+      "days_old": 132
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2274,7 +2274,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 279
+      "days_old": 280
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2571,7 +2571,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 860
+      "days_old": 861
     }
   ],
   "current_versions": {
