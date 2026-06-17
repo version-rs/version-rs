@@ -2015,7 +2015,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 132
+      "days_old": 133
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2419,7 +2419,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 379
+      "days_old": 380
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2485,7 +2485,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 418
+      "days_old": 419
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2510,7 +2510,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 431
+      "days_old": 432
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
