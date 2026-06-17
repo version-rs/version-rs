@@ -1444,6 +1444,35 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `strip_circumfix`",
+      "number": 158012,
+      "url": "https://github.com/rust-lang/rust/pull/158012",
+      "updated_at": "2026-06-17T08:55:05+00:00",
+      "labels": [
+        {
+          "name": "T-libs-api",
+          "description": "Relevant to the library API team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "needs-fcp",
+          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize str_from_utf16_endian",
       "number": 157912,
       "url": "https://github.com/rust-lang/rust/pull/157912",
@@ -1537,20 +1566,12 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         },
         {
-          "name": "I-lang-nominated",
-          "description": "Nominated for discussion during a lang team meeting."
-        },
-        {
           "name": "T-opsem",
           "description": "Relevant to the opsem team"
         },
         {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "P-lang-drag-1",
-          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
       "days_old": 9
@@ -2019,7 +2040,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 132
+      "days_old": 133
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2575,7 +2596,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 861
+      "days_old": 862
     }
   ],
   "current_versions": {
