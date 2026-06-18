@@ -1595,7 +1595,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1645,7 +1645,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1686,7 +1686,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 50
+      "days_old": 51
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1747,7 +1747,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 55
+      "days_old": 56
     },
     {
       "title": "stabilize never type",
@@ -2062,7 +2062,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 149
+      "days_old": 150
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2091,7 +2091,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 166
+      "days_old": 167
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2177,7 +2177,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 223
+      "days_old": 224
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2222,7 +2222,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 237
+      "days_old": 238
     },
     {
       "title": "Stabilize stack-protector",
@@ -2523,7 +2523,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 561
+      "days_old": 562
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
