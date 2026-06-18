@@ -1438,6 +1438,12 @@
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
           "days_ago": 11
+        },
+        {
+          "title": "Remove -Zemscripten-wasm-eh",
+          "number": 156928,
+          "html_url": "https://github.com/rust-lang/rust/pull/156928",
+          "days_ago": 15
         }
       ]
     }
@@ -1856,7 +1862,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 75
+      "days_old": 76
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1923,7 +1929,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 108
+      "days_old": 109
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -1977,7 +1983,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 133
+      "days_old": 134
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2290,7 +2296,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 289
+      "days_old": 290
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2385,7 +2391,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 380
+      "days_old": 381
     },
     {
       "title": "Stabilize `substr_range` and `subslice_range`",
@@ -2451,7 +2457,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 419
+      "days_old": 420
     },
     {
       "title": "Stabilize `offset_of_slice`",
