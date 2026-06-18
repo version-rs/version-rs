@@ -1516,7 +1516,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -1631,7 +1631,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Stabilize `RandomSource` and `DefaultRandomSource`",
@@ -2032,7 +2032,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 135
+      "days_old": 136
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2567,7 +2567,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 862
+      "days_old": 863
     }
   ],
   "current_versions": {
