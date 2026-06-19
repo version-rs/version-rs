@@ -1645,7 +1645,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1686,7 +1686,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 51
+      "days_old": 52
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1747,7 +1747,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 56
+      "days_old": 57
     },
     {
       "title": "stabilize never type",
@@ -1862,7 +1862,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 76
+      "days_old": 77
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1929,7 +1929,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 109
+      "days_old": 110
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2062,7 +2062,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 150
+      "days_old": 151
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2177,7 +2177,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 224
+      "days_old": 225
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2296,7 +2296,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 290
+      "days_old": 291
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
