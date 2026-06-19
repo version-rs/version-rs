@@ -1509,7 +1509,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -1624,7 +1624,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `RandomSource` and `DefaultRandomSource`",
@@ -1837,7 +1837,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 74
+      "days_old": 75
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -1900,7 +1900,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 91
+      "days_old": 92
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2025,7 +2025,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 136
+      "days_old": 137
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2408,15 +2408,11 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
-        },
-        {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 394
+      "days_old": 395
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
