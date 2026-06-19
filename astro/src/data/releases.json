@@ -1488,7 +1488,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -2004,7 +2004,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 134
+      "days_old": 135
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2404,8 +2404,8 @@
           "description": "Relevant to the library API team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -2560,7 +2560,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 863
+      "days_old": 864
     }
   ],
   "current_versions": {
