@@ -1538,7 +1538,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1879,7 +1879,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 89
+      "days_old": 90
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1962,7 +1962,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 118
+      "days_old": 119
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2132,7 +2132,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 184
+      "days_old": 185
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2267,7 +2267,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 282
+      "days_old": 283
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2337,7 +2337,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 362
+      "days_old": 363
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2392,27 +2392,6 @@
         }
       ],
       "days_old": 381
-    },
-    {
-      "title": "Stabilize `substr_range` and `subslice_range`",
-      "number": 141266,
-      "url": "https://github.com/rust-lang/rust/pull/141266",
-      "updated_at": "2025-05-20T01:03:28+00:00",
-      "labels": [
-        {
-          "name": "T-libs-api",
-          "description": "Relevant to the library API team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 395
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
