@@ -1488,7 +1488,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -2004,7 +2004,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 135
+      "days_old": 136
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2267,7 +2267,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 283
+      "days_old": 284
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
