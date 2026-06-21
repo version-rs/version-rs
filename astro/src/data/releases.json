@@ -1538,7 +1538,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1887,7 +1887,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 91
+      "days_old": 92
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -1970,7 +1970,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 120
+      "days_old": 121
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2140,7 +2140,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 186
+      "days_old": 187
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2275,7 +2275,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 284
+      "days_old": 285
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2345,7 +2345,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 364
+      "days_old": 365
     },
     {
       "title": "Stabilize the `breakpoint` function",
