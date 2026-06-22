@@ -1870,7 +1870,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 79
+      "days_old": 80
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1991,7 +1991,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 137
+      "days_old": 138
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2304,7 +2304,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 293
+      "days_old": 294
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2399,7 +2399,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 384
+      "days_old": 385
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2440,7 +2440,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 423
+      "days_old": 424
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2465,7 +2465,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 436
+      "days_old": 437
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
