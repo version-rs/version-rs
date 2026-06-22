@@ -1595,7 +1595,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1649,7 +1649,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1690,7 +1690,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 54
+      "days_old": 55
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1751,7 +1751,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 59
+      "days_old": 60
     },
     {
       "title": "stabilize never type",
@@ -1937,7 +1937,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 112
+      "days_old": 113
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2070,7 +2070,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 153
+      "days_old": 154
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2099,7 +2099,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 170
+      "days_old": 171
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2185,7 +2185,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 227
+      "days_old": 228
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2230,7 +2230,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 241
+      "days_old": 242
     },
     {
       "title": "Stabilize stack-protector",
@@ -2506,7 +2506,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 565
+      "days_old": 566
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
