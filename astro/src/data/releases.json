@@ -1403,6 +1403,24 @@
           "number": 155698,
           "html_url": "https://github.com/rust-lang/rust/pull/155698",
           "days_ago": 61
+        },
+        {
+          "title": "Stabilize feature `uint_bit_width`",
+          "number": 155131,
+          "html_url": "https://github.com/rust-lang/rust/pull/155131",
+          "days_ago": 72
+        },
+        {
+          "title": "Stabilize feature `int_lowest_highest_one`",
+          "number": 155147,
+          "html_url": "https://github.com/rust-lang/rust/pull/155147",
+          "days_ago": 72
+        },
+        {
+          "title": "Stabilize feature `isolate_most_least_significant_one`",
+          "number": 155130,
+          "html_url": "https://github.com/rust-lang/rust/pull/155130",
+          "days_ago": 73
         }
       ]
     },
@@ -1488,7 +1506,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -2032,7 +2050,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 139
+      "days_old": 140
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2160,7 +2178,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 189
+      "days_old": 190
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2295,7 +2313,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 287
+      "days_old": 288
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2365,7 +2383,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 367
+      "days_old": 368
     },
     {
       "title": "Stabilize the `breakpoint` function",
