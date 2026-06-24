@@ -1482,8 +1482,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "disposition-merge",
@@ -2029,7 +2029,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 139
+      "days_old": 140
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2437,7 +2437,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 386
+      "days_old": 387
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2478,7 +2478,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 425
+      "days_old": 426
     },
     {
       "title": "Stabilize `offset_of_slice`",
