@@ -1623,7 +1623,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1685,7 +1685,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1726,7 +1726,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 57
+      "days_old": 58
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1783,7 +1783,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 62
+      "days_old": 63
     },
     {
       "title": "stabilize never type",
@@ -1902,7 +1902,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 82
+      "days_old": 83
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1969,7 +1969,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 115
+      "days_old": 116
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2102,7 +2102,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 156
+      "days_old": 157
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2217,7 +2217,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 230
+      "days_old": 231
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2336,7 +2336,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 296
+      "days_old": 297
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
