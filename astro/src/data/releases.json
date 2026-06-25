@@ -1496,12 +1496,8 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
-          "name": "I-lang-nominated",
-          "description": "Nominated for discussion during a lang team meeting."
-        },
-        {
-          "name": "P-lang-drag-1",
-          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
+          "name": "I-lang-radar",
+          "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
         {
           "name": "S-waiting-on-t-lang",
@@ -1512,7 +1508,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -1747,16 +1743,12 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         },
         {
           "name": "T-libs",
@@ -1765,10 +1757,6 @@
         {
           "name": "F-c_variadic",
           "description": "`#![feature(c_variadic)]`"
-        },
-        {
-          "name": "I-lang-nominated",
-          "description": "Nominated for discussion during a lang team meeting."
         },
         {
           "name": "PG-exploit-mitigations",
@@ -1787,8 +1775,8 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         },
         {
-          "name": "P-lang-drag-1",
-          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
+          "name": "I-lang-radar",
+          "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
         {
           "name": "S-waiting-on-t-lang",
@@ -2056,7 +2044,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 140
+      "days_old": 141
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2184,7 +2172,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 190
+      "days_old": 191
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2319,7 +2307,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 288
+      "days_old": 289
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2389,7 +2377,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 368
+      "days_old": 369
     },
     {
       "title": "Stabilize the `breakpoint` function",
