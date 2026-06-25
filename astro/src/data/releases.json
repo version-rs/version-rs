@@ -1354,73 +1354,73 @@
           "title": "stabilize `feature(cfg_target_has_atomic_equal_alignment)`",
           "number": 155006,
           "html_url": "https://github.com/rust-lang/rust/pull/155006",
-          "days_ago": 37
+          "days_ago": 38
         },
         {
           "title": "Consider `Result<T, Uninhabited>` and `ControlFlow<Uninhabited, T>` to be equivalent to `T` for must use lint",
           "number": 148214,
           "html_url": "https://github.com/rust-lang/rust/pull/148214",
-          "days_ago": 45
+          "days_ago": 46
         },
         {
           "title": "error on empty `export_name`",
           "number": 155515,
           "html_url": "https://github.com/rust-lang/rust/pull/155515",
-          "days_ago": 45
+          "days_ago": 46
         },
         {
           "title": "Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`",
           "number": 156063,
           "html_url": "https://github.com/rust-lang/rust/pull/156063",
-          "days_ago": 53
+          "days_ago": 54
         },
         {
           "title": "linker-messages is warn-by-default again",
           "number": 153968,
           "html_url": "https://github.com/rust-lang/rust/pull/153968",
-          "days_ago": 54
+          "days_ago": 55
         },
         {
           "title": "NVPTX: Drop support for old architectures and old ISAs",
           "number": 152443,
           "html_url": "https://github.com/rust-lang/rust/pull/152443",
-          "days_ago": 56
+          "days_ago": 57
         },
         {
           "title": "prevent deref coercions in `pin!`",
           "number": 153457,
           "html_url": "https://github.com/rust-lang/rust/pull/153457",
-          "days_ago": 59
+          "days_ago": 60
         },
         {
           "title": "Prefer `-1` for `None`",
           "number": 155473,
           "html_url": "https://github.com/rust-lang/rust/pull/155473",
-          "days_ago": 59
+          "days_ago": 60
         },
         {
           "title": "Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression",
           "number": 155698,
           "html_url": "https://github.com/rust-lang/rust/pull/155698",
-          "days_ago": 61
+          "days_ago": 62
         },
         {
           "title": "Stabilize feature `uint_bit_width`",
           "number": 155131,
           "html_url": "https://github.com/rust-lang/rust/pull/155131",
-          "days_ago": 72
+          "days_ago": 73
         },
         {
           "title": "Stabilize feature `int_lowest_highest_one`",
           "number": 155147,
           "html_url": "https://github.com/rust-lang/rust/pull/155147",
-          "days_ago": 72
+          "days_ago": 73
         },
         {
           "title": "Stabilize feature `isolate_most_least_significant_one`",
           "number": 155130,
           "html_url": "https://github.com/rust-lang/rust/pull/155130",
-          "days_ago": 73
+          "days_ago": 74
         }
       ]
     },
@@ -1437,31 +1437,31 @@
           "title": "Document that `ManuallyDrop`'s `Box` interaction has been fixed",
           "number": 155750,
           "html_url": "https://github.com/rust-lang/rust/pull/155750",
-          "days_ago": 9
+          "days_ago": 10
         },
         {
           "title": "Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing",
           "number": 157201,
           "html_url": "https://github.com/rust-lang/rust/pull/157201",
-          "days_ago": 11
+          "days_ago": 12
         },
         {
           "title": "Tracking issue for release notes of #157577: Fix parser error recovery treating 'dyn' as a strict keyword in Rust …",
           "number": 157579,
           "html_url": "https://github.com/rust-lang/rust/issues/157579",
-          "days_ago": 16
+          "days_ago": 17
         },
         {
           "title": "remove solaris implementation for File::lock, it has the wrong semantics",
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
-          "days_ago": 17
+          "days_ago": 18
         },
         {
           "title": "Remove -Zemscripten-wasm-eh",
           "number": 156928,
           "html_url": "https://github.com/rust-lang/rust/pull/156928",
-          "days_ago": 21
+          "days_ago": 22
         }
       ]
     }
@@ -1535,7 +1535,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -1654,7 +1654,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -1883,7 +1883,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 80
+      "days_old": 81
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -1946,7 +1946,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 97
+      "days_old": 98
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2071,7 +2071,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 142
+      "days_old": 143
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2416,7 +2416,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 378
+      "days_old": 379
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
