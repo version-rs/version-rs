@@ -1434,6 +1434,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Update mingw-w64 C toolchain",
+          "number": 158020,
+          "html_url": "https://github.com/rust-lang/rust/pull/158020",
+          "days_ago": 0
+        },
+        {
           "title": "Document that `ManuallyDrop`'s `Box` interaction has been fixed",
           "number": 155750,
           "html_url": "https://github.com/rust-lang/rust/pull/155750",
@@ -2585,7 +2591,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 869
+      "days_old": 870
     }
   ],
   "current_versions": {
