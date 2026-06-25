@@ -1566,7 +1566,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1919,7 +1919,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 95
+      "days_old": 96
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2002,7 +2002,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 124
+      "days_old": 125
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2497,7 +2497,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 439
+      "days_old": 440
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
