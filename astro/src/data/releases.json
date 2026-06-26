@@ -1623,7 +1623,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1726,7 +1726,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 58
+      "days_old": 59
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1783,7 +1783,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 63
+      "days_old": 64
     },
     {
       "title": "stabilize never type",
@@ -2131,7 +2131,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 174
+      "days_old": 175
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2217,7 +2217,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 231
+      "days_old": 232
     },
     {
       "title": "Stabilize Frontmatter",
