@@ -1508,7 +1508,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -1566,7 +1566,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1919,7 +1919,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 96
+      "days_old": 97
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2002,7 +2002,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 125
+      "days_old": 126
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2172,7 +2172,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 191
+      "days_old": 192
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2307,7 +2307,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 289
+      "days_old": 290
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2377,7 +2377,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 369
+      "days_old": 370
     },
     {
       "title": "Stabilize the `breakpoint` function",
