@@ -1537,7 +1537,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -1656,7 +1656,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2065,7 +2065,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 143
+      "days_old": 144
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
