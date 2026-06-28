@@ -1443,6 +1443,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`",
+          "number": 146561,
+          "html_url": "https://github.com/rust-lang/rust/pull/146561",
+          "days_ago": 0
+        },
+        {
           "title": "Update mingw-w64 C toolchain",
           "number": 158020,
           "html_url": "https://github.com/rust-lang/rust/pull/158020",
@@ -1513,7 +1519,7 @@
           "description": "`#![feature(abi_custom)]`"
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `#[my_macro] mod foo;` (part of `proc_macro_hygiene`)",
@@ -1902,7 +1908,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 70
+      "days_old": 71
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
