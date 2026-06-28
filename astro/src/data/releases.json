@@ -1493,12 +1493,16 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "I-lang-nominated",
+          "description": "Nominated for discussion during a lang team meeting."
         },
         {
           "name": "A-compiler-builtins",
@@ -2535,7 +2539,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 442
+      "days_old": 443
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
