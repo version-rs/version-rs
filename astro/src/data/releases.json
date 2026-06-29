@@ -1489,6 +1489,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "stabilize `feature(atomic_from_mut)`",
+      "number": 158573,
+      "url": "https://github.com/rust-lang/rust/pull/158573",
+      "updated_at": "2026-06-29T17:51:16+00:00",
+      "labels": [
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize `extern \"custom\"`",
       "number": 158504,
       "url": "https://github.com/rust-lang/rust/pull/158504",
@@ -1600,6 +1621,10 @@
         {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "S-waiting-on-fcp",
+          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         },
         {
           "name": "T-libs",
@@ -1950,7 +1975,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 86
+      "days_old": 87
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2071,7 +2096,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 144
+      "days_old": 145
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2384,7 +2409,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 300
+      "days_old": 301
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2479,7 +2504,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 391
+      "days_old": 392
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2520,7 +2545,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 430
+      "days_old": 431
     },
     {
       "title": "Stabilize `offset_of_slice`",
