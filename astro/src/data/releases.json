@@ -1489,6 +1489,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "stabilize s390x specific target-feature backchain",
+      "number": 158612,
+      "url": "https://github.com/rust-lang/rust/pull/158612",
+      "updated_at": "2026-06-30T11:59:56+00:00",
+      "labels": [
+        {
+          "name": "A-LLVM",
+          "description": "Area: Code generation parts specific to LLVM. Both correctness bugs and optimization-related issues."
+        },
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize `feature(atomic_from_mut)`",
       "number": 158573,
       "url": "https://github.com/rust-lang/rust/pull/158573",
@@ -1639,7 +1660,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1992,7 +2013,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 100
+      "days_old": 101
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2075,7 +2096,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 129
+      "days_old": 130
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2570,7 +2591,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 444
+      "days_old": 445
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
