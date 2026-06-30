@@ -1705,7 +1705,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1808,7 +1808,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 62
+      "days_old": 63
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1865,7 +1865,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 67
+      "days_old": 68
     },
     {
       "title": "stabilize never type",
@@ -2064,12 +2064,12 @@
           "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
           "name": "proposed-final-comment-period",
           "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "S-blocked",
+          "description": "Status: Blocked on something else such as an RFC or other implementation work."
         },
         {
           "name": "disposition-merge",
@@ -2213,7 +2213,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 178
+      "days_old": 179
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2299,7 +2299,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 235
+      "days_old": 236
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2344,7 +2344,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 249
+      "days_old": 250
     },
     {
       "title": "Stabilize stack-protector",
