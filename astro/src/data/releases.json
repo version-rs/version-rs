@@ -1520,15 +1520,15 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "stabilize `extern \"custom\"`",
@@ -1767,7 +1767,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1984,7 +1984,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 87
+      "days_old": 88
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2051,7 +2051,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 120
+      "days_old": 121
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2184,7 +2184,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 161
+      "days_old": 162
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2418,7 +2418,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 301
+      "days_old": 302
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
