@@ -1577,7 +1577,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -2117,7 +2117,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 145
+      "days_old": 146
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2245,7 +2245,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 195
+      "days_old": 196
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2380,7 +2380,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 293
+      "days_old": 294
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2450,7 +2450,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 373
+      "days_old": 374
     },
     {
       "title": "Stabilize the `breakpoint` function",
