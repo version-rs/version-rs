@@ -1516,20 +1516,32 @@
       "updated_at": "2026-06-27T23:01:28+00:00",
       "labels": [
         {
+          "name": "T-lang",
+          "description": "Relevant to the language team"
+        },
+        {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         },
         {
-          "name": "I-lang-nominated",
-          "description": "Nominated for discussion during a lang team meeting."
+          "name": "I-lang-radar",
+          "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
         {
           "name": "A-compiler-builtins",
@@ -1538,6 +1550,10 @@
         {
           "name": "F-abi_custom",
           "description": "`#![feature(abi_custom)]`"
+        },
+        {
+          "name": "needs-reference-pr",
+          "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
       "days_old": 3
@@ -2488,7 +2504,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 393
+      "days_old": 394
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2529,7 +2545,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 432
+      "days_old": 433
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2554,7 +2570,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 445
+      "days_old": 446
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
