@@ -1510,27 +1510,6 @@
       "days_old": 0
     },
     {
-      "title": "stabilize `feature(atomic_from_mut)`",
-      "number": 158573,
-      "url": "https://github.com/rust-lang/rust/pull/158573",
-      "updated_at": "2026-06-29T17:51:16+00:00",
-      "labels": [
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 1
-    },
-    {
       "title": "stabilize `extern \"custom\"`",
       "number": 158504,
       "url": "https://github.com/rust-lang/rust/pull/158504",
@@ -1615,7 +1594,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -1734,7 +1713,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 29
+      "days_old": 30
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2143,7 +2122,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 148
+      "days_old": 149
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
@@ -2657,7 +2636,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 875
+      "days_old": 876
     }
   ],
   "current_versions": {
