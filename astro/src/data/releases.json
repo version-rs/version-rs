@@ -1510,7 +1510,7 @@
       "days_old": 1
     },
     {
-      "title": "stabilize `extern \"custom\"`",
+      "title": "Stabilize `extern \"custom\"`",
       "number": 158504,
       "url": "https://github.com/rust-lang/rust/pull/158504",
       "updated_at": "2026-06-27T23:01:28+00:00",
@@ -1758,7 +1758,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 31
+      "days_old": 32
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1975,7 +1975,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 88
+      "days_old": 89
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2042,7 +2042,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 121
+      "days_old": 122
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2096,7 +2096,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 146
+      "days_old": 147
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2175,7 +2175,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2409,7 +2409,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 302
+      "days_old": 303
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
