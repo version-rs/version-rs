@@ -1627,6 +1627,14 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
           "name": "S-waiting-on-fcp",
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         },
@@ -1643,7 +1651,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2570,7 +2578,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 446
+      "days_old": 447
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
