@@ -1489,6 +1489,23 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `mpmc_channel`",
+      "number": 158729,
+      "url": "https://github.com/rust-lang/rust/pull/158729",
+      "updated_at": "2026-07-03T11:33:53+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize s390x specific target-feature backchain",
       "number": 158612,
       "url": "https://github.com/rust-lang/rust/pull/158612",
@@ -1507,7 +1524,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -1651,7 +1668,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2000,7 +2017,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 103
+      "days_old": 104
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2083,7 +2100,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 132
+      "days_old": 133
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2253,7 +2270,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 198
+      "days_old": 199
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2388,7 +2405,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 296
+      "days_old": 297
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2458,7 +2475,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 376
+      "days_old": 377
     },
     {
       "title": "Stabilize the `breakpoint` function",
