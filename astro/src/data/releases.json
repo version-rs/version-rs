@@ -1787,7 +1787,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1828,7 +1828,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 65
+      "days_old": 66
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1885,7 +1885,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 70
+      "days_old": 71
     },
     {
       "title": "stabilize never type",
@@ -2071,7 +2071,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 123
+      "days_old": 124
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2204,7 +2204,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 164
+      "days_old": 165
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
