@@ -1590,12 +1590,16 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "I-lang-radar",
@@ -2599,7 +2603,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 448
+      "days_old": 449
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
