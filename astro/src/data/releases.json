@@ -1524,7 +1524,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -1672,7 +1672,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2021,7 +2021,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 104
+      "days_old": 105
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2104,7 +2104,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 133
+      "days_old": 134
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
