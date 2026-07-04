@@ -1503,7 +1503,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1610,7 +1610,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Stabilize `local_key_cell_update`",
@@ -2146,7 +2146,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 149
+      "days_old": 150
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2274,7 +2274,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 199
+      "days_old": 200
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2409,7 +2409,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 297
+      "days_old": 298
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2479,7 +2479,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 377
+      "days_old": 378
     },
     {
       "title": "Stabilize the `breakpoint` function",
