@@ -2008,7 +2008,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 92
+      "days_old": 93
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2075,7 +2075,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 125
+      "days_old": 126
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2129,7 +2129,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 150
+      "days_old": 151
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2442,7 +2442,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 306
+      "days_old": 307
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
