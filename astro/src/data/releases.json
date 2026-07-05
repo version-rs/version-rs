@@ -1672,7 +1672,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 27
+      "days_old": 28
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2603,7 +2603,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 449
+      "days_old": 450
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
