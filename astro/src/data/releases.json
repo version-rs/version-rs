@@ -1845,6 +1845,10 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
@@ -1883,10 +1887,6 @@
         {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "S-waiting-on-t-lang",
-          "description": "Status: Awaiting decision from T-lang"
         }
       ],
       "days_old": 72
@@ -2537,7 +2537,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 397
+      "days_old": 398
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2578,7 +2578,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 436
+      "days_old": 437
     },
     {
       "title": "Stabilize `offset_of_slice`",
