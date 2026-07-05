@@ -1725,7 +1725,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1787,7 +1787,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 35
+      "days_old": 36
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1828,7 +1828,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 67
+      "days_old": 68
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1889,7 +1889,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 72
+      "days_old": 73
     },
     {
       "title": "stabilize never type",
@@ -2208,7 +2208,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 166
+      "days_old": 167
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2323,7 +2323,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 240
+      "days_old": 241
     },
     {
       "title": "Stabilize Frontmatter",
