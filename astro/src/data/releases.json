@@ -1801,12 +1801,6 @@
       "branch_date": "2026-08-14",
       "issues": [
         {
-          "title": "Implement `IntoIterator` for `[&[mut]] Box<[T; N], A>`",
-          "number": 134021,
-          "html_url": "https://github.com/rust-lang/rust/pull/134021",
-          "days_ago": 1
-        },
-        {
           "title": "Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`",
           "number": 146561,
           "html_url": "https://github.com/rust-lang/rust/pull/146561",
@@ -1954,7 +1948,7 @@
           "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -2085,7 +2079,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 34
+      "days_old": 35
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2373,7 +2367,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 108
+      "days_old": 109
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2498,7 +2492,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 153
+      "days_old": 154
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
