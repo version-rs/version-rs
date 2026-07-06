@@ -2068,7 +2068,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 34
+      "days_old": 35
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -2580,7 +2580,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 184
+      "days_old": 185
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2711,7 +2711,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 255
+      "days_old": 256
     },
     {
       "title": "Stabilize stack-protector",
@@ -2987,7 +2987,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 579
+      "days_old": 580
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
