@@ -1953,24 +1953,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 8
-    },
-    {
-      "title": "Stabilize `local_key_cell_update`",
-      "number": 157734,
-      "url": "https://github.com/rust-lang/rust/pull/157734",
-      "updated_at": "2026-06-11T02:00:34+00:00",
-      "labels": [
-        {
-          "name": "T-libs-api",
-          "description": "Relevant to the library API team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        }
-      ],
-      "days_old": 25
+      "days_old": 9
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -2309,7 +2292,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 78
+      "days_old": 79
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
