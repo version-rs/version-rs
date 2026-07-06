@@ -1861,7 +1861,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1882,7 +1882,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -1993,7 +1993,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2346,7 +2346,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 106
+      "days_old": 107
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2429,7 +2429,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 135
+      "days_old": 136
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2599,7 +2599,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 201
+      "days_old": 202
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2734,7 +2734,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 299
+      "days_old": 300
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2804,7 +2804,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 379
+      "days_old": 380
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2924,7 +2924,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 450
+      "days_old": 451
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
