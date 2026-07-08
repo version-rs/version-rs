@@ -1710,7 +1710,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 36
+      "days_old": 37
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1813,7 +1813,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 70
+      "days_old": 71
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1874,7 +1874,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 75
+      "days_old": 76
     },
     {
       "title": "stabilize never type",
@@ -2304,7 +2304,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 243
+      "days_old": 244
     },
     {
       "title": "Stabilize Frontmatter",
