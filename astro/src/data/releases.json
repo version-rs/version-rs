@@ -2518,7 +2518,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 400
+      "days_old": 401
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2559,7 +2559,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 439
+      "days_old": 440
     },
     {
       "title": "Stabilize `offset_of_slice`",
