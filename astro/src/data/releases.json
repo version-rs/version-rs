@@ -1613,6 +1613,10 @@
       "updated_at": "2026-06-07T13:18:14+00:00",
       "labels": [
         {
+          "name": "T-lang",
+          "description": "Relevant to the language team"
+        },
+        {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
@@ -1647,6 +1651,10 @@
         {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
+        },
+        {
+          "name": "P-lang-drag-1",
+          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
       "days_old": 30
