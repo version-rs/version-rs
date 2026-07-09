@@ -1696,7 +1696,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 39
+      "days_old": 40
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1737,7 +1737,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 71
+      "days_old": 72
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1798,7 +1798,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 76
+      "days_old": 77
     },
     {
       "title": "stabilize never type",
@@ -1984,7 +1984,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 129
+      "days_old": 130
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2195,7 +2195,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 244
+      "days_old": 245
     },
     {
       "title": "Stabilize Frontmatter",
