@@ -1422,6 +1422,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Add `Step::forward/backward_overflowing` to enable RangeInclusive loop optimizations",
+          "number": 155114,
+          "html_url": "https://github.com/rust-lang/rust/pull/155114",
+          "days_ago": 0
+        },
+        {
           "title": "Implement `IntoIterator` for `[&[mut]] Box<[T; N], A>`",
           "number": 134021,
           "html_url": "https://github.com/rust-lang/rust/pull/134021",
@@ -1661,7 +1667,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 37
+      "days_old": 38
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -1949,7 +1955,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 111
+      "days_old": 112
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2074,7 +2080,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 156
+      "days_old": 157
     },
     {
       "title": "Stabilize `VecDeque::retain_back` from `truncate_front`",
