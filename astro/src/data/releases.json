@@ -1444,6 +1444,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize String::from_utf8_lossy_owned",
+      "number": 159099,
+      "url": "https://github.com/rust-lang/rust/pull/159099",
+      "updated_at": "2026-07-10T16:21:29+00:00",
+      "labels": [
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `mpmc_channel`",
       "number": 158729,
       "url": "https://github.com/rust-lang/rust/pull/158729",
@@ -2038,7 +2059,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 155
+      "days_old": 156
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2409,7 +2430,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 402
+      "days_old": 403
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2450,7 +2471,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 441
+      "days_old": 442
     },
     {
       "title": "Stabilize `offset_of_slice`",
