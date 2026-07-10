@@ -1454,8 +1454,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1717,7 +1717,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1938,7 +1938,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 97
+      "days_old": 98
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2005,7 +2005,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 130
+      "days_old": 131
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2335,7 +2335,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 311
+      "days_old": 312
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
