@@ -1896,7 +1896,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 82
+      "days_old": 83
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2130,7 +2130,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 188
+      "days_old": 189
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2261,7 +2261,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 259
+      "days_old": 260
     },
     {
       "title": "Stabilize stack-protector",
@@ -2537,7 +2537,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 583
+      "days_old": 584
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
