@@ -1638,7 +1638,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -2113,7 +2113,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 190
+      "days_old": 191
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2199,7 +2199,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 247
+      "days_old": 248
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2244,7 +2244,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 261
+      "days_old": 262
     },
     {
       "title": "Stabilize stack-protector",
