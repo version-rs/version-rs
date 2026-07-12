@@ -1700,7 +1700,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 42
+      "days_old": 43
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1741,7 +1741,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 74
+      "days_old": 75
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1802,7 +1802,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 79
+      "days_old": 80
     },
     {
       "title": "stabilize never type",
@@ -1921,7 +1921,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 99
+      "days_old": 100
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1988,7 +1988,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 132
+      "days_old": 133
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2318,7 +2318,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 313
+      "days_old": 314
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
