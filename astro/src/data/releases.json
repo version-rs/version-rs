@@ -1671,10 +1671,6 @@
         {
           "name": "needs-fcp",
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
-        },
-        {
-          "name": "I-libs-api-nominated",
-          "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
       "days_old": 43
@@ -2419,7 +2415,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 406
+      "days_old": 407
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2460,7 +2456,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 445
+      "days_old": 446
     },
     {
       "title": "Stabilize `offset_of_slice`",
