@@ -1598,6 +1598,10 @@
         {
           "name": "P-lang-drag-1",
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
+        },
+        {
+          "name": "waived-reference-pr",
+          "description": "This language change does not need a Reference PR."
         }
       ],
       "days_old": 37
@@ -1886,7 +1890,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 86
+      "days_old": 87
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2120,7 +2124,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 192
+      "days_old": 193
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2251,7 +2255,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 263
+      "days_old": 264
     },
     {
       "title": "Stabilize stack-protector",
@@ -2527,7 +2531,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 587
+      "days_old": 588
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
