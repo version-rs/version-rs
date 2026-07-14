@@ -1591,7 +1591,7 @@
           "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         }
       ],
-      "days_old": 36
+      "days_old": 37
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2485,7 +2485,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 458
+      "days_old": 459
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
