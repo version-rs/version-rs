@@ -1657,20 +1657,16 @@
           "description": "Relevant to the library API team, which will review and decide on the PR/issue."
         },
         {
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+        },
+        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
-        },
-        {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
       "days_old": 43
@@ -1923,7 +1919,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 101
+      "days_old": 102
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1990,7 +1986,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 134
+      "days_old": 135
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2044,7 +2040,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 159
+      "days_old": 160
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2320,7 +2316,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 315
+      "days_old": 316
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
