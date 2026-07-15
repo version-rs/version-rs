@@ -1584,20 +1584,12 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         },
         {
-          "name": "I-lang-nominated",
-          "description": "Nominated for discussion during a lang team meeting."
-        },
-        {
           "name": "T-opsem",
           "description": "Relevant to the opsem team"
         },
         {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "P-lang-drag-1",
-          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         },
         {
           "name": "waived-reference-pr",
@@ -2053,7 +2045,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 160
+      "days_old": 161
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2424,7 +2416,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 407
+      "days_old": 408
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2465,7 +2457,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 446
+      "days_old": 447
     },
     {
       "title": "Stabilize `offset_of_slice`",
