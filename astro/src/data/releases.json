@@ -1621,10 +1621,6 @@
           "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
         },
         {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
-        },
-        {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
@@ -1633,16 +1629,8 @@
           "description": "Area: Rustdoc JSON backend"
         },
         {
-          "name": "I-lang-nominated",
-          "description": "Nominated for discussion during a lang team meeting."
-        },
-        {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "P-lang-drag-1",
-          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         },
         {
           "name": "needs-reference-pr",
@@ -1703,7 +1691,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 45
+      "days_old": 46
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1744,7 +1732,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 77
+      "days_old": 78
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1805,7 +1793,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 82
+      "days_old": 83
     },
     {
       "title": "stabilize never type",
@@ -1924,7 +1912,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 102
+      "days_old": 103
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1991,7 +1979,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 135
+      "days_old": 136
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2321,7 +2309,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 316
+      "days_old": 317
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
