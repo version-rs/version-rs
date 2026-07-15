@@ -1564,12 +1564,12 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -2490,7 +2490,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 459
+      "days_old": 460
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
