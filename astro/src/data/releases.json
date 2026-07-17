@@ -1494,7 +1494,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -1596,7 +1596,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 39
+      "days_old": 40
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1933,7 +1933,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2016,7 +2016,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 146
+      "days_old": 147
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2354,7 +2354,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 390
+      "days_old": 391
     },
     {
       "title": "Stabilize the `breakpoint` function",
