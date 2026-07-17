@@ -1473,7 +1473,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1689,6 +1689,10 @@
         {
           "name": "S-waiting-on-t-libs-api",
           "description": "Status: Awaiting decision from T-libs-api"
+        },
+        {
+          "name": "A-random",
+          "description": "Area: random data generation support"
         }
       ],
       "days_old": 47
@@ -2054,7 +2058,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2145,7 +2149,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 212
+      "days_old": 213
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2280,7 +2284,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 310
+      "days_old": 311
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
