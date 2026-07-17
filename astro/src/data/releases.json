@@ -1695,7 +1695,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 47
+      "days_old": 48
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1736,7 +1736,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 79
+      "days_old": 80
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1797,7 +1797,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 84
+      "days_old": 85
     },
     {
       "title": "stabilize never type",
@@ -1916,7 +1916,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 104
+      "days_old": 105
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -1983,7 +1983,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 137
+      "days_old": 138
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -1996,16 +1996,8 @@
           "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
-        },
-        {
           "name": "S-blocked",
           "description": "Status: Blocked on something else such as an RFC or other implementation work."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "needs-fcp",
@@ -2313,7 +2305,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 318
+      "days_old": 319
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
