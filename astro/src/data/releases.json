@@ -1572,7 +1572,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -1899,7 +1899,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 90
+      "days_old": 91
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
