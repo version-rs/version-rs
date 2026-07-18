@@ -1459,6 +1459,31 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
+      "number": 159525,
+      "url": "https://github.com/rust-lang/rust/pull/159525",
+      "updated_at": "2026-07-18T15:15:08+00:00",
+      "labels": [
+        {
+          "name": "A-inline-assembly",
+          "description": "Area: Inline assembly (`asm!(…)`)"
+        },
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "I-lang-nominated",
+          "description": "Nominated for discussion during a lang team meeting."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `mpmc_channel`",
       "number": 158729,
       "url": "https://github.com/rust-lang/rust/pull/158729",
@@ -2466,7 +2491,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 462
+      "days_old": 463
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
