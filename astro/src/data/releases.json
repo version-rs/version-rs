@@ -1418,6 +1418,12 @@
           "number": 156928,
           "html_url": "https://github.com/rust-lang/rust/pull/156928",
           "days_ago": 46
+        },
+        {
+          "title": "Implement fast path for `derive(PartialOrd)` when deriving `Ord`",
+          "number": 155598,
+          "html_url": "https://github.com/rust-lang/rust/pull/155598",
+          "days_ago": 56
         }
       ]
     },
