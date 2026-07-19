@@ -1465,6 +1465,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize attributes on closure and method call expressions",
+      "number": 159581,
+      "url": "https://github.com/rust-lang/rust/pull/159581",
+      "updated_at": "2026-07-19T21:44:38+00:00",
+      "labels": [
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+        },
+        {
+          "name": "PG-exploit-mitigations",
+          "description": "Project group: Exploit mitigations"
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
       "number": 159525,
       "url": "https://github.com/rust-lang/rust/pull/159525",
@@ -1905,7 +1926,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 91
+      "days_old": 92
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
