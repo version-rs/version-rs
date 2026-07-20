@@ -1508,7 +1508,7 @@
           "description": "Nominated for discussion during a lang team meeting."
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2518,7 +2518,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 464
+      "days_old": 465
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
