@@ -1483,7 +1483,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
@@ -1926,7 +1926,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 92
+      "days_old": 93
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2152,7 +2152,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 198
+      "days_old": 199
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2283,7 +2283,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 269
+      "days_old": 270
     },
     {
       "title": "Stabilize stack-protector",
@@ -2559,7 +2559,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 593
+      "days_old": 594
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
