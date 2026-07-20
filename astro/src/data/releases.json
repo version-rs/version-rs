@@ -1689,7 +1689,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 48
+      "days_old": 49
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1747,7 +1747,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 50
+      "days_old": 51
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1788,7 +1788,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 82
+      "days_old": 83
     },
     {
       "title": "Stabilize c-variadic function definitions",
@@ -1849,7 +1849,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 87
+      "days_old": 88
     },
     {
       "title": "stabilize never type",
@@ -2035,7 +2035,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 140
+      "days_old": 141
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2238,7 +2238,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 255
+      "days_old": 256
     },
     {
       "title": "Stabilize Frontmatter",
