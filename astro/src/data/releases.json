@@ -1381,49 +1381,49 @@
           "title": "Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`",
           "number": 146561,
           "html_url": "https://github.com/rust-lang/rust/pull/146561",
-          "days_ago": 21
+          "days_ago": 22
         },
         {
           "title": "Update mingw-w64 C toolchain",
           "number": 158020,
           "html_url": "https://github.com/rust-lang/rust/pull/158020",
-          "days_ago": 24
+          "days_ago": 25
         },
         {
           "title": "Document that `ManuallyDrop`'s `Box` interaction has been fixed",
           "number": 155750,
           "html_url": "https://github.com/rust-lang/rust/pull/155750",
-          "days_ago": 34
+          "days_ago": 35
         },
         {
           "title": "Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing",
           "number": 157201,
           "html_url": "https://github.com/rust-lang/rust/pull/157201",
-          "days_ago": 36
+          "days_ago": 37
         },
         {
           "title": "Tracking issue for release notes of #157577: Fix parser error recovery treating 'dyn' as a strict keyword in Rust …",
           "number": 157579,
           "html_url": "https://github.com/rust-lang/rust/issues/157579",
-          "days_ago": 41
+          "days_ago": 42
         },
         {
           "title": "remove solaris implementation for File::lock, it has the wrong semantics",
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
-          "days_ago": 42
+          "days_ago": 43
         },
         {
           "title": "Remove -Zemscripten-wasm-eh",
           "number": 156928,
           "html_url": "https://github.com/rust-lang/rust/pull/156928",
-          "days_ago": 46
+          "days_ago": 47
         },
         {
           "title": "Implement fast path for `derive(PartialOrd)` when deriving `Ord`",
           "number": 155598,
           "html_url": "https://github.com/rust-lang/rust/pull/155598",
-          "days_ago": 56
+          "days_ago": 57
         }
       ]
     },
@@ -1440,25 +1440,25 @@
           "title": "Tracking issue for release notes of #158325: Document NonNull layout guarantees",
           "number": 159198,
           "html_url": "https://github.com/rust-lang/rust/issues/159198",
-          "days_ago": 6
+          "days_ago": 7
         },
         {
           "title": "Add `Step::forward/backward_overflowing` to enable RangeInclusive loop optimizations",
           "number": 155114,
           "html_url": "https://github.com/rust-lang/rust/pull/155114",
-          "days_ago": 10
+          "days_ago": 11
         },
         {
           "title": "Implement `IntoIterator` for `[&[mut]] Box<[T; N], A>`",
           "number": 134021,
           "html_url": "https://github.com/rust-lang/rust/pull/134021",
-          "days_ago": 14
+          "days_ago": 15
         },
         {
           "title": "Tracking issue for release notes of #156976: enable eager `param_env` norm in new solver",
           "number": 158528,
           "html_url": "https://github.com/rust-lang/rust/issues/158528",
-          "days_ago": 16
+          "days_ago": 17
         }
       ]
     }
@@ -1475,8 +1475,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "PG-exploit-mitigations",
@@ -1599,7 +1599,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -1714,7 +1714,7 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         }
       ],
-      "days_old": 48
+      "days_old": 49
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -1943,7 +1943,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 105
+      "days_old": 106
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -2006,7 +2006,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 122
+      "days_old": 123
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2123,7 +2123,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 167
+      "days_old": 168
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2431,7 +2431,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 403
+      "days_old": 404
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
