@@ -1508,7 +1508,7 @@
           "description": "Nominated for discussion during a lang team meeting."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -1733,10 +1733,6 @@
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "I-libs-api-nominated",
-          "description": "Nominated for discussion during a libs-api team meeting."
         },
         {
           "name": "S-waiting-on-t-libs-api",
@@ -2452,7 +2448,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 413
+      "days_old": 414
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2493,7 +2489,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 452
+      "days_old": 453
     },
     {
       "title": "Stabilize `offset_of_slice`",
