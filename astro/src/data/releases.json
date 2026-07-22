@@ -1654,7 +1654,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 44
+      "days_old": 45
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1991,7 +1991,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 122
+      "days_old": 123
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2066,7 +2066,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 151
+      "days_old": 152
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2524,7 +2524,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 466
+      "days_old": 467
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
