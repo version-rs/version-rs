@@ -1437,6 +1437,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "semicolon_in_expressions_from_macros: Lint on non-local macros too",
+          "number": 159222,
+          "html_url": "https://github.com/rust-lang/rust/pull/159222",
+          "days_ago": 7
+        },
+        {
           "title": "Tracking issue for release notes of #158325: Document NonNull layout guarantees",
           "number": 159198,
           "html_url": "https://github.com/rust-lang/rust/issues/159198",
