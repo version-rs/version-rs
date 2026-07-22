@@ -1707,7 +1707,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 50
+      "days_old": 51
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1761,7 +1761,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 52
+      "days_old": 53
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1802,72 +1802,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 84
-    },
-    {
-      "title": "Stabilize c-variadic function definitions",
-      "number": 155697,
-      "url": "https://github.com/rust-lang/rust/pull/155697",
-      "updated_at": "2026-04-23T19:21:59+00:00",
-      "labels": [
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "F-c_variadic",
-          "description": "`#![feature(c_variadic)]`"
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "PG-exploit-mitigations",
-          "description": "Project group: Exploit mitigations"
-        },
-        {
-          "name": "T-opsem",
-          "description": "Relevant to the opsem team"
-        },
-        {
-          "name": "F-explicit_tail_calls",
-          "description": "`#![feature(explicit_tail_calls)]`"
-        },
-        {
-          "name": "A-run-make",
-          "description": "Area: port run-make Makefiles to rmake.rs"
-        },
-        {
-          "name": "I-lang-radar",
-          "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "has-reference-pr",
-          "description": "This language change has an approved Reference PR."
-        }
-      ],
-      "days_old": 89
+      "days_old": 85
     },
     {
       "title": "stabilize never type",
@@ -2256,7 +2191,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 257
+      "days_old": 258
     },
     {
       "title": "Stabilize Frontmatter",
