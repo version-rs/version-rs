@@ -1531,7 +1531,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1552,7 +1552,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -1807,8 +1807,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2108,7 +2108,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 167
+      "days_old": 168
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2199,7 +2199,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 217
+      "days_old": 218
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2334,7 +2334,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 315
+      "days_old": 316
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2404,7 +2404,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 395
+      "days_old": 396
     },
     {
       "title": "Stabilize the `breakpoint` function",
