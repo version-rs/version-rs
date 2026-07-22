@@ -1714,7 +1714,7 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         }
       ],
-      "days_old": 50
+      "days_old": 51
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -1801,8 +1801,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "disposition-merge",
@@ -2006,7 +2006,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 124
+      "days_old": 125
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2123,7 +2123,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 169
+      "days_old": 170
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
