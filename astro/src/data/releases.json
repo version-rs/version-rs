@@ -1489,7 +1489,7 @@
           "description": "`#![feature(c_variadic)]`"
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1518,7 +1518,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
@@ -1908,7 +1908,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 95
+      "days_old": 96
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2134,7 +2134,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 201
+      "days_old": 202
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2265,7 +2265,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 272
+      "days_old": 273
     },
     {
       "title": "Stabilize stack-protector",
@@ -2541,7 +2541,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 596
+      "days_old": 597
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
