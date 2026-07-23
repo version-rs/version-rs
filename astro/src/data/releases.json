@@ -1498,12 +1498,20 @@
       "updated_at": "2026-07-19T21:44:38+00:00",
       "labels": [
         {
+          "name": "T-lang",
+          "description": "Relevant to the language team"
+        },
+        {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
           "name": "S-waiting-on-author",
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+        },
+        {
+          "name": "needs-fcp",
+          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         },
         {
           "name": "PG-exploit-mitigations",
@@ -1687,7 +1695,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 45
+      "days_old": 46
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -1959,7 +1967,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 123
+      "days_old": 124
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2034,7 +2042,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 152
+      "days_old": 153
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2492,7 +2500,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 467
+      "days_old": 468
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
