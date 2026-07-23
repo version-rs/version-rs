@@ -1736,7 +1736,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 51
+      "days_old": 52
     },
     {
       "title": "Partially stabilize `box_vec_non_null`",
@@ -1790,7 +1790,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 53
+      "days_old": 54
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1831,7 +1831,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 85
+      "days_old": 86
     },
     {
       "title": "stabilize never type",
@@ -2220,7 +2220,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 258
+      "days_old": 259
     },
     {
       "title": "Stabilize Frontmatter",
