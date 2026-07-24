@@ -1437,6 +1437,24 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "rustfmt: Discover modules via `cfg_select!`",
+          "number": 158372,
+          "html_url": "https://github.com/rust-lang/rust/pull/158372",
+          "days_ago": 0
+        },
+        {
+          "title": "Convert `-Ctarget-cpu` into a target-modifier for AVR, AMDGCN and NVPTX ",
+          "number": 150732,
+          "html_url": "https://github.com/rust-lang/rust/pull/150732",
+          "days_ago": 4
+        },
+        {
+          "title": "Implement `#[diagnostic::opaque]` attribute to hide backtraces of macros.",
+          "number": 158608,
+          "html_url": "https://github.com/rust-lang/rust/pull/158608",
+          "days_ago": 9
+        },
+        {
           "title": "semicolon_in_expressions_from_macros: Lint on non-local macros too",
           "number": 159222,
           "html_url": "https://github.com/rust-lang/rust/pull/159222",
