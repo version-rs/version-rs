@@ -1767,16 +1767,20 @@
           "description": "Relevant to the library API team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         }
       ],
       "days_old": 53
@@ -1968,7 +1972,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 111
+      "days_old": 112
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2081,7 +2085,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 169
+      "days_old": 170
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2357,7 +2361,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 325
+      "days_old": 326
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2452,7 +2456,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 416
+      "days_old": 417
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2493,7 +2497,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 455
+      "days_old": 456
     },
     {
       "title": "Stabilize `offset_of_slice`",
