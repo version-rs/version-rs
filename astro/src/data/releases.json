@@ -1507,7 +1507,7 @@
           "description": "`#![feature(c_variadic)]`"
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1536,7 +1536,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
@@ -1930,7 +1930,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 98
+      "days_old": 99
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
