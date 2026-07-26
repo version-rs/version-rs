@@ -1573,7 +1573,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2522,7 +2522,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 470
+      "days_old": 471
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
