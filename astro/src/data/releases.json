@@ -2097,7 +2097,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 172
+      "days_old": 173
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2468,7 +2468,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 419
+      "days_old": 420
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2509,7 +2509,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 458
+      "days_old": 459
     },
     {
       "title": "Stabilize `offset_of_slice`",
