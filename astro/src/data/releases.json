@@ -1437,6 +1437,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Split non-local `semicolon_in_expressions_from_macros` into a separate lint",
+          "number": 159700,
+          "html_url": "https://github.com/rust-lang/rust/pull/159700",
+          "days_ago": 1
+        },
+        {
           "title": "rustfmt: Discover modules via `cfg_select!`",
           "number": 158372,
           "html_url": "https://github.com/rust-lang/rust/pull/158372",
@@ -1507,7 +1513,7 @@
           "description": "`#![feature(c_variadic)]`"
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1536,7 +1542,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
@@ -1942,7 +1948,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 99
+      "days_old": 100
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2168,7 +2174,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 205
+      "days_old": 206
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2299,7 +2305,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 276
+      "days_old": 277
     },
     {
       "title": "Stabilize stack-protector",
@@ -2575,7 +2581,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 600
+      "days_old": 601
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
