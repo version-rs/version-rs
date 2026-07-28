@@ -1530,8 +1530,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "needs-fcp",
@@ -1579,7 +1579,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2478,7 +2478,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 420
+      "days_old": 421
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2519,7 +2519,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 459
+      "days_old": 460
     },
     {
       "title": "Stabilize `offset_of_slice`",
