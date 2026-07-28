@@ -1513,7 +1513,7 @@
           "description": "`#![feature(c_variadic)]`"
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1542,7 +1542,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
@@ -1793,8 +1793,8 @@
           "description": "Relevant to the library API team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -1956,7 +1956,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 100
+      "days_old": 101
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2182,7 +2182,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 206
+      "days_old": 207
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2313,7 +2313,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 277
+      "days_old": 278
     },
     {
       "title": "Stabilize stack-protector",
@@ -2589,7 +2589,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 601
+      "days_old": 602
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
