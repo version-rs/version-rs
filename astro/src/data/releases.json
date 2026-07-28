@@ -1577,6 +1577,10 @@
         {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
+        },
+        {
+          "name": "has-reference-pr",
+          "description": "This language change has an approved Reference PR."
         }
       ],
       "days_old": 10
@@ -1834,7 +1838,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 58
+      "days_old": 59
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1994,7 +1998,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 115
+      "days_old": 116
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2061,7 +2065,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 148
+      "days_old": 149
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2107,7 +2111,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 173
+      "days_old": 174
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2383,7 +2387,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 329
+      "days_old": 330
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
