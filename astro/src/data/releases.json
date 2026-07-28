@@ -1764,6 +1764,10 @@
           "description": "Area: Rustdoc JSON backend"
         },
         {
+          "name": "I-lang-nominated",
+          "description": "Nominated for discussion during a lang team meeting."
+        },
+        {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
@@ -1801,7 +1805,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 56
+      "days_old": 57
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2028,7 +2032,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 130
+      "days_old": 131
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2145,7 +2149,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 175
+      "days_old": 176
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
