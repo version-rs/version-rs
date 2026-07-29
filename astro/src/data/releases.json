@@ -1566,7 +1566,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1599,7 +1599,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
@@ -2000,7 +2000,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 101
+      "days_old": 102
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
