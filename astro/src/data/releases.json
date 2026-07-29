@@ -1832,35 +1832,6 @@
       "days_old": 57
     },
     {
-      "title": "Partially stabilize `box_vec_non_null`",
-      "number": 157226,
-      "url": "https://github.com/rust-lang/rust/pull/157226",
-      "updated_at": "2026-06-01T02:03:00+00:00",
-      "labels": [
-        {
-          "name": "T-libs-api",
-          "description": "Relevant to the library API team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        }
-      ],
-      "days_old": 58
-    },
-    {
       "title": "Stabilize `Rng` and `SystemRng`",
       "number": 157168,
       "url": "https://github.com/rust-lang/rust/pull/157168",
@@ -2181,7 +2152,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 174
+      "days_old": 175
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
