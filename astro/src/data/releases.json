@@ -1633,7 +1633,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1678,7 +1678,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -2035,7 +2035,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 129
+      "days_old": 130
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2110,7 +2110,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 158
+      "days_old": 159
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2243,7 +2243,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 224
+      "days_old": 225
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2378,7 +2378,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 322
+      "days_old": 323
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2448,7 +2448,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 402
+      "days_old": 403
     },
     {
       "title": "Stabilize the `breakpoint` function",
