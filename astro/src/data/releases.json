@@ -1569,6 +1569,10 @@
         {
           "name": "PG-exploit-mitigations",
           "description": "Project group: Exploit mitigations"
+        },
+        {
+          "name": "I-lang-radar",
+          "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
       "days_old": 9
@@ -1642,12 +1646,20 @@
           "description": "Area: Code generation parts specific to LLVM. Both correctness bugs and optimization-related issues."
         },
         {
+          "name": "T-lang",
+          "description": "Relevant to the language team"
+        },
+        {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "I-lang-nominated",
@@ -1656,6 +1668,10 @@
         {
           "name": "I-lang-easy-decision",
           "description": "Issue: The decision needed by the team is conjectured to be easy; this does not imply nomination"
+        },
+        {
+          "name": "P-lang-drag-1",
+          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         },
         {
           "name": "S-waiting-on-t-lang",
@@ -1803,6 +1819,10 @@
         {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
+        },
+        {
+          "name": "P-lang-drag-1",
+          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         },
         {
           "name": "needs-reference-pr",
@@ -2659,7 +2679,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 903
+      "days_old": 904
     }
   ],
   "current_versions": {
