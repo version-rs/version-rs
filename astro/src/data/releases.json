@@ -1838,7 +1838,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 57
+      "days_old": 58
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2065,7 +2065,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 131
+      "days_old": 132
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2182,7 +2182,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 176
+      "days_old": 177
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
