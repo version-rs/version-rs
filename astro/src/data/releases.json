@@ -1882,7 +1882,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 59
+      "days_old": 60
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1923,7 +1923,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 91
+      "days_old": 92
     },
     {
       "title": "stabilize never type",
@@ -2042,7 +2042,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 116
+      "days_old": 117
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2109,7 +2109,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 149
+      "days_old": 150
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2431,7 +2431,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 330
+      "days_old": 331
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
