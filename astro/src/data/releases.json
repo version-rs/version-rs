@@ -1534,28 +1534,36 @@
       "updated_at": "2026-07-22T22:01:54+00:00",
       "labels": [
         {
+          "name": "T-lang",
+          "description": "Relevant to the language team"
+        },
+        {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "F-c_variadic",
           "description": "`#![feature(c_variadic)]`"
         },
         {
-          "name": "I-lang-nominated",
-          "description": "Nominated for discussion during a lang team meeting."
+          "name": "I-lang-radar",
+          "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
         {
-          "name": "P-lang-drag-1",
-          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
+          "name": "needs-reference-pr",
+          "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
       "days_old": 6
@@ -2147,7 +2155,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 174
+      "days_old": 175
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2518,7 +2526,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 421
+      "days_old": 422
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2559,7 +2567,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 460
+      "days_old": 461
     },
     {
       "title": "Stabilize `offset_of_slice`",
