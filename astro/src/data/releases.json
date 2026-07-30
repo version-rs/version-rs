@@ -1640,7 +1640,7 @@
           "description": "This language change has an approved Reference PR."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2107,6 +2107,10 @@
         {
           "name": "S-waiting-on-fcp",
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
+        },
+        {
+          "name": "I-libs-api-nominated",
+          "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
       "days_old": 150
@@ -2526,7 +2530,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 422
+      "days_old": 423
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2567,7 +2571,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 461
+      "days_old": 462
     },
     {
       "title": "Stabilize `offset_of_slice`",
