@@ -1629,7 +1629,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1662,7 +1662,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
@@ -1818,7 +1818,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
@@ -2063,7 +2063,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 103
+      "days_old": 104
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
