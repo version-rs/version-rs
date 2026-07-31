@@ -1682,7 +1682,7 @@
           "description": "This language change has an approved Reference PR."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -1846,7 +1846,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 53
+      "days_old": 54
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2638,7 +2638,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 475
+      "days_old": 476
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
