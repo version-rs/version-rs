@@ -1437,9 +1437,45 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #158608: Implement `#[diagnostic::opaque]` attribute to hide backtraces of macros.",
+          "number": 159824,
+          "html_url": "https://github.com/rust-lang/rust/issues/159824",
+          "days_ago": 0
+        },
+        {
+          "title": "Tracking issue for release notes of #159960: Allow `UnsafeCell` content access without `get` in `invalid_reference_casting` lint",
+          "number": 160260,
+          "html_url": "https://github.com/rust-lang/rust/issues/160260",
+          "days_ago": 0
+        },
+        {
+          "title": "Tracking issue for release notes of #159513: Consider `()` as suspicious only when expecting `!` for runtime symbols",
+          "number": 160265,
+          "html_url": "https://github.com/rust-lang/rust/issues/160265",
+          "days_ago": 0
+        },
+        {
+          "title": "hermit/fs: Return `unsupported()` instead of `from_raw_os_error(22)`",
+          "number": 158247,
+          "html_url": "https://github.com/rust-lang/rust/pull/158247",
+          "days_ago": 1
+        },
+        {
+          "title": "Allow `UnsafeCell` content access without `get` in `invalid_reference_casting` lint",
+          "number": 159960,
+          "html_url": "https://github.com/rust-lang/rust/pull/159960",
+          "days_ago": 3
+        },
+        {
           "title": "Split non-local `semicolon_in_expressions_from_macros` into a separate lint",
           "number": 159700,
           "html_url": "https://github.com/rust-lang/rust/pull/159700",
+          "days_ago": 5
+        },
+        {
+          "title": "allow accessing the contents of UnsafeCell without going through get",
+          "number": 159730,
+          "html_url": "https://github.com/rust-lang/rust/pull/159730",
           "days_ago": 5
         },
         {
@@ -1449,16 +1485,22 @@
           "days_ago": 7
         },
         {
+          "title": "Promote riscv64-unknown-linux-musl to tier 2 with host tools",
+          "number": 158766,
+          "html_url": "https://github.com/rust-lang/rust/pull/158766",
+          "days_ago": 7
+        },
+        {
+          "title": "Abort const-eval queries early when there are generics in the type",
+          "number": 159504,
+          "html_url": "https://github.com/rust-lang/rust/pull/159504",
+          "days_ago": 8
+        },
+        {
           "title": "Convert `-Ctarget-cpu` into a target-modifier for AVR, AMDGCN and NVPTX ",
           "number": 150732,
           "html_url": "https://github.com/rust-lang/rust/pull/150732",
           "days_ago": 11
-        },
-        {
-          "title": "Implement `#[diagnostic::opaque]` attribute to hide backtraces of macros.",
-          "number": 158608,
-          "html_url": "https://github.com/rust-lang/rust/pull/158608",
-          "days_ago": 16
         },
         {
           "title": "semicolon_in_expressions_from_macros: Lint on non-local macros too",
@@ -2180,7 +2222,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 176
+      "days_old": 177
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
