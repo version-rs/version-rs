@@ -1437,6 +1437,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "rustfmt: Format `cfg_select!`",
+          "number": 154202,
+          "html_url": "https://github.com/rust-lang/rust/pull/154202",
+          "days_ago": 1
+        },
+        {
           "title": "Tracking issue for release notes of #158608: Implement `#[diagnostic::opaque]` attribute to hide backtraces of macros.",
           "number": 159824,
           "html_url": "https://github.com/rust-lang/rust/issues/159824",
@@ -1835,8 +1841,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
