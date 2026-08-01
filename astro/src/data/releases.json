@@ -1381,49 +1381,49 @@
           "title": "Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`",
           "number": 146561,
           "html_url": "https://github.com/rust-lang/rust/pull/146561",
-          "days_ago": 33
+          "days_ago": 34
         },
         {
           "title": "Update mingw-w64 C toolchain",
           "number": 158020,
           "html_url": "https://github.com/rust-lang/rust/pull/158020",
-          "days_ago": 36
+          "days_ago": 37
         },
         {
           "title": "Document that `ManuallyDrop`'s `Box` interaction has been fixed",
           "number": 155750,
           "html_url": "https://github.com/rust-lang/rust/pull/155750",
-          "days_ago": 46
+          "days_ago": 47
         },
         {
           "title": "Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing",
           "number": 157201,
           "html_url": "https://github.com/rust-lang/rust/pull/157201",
-          "days_ago": 48
+          "days_ago": 49
         },
         {
           "title": "Tracking issue for release notes of #157577: Fix parser error recovery treating 'dyn' as a strict keyword in Rust …",
           "number": 157579,
           "html_url": "https://github.com/rust-lang/rust/issues/157579",
-          "days_ago": 53
+          "days_ago": 54
         },
         {
           "title": "remove solaris implementation for File::lock, it has the wrong semantics",
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
-          "days_ago": 54
+          "days_ago": 55
         },
         {
           "title": "Remove -Zemscripten-wasm-eh",
           "number": 156928,
           "html_url": "https://github.com/rust-lang/rust/pull/156928",
-          "days_ago": 58
+          "days_ago": 59
         },
         {
           "title": "Implement fast path for `derive(PartialOrd)` when deriving `Ord`",
           "number": 155598,
           "html_url": "https://github.com/rust-lang/rust/pull/155598",
-          "days_ago": 68
+          "days_ago": 69
         }
       ]
     },
@@ -1440,97 +1440,97 @@
           "title": "Tracking issue for release notes of #158608: Implement `#[diagnostic::opaque]` attribute to hide backtraces of macros.",
           "number": 159824,
           "html_url": "https://github.com/rust-lang/rust/issues/159824",
-          "days_ago": 0
+          "days_ago": 1
         },
         {
           "title": "Tracking issue for release notes of #159960: Allow `UnsafeCell` content access without `get` in `invalid_reference_casting` lint",
           "number": 160260,
           "html_url": "https://github.com/rust-lang/rust/issues/160260",
-          "days_ago": 0
+          "days_ago": 1
         },
         {
           "title": "Tracking issue for release notes of #159513: Consider `()` as suspicious only when expecting `!` for runtime symbols",
           "number": 160265,
           "html_url": "https://github.com/rust-lang/rust/issues/160265",
-          "days_ago": 0
+          "days_ago": 1
         },
         {
           "title": "hermit/fs: Return `unsupported()` instead of `from_raw_os_error(22)`",
           "number": 158247,
           "html_url": "https://github.com/rust-lang/rust/pull/158247",
-          "days_ago": 1
+          "days_ago": 2
         },
         {
           "title": "Allow `UnsafeCell` content access without `get` in `invalid_reference_casting` lint",
           "number": 159960,
           "html_url": "https://github.com/rust-lang/rust/pull/159960",
-          "days_ago": 3
+          "days_ago": 4
         },
         {
           "title": "Split non-local `semicolon_in_expressions_from_macros` into a separate lint",
           "number": 159700,
           "html_url": "https://github.com/rust-lang/rust/pull/159700",
-          "days_ago": 5
+          "days_ago": 6
         },
         {
           "title": "allow accessing the contents of UnsafeCell without going through get",
           "number": 159730,
           "html_url": "https://github.com/rust-lang/rust/pull/159730",
-          "days_ago": 5
+          "days_ago": 6
         },
         {
           "title": "rustfmt: Discover modules via `cfg_select!`",
           "number": 158372,
           "html_url": "https://github.com/rust-lang/rust/pull/158372",
-          "days_ago": 7
+          "days_ago": 8
         },
         {
           "title": "Promote riscv64-unknown-linux-musl to tier 2 with host tools",
           "number": 158766,
           "html_url": "https://github.com/rust-lang/rust/pull/158766",
-          "days_ago": 7
+          "days_ago": 8
         },
         {
           "title": "Abort const-eval queries early when there are generics in the type",
           "number": 159504,
           "html_url": "https://github.com/rust-lang/rust/pull/159504",
-          "days_ago": 8
+          "days_ago": 9
         },
         {
           "title": "Convert `-Ctarget-cpu` into a target-modifier for AVR, AMDGCN and NVPTX ",
           "number": 150732,
           "html_url": "https://github.com/rust-lang/rust/pull/150732",
-          "days_ago": 11
+          "days_ago": 12
         },
         {
           "title": "semicolon_in_expressions_from_macros: Lint on non-local macros too",
           "number": 159222,
           "html_url": "https://github.com/rust-lang/rust/pull/159222",
-          "days_ago": 16
+          "days_ago": 17
         },
         {
           "title": "Tracking issue for release notes of #158325: Document NonNull layout guarantees",
           "number": 159198,
           "html_url": "https://github.com/rust-lang/rust/issues/159198",
-          "days_ago": 18
+          "days_ago": 19
         },
         {
           "title": "Add `Step::forward/backward_overflowing` to enable RangeInclusive loop optimizations",
           "number": 155114,
           "html_url": "https://github.com/rust-lang/rust/pull/155114",
-          "days_ago": 22
+          "days_ago": 23
         },
         {
           "title": "Implement `IntoIterator` for `[&[mut]] Box<[T; N], A>`",
           "number": 134021,
           "html_url": "https://github.com/rust-lang/rust/pull/134021",
-          "days_ago": 26
+          "days_ago": 27
         },
         {
           "title": "Tracking issue for release notes of #156976: enable eager `param_env` norm in new solver",
           "number": 158528,
           "html_url": "https://github.com/rust-lang/rust/issues/158528",
-          "days_ago": 28
+          "days_ago": 29
         }
       ]
     }
@@ -1588,7 +1588,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize `c_variadic_naked_functions`",
@@ -1835,8 +1835,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "disposition-merge",
@@ -2080,7 +2080,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -2143,7 +2143,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 134
+      "days_old": 135
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2264,7 +2264,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 179
+      "days_old": 180
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2572,7 +2572,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 415
+      "days_old": 416
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
