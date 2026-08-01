@@ -1437,6 +1437,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #159503: allocations: document that they can be read-only",
+          "number": 160319,
+          "html_url": "https://github.com/rust-lang/rust/issues/160319",
+          "days_ago": 0
+        },
+        {
           "title": "rustfmt: Format `cfg_select!`",
           "number": 154202,
           "html_url": "https://github.com/rust-lang/rust/pull/154202",
@@ -1831,55 +1837,6 @@
       "days_old": 34
     },
     {
-      "title": "stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
-      "number": 157572,
-      "url": "https://github.com/rust-lang/rust/pull/157572",
-      "updated_at": "2026-06-07T13:18:14+00:00",
-      "labels": [
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "T-opsem",
-          "description": "Relevant to the opsem team"
-        },
-        {
-          "name": "I-lang-radar",
-          "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "waived-reference-pr",
-          "description": "This language change does not need a Reference PR."
-        }
-      ],
-      "days_old": 55
-    },
-    {
       "title": "Stabilize `optimize` attribute",
       "number": 157273,
       "url": "https://github.com/rust-lang/rust/pull/157273",
@@ -2232,7 +2189,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 177
+      "days_old": 178
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2603,7 +2560,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 424
+      "days_old": 425
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2644,7 +2601,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 463
+      "days_old": 464
     },
     {
       "title": "Stabilize `offset_of_slice`",
