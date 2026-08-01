@@ -1567,7 +1567,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1912,7 +1912,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 62
+      "days_old": 63
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1953,7 +1953,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 94
+      "days_old": 95
     },
     {
       "title": "stabilize never type",
@@ -2072,7 +2072,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 119
+      "days_old": 120
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2143,7 +2143,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 152
+      "days_old": 153
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2465,7 +2465,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 333
+      "days_old": 334
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
