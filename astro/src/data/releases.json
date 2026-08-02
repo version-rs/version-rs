@@ -1781,7 +1781,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 32
+      "days_old": 33
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -2089,7 +2089,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 133
+      "days_old": 134
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2168,7 +2168,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2301,7 +2301,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 228
+      "days_old": 229
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2506,7 +2506,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 406
+      "days_old": 407
     },
     {
       "title": "Stabilize the `breakpoint` function",
