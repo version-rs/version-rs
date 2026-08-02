@@ -1567,7 +1567,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1675,51 +1675,6 @@
         }
       ],
       "days_old": 13
-    },
-    {
-      "title": "Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
-      "number": 159525,
-      "url": "https://github.com/rust-lang/rust/pull/159525",
-      "updated_at": "2026-07-18T15:15:08+00:00",
-      "labels": [
-        {
-          "name": "A-inline-assembly",
-          "description": "Area: Inline assembly (`asm!(…)`)"
-        },
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "I-lang-radar",
-          "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "has-reference-pr",
-          "description": "This language change has an approved Reference PR."
-        }
-      ],
-      "days_old": 15
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -1912,7 +1867,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 63
+      "days_old": 64
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1953,7 +1908,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 95
+      "days_old": 96
     },
     {
       "title": "stabilize never type",
@@ -2072,7 +2027,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 120
+      "days_old": 121
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2143,7 +2098,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 153
+      "days_old": 154
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2465,7 +2420,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 334
+      "days_old": 335
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
