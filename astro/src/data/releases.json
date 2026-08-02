@@ -1719,7 +1719,7 @@
           "description": "This language change has an approved Reference PR."
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2626,7 +2626,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 477
+      "days_old": 478
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
