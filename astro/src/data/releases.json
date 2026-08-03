@@ -1549,6 +1549,23 @@
   ],
   "stabilization_prs": [
     {
+      "title": "stabilize `Box::take`",
+      "number": 160436,
+      "url": "https://github.com/rust-lang/rust/pull/160436",
+      "updated_at": "2026-08-03T13:09:23+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `bool::toggle`",
       "number": 160299,
       "url": "https://github.com/rust-lang/rust/pull/160299",
@@ -2581,7 +2598,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 478
+      "days_old": 479
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
