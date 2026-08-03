@@ -1402,6 +1402,12 @@
           "days_ago": 51
         },
         {
+          "title": "Add powerpc64-unknown-linux-gnuelfv2 target",
+          "number": 144220,
+          "html_url": "https://github.com/rust-lang/rust/pull/144220",
+          "days_ago": 52
+        },
+        {
           "title": "Tracking issue for release notes of #157577: Fix parser error recovery treating 'dyn' as a strict keyword in Rust …",
           "number": 157579,
           "html_url": "https://github.com/rust-lang/rust/issues/157579",
@@ -1592,7 +1598,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1892,7 +1898,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 64
+      "days_old": 65
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -1933,7 +1939,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 96
+      "days_old": 97
     },
     {
       "title": "stabilize never type",
@@ -2123,7 +2129,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 154
+      "days_old": 155
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2326,7 +2332,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 269
+      "days_old": 270
     },
     {
       "title": "Stabilize Frontmatter",
