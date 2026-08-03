@@ -1869,7 +1869,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 62
+      "days_old": 63
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2246,7 +2246,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 212
+      "days_old": 213
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2377,7 +2377,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 283
+      "days_old": 284
     },
     {
       "title": "Stabilize stack-protector",
@@ -2653,7 +2653,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 607
+      "days_old": 608
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
