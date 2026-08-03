@@ -1555,12 +1555,20 @@
       "updated_at": "2026-08-03T13:09:23+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "needs-fcp",
+          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "I-libs-api-nominated",
+          "description": "Nominated for discussion during a libs-api team meeting."
+        },
+        {
+          "name": "S-waiting-on-t-libs-api",
+          "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
       "days_old": 0
@@ -2044,7 +2052,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 121
+      "days_old": 122
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2161,7 +2169,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 179
+      "days_old": 180
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2437,7 +2445,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 335
+      "days_old": 336
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2532,7 +2540,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 426
+      "days_old": 427
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2573,7 +2581,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 465
+      "days_old": 466
     },
     {
       "title": "Stabilize `offset_of_slice`",
