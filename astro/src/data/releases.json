@@ -1573,16 +1573,16 @@
       "updated_at": "2026-08-03T13:09:23+00:00",
       "labels": [
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-api-nominated",
-          "description": "Nominated for discussion during a libs-api team meeting."
         },
         {
           "name": "S-waiting-on-t-libs-api",
@@ -1631,8 +1631,12 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "T-libs",
@@ -2191,7 +2195,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 180
+      "days_old": 181
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2562,7 +2566,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 427
+      "days_old": 428
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2603,7 +2607,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 466
+      "days_old": 467
     },
     {
       "title": "Stabilize `offset_of_slice`",
