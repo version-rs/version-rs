@@ -1443,6 +1443,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "When suggesting method names, prefer *exact* doc aliases over similar names",
+          "number": 160369,
+          "html_url": "https://github.com/rust-lang/rust/pull/160369",
+          "days_ago": 0
+        },
+        {
           "title": "Tracking issue for release notes of #159503: allocations: document that they can be read-only",
           "number": 160319,
           "html_url": "https://github.com/rust-lang/rust/issues/160319",
@@ -1515,6 +1521,12 @@
           "days_ago": 12
         },
         {
+          "title": "Stabilize c-variadic function definitions",
+          "number": 155697,
+          "html_url": "https://github.com/rust-lang/rust/pull/155697",
+          "days_ago": 13
+        },
+        {
           "title": "Convert `-Ctarget-cpu` into a target-modifier for AVR, AMDGCN and NVPTX ",
           "number": 150732,
           "html_url": "https://github.com/rust-lang/rust/pull/150732",
@@ -1577,7 +1589,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `bool::toggle`",
@@ -2616,7 +2628,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 479
+      "days_old": 480
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
