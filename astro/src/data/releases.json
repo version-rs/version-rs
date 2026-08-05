@@ -2252,7 +2252,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 181
+      "days_old": 182
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
