@@ -1633,7 +1633,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize `bool::toggle`",
@@ -1844,8 +1844,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1876,8 +1876,8 @@
           "description": "`#![feature(abi_custom)]`"
         },
         {
-          "name": "needs-reference-pr",
-          "description": "This language change needs an approved Reference PR to proceed."
+          "name": "has-reference-pr",
+          "description": "This language change has an approved Reference PR."
         }
       ],
       "days_old": 38
@@ -2668,7 +2668,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 480
+      "days_old": 481
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
