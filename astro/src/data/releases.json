@@ -1651,7 +1651,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `bool::toggle`",
@@ -2686,7 +2686,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 481
+      "days_old": 482
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
