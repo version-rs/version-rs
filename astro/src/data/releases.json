@@ -1461,6 +1461,12 @@
           "days_ago": 5
         },
         {
+          "title": "Box::leak: tell people to avoid unleaking",
+          "number": 160323,
+          "html_url": "https://github.com/rust-lang/rust/pull/160323",
+          "days_ago": 5
+        },
+        {
           "title": "rustfmt: Format `cfg_select!`",
           "number": 154202,
           "html_url": "https://github.com/rust-lang/rust/pull/154202",
@@ -2264,7 +2270,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 182
+      "days_old": 183
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
