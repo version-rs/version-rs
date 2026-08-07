@@ -1396,6 +1396,12 @@
           "days_ago": 0
         },
         {
+          "title": "rustfmt: Discover modules via `cfg_select!`",
+          "number": 158372,
+          "html_url": "https://github.com/rust-lang/rust/pull/158372",
+          "days_ago": 14
+        },
+        {
           "title": "stabilize `feature(atomic_from_mut)`",
           "number": 158573,
           "html_url": "https://github.com/rust-lang/rust/pull/158573",
@@ -1573,12 +1579,6 @@
           "number": 159730,
           "html_url": "https://github.com/rust-lang/rust/pull/159730",
           "days_ago": 12
-        },
-        {
-          "title": "rustfmt: Discover modules via `cfg_select!`",
-          "number": 158372,
-          "html_url": "https://github.com/rust-lang/rust/pull/158372",
-          "days_ago": 14
         },
         {
           "title": "Promote riscv64-unknown-linux-musl to tier 2 with host tools",
@@ -2309,7 +2309,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 183
+      "days_old": 184
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2721,7 +2721,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 469
+      "days_old": 470
     },
     {
       "title": "Stabilize `offset_of_slice`",
