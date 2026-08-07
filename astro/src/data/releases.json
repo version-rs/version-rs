@@ -1597,7 +1597,7 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "stabilize smart pointer map functions",
