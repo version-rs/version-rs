@@ -1686,7 +1686,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize `Box::take`",
@@ -1769,7 +1769,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "stabilize `c_variadic_naked_functions`",
@@ -1958,7 +1958,7 @@
           "description": "This language change has an approved Reference PR."
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Stabilize `optimize` attribute",
