@@ -1384,6 +1384,12 @@
           "days_ago": 37
         },
         {
+          "title": "Introduce aarch64-unknown-linux-pauthtest target",
+          "number": 155722,
+          "html_url": "https://github.com/rust-lang/rust/pull/155722",
+          "days_ago": 38
+        },
+        {
           "title": "Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`",
           "number": 146561,
           "html_url": "https://github.com/rust-lang/rust/pull/146561",
@@ -1394,6 +1400,12 @@
           "number": 158020,
           "html_url": "https://github.com/rust-lang/rust/pull/158020",
           "days_ago": 43
+        },
+        {
+          "title": "Stabilize `int_format_into` feature",
+          "number": 152544,
+          "html_url": "https://github.com/rust-lang/rust/pull/152544",
+          "days_ago": 53
         },
         {
           "title": "Document that `ManuallyDrop`'s `Box` interaction has been fixed",
@@ -1424,6 +1436,12 @@
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
           "days_ago": 61
+        },
+        {
+          "title": "Promotes 5 Thumb-mode bare-metal Arm targets to Tier 2",
+          "number": 155763,
+          "html_url": "https://github.com/rust-lang/rust/pull/155763",
+          "days_ago": 65
         },
         {
           "title": "Remove -Zemscripten-wasm-eh",
@@ -1806,7 +1824,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 34
+      "days_old": 35
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1851,7 +1869,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 37
+      "days_old": 38
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -2367,7 +2385,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 233
+      "days_old": 234
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2502,7 +2520,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 331
+      "days_old": 332
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2572,7 +2590,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 411
+      "days_old": 412
     },
     {
       "title": "Stabilize the `breakpoint` function",
