@@ -1378,6 +1378,12 @@
       "release_name": "beta",
       "issues": [
         {
+          "title": "stabilize `feature(atomic_from_mut)`",
+          "number": 158573,
+          "html_url": "https://github.com/rust-lang/rust/pull/158573",
+          "days_ago": 37
+        },
+        {
           "title": "Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`",
           "number": 146561,
           "html_url": "https://github.com/rust-lang/rust/pull/146561",
