@@ -1786,10 +1786,6 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
@@ -1798,8 +1794,16 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
           "name": "F-c_variadic",
           "description": "`#![feature(c_variadic)]`"
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "I-lang-radar",
