@@ -2028,7 +2028,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 67
+      "days_old": 68
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2409,7 +2409,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 217
+      "days_old": 218
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2495,7 +2495,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 274
+      "days_old": 275
     },
     {
       "title": "Stabilize Frontmatter",
