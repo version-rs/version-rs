@@ -1711,7 +1711,7 @@
           "description": "Status: Awaiting decision from T-libs-api"
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `bool::toggle`",
@@ -1905,7 +1905,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 38
+      "days_old": 39
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -2205,7 +2205,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 139
+      "days_old": 140
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2288,7 +2288,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 168
+      "days_old": 169
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
