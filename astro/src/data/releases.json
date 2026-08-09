@@ -1971,6 +1971,10 @@
           "description": "Announce this issue on triage meeting"
         },
         {
+          "name": "I-lang-nominated",
+          "description": "Nominated for discussion during a lang team meeting."
+        },
+        {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
