@@ -1835,8 +1835,8 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
         {
-          "name": "needs-reference-pr",
-          "description": "This language change needs an approved Reference PR to proceed."
+          "name": "has-reference-pr",
+          "description": "This language change has an approved Reference PR."
         }
       ],
       "days_old": 17
@@ -2363,7 +2363,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 185
+      "days_old": 186
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
