@@ -1661,7 +1661,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -2717,7 +2717,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 432
+      "days_old": 433
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2758,7 +2758,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 471
+      "days_old": 472
     },
     {
       "title": "Stabilize `offset_of_slice`",
