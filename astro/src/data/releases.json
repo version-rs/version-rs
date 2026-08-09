@@ -1811,8 +1811,12 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "relnotes",
+          "description": "Marks issues that should be documented in the release notes of the next release."
+        },
+        {
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
