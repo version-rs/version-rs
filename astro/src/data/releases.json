@@ -1509,6 +1509,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Stabilize fs_set_times",
+          "number": 160820,
+          "html_url": "https://github.com/rust-lang/rust/pull/160820",
+          "days_ago": 0
+        },
+        {
           "title": "stabilize `c_variadic_naked_functions`",
           "number": 159746,
           "html_url": "https://github.com/rust-lang/rust/pull/159746",
@@ -1644,27 +1650,6 @@
     }
   ],
   "stabilization_prs": [
-    {
-      "title": "Stabilize fs_set_times",
-      "number": 160820,
-      "url": "https://github.com/rust-lang/rust/pull/160820",
-      "updated_at": "2026-08-09T22:15:29+00:00",
-      "labels": [
-        {
-          "name": "relnotes",
-          "description": "Marks issues that should be documented in the release notes of the next release."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 0
-    },
     {
       "title": "Stabilise `abort_immediate`",
       "number": 160766,
@@ -2345,7 +2330,7 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         }
       ],
-      "days_old": 186
+      "days_old": 187
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
