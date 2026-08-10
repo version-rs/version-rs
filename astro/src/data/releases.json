@@ -1723,7 +1723,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "stabilize `Box::take`",
@@ -1806,7 +1806,7 @@
           "description": "Nominated for discussion during a libs-api team meeting."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
