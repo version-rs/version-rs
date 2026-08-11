@@ -2024,7 +2024,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 72
+      "days_old": 73
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -2255,7 +2255,7 @@
           "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
