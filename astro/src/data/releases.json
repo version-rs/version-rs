@@ -2184,7 +2184,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 129
+      "days_old": 130
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2577,7 +2577,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 343
+      "days_old": 344
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
