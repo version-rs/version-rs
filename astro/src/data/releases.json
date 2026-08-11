@@ -1769,7 +1769,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1995,7 +1995,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 70
+      "days_old": 71
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2065,7 +2065,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 104
+      "days_old": 105
     },
     {
       "title": "stabilize never type",
@@ -2210,8 +2210,12 @@
       "updated_at": "2026-03-19T01:30:45+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "relnotes",
+          "description": "Marks issues that should be documented in the release notes of the next release."
+        },
+        {
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -2372,7 +2376,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 220
+      "days_old": 221
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2458,7 +2462,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 277
+      "days_old": 278
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2503,7 +2507,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 291
+      "days_old": 292
     },
     {
       "title": "Stabilize stack-protector",
