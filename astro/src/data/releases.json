@@ -1835,7 +1835,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2214,8 +2214,8 @@
           "description": "Marks issues that should be documented in the release notes of the next release."
         },
         {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "T-libs",
@@ -2783,7 +2783,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 615
+      "days_old": 616
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
