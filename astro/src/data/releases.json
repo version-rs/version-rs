@@ -1786,7 +1786,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1992,7 +1992,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 71
+      "days_old": 72
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2369,7 +2369,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 221
+      "days_old": 222
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2455,7 +2455,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 278
+      "days_old": 279
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2500,7 +2500,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 292
+      "days_old": 293
     },
     {
       "title": "Stabilize stack-protector",
