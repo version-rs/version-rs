@@ -1869,7 +1869,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 39
+      "days_old": 40
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1914,7 +1914,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 42
+      "days_old": 43
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -2438,7 +2438,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 238
+      "days_old": 239
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2573,7 +2573,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 336
+      "days_old": 337
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2643,7 +2643,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 416
+      "days_old": 417
     },
     {
       "title": "Stabilize the `breakpoint` function",
