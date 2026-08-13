@@ -1468,6 +1468,12 @@
           "days_ago": 62
         },
         {
+          "title": "Resolver: Batched Import Resolution",
+          "number": 145108,
+          "html_url": "https://github.com/rust-lang/rust/pull/145108",
+          "days_ago": 66
+        },
+        {
           "title": "Tracking issue for release notes of #157577: Fix parser error recovery treating 'dyn' as a strict keyword in Rust …",
           "number": 157579,
           "html_url": "https://github.com/rust-lang/rust/issues/157579",
@@ -1755,7 +1761,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -2355,7 +2361,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 189
+      "days_old": 190
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2722,7 +2728,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 436
+      "days_old": 437
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2763,7 +2769,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 475
+      "days_old": 476
     },
     {
       "title": "Stabilize `offset_of_slice`",
