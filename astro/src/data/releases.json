@@ -1509,6 +1509,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #154202: rustfmt: Format `cfg_select!`",
+          "number": 160321,
+          "html_url": "https://github.com/rust-lang/rust/issues/160321",
+          "days_ago": 0
+        },
+        {
           "title": "Stabilize fs_set_times",
           "number": 160820,
           "html_url": "https://github.com/rust-lang/rust/pull/160820",
@@ -1650,6 +1656,39 @@
     }
   ],
   "stabilization_prs": [
+    {
+      "title": "Stabilize `funnel_shifts` (including `const`)",
+      "number": 161015,
+      "url": "https://github.com/rust-lang/rust/pull/161015",
+      "updated_at": "2026-08-13T01:55:25+00:00",
+      "labels": [
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "needs-fcp",
+          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "I-lang-nominated",
+          "description": "Nominated for discussion during a lang team meeting."
+        },
+        {
+          "name": "I-libs-api-nominated",
+          "description": "[DEPRECATED; DO NOT USE]"
+        }
+      ],
+      "days_old": 0
+    },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
       "number": 160951,
@@ -2156,7 +2195,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 129
+      "days_old": 130
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -2223,7 +2262,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 146
+      "days_old": 147
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2340,7 +2379,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 191
+      "days_old": 192
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
