@@ -1521,6 +1521,12 @@
           "days_ago": 3
         },
         {
+          "title": "Introduce a `PinSafePointer` trait that generalizes `PinCoerceUnsized`",
+          "number": 156935,
+          "html_url": "https://github.com/rust-lang/rust/pull/156935",
+          "days_ago": 4
+        },
+        {
           "title": "stabilize `c_variadic_naked_functions`",
           "number": 159746,
           "html_url": "https://github.com/rust-lang/rust/pull/159746",
@@ -1904,7 +1910,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1937,7 +1943,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 43
+      "days_old": 44
     },
     {
       "title": "Stabilize `extern \"custom\"`",
@@ -2449,7 +2455,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 239
+      "days_old": 240
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2584,7 +2590,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 337
+      "days_old": 338
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2650,7 +2656,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 417
+      "days_old": 418
     },
     {
       "title": "Stabilize the `breakpoint` function",
