@@ -1515,6 +1515,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Enable `static_position_independent_executables` on all gnu targets",
+          "number": 158510,
+          "html_url": "https://github.com/rust-lang/rust/pull/158510",
+          "days_ago": 0
+        },
+        {
           "title": "Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2",
           "number": 160765,
           "html_url": "https://github.com/rust-lang/rust/issues/160765",
@@ -2371,7 +2377,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 190
+      "days_old": 191
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2779,7 +2785,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 476
+      "days_old": 477
     },
     {
       "title": "Stabilize `offset_of_slice`",
