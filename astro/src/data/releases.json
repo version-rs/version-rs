@@ -1819,7 +1819,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "stabilize `Box::take`",
@@ -1890,7 +1890,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -2026,7 +2026,7 @@
           "description": "This language change has an approved Reference PR."
         }
       ],
-      "days_old": 47
+      "days_old": 48
     },
     {
       "title": "Stabilize `optimize` attribute",
