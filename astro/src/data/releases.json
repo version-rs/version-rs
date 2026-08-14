@@ -2096,7 +2096,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 75
+      "days_old": 76
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -2331,7 +2331,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 165
+      "days_old": 166
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
