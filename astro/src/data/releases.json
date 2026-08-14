@@ -1515,6 +1515,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2",
+          "number": 160765,
+          "html_url": "https://github.com/rust-lang/rust/issues/160765",
+          "days_ago": 0
+        },
+        {
           "title": "Tracking issue for release notes of #154202: rustfmt: Format `cfg_select!`",
           "number": 160321,
           "html_url": "https://github.com/rust-lang/rust/issues/160321",
@@ -2382,7 +2388,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 190
+      "days_old": 191
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
