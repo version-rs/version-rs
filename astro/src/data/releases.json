@@ -1838,7 +1838,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `bool::toggle`",
@@ -2188,6 +2188,10 @@
           "description": "Area: Rustdoc's JS front-end"
         },
         {
+          "name": "WG-trait-system-refactor",
+          "description": "The Rustc Trait System Refactor Initiative (-Znext-solver)"
+        },
+        {
           "name": "T-rustdoc-frontend",
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         },
@@ -2267,7 +2271,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 145
+      "days_old": 146
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2346,7 +2350,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 174
+      "days_old": 175
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
