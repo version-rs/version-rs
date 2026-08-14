@@ -1748,7 +1748,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilise `abort_immediate`",
@@ -1990,8 +1990,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2218,7 +2218,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
