@@ -1844,7 +1844,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `bool::toggle`",
@@ -1974,59 +1974,6 @@
         }
       ],
       "days_old": 46
-    },
-    {
-      "title": "Stabilize `extern \"custom\"`",
-      "number": 158504,
-      "url": "https://github.com/rust-lang/rust/pull/158504",
-      "updated_at": "2026-06-27T23:01:28+00:00",
-      "labels": [
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "I-lang-radar",
-          "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "A-compiler-builtins",
-          "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
-        },
-        {
-          "name": "F-abi_custom",
-          "description": "`#![feature(abi_custom)]`"
-        },
-        {
-          "name": "has-reference-pr",
-          "description": "This language change has an approved Reference PR."
-        }
-      ],
-      "days_old": 48
     },
     {
       "title": "Stabilize `optimize` attribute",
