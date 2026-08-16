@@ -1940,7 +1940,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 43
+      "days_old": 44
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2060,10 +2060,6 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
@@ -2072,8 +2068,16 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
           "name": "needs-fcp",
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "A-rust-for-linux",
@@ -2571,7 +2575,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 340
+      "days_old": 341
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
