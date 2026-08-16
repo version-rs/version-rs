@@ -1965,6 +1965,10 @@
           "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         },
         {
+          "name": "S-waiting-on-MCP",
+          "description": "Status: PR has a compiler MCP and is waiting for the compiler MCP to complete."
+        },
+        {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         },
@@ -2761,7 +2765,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 491
+      "days_old": 492
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
