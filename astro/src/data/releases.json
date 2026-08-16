@@ -2047,7 +2047,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 77
+      "days_old": 78
     },
     {
       "title": "Stabilize `-Zprofile-sample-use`",
@@ -2215,7 +2215,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 134
+      "days_old": 135
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2286,7 +2286,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 167
+      "days_old": 168
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2604,7 +2604,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 348
+      "days_old": 349
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
