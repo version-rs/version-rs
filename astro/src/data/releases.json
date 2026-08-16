@@ -1973,7 +1973,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 46
+      "days_old": 47
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2060,8 +2060,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "disposition-merge",
@@ -2228,7 +2228,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 147
+      "days_old": 148
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2307,7 +2307,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 176
+      "days_old": 177
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2440,7 +2440,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 242
+      "days_old": 243
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2641,7 +2641,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 420
+      "days_old": 421
     },
     {
       "title": "Stabilize the `breakpoint` function",
