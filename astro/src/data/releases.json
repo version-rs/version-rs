@@ -1752,7 +1752,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilise `abort_immediate`",
@@ -1923,7 +1923,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 27
+      "days_old": 28
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2165,7 +2165,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 119
+      "days_old": 120
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
