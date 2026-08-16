@@ -1861,7 +1861,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -2064,8 +2064,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2076,23 +2076,15 @@
           "description": "The final comment period is finished for this PR / Issue."
         },
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
-        },
-        {
           "name": "to-announce",
           "description": "Announce this issue on triage meeting"
         },
         {
           "name": "A-rust-for-linux",
           "description": "Relevant for the Rust-for-Linux project"
-        },
-        {
-          "name": "S-waiting-on-t-compiler",
-          "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 109
+      "days_old": 110
     },
     {
       "title": "stabilize never type",
