@@ -2050,43 +2050,6 @@
       "days_old": 78
     },
     {
-      "title": "Stabilize `-Zprofile-sample-use`",
-      "number": 155942,
-      "url": "https://github.com/rust-lang/rust/pull/155942",
-      "updated_at": "2026-04-28T19:32:24+00:00",
-      "labels": [
-        {
-          "name": "A-LLVM",
-          "description": "Area: Code generation parts specific to LLVM. Both correctness bugs and optimization-related issues."
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "A-rust-for-linux",
-          "description": "Relevant for the Rust-for-Linux project"
-        }
-      ],
-      "days_old": 110
-    },
-    {
       "title": "stabilize never type",
       "number": 155499,
       "url": "https://github.com/rust-lang/rust/pull/155499",
