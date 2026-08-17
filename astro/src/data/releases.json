@@ -2247,7 +2247,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 76
+      "days_old": 77
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2673,7 +2673,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 283
+      "days_old": 284
     },
     {
       "title": "Stabilize Frontmatter",
