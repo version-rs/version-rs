@@ -2044,8 +2044,8 @@
       "updated_at": "2026-08-04T23:42:30+00:00",
       "labels": [
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "disposition-merge",
@@ -2961,7 +2961,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 493
+      "days_old": 494
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
