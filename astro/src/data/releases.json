@@ -1342,270 +1342,49 @@
       "url": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0.html"
     },
     {
+      "version": "1.96.1",
+      "date": "2026-06-30",
+      "is_unreleased": false,
+      "changelog_md": "\n<a id=\"1.96.1\"></a>\n\n- [Cargo: fix timeout/retry behavior](https://github.com/rust-lang/cargo/pull/17131)\n- [Cargo: apply patches for CVE-2025-15661, CVE-2026-55199, and CVE-2026-55200 to libssh2](https://github.com/rust-lang/cargo/pull/17140)\n- [rustc: fix miscompilation in MIR optimization](https://github.com/rust-lang/rust/pull/158214)\n",
+      "weight": 18446744073692749822,
+      "branch_date": "2026-05-22",
+      "url": "https://blog.rust-lang.org/2026/06/30/Rust-1.96.1.html"
+    },
+    {
       "version": "1.97.0",
-      "date": "2026-08-20",
-      "is_unreleased": true,
-      "changelog_md": "",
+      "date": "2026-07-09",
+      "is_unreleased": false,
+      "changelog_md": "\n<a id=\"1.97.0-Language\"></a>\n\nLanguage\n--------\n- [Consider `Result<T, Uninhabited>` and `ControlFlow<Uninhabited, T>` to be equivalent to `T` for must use lint](https://github.com/rust-lang/rust/pull/148214)\n- [Add allow-by-default `dead_code_pub_in_binary` lint for unused pub items in binary crates](https://github.com/rust-lang/rust/pull/149509)\n- [Stabilize the `div32`, `lam-bh`, `lamcas`, `ld-seq-sa` and `scq` target features](https://github.com/rust-lang/rust/pull/154510)\n- [Stabilize `cfg(target_has_atomic_primitive_alignment)`](https://github.com/rust-lang/rust/pull/155006)\n- [Allow trailing `self` in imports in more cases](https://github.com/rust-lang/rust/pull/155137)\n\n\n<a id=\"1.97.0-Platform-Support\"></a>\n\nPlatform Support\n----------------\n- [nvptx64-nvidia-cuda: drop support for old architectures and old ISAs](https://github.com/rust-lang/rust/pull/152443)\n\n\nRefer to Rust's [platform support page][platform-support-doc]\nfor more information on Rust's tiered platform support.\n\n[platform-support-doc]: https://doc.rust-lang.org/rustc/platform-support.html\n\n\n<a id=\"1.97.0-Stabilized-APIs\"></a>\n\nStabilized APIs\n---------------\n\n- [`Default for RepeatN`](https://doc.rust-lang.org/stable/std/iter/struct.RepeatN.html#impl-Default-for-RepeatN%3CA%3E)\n- [`Copy for ffi::FromBytesUntilNulError`](https://doc.rust-lang.org/stable/std/ffi/struct.FromBytesUntilNulError.html#impl-Copy-for-FromBytesUntilNulError)\n- [`Send for std::fs::File` on UEFI](https://github.com/rust-lang/rust/pull/154003)\n- [`<{integer}>::isolate_highest_one`](https://doc.rust-lang.org/stable/std/primitive.u32.html#method.isolate_highest_one)\n- [`<{integer}>::isolate_lowest_one`](https://doc.rust-lang.org/stable/std/primitive.u32.html#method.isolate_lowest_one)\n- [`<{integer}>::highest_one`](https://doc.rust-lang.org/stable/std/primitive.u32.html#method.highest_one)\n- [`<{integer}>::lowest_one`](https://doc.rust-lang.org/stable/std/primitive.u32.html#method.lowest_one)\n- [`<{integer}>::bit_width`](https://doc.rust-lang.org/stable/std/primitive.u32.html#method.bit_width)\n- [`NonZero<{integer}>::isolate_highest_one`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.isolate_highest_one)\n- [`NonZero<{integer}>::isolate_lowest_one`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.isolate_lowest_one)\n- [`NonZero<{integer}>::highest_one`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.highest_one)\n- [`NonZero<{integer}>::lowest_one`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.lowest_one)\n- [`NonZero<{integer}>::bit_width`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.bit_width)\n\n\nThese previously stable APIs are now stable in const contexts:\n\n- [`char::is_control`](https://doc.rust-lang.org/stable/std/primitive.char.html#method.is_control)\n\n\n<a id=\"1.97.0-Cargo\"></a>\n\nCargo\n-----\n- [Stabilize `build.warnings` config.](https://github.com/rust-lang/cargo/pull/16796) This controls how lint warnings from local packages are treated. Useful for enforcing a warning-free build in CI, replacing `-Dwarnings`. [docs](https://doc.rust-lang.org/nightly/cargo/reference/config.html#buildwarnings)\n- [Stabilize `resolver.lockfile-path` config.](https://github.com/rust-lang/cargo/pull/16694) This allows specifying the path to the lockfile to use when resolving dependencies. Useful when working with read-only source directories. [docs](https://doc.rust-lang.org/nightly/cargo/reference/config.html#resolverlockfile-path)\n- [cargo-clean: Error when `--target-dir` doesn't look like a Cargo target directory.](https://github.com/rust-lang/cargo/pull/16712) This prevents accidental deletion of non-target directories.\n- [Add `-m` shorthand for `--manifest-path`](https://github.com/rust-lang/cargo/pull/16858)\n- [Remove `curl` dependency from `crates-io` crate](https://github.com/rust-lang/cargo/pull/16936)\n\n<a id=\"1.97.0-Rustdoc\"></a>\n\nRustdoc\n-----\n- [Stabilize `--emit` flag](https://github.com/rust-lang/rust/pull/146220)\n- [Stabilize `--remap-path-prefix`](https://github.com/rust-lang/rust/pull/155307)\n\n\n<a id=\"1.97.0-Compatibility-Notes\"></a>\n\nCompatibility Notes\n-------------------\n- [Emit a future-compatibility warning when relying on `f32: From<{float}>` to constrain `{float}`](https://github.com/rust-lang/rust/pull/139087)\n- [Rust will use the v0 symbol mangling scheme by default.](https://github.com/rust-lang/rust/pull/151994) This may cause some tools (such as debuggers or profilers, especially with old versions) to fail to demangle symbols emitted by Rust. It may also cause the formatting of text in backtraces to change.\n- [Prevent deref coercions in `pin!`, in order to prevent unsoundness.](https://github.com/rust-lang/rust/pull/153457) The most likely case where this might impact users is: writing `pin!(x)` where `x` has type `&mut T` will now always correctly produce a value of type `Pin<&mut &mut T>`, instead of sometimes allowing a coercion that produces a value of type `Pin<&mut T>`. This coercion was previously incorrectly allowed since Rust 1.88.0.\n- [Deprecate `std::char` constants and functions](https://github.com/rust-lang/rust/pull/153873)\n- [Warn on linker output by default](https://github.com/rust-lang/rust/pull/153968)\n- [Remove hidden `f64` methods which have been deprecated since 1.0](https://github.com/rust-lang/rust/pull/153975)\n- [report the `varargs_without_pattern` lint in deps](https://github.com/rust-lang/rust/pull/154599)\n- [Forbid passing generic arguments to module path segments even if the module reexports a generic enum variant](https://github.com/rust-lang/rust/pull/154971)\n- [Error on invalid macho `link_section` specifier](https://github.com/rust-lang/rust/pull/155065)\n- The encoding of certain `enum`s [have changed](https://github.com/rust-lang/rust/pull/155473).  This is not a breaking change, as it only applies to `enum`s without layout guarantees, but is noted here as we've seen people impacted from having made assumptions about the layout algorithm.\n- [Error on `#[export_name = \"...\"]` where the name is empty](https://github.com/rust-lang/rust/pull/155515)\n- [Syntactically reject tuple index shorthands in struct patterns](https://github.com/rust-lang/rust/pull/155698)\n- [validate `#[link_name = \"...\"]` & `#[link(name = \"...\")]` parameters](https://github.com/rust-lang/rust/pull/155817)\n- On Windows, after calling `shutdown` on a socket to shut down the write side, attempting to write to the socket will now produce a `BrokenPipe` error rather than `Other`. [Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`](https://github.com/rust-lang/rust/pull/156063)\n\n",
       "weight": 18446744073692749567,
+      "branch_date": "2026-05-22",
+      "url": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0.html"
+    },
+    {
+      "version": "1.97.1",
+      "date": "2026-07-16",
+      "is_unreleased": false,
+      "changelog_md": "\n<a id=\"1.97.1\"></a>\n\n- [rustc: Fix miscompilation in LLVM optimization](https://github.com/rust-lang/rust/issues/159035)\n  This backports an LLVM submodule bump to include the LLVM-side fix and a\n  revert of the rustc change that is one known trigger for the bug. The rustc\n  side revert should not be strictly necessary but is done out of abundance of caution.\n",
+      "weight": 18446744073692749566,
       "branch_date": "2026-07-03",
-      "release_name": "beta",
-      "issues": [
-        {
-          "title": "Tracking issue for release notes of #148214: Consider `Result<T, Uninhabited>` and `ControlFlow<Uninhabited, T>` to be equivalent to `T` for must use lint",
-          "number": 148215,
-          "html_url": "https://github.com/rust-lang/rust/issues/148215",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #151994: switch to v0 mangling by default on stable",
-          "number": 154199,
-          "html_url": "https://github.com/rust-lang/rust/issues/154199",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #139087: Fallback `{float}` to `f32` when `f32: From<{float}>` and add `impl From<f16> for f32`",
-          "number": 154771,
-          "html_url": "https://github.com/rust-lang/rust/issues/154771",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #154599: report the `varargs_without_pattern` lint in deps",
-          "number": 155156,
-          "html_url": "https://github.com/rust-lang/rust/issues/155156",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #154510: Partially stabilize LoongArch target features",
-          "number": 155157,
-          "html_url": "https://github.com/rust-lang/rust/issues/155157",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #154003: Make std::fs::File Send on UEFI",
-          "number": 155448,
-          "html_url": "https://github.com/rust-lang/rust/issues/155448",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #139690: `impl Default for RepeatN`",
-          "number": 155449,
-          "html_url": "https://github.com/rust-lang/rust/issues/155449",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #153873: deprecate `std::char` constants and functions",
-          "number": 155468,
-          "html_url": "https://github.com/rust-lang/rust/issues/155468",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #154971: Verify that penultimate segment of enum variant path refers to enum if it has args",
-          "number": 155488,
-          "html_url": "https://github.com/rust-lang/rust/issues/155488",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155698: Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression",
-          "number": 155699,
-          "html_url": "https://github.com/rust-lang/rust/issues/155699",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #149509: Lint unused pub items in binary crates",
-          "number": 155780,
-          "html_url": "https://github.com/rust-lang/rust/issues/155780",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155137: Allow trailing `self` in more contexts",
-          "number": 155782,
-          "html_url": "https://github.com/rust-lang/rust/issues/155782",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155065: Error on invalid macho section specifier",
-          "number": 155785,
-          "html_url": "https://github.com/rust-lang/rust/issues/155785",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #153457: prevent deref coercions in `pin!`",
-          "number": 155827,
-          "html_url": "https://github.com/rust-lang/rust/issues/155827",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155528: const-stabilize `char::is_control()`",
-          "number": 156055,
-          "html_url": "https://github.com/rust-lang/rust/issues/156055",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #156063: Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`",
-          "number": 156068,
-          "html_url": "https://github.com/rust-lang/rust/issues/156068",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #152367: Derives `Copy` for `ffi::FromBytesUntilNulError`",
-          "number": 156330,
-          "html_url": "https://github.com/rust-lang/rust/issues/156330",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #153975: remove forever-deprecated and hidden `f64` methods",
-          "number": 156332,
-          "html_url": "https://github.com/rust-lang/rust/issues/156332",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155817: validate `#[link_name = \"...\"]` & `#[link(name = \"...\")]` parameters",
-          "number": 156364,
-          "html_url": "https://github.com/rust-lang/rust/issues/156364",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155515: error on empty `export_name`",
-          "number": 156367,
-          "html_url": "https://github.com/rust-lang/rust/issues/156367",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #146220: feat(rustdoc): stabilize `--emit` flag",
-          "number": 156575,
-          "html_url": "https://github.com/rust-lang/rust/issues/156575",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155006: stabilize `feature(cfg_target_has_atomic_equal_alignment)`",
-          "number": 156645,
-          "html_url": "https://github.com/rust-lang/rust/issues/156645",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155307: Stabilize `--remap-path-prefix` in rustdoc",
-          "number": 156805,
-          "html_url": "https://github.com/rust-lang/rust/issues/156805",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #152443: NVPTX: Drop support for old architectures and old ISAs",
-          "number": 156938,
-          "html_url": "https://github.com/rust-lang/rust/issues/156938",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #153968: linker-messages is warn-by-default again",
-          "number": 157052,
-          "html_url": "https://github.com/rust-lang/rust/issues/157052",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155473: Prefer `-1` for `None`",
-          "number": 157128,
-          "html_url": "https://github.com/rust-lang/rust/issues/157128",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155147: Stabilize feature `int_lowest_highest_one`",
-          "number": 158350,
-          "html_url": "https://github.com/rust-lang/rust/issues/158350",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155131: Stabilize feature `uint_bit_width`",
-          "number": 158351,
-          "html_url": "https://github.com/rust-lang/rust/issues/158351",
-          "days_ago": 39
-        },
-        {
-          "title": "Tracking issue for release notes of #155130: Stabilize feature `isolate_most_least_significant_one`",
-          "number": 158352,
-          "html_url": "https://github.com/rust-lang/rust/issues/158352",
-          "days_ago": 39
-        },
-        {
-          "title": "stabilize `feature(cfg_target_has_atomic_equal_alignment)`",
-          "number": 155006,
-          "html_url": "https://github.com/rust-lang/rust/pull/155006",
-          "days_ago": 92
-        },
-        {
-          "title": "Consider `Result<T, Uninhabited>` and `ControlFlow<Uninhabited, T>` to be equivalent to `T` for must use lint",
-          "number": 148214,
-          "html_url": "https://github.com/rust-lang/rust/pull/148214",
-          "days_ago": 100
-        },
-        {
-          "title": "error on empty `export_name`",
-          "number": 155515,
-          "html_url": "https://github.com/rust-lang/rust/pull/155515",
-          "days_ago": 100
-        },
-        {
-          "title": "Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`",
-          "number": 156063,
-          "html_url": "https://github.com/rust-lang/rust/pull/156063",
-          "days_ago": 108
-        },
-        {
-          "title": "linker-messages is warn-by-default again",
-          "number": 153968,
-          "html_url": "https://github.com/rust-lang/rust/pull/153968",
-          "days_ago": 109
-        },
-        {
-          "title": "NVPTX: Drop support for old architectures and old ISAs",
-          "number": 152443,
-          "html_url": "https://github.com/rust-lang/rust/pull/152443",
-          "days_ago": 111
-        },
-        {
-          "title": "prevent deref coercions in `pin!`",
-          "number": 153457,
-          "html_url": "https://github.com/rust-lang/rust/pull/153457",
-          "days_ago": 114
-        },
-        {
-          "title": "Prefer `-1` for `None`",
-          "number": 155473,
-          "html_url": "https://github.com/rust-lang/rust/pull/155473",
-          "days_ago": 114
-        },
-        {
-          "title": "Syntactically reject tuple index shorthands in struct patterns to fix a correctness regression",
-          "number": 155698,
-          "html_url": "https://github.com/rust-lang/rust/pull/155698",
-          "days_ago": 116
-        },
-        {
-          "title": "Stabilize feature `uint_bit_width`",
-          "number": 155131,
-          "html_url": "https://github.com/rust-lang/rust/pull/155131",
-          "days_ago": 127
-        },
-        {
-          "title": "Stabilize feature `int_lowest_highest_one`",
-          "number": 155147,
-          "html_url": "https://github.com/rust-lang/rust/pull/155147",
-          "days_ago": 127
-        },
-        {
-          "title": "Stabilize feature `isolate_most_least_significant_one`",
-          "number": 155130,
-          "html_url": "https://github.com/rust-lang/rust/pull/155130",
-          "days_ago": 128
-        }
-      ]
+      "url": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1.html"
     },
     {
       "version": "1.98.0",
-      "date": "2026-10-01",
-      "is_unreleased": true,
-      "changelog_md": "",
+      "date": "2026-08-20",
+      "is_unreleased": false,
+      "changelog_md": "\n<a id=\"1.98.0-Language\"></a>\n\nLanguage\n--------\n- [Allow shortening lifetime of `&mut` when unsize-coercing, even in an invariant position.](https://github.com/rust-lang/rust/pull/149219) For example, you can now coerce a `Cell<&'long mut i32>` to a `Cell<&'short mut dyn Send>`. Such shortenings were already previously allowed when coercing a `&mut` to a `&`, or coercing a `&` to a `&`.\n- [Add deny-by-default `invalid_runtime_symbol_definitions` lint and warn-by-default `suspicious_runtime_symbol_definitions` lint](https://github.com/rust-lang/rust/pull/155521)\n    - The lints currently specifically targets `core` runtime symbols like `memcmp`, `memset`, `strlen`, ... and is planned to be expanded in the next few releases.\n- [Add warn-by-default `c_void_returns` lint to check `core::ffi::c_void` as a return type](https://github.com/rust-lang/rust/pull/156379)\n\n\n<a id=\"1.98.0-Platform-Support\"></a>\n\nPlatform Support\n----------------\n- [Add `powerpc64-unknown-linux-gnuelfv2` as Tier 3](https://github.com/rust-lang/rust/pull/144220)\n- [Add `aarch64-unknown-linux-pauthtest` as Tier 3 target](https://github.com/rust-lang/rust/pull/155722)\n- [Promote `thumbv7a-none-eabi` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n- [Promote `thumbv7a-none-eabihf` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n- [Promote `thumbv7r-none-eabi` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n- [Promote `thumbv7r-none-eabihf` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n- [Promote `thumbv8r-none-eabihf` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n\n\nRefer to Rust's [platform support page][platform-support-doc]\nfor more information on Rust's tiered platform support.\n\n[platform-support-doc]: https://doc.rust-lang.org/rustc/platform-support.html\n\n<a id=\"1.98.0-Libraries\"></a>\n\nLibraries\n---------\n- [Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`](https://github.com/rust-lang/rust/pull/146561)\n- [Document panic in `RangeInclusive::from(legacy::RangeInclusive)`](https://github.com/rust-lang/rust/pull/155421)\n- [Document that `ManuallyDrop`'s `Box` interaction has been fixed](https://github.com/rust-lang/rust/pull/155750)\n- [Stabilize LoongArch CRC Intrinsics](https://github.com/rust-lang/rust/issues/156908)\n- [The `derive` macro is available at `{core,std}::derive`.](https://github.com/rust-lang/rust/issues/154645) This was previously [unintentionally stabilized in 1.96](https://github.com/rust-lang/rust/issues/159856), but is now [explicitly accepted](https://github.com/rust-lang/rust/issues/154645) as a stabilized API.\n  - Please note that the MSRV for `{core,std}::derive` will be 1.96, and not 1.98.\n\n\n<a id=\"1.98.0-Stabilized-APIs\"></a>\n\nStabilized APIs\n---------------\n\n- [`str::substr_range`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.substr_range)\n- [`[T]::subslice_range`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.subslice_range)\n- [`core::fmt::NumBuffer`](https://doc.rust-lang.org/stable/core/fmt/struct.NumBuffer.html)\n- [`<{integer}>::format_into`](https://doc.rust-lang.org/stable/core/primitive.usize.html#method.format_into)\n- [`Send/Sync for std::process::CommandArgs`](https://doc.rust-lang.org/stable/std/process/struct.CommandArgs.html#impl-Send-for-CommandArgs%3C'a%3E)\n- [`{fN}::algebraic_add`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_add)\n- [`{fN}::algebraic_sub`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_sub)\n- [`{fN}::algebraic_mul`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_mul)\n- [`{fN}::algebraic_div`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_div)\n- [`{fN}::algebraic_rem`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_rem)\n- [`NonZero<{integer}>::from_str_radix`](https://doc.rust-lang.org/stable/core/num/struct.NonZero.html#method.from_str_radix-4)\n- [`String::from_utf16le`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf16le)\n- [`String::from_utf16le_lossy`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf16le_lossy)\n- [`String::from_utf16be`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf16be)\n- [`String::from_utf16be_lossy`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf16be_lossy)\n- [`[T]::strip_circumfix`](https://doc.rust-lang.org/stable/core/primitive.slice.html#method.strip_circumfix)\n- [`str::strip_circumfix`](https://doc.rust-lang.org/stable/core/primitive.str.html#method.strip_circumfix)\n- [`Atomic<T>::from_mut`](https://doc.rust-lang.org/stable/core/sync/atomic/struct.Atomic.html#method.from_mut)\n- [`Atomic<T>::get_mut_slice`](https://doc.rust-lang.org/stable/core/sync/atomic/struct.Atomic.html#method.get_mut_slice)\n- [`Atomic<T>::from_mut_slice`](https://doc.rust-lang.org/stable/core/sync/atomic/struct.Atomic.html#method.from_mut_slice)\n- [`std::range::legacy`](https://doc.rust-lang.org/stable/std/range/legacy/index.html)\n\n\n<a id=\"1.98.0-Compatibility-Notes\"></a>\n\nCompatibility Notes\n-------------------\n- [If fully elided, lifetime bounds of trait object types may now resolve differently or even get rejected in very specific niche scenarios](https://github.com/rust-lang/rust/pull/129543)\n- [Error in more cases of ambiguous imports](https://github.com/rust-lang/rust/pull/145108)\n- [Switch the destructors implementation for thread locals on Windows to use Fiber Local Storage (FLS)](https://github.com/rust-lang/rust/pull/148799)\n- [Convert some cases of the `ambiguous_glob_imports` lint into a hard error](https://github.com/rust-lang/rust/pull/149195)\n- [Where-bounds of the form `Type = Type` and `Type == Type` are no longer syntactically allowed](https://github.com/rust-lang/rust/pull/153513)\n- [Ensure Send/Sync is not implemented for std::env::Vars{,Os}](https://github.com/rust-lang/rust/pull/155153)\n- [Fix that in some attributes, arguments were not properly rejected](https://github.com/rust-lang/rust/pull/155193)\n- [`repr(transparent)` is now more strict about which fields have \"trivial\" layout and hence can be ignored: `repr(C)` types, types with private fields, and `#[non_exhaustive]` types are no longer considered \"trivial\"](https://github.com/rust-lang/rust/pull/155299)\n- [Correctly check whether types have equal size in `transmute()` when some `repr` attributes are involved.](https://github.com/rust-lang/rust/pull/155418)\n- [More characters are escaped when printing strings and chars](https://github.com/rust-lang/rust/pull/155527)\n- [Implement fast path for `derive(PartialOrd)` when deriving `Ord`](https://github.com/rust-lang/rust/pull/155598)\n  This can break crates in practice where a type's PartialOrd and Ord impls were inconsistent with each other.\n- [Add temporary scope to `assert_eq` and `assert_ne`](https://github.com/rust-lang/rust/pull/155739)\n- Closed a hole in the pattern matching [structural equality](https://doc.rust-lang.org/reference/patterns.html#constant-patterns) check, preventing cases where a match of a constant would be allowed, despite disagreeing with a manually written `PartialEq` implementation, when a `derive(PartialEq)` implementation for that type also exists.\n- [On Emscripten the WASM exception handling ABI is now unconditionally used](https://github.com/rust-lang/rust/pull/156928) The `-Zemscripten-wasm-eh=false` flag to switch back to JS exceptions has been removed.\n- [The UNSAFE_CODE lint is now consistently emitted for all unsafe attributes](https://github.com/rust-lang/rust/pull/157201)\n- [Solaris: remove `File::lock` implementation, it has the wrong semantics (return \"unsupported\" instead)](https://github.com/rust-lang/rust/pull/157509)\n- [Windows-gnu targets now specify baseline tools versions](https://github.com/rust-lang/rust/pull/158020)\n- [rustfmt now discovers module files that are defined in `cfg_select!`](https://github.com/rust-lang/rust/pull/158372)\n  This may cause more code to be formatted which was previously ignored.\n\n",
       "weight": 18446744073692749311,
-      "branch_date": "2026-08-14",
-      "release_name": "nightly",
+      "branch_date": "2026-07-03",
+      "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0.html"
+    },
+    {
+      "version": "1.98.0",
+      "date": "2026-08-20",
+      "is_unreleased": true,
+      "changelog_md": "\n<a id=\"1.98.0-Language\"></a>\n\nLanguage\n--------\n- [Allow shortening lifetime of `&mut` when unsize-coercing, even in an invariant position.](https://github.com/rust-lang/rust/pull/149219) For example, you can now coerce a `Cell<&'long mut i32>` to a `Cell<&'short mut dyn Send>`. Such shortenings were already previously allowed when coercing a `&mut` to a `&`, or coercing a `&` to a `&`.\n- [Add deny-by-default `invalid_runtime_symbol_definitions` lint and warn-by-default `suspicious_runtime_symbol_definitions` lint](https://github.com/rust-lang/rust/pull/155521)\n    - The lints currently specifically targets `core` runtime symbols like `memcmp`, `memset`, `strlen`, ... and is planned to be expanded in the next few releases.\n- [Add warn-by-default `c_void_returns` lint to check `core::ffi::c_void` as a return type](https://github.com/rust-lang/rust/pull/156379)\n\n\n<a id=\"1.98.0-Platform-Support\"></a>\n\nPlatform Support\n----------------\n- [Add `powerpc64-unknown-linux-gnuelfv2` as Tier 3](https://github.com/rust-lang/rust/pull/144220)\n- [Add `aarch64-unknown-linux-pauthtest` as Tier 3 target](https://github.com/rust-lang/rust/pull/155722)\n- [Promote `thumbv7a-none-eabi` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n- [Promote `thumbv7a-none-eabihf` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n- [Promote `thumbv7r-none-eabi` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n- [Promote `thumbv7r-none-eabihf` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n- [Promote `thumbv8r-none-eabihf` to Tier 2](https://github.com/rust-lang/rust/pull/155763)\n\n\nRefer to Rust's [platform support page][platform-support-doc]\nfor more information on Rust's tiered platform support.\n\n[platform-support-doc]: https://doc.rust-lang.org/rustc/platform-support.html\n\n<a id=\"1.98.0-Libraries\"></a>\n\nLibraries\n---------\n- [Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`](https://github.com/rust-lang/rust/pull/146561)\n- [Document panic in `RangeInclusive::from(legacy::RangeInclusive)`](https://github.com/rust-lang/rust/pull/155421)\n- [Document that `ManuallyDrop`'s `Box` interaction has been fixed](https://github.com/rust-lang/rust/pull/155750)\n- [Stabilize LoongArch CRC Intrinsics](https://github.com/rust-lang/rust/issues/156908)\n- [The `derive` macro is available at `{core,std}::derive`.](https://github.com/rust-lang/rust/issues/154645) This was previously [unintentionally stabilized in 1.96](https://github.com/rust-lang/rust/issues/159856), but is now [explicitly accepted](https://github.com/rust-lang/rust/issues/154645) as a stabilized API.\n  - Please note that the MSRV for `{core,std}::derive` will be 1.96, and not 1.98.\n\n\n<a id=\"1.98.0-Stabilized-APIs\"></a>\n\nStabilized APIs\n---------------\n\n- [`str::substr_range`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.substr_range)\n- [`[T]::subslice_range`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.subslice_range)\n- [`core::fmt::NumBuffer`](https://doc.rust-lang.org/stable/core/fmt/struct.NumBuffer.html)\n- [`<{integer}>::format_into`](https://doc.rust-lang.org/stable/core/primitive.usize.html#method.format_into)\n- [`Send/Sync for std::process::CommandArgs`](https://doc.rust-lang.org/stable/std/process/struct.CommandArgs.html#impl-Send-for-CommandArgs%3C'a%3E)\n- [`{fN}::algebraic_add`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_add)\n- [`{fN}::algebraic_sub`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_sub)\n- [`{fN}::algebraic_mul`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_mul)\n- [`{fN}::algebraic_div`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_div)\n- [`{fN}::algebraic_rem`](https://doc.rust-lang.org/stable/core/primitive.f32.html#method.algebraic_rem)\n- [`NonZero<{integer}>::from_str_radix`](https://doc.rust-lang.org/stable/core/num/struct.NonZero.html#method.from_str_radix-4)\n- [`String::from_utf16le`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf16le)\n- [`String::from_utf16le_lossy`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf16le_lossy)\n- [`String::from_utf16be`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf16be)\n- [`String::from_utf16be_lossy`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf16be_lossy)\n- [`[T]::strip_circumfix`](https://doc.rust-lang.org/stable/core/primitive.slice.html#method.strip_circumfix)\n- [`str::strip_circumfix`](https://doc.rust-lang.org/stable/core/primitive.str.html#method.strip_circumfix)\n- [`Atomic<T>::from_mut`](https://doc.rust-lang.org/stable/core/sync/atomic/struct.Atomic.html#method.from_mut)\n- [`Atomic<T>::get_mut_slice`](https://doc.rust-lang.org/stable/core/sync/atomic/struct.Atomic.html#method.get_mut_slice)\n- [`Atomic<T>::from_mut_slice`](https://doc.rust-lang.org/stable/core/sync/atomic/struct.Atomic.html#method.from_mut_slice)\n- [`std::range::legacy`](https://doc.rust-lang.org/stable/std/range/legacy/index.html)\n\n\n<a id=\"1.98.0-Compatibility-Notes\"></a>\n\nCompatibility Notes\n-------------------\n- [If fully elided, lifetime bounds of trait object types may now resolve differently or even get rejected in very specific niche scenarios](https://github.com/rust-lang/rust/pull/129543)\n- [Error in more cases of ambiguous imports](https://github.com/rust-lang/rust/pull/145108)\n- [Switch the destructors implementation for thread locals on Windows to use Fiber Local Storage (FLS)](https://github.com/rust-lang/rust/pull/148799)\n- [Convert some cases of the `ambiguous_glob_imports` lint into a hard error](https://github.com/rust-lang/rust/pull/149195)\n- [Where-bounds of the form `Type = Type` and `Type == Type` are no longer syntactically allowed](https://github.com/rust-lang/rust/pull/153513)\n- [Ensure Send/Sync is not implemented for std::env::Vars{,Os}](https://github.com/rust-lang/rust/pull/155153)\n- [Fix that in some attributes, arguments were not properly rejected](https://github.com/rust-lang/rust/pull/155193)\n- [`repr(transparent)` is now more strict about which fields have \"trivial\" layout and hence can be ignored: `repr(C)` types, types with private fields, and `#[non_exhaustive]` types are no longer considered \"trivial\"](https://github.com/rust-lang/rust/pull/155299)\n- [Correctly check whether types have equal size in `transmute()` when some `repr` attributes are involved.](https://github.com/rust-lang/rust/pull/155418)\n- [More characters are escaped when printing strings and chars](https://github.com/rust-lang/rust/pull/155527)\n- [Implement fast path for `derive(PartialOrd)` when deriving `Ord`](https://github.com/rust-lang/rust/pull/155598)\n  This can break crates in practice where a type's PartialOrd and Ord impls were inconsistent with each other.\n- [Add temporary scope to `assert_eq` and `assert_ne`](https://github.com/rust-lang/rust/pull/155739)\n- Closed a hole in the pattern matching [structural equality](https://doc.rust-lang.org/reference/patterns.html#constant-patterns) check, preventing cases where a match of a constant would be allowed, despite disagreeing with a manually written `PartialEq` implementation, when a `derive(PartialEq)` implementation for that type also exists.\n- [On Emscripten the WASM exception handling ABI is now unconditionally used](https://github.com/rust-lang/rust/pull/156928) The `-Zemscripten-wasm-eh=false` flag to switch back to JS exceptions has been removed.\n- [The UNSAFE_CODE lint is now consistently emitted for all unsafe attributes](https://github.com/rust-lang/rust/pull/157201)\n- [Solaris: remove `File::lock` implementation, it has the wrong semantics (return \"unsupported\" instead)](https://github.com/rust-lang/rust/pull/157509)\n- [Windows-gnu targets now specify baseline tools versions](https://github.com/rust-lang/rust/pull/158020)\n- [rustfmt now discovers module files that are defined in `cfg_select!`](https://github.com/rust-lang/rust/pull/158372)\n  This may cause more code to be formatted which was previously ignored.\n\n",
+      "weight": 18446744073692749311,
+      "branch_date": "2026-07-03",
+      "release_name": "beta",
       "issues": [
         {
           "title": "Tracking issue for release notes of #126769: Tracking Issue for `substr_range` and related methods",
@@ -1755,11 +1534,12 @@
     },
     {
       "version": "1.99.0",
-      "date": "2026-11-12",
+      "date": "2026-10-01",
       "is_unreleased": true,
       "changelog_md": "",
       "weight": 18446744073692749055,
-      "branch_date": "2026-09-25",
+      "branch_date": "2026-08-14",
+      "release_name": "nightly",
       "issues": [
         {
           "title": "Enable `static_position_independent_executables` on all gnu targets",
@@ -2058,7 +1838,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "stabilize `Box::take`",
@@ -2129,7 +1909,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -3049,8 +2829,8 @@
     }
   ],
   "current_versions": {
-    "stable": "1.96.0",
-    "beta": "1.97.0",
-    "nightly": "1.98.0"
+    "stable": "1.97.1",
+    "beta": "1.98.0",
+    "nightly": "1.99.0"
   }
 }
