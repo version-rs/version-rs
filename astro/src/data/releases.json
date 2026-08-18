@@ -1608,6 +1608,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #126769: Tracking Issue for `substr_range` and related methods",
+          "number": 148225,
+          "html_url": "https://github.com/rust-lang/rust/issues/148225",
+          "days_ago": 0
+        },
+        {
           "title": "Tracking issue for release notes of #116258: Tracking Issue for explicit-endian String::from_utf16",
           "number": 157822,
           "html_url": "https://github.com/rust-lang/rust/issues/157822",
@@ -1654,6 +1660,12 @@
           "number": 158020,
           "html_url": "https://github.com/rust-lang/rust/pull/158020",
           "days_ago": 54
+        },
+        {
+          "title": "Stabilize `substr_range` and `subslice_range`",
+          "number": 141266,
+          "html_url": "https://github.com/rust-lang/rust/pull/141266",
+          "days_ago": 60
         },
         {
           "title": "stabilize str_from_utf16_endian",
@@ -2169,7 +2181,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 45
+      "days_old": 46
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2628,7 +2640,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 244
+      "days_old": 245
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2763,7 +2775,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 342
+      "days_old": 343
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
