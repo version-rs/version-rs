@@ -1614,6 +1614,12 @@
           "days_ago": 0
         },
         {
+          "title": "Tracking issue for release notes of #141266: Stabilize `substr_range` and `subslice_range`",
+          "number": 161286,
+          "html_url": "https://github.com/rust-lang/rust/issues/161286",
+          "days_ago": 0
+        },
+        {
           "title": "Tracking issue for release notes of #116258: Tracking Issue for explicit-endian String::from_utf16",
           "number": 157822,
           "html_url": "https://github.com/rust-lang/rust/issues/157822",
@@ -1994,8 +2000,8 @@
       "updated_at": "2026-08-08T16:03:16+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-blocked",
+          "description": "Status: Blocked on something else such as an RFC or other implementation work."
         },
         {
           "name": "needs-fcp",
@@ -2251,7 +2257,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 77
+      "days_old": 78
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2681,7 +2687,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 284
+      "days_old": 285
     },
     {
       "title": "Stabilize Frontmatter",
