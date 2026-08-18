@@ -2305,6 +2305,10 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
           "name": "S-blocked",
           "description": "Status: Blocked on something else such as an RFC or other implementation work."
         },
@@ -2407,7 +2411,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 136
+      "days_old": 137
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2524,7 +2528,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 194
+      "days_old": 195
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2796,7 +2800,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 350
+      "days_old": 351
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
