@@ -1879,7 +1879,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "Stabilize `bool::toggle`",
@@ -2012,7 +2012,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 49
+      "days_old": 50
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2226,7 +2226,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 150
+      "days_old": 151
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2305,7 +2305,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 179
+      "days_old": 180
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2639,7 +2639,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 423
+      "days_old": 424
     },
     {
       "title": "Stabilize the `breakpoint` function",
