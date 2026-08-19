@@ -1704,6 +1704,22 @@
           "days_ago": 47
         }
       ]
+    },
+    {
+      "version": "1.100.0",
+      "date": "2026-11-12",
+      "is_unreleased": true,
+      "changelog_md": "",
+      "weight": 18446744073692748799,
+      "branch_date": "2026-09-25",
+      "issues": [
+        {
+          "title": "fix: fix the capture behavior of `if let` in closures",
+          "number": 154210,
+          "html_url": "https://github.com/rust-lang/rust/pull/154210",
+          "days_ago": 0
+        }
+      ]
     }
   ],
   "stabilization_prs": [
@@ -1813,7 +1829,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "stabilize smart pointer map functions",
@@ -2825,7 +2841,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 924
+      "days_old": 925
     }
   ],
   "current_versions": {
