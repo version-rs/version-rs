@@ -2322,7 +2322,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 195
+      "days_old": 196
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2594,7 +2594,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 351
+      "days_old": 352
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
