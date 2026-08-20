@@ -1720,7 +1720,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "stabilize `Box::take`",
@@ -1754,8 +1754,8 @@
       "updated_at": "2026-07-31T19:34:10+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1791,7 +1791,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
