@@ -1387,6 +1387,12 @@
       "release_name": "beta",
       "issues": [
         {
+          "title": "core: implement FusedIterator for StepBy",
+          "number": 159963,
+          "html_url": "https://github.com/rust-lang/rust/pull/159963",
+          "days_ago": 5
+        },
+        {
           "title": "Enable `static_position_independent_executables` on all gnu targets",
           "number": 158510,
           "html_url": "https://github.com/rust-lang/rust/pull/158510",
@@ -1397,6 +1403,12 @@
           "number": 160765,
           "html_url": "https://github.com/rust-lang/rust/issues/160765",
           "days_ago": 6
+        },
+        {
+          "title": "Add new `unused_footnote_definition` rustdoc lint",
+          "number": 137858,
+          "html_url": "https://github.com/rust-lang/rust/pull/137858",
+          "days_ago": 7
         },
         {
           "title": "Tracking issue for release notes of #154202: rustfmt: Format `cfg_select!`",
@@ -1564,6 +1576,18 @@
           "number": 154210,
           "html_url": "https://github.com/rust-lang/rust/pull/154210",
           "days_ago": 1
+        },
+        {
+          "title": "Require windowed (and exception) for Xtensa ABI",
+          "number": 160643,
+          "html_url": "https://github.com/rust-lang/rust/pull/160643",
+          "days_ago": 1
+        },
+        {
+          "title": "`Iterator::{min,max}(_by_key)` should use overridden `min`/`max`/`lt`",
+          "number": 160203,
+          "html_url": "https://github.com/rust-lang/rust/pull/160203",
+          "days_ago": 5
         }
       ]
     }
