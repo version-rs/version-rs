@@ -1824,7 +1824,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 31
+      "days_old": 32
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -1969,8 +1969,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "S-blocked",
@@ -2263,7 +2263,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 229
+      "days_old": 230
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2394,7 +2394,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 300
+      "days_old": 301
     },
     {
       "title": "Stabilize stack-protector",
@@ -2666,7 +2666,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 624
+      "days_old": 625
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
