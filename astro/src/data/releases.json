@@ -1572,6 +1572,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Stabilize `bool::toggle`",
+          "number": 160299,
+          "html_url": "https://github.com/rust-lang/rust/pull/160299",
+          "days_ago": 0
+        },
+        {
           "title": "fix: fix the capture behavior of `if let` in closures",
           "number": 154210,
           "html_url": "https://github.com/rust-lang/rust/pull/154210",
