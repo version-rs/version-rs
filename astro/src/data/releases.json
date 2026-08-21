@@ -1752,23 +1752,6 @@
       "days_old": 17
     },
     {
-      "title": "Stabilize `bool::toggle`",
-      "number": 160299,
-      "url": "https://github.com/rust-lang/rust/pull/160299",
-      "updated_at": "2026-07-31T19:34:10+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 20
-    },
-    {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
       "number": 160108,
       "url": "https://github.com/rust-lang/rust/pull/160108",
@@ -2217,7 +2200,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 197
+      "days_old": 198
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
