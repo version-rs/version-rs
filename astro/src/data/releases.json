@@ -1709,7 +1709,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "stabilize `Box::take`",
@@ -1775,7 +1775,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
