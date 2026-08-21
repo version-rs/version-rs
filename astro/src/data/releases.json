@@ -2597,7 +2597,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 496
+      "days_old": 497
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
