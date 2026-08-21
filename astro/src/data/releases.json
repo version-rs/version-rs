@@ -1932,7 +1932,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 82
+      "days_old": 83
     },
     {
       "title": "stabilize never type",
@@ -2130,7 +2130,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 172
+      "days_old": 173
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
