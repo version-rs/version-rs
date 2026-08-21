@@ -1660,27 +1660,6 @@
       "days_old": 9
     },
     {
-      "title": "Stabilise `abort_immediate`",
-      "number": 160766,
-      "url": "https://github.com/rust-lang/rust/pull/160766",
-      "updated_at": "2026-08-08T16:03:16+00:00",
-      "labels": [
-        {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 12
-    },
-    {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
       "number": 160544,
       "url": "https://github.com/rust-lang/rust/pull/160544",
@@ -1749,7 +1728,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1865,7 +1844,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 51
+      "days_old": 52
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2079,7 +2058,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 152
+      "days_old": 153
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2158,7 +2137,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 181
+      "days_old": 182
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2492,7 +2471,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 425
+      "days_old": 426
     },
     {
       "title": "Stabilize the `breakpoint` function",
