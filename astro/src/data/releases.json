@@ -2272,7 +2272,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 231
+      "days_old": 232
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2403,7 +2403,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 302
+      "days_old": 303
     },
     {
       "title": "Stabilize stack-protector",
@@ -2675,7 +2675,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 626
+      "days_old": 627
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
