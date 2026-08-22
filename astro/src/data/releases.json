@@ -1800,7 +1800,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
