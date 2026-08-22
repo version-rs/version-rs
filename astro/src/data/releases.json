@@ -1957,7 +1957,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 83
+      "days_old": 84
     },
     {
       "title": "stabilize never type",
@@ -2084,7 +2084,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 140
+      "days_old": 141
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2155,7 +2155,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 173
+      "days_old": 174
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2473,7 +2473,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 354
+      "days_old": 355
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
