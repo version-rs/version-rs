@@ -1610,6 +1610,14 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
@@ -1759,7 +1767,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
