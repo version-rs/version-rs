@@ -2197,7 +2197,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 198
+      "days_old": 199
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2305,12 +2305,12 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "relnotes",
-          "description": "Marks issues that should be documented in the release notes of the next release."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "relnotes",
+          "description": "Marks issues that should be documented in the release notes of the next release."
         },
         {
           "name": "disposition-merge",
