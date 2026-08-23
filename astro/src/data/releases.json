@@ -1622,7 +1622,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1763,6 +1763,10 @@
           "description": "Announce this issue on triage meeting"
         },
         {
+          "name": "I-libs-nominated",
+          "description": "Nominated for discussion during a libs team meeting."
+        },
+        {
           "name": "S-waiting-on-t-libs",
           "description": "Status: Awaiting decision from T-libs"
         }
@@ -1887,7 +1891,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 53
+      "days_old": 54
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2101,7 +2105,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 154
+      "days_old": 155
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2180,7 +2184,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 183
+      "days_old": 184
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2313,7 +2317,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 249
+      "days_old": 250
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2514,7 +2518,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 427
+      "days_old": 428
     },
     {
       "title": "Stabilize the `breakpoint` function",
