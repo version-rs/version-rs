@@ -1688,7 +1688,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -1841,7 +1841,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 34
+      "days_old": 35
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2050,7 +2050,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 126
+      "days_old": 127
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
