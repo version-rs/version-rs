@@ -1732,6 +1732,10 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "I-libs-nominated",
+          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 18
@@ -2205,7 +2209,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 199
+      "days_old": 200
     },
     {
       "title": "Stabilize `refcell_try_map`",
