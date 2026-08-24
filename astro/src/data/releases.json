@@ -1572,6 +1572,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #160705: Remove `From<!> for T` *reservation* impl",
+          "number": 161659,
+          "html_url": "https://github.com/rust-lang/rust/issues/161659",
+          "days_ago": 0
+        },
+        {
           "title": "Stabilize `bool::toggle`",
           "number": 160299,
           "html_url": "https://github.com/rust-lang/rust/pull/160299",
@@ -2024,6 +2030,10 @@
         {
           "name": "WG-trait-system-refactor",
           "description": "The Rustc Trait System Refactor Initiative (-Znext-solver)"
+        },
+        {
+          "name": "has-merge-commits",
+          "description": "PR has merge commits, merge with caution."
         },
         {
           "name": "T-rustdoc-frontend",
@@ -2572,7 +2582,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 447
+      "days_old": 448
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2613,7 +2623,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 486
+      "days_old": 487
     },
     {
       "title": "Stabilize `offset_of_slice`",
