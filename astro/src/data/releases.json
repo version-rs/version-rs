@@ -1990,10 +1990,6 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
-        },
-        {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
@@ -2642,7 +2638,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 499
+      "days_old": 500
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
