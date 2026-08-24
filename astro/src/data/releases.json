@@ -1847,7 +1847,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 35
+      "days_old": 36
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2413,7 +2413,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 304
+      "days_old": 305
     },
     {
       "title": "Stabilize stack-protector",
@@ -2685,7 +2685,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 628
+      "days_old": 629
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
