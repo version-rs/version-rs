@@ -1694,7 +1694,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -1972,83 +1972,6 @@
         }
       ],
       "days_old": 86
-    },
-    {
-      "title": "stabilize never type",
-      "number": 155499,
-      "url": "https://github.com/rust-lang/rust/pull/155499",
-      "updated_at": "2026-04-18T22:13:46+00:00",
-      "labels": [
-        {
-          "name": "T-rustdoc",
-          "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "T-bootstrap",
-          "description": "Relevant to the bootstrap subteam: Rust's build system (x.py and src/bootstrap)"
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "A-rustdoc-search",
-          "description": "Area: Rustdoc's search feature"
-        },
-        {
-          "name": "A-rustdoc-json",
-          "description": "Area: Rustdoc JSON backend"
-        },
-        {
-          "name": "A-rustdoc-js",
-          "description": "Area: Rustdoc's JS front-end"
-        },
-        {
-          "name": "WG-trait-system-refactor",
-          "description": "The Rustc Trait System Refactor Initiative (-Znext-solver)"
-        },
-        {
-          "name": "T-rustdoc-frontend",
-          "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
-        },
-        {
-          "name": "I-lang-radar",
-          "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "T-rust-analyzer",
-          "description": "Relevant to the rust-analyzer team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "T-clippy",
-          "description": "Relevant to the Clippy team."
-        }
-      ],
-      "days_old": 127
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
