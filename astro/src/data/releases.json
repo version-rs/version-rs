@@ -1971,7 +1971,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 85
+      "days_old": 86
     },
     {
       "title": "stabilize never type",
@@ -1990,6 +1990,10 @@
         {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "T-bootstrap",
+          "description": "Relevant to the bootstrap subteam: Rust's build system (x.py and src/bootstrap)"
         },
         {
           "name": "S-waiting-on-bors",
@@ -2157,7 +2161,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 175
+      "days_old": 176
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
