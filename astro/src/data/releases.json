@@ -1709,7 +1709,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "stabilize smart pointer map functions",
@@ -2724,7 +2724,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 929
+      "days_old": 930
     }
   ],
   "current_versions": {
