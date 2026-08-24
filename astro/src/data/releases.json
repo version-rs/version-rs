@@ -1744,7 +1744,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "stabilize `Box::take`",
@@ -1814,7 +1814,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
