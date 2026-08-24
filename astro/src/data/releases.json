@@ -1622,7 +1622,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1775,7 +1775,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1895,7 +1895,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 54
+      "days_old": 55
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2109,7 +2109,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 155
+      "days_old": 156
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2188,7 +2188,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 184
+      "days_old": 185
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2522,7 +2522,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 428
+      "days_old": 429
     },
     {
       "title": "Stabilize the `breakpoint` function",
