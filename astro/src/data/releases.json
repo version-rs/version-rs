@@ -1992,8 +1992,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2002,10 +2002,6 @@
         {
           "name": "finished-final-comment-period",
           "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         },
         {
           "name": "T-libs",
@@ -2032,10 +2028,6 @@
           "description": "The Rustc Trait System Refactor Initiative (-Znext-solver)"
         },
         {
-          "name": "has-merge-commits",
-          "description": "PR has merge commits, merge with caution."
-        },
-        {
           "name": "T-rustdoc-frontend",
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         },
@@ -2050,10 +2042,6 @@
         {
           "name": "T-clippy",
           "description": "Relevant to the Clippy team."
-        },
-        {
-          "name": "needs-reference-pr",
-          "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
       "days_old": 127
@@ -2098,7 +2086,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 142
+      "days_old": 143
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2215,7 +2203,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 200
+      "days_old": 201
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2487,7 +2475,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 356
+      "days_old": 357
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
