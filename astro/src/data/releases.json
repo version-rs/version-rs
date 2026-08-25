@@ -1572,6 +1572,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "stabilize never type",
+          "number": 155499,
+          "html_url": "https://github.com/rust-lang/rust/pull/155499",
+          "days_ago": 1
+        },
+        {
           "title": "Tracking issue for release notes of #160705: Remove `From<!> for T` *reservation* impl",
           "number": 161659,
           "html_url": "https://github.com/rust-lang/rust/issues/161659",
@@ -1765,7 +1771,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "stabilize smart pointer map functions",
@@ -2699,7 +2705,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 930
+      "days_old": 931
     }
   ],
   "current_versions": {
