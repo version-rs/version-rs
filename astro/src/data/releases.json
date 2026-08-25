@@ -1794,10 +1794,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-nominated",
-          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 20
@@ -2623,7 +2619,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 500
+      "days_old": 501
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
