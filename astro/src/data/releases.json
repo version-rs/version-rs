@@ -1622,8 +1622,12 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "T-libs",
@@ -2216,8 +2220,12 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "T-libs",
@@ -2553,7 +2561,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 448
+      "days_old": 449
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
