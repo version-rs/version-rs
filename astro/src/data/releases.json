@@ -1692,7 +1692,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1841,7 +1841,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1961,7 +1961,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 56
+      "days_old": 57
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2090,7 +2090,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 157
+      "days_old": 158
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2169,7 +2169,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 186
+      "days_old": 187
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
