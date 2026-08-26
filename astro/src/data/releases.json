@@ -2031,7 +2031,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 87
+      "days_old": 88
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2144,7 +2144,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 177
+      "days_old": 178
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2355,7 +2355,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 292
+      "days_old": 293
     },
     {
       "title": "Stabilize Frontmatter",
