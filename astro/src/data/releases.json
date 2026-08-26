@@ -1758,7 +1758,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -1804,7 +1804,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "stabilize `Box::take`",
@@ -1874,7 +1874,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1907,7 +1907,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 37
+      "days_old": 38
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2002,7 +2002,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 85
+      "days_old": 86
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2269,7 +2269,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 235
+      "days_old": 236
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2400,7 +2400,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 306
+      "days_old": 307
     },
     {
       "title": "Stabilize stack-protector",
@@ -2672,7 +2672,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 630
+      "days_old": 631
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
