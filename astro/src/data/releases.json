@@ -1572,6 +1572,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Cross-compile i686-pc-windows-gnu std from x86_64",
+          "number": 161681,
+          "html_url": "https://github.com/rust-lang/rust/pull/161681",
+          "days_ago": 1
+        },
+        {
           "title": "stabilize never type",
           "number": 155499,
           "html_url": "https://github.com/rust-lang/rust/pull/155499",
@@ -1692,7 +1698,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1841,7 +1847,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1924,7 +1930,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 54
+      "days_old": 55
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1961,7 +1967,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 57
+      "days_old": 58
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2002,7 +2008,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 86
+      "days_old": 87
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2031,7 +2037,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 88
+      "days_old": 89
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2073,7 +2079,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 145
+      "days_old": 146
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2090,7 +2096,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 158
+      "days_old": 159
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2144,7 +2150,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 178
+      "days_old": 179
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2169,7 +2175,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 187
+      "days_old": 188
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2190,7 +2196,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 203
+      "days_old": 204
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2310,7 +2316,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 253
+      "days_old": 254
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2355,7 +2361,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 293
+      "days_old": 294
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2445,7 +2451,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 351
+      "days_old": 352
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2470,7 +2476,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 359
+      "days_old": 360
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2511,7 +2517,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 431
+      "days_old": 432
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2565,7 +2571,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 450
+      "days_old": 451
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2606,7 +2612,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 489
+      "days_old": 490
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2631,7 +2637,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 502
+      "days_old": 503
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
