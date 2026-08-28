@@ -1387,6 +1387,12 @@
       "release_name": "beta",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #160369: When suggesting method names, prefer *exact* doc aliases over similar names",
+          "number": 160483,
+          "html_url": "https://github.com/rust-lang/rust/issues/160483",
+          "days_ago": 0
+        },
+        {
           "title": "core: implement FusedIterator for StepBy",
           "number": 159963,
           "html_url": "https://github.com/rust-lang/rust/pull/159963",
@@ -1414,6 +1420,12 @@
           "title": "Tracking issue for release notes of #154202: rustfmt: Format `cfg_select!`",
           "number": 160321,
           "html_url": "https://github.com/rust-lang/rust/issues/160321",
+          "days_ago": 15
+        },
+        {
+          "title": "Also warn if an invalid `doc` attribute is used on a macro invocation",
+          "number": 161003,
+          "html_url": "https://github.com/rust-lang/rust/pull/161003",
           "days_ago": 15
         },
         {
@@ -1531,6 +1543,12 @@
           "days_ago": 39
         },
         {
+          "title": "Lint against invalid POSIX symbol definitions",
+          "number": 158522,
+          "html_url": "https://github.com/rust-lang/rust/pull/158522",
+          "days_ago": 44
+        },
+        {
           "title": "semicolon_in_expressions_from_macros: Lint on non-local macros too",
           "number": 159222,
           "html_url": "https://github.com/rust-lang/rust/pull/159222",
@@ -1541,6 +1559,12 @@
           "number": 159198,
           "html_url": "https://github.com/rust-lang/rust/issues/159198",
           "days_ago": 46
+        },
+        {
+          "title": "Stabilize String::from_utf8_lossy_owned",
+          "number": 159099,
+          "html_url": "https://github.com/rust-lang/rust/pull/159099",
+          "days_ago": 48
         },
         {
           "title": "Add `Step::forward/backward_overflowing` to enable RangeInclusive loop optimizations",
@@ -1618,6 +1642,31 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `ExitCode::exit_process`",
+      "number": 161908,
+      "url": "https://github.com/rust-lang/rust/pull/161908",
+      "updated_at": "2026-08-28T09:25:01+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `Result::into_{ok,err}`",
       "number": 161712,
       "url": "https://github.com/rust-lang/rust/pull/161712",
@@ -1667,10 +1716,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-nominated",
-          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 3
@@ -1698,7 +1743,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1785,7 +1830,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "stabilize smart pointer map functions",
@@ -1794,20 +1839,24 @@
       "updated_at": "2026-08-04T23:42:30+00:00",
       "labels": [
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
-          "name": "S-waiting-on-fcp",
-          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         }
       ],
       "days_old": 23
@@ -1847,7 +1896,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1930,7 +1979,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 55
+      "days_old": 56
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1967,7 +2016,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 58
+      "days_old": 59
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2037,7 +2086,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 89
+      "days_old": 90
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2079,7 +2128,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 146
+      "days_old": 147
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2096,7 +2145,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 159
+      "days_old": 160
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2150,7 +2199,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 179
+      "days_old": 180
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2175,7 +2224,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 188
+      "days_old": 189
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2196,7 +2245,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 204
+      "days_old": 205
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2217,7 +2266,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 204
+      "days_old": 205
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2316,7 +2365,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 254
+      "days_old": 255
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2451,7 +2500,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 352
+      "days_old": 353
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2476,7 +2525,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 360
+      "days_old": 361
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2517,7 +2566,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 432
+      "days_old": 433
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2571,7 +2620,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 451
+      "days_old": 452
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2612,7 +2661,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 490
+      "days_old": 491
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2637,7 +2686,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 503
+      "days_old": 504
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
@@ -2719,7 +2768,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 933
+      "days_old": 934
     }
   ],
   "current_versions": {
