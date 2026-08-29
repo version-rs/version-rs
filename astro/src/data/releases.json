@@ -1845,8 +1845,8 @@
       "updated_at": "2026-08-04T23:42:30+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1968,7 +1968,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2063,7 +2063,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 88
+      "days_old": 89
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2092,7 +2092,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 90
+      "days_old": 91
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2330,7 +2330,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 238
+      "days_old": 239
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2416,7 +2416,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 295
+      "days_old": 296
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2461,7 +2461,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 309
+      "days_old": 310
     },
     {
       "title": "Stabilize stack-protector",
@@ -2733,7 +2733,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 633
+      "days_old": 634
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
