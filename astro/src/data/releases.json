@@ -1596,6 +1596,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia",
+          "number": 161886,
+          "html_url": "https://github.com/rust-lang/rust/pull/161886",
+          "days_ago": 0
+        },
+        {
           "title": "Cross-compile i686-pc-windows-gnu std from x86_64",
           "number": 161681,
           "html_url": "https://github.com/rust-lang/rust/pull/161681",
@@ -1642,31 +1648,6 @@
   ],
   "stabilization_prs": [
     {
-      "title": "Stabilize `async_fn_track_caller`",
-      "number": 161958,
-      "url": "https://github.com/rust-lang/rust/pull/161958",
-      "updated_at": "2026-08-29T05:04:33+00:00",
-      "labels": [
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
-        }
-      ],
-      "days_old": 0
-    },
-    {
       "title": "Stabilize `ExitCode::exit_process`",
       "number": 161908,
       "url": "https://github.com/rust-lang/rust/pull/161908",
@@ -1689,7 +1670,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1768,7 +1749,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1921,7 +1902,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -2004,7 +1985,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 56
+      "days_old": 57
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2041,7 +2022,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 59
+      "days_old": 60
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2170,7 +2151,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 160
+      "days_old": 161
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2249,7 +2230,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 189
+      "days_old": 190
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2291,7 +2272,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 205
+      "days_old": 206
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2390,7 +2371,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 255
+      "days_old": 256
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2525,7 +2506,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 353
+      "days_old": 354
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2591,7 +2572,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 433
+      "days_old": 434
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2711,7 +2692,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 504
+      "days_old": 505
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
