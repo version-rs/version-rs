@@ -2063,7 +2063,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 89
+      "days_old": 90
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2092,7 +2092,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 91
+      "days_old": 92
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2134,7 +2134,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 148
+      "days_old": 149
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2205,7 +2205,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 181
+      "days_old": 182
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2330,7 +2330,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 239
+      "days_old": 240
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2416,7 +2416,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 296
+      "days_old": 297
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2461,7 +2461,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 310
+      "days_old": 311
     },
     {
       "title": "Stabilize stack-protector",
@@ -2531,7 +2531,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 362
+      "days_old": 363
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2733,7 +2733,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 634
+      "days_old": 635
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
