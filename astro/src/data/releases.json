@@ -1815,7 +1815,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -1935,7 +1935,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 32
+      "days_old": 33
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1968,7 +1968,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 41
+      "days_old": 42
     },
     {
       "title": "Stabilize `mpmc_channel`",
