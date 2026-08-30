@@ -1902,7 +1902,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -2251,7 +2251,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 206
+      "days_old": 207
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2626,7 +2626,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 453
+      "days_old": 454
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2667,7 +2667,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 492
+      "days_old": 493
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2692,7 +2692,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 505
+      "days_old": 506
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
