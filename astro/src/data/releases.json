@@ -1851,8 +1851,8 @@
       "updated_at": "2026-08-04T23:42:30+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2098,7 +2098,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 92
+      "days_old": 93
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2140,7 +2140,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 149
+      "days_old": 150
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2211,7 +2211,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 182
+      "days_old": 183
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2257,7 +2257,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 207
+      "days_old": 208
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2422,7 +2422,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 297
+      "days_old": 298
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2537,7 +2537,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 363
+      "days_old": 364
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2632,7 +2632,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 454
+      "days_old": 455
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2673,7 +2673,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 493
+      "days_old": 494
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2698,7 +2698,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 506
+      "days_old": 507
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
