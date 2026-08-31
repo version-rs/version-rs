@@ -1602,6 +1602,12 @@
           "days_ago": 2
         },
         {
+          "title": "Tracking issue for release notes of #161081: Add intrinsics for integer minimum and maximum",
+          "number": 161981,
+          "html_url": "https://github.com/rust-lang/rust/issues/161981",
+          "days_ago": 2
+        },
+        {
           "title": "Cross-compile i686-pc-windows-gnu std from x86_64",
           "number": 161681,
           "html_url": "https://github.com/rust-lang/rust/pull/161681",
@@ -1670,7 +1676,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1749,7 +1755,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1836,7 +1842,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "stabilize smart pointer map functions",
@@ -1902,7 +1908,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 27
+      "days_old": 28
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1985,7 +1991,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 58
+      "days_old": 59
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2022,7 +2028,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 61
+      "days_old": 62
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2151,7 +2157,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2230,7 +2236,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 191
+      "days_old": 192
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2272,7 +2278,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 207
+      "days_old": 208
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2371,7 +2377,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 257
+      "days_old": 258
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2506,7 +2512,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 355
+      "days_old": 356
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2572,7 +2578,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 435
+      "days_old": 436
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2774,7 +2780,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 936
+      "days_old": 937
     }
   ],
   "current_versions": {
