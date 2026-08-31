@@ -1821,7 +1821,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -1871,7 +1871,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "stabilize `Box::take`",
@@ -1941,7 +1941,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1974,7 +1974,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 42
+      "days_old": 43
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2069,7 +2069,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 90
+      "days_old": 91
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2336,7 +2336,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 240
+      "days_old": 241
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2467,7 +2467,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 311
+      "days_old": 312
     },
     {
       "title": "Stabilize stack-protector",
@@ -2611,7 +2611,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 446
+      "days_old": 447
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
@@ -2739,7 +2739,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 635
+      "days_old": 636
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
