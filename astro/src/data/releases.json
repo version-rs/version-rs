@@ -1950,7 +1950,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 43
+      "days_old": 44
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2045,7 +2045,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 91
+      "days_old": 92
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2074,7 +2074,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 93
+      "days_old": 94
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2312,7 +2312,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 241
+      "days_old": 242
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2406,7 +2406,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 298
+      "days_old": 299
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2451,7 +2451,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 312
+      "days_old": 313
     },
     {
       "title": "Stabilize stack-protector",
@@ -2723,7 +2723,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 636
+      "days_old": 637
     },
     {
       "title": "Stabilize associated type position impl Trait (ATPIT)",
