@@ -1676,7 +1676,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1842,7 +1842,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "stabilize smart pointer map functions",
@@ -2278,7 +2278,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 208
+      "days_old": 209
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2394,16 +2394,24 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "relnotes",
           "description": "Marks issues that should be documented in the release notes of the next release."
         },
         {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "T-types",
@@ -2780,7 +2788,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 937
+      "days_old": 938
     }
   ],
   "current_versions": {
