@@ -1378,6 +1378,15 @@
       "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0.html"
     },
     {
+      "version": "1.98.1",
+      "date": "2026-09-03",
+      "is_unreleased": false,
+      "changelog_md": "\n<a id=\"1.98.1\"></a>\n\n* [rustc: fix miscompilation in generating vtables](https://github.com/rust-lang/rust/issues/161441)\n",
+      "weight": 18446744073692749310,
+      "branch_date": "2026-08-14",
+      "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1.html"
+    },
+    {
       "version": "1.99.0",
       "date": "2026-10-01",
       "is_unreleased": true,
@@ -1755,7 +1764,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1900,15 +1909,11 @@
           "description": "Announce this issue on triage meeting"
         },
         {
-          "name": "I-libs-nominated",
-          "description": "Nominated for discussion during a libs team meeting."
-        },
-        {
           "name": "S-waiting-on-t-libs",
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1991,7 +1996,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 59
+      "days_old": 60
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2028,7 +2033,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 62
+      "days_old": 63
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2157,7 +2162,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 163
+      "days_old": 164
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2236,7 +2241,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 192
+      "days_old": 193
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2377,7 +2382,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 258
+      "days_old": 259
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2520,7 +2525,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 356
+      "days_old": 357
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2586,7 +2591,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 436
+      "days_old": 437
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2706,7 +2711,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 507
+      "days_old": 508
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
