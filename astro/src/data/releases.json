@@ -1748,12 +1748,12 @@
       "updated_at": "2026-08-22T12:21:01+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1849,35 +1849,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 27
-    },
-    {
-      "title": "stabilize smart pointer map functions",
-      "number": 160534,
-      "url": "https://github.com/rust-lang/rust/pull/160534",
-      "updated_at": "2026-08-04T23:42:30+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
         }
       ],
       "days_old": 27
@@ -2091,12 +2062,12 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+          "name": "S-waiting-on-fcp",
+          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         },
         {
-          "name": "S-waiting-on-t-libs",
-          "description": "Status: Awaiting decision from T-libs"
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
         },
         {
           "name": "A-random",
@@ -2145,7 +2116,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 150
+      "days_old": 151
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2216,7 +2187,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 183
+      "days_old": 184
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2262,7 +2233,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 208
+      "days_old": 209
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2550,7 +2521,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 364
+      "days_old": 365
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2645,7 +2616,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 455
+      "days_old": 456
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2686,7 +2657,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 494
+      "days_old": 495
     },
     {
       "title": "Stabilize `offset_of_slice`",
