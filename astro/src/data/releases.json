@@ -1764,7 +1764,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1884,7 +1884,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 29
+      "days_old": 30
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1967,7 +1967,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 60
+      "days_old": 61
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2004,7 +2004,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 63
+      "days_old": 64
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2133,7 +2133,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 164
+      "days_old": 165
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2212,7 +2212,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 193
+      "days_old": 194
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2254,7 +2254,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 209
+      "days_old": 210
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2353,7 +2353,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 259
+      "days_old": 260
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2496,7 +2496,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 357
+      "days_old": 358
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2562,7 +2562,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 437
+      "days_old": 438
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2682,7 +2682,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 508
+      "days_old": 509
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
@@ -2724,39 +2724,6 @@
         }
       ],
       "days_old": 637
-    },
-    {
-      "title": "Stabilize associated type position impl Trait (ATPIT)",
-      "number": 120700,
-      "url": "https://github.com/rust-lang/rust/pull/120700",
-      "updated_at": "2024-02-06T06:42:31+00:00",
-      "labels": [
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "A-impl-trait",
-          "description": "Area: `impl Trait`. Universally / existentially quantified anonymous types with static dispatch."
-        },
-        {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
-        },
-        {
-          "name": "T-types",
-          "description": "Relevant to the types team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "F-impl_trait_in_assoc_type",
-          "description": "`#![feature(impl_trait_in_assoc_type)]`"
-        },
-        {
-          "name": "S-waiting-on-concerns",
-          "description": "Status: Awaiting concerns to be addressed by the author"
-        }
-      ],
-      "days_old": 939
     }
   ],
   "current_versions": {
