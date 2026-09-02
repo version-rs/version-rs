@@ -1685,7 +1685,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1851,7 +1851,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 27
+      "days_old": 28
     },
     {
       "title": "stabilize `Box::take`",
@@ -2740,16 +2740,8 @@
           "description": "Area: `impl Trait`. Universally / existentially quantified anonymous types with static dispatch."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
-        },
-        {
           "name": "S-blocked",
           "description": "Status: Blocked on something else such as an RFC or other implementation work."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "T-types",
@@ -2764,7 +2756,7 @@
           "description": "Status: Awaiting concerns to be addressed by the author"
         }
       ],
-      "days_old": 938
+      "days_old": 939
     }
   ],
   "current_versions": {
