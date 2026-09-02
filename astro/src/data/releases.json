@@ -2116,7 +2116,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 151
+      "days_old": 152
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2187,7 +2187,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 184
+      "days_old": 185
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2233,7 +2233,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 209
+      "days_old": 210
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2374,10 +2374,6 @@
           "description": "Marks issues that should be documented in the release notes of the next release."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
@@ -2404,6 +2400,10 @@
         {
           "name": "S-waiting-on-t-lang",
           "description": "Status: Awaiting decision from T-lang"
+        },
+        {
+          "name": "S-waiting-on-t-types",
+          "description": "Status: Awaiting decision from T-types"
         }
       ],
       "days_old": 299
@@ -2521,7 +2521,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 365
+      "days_old": 366
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2616,7 +2616,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 456
+      "days_old": 457
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2657,7 +2657,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 495
+      "days_old": 496
     },
     {
       "title": "Stabilize `offset_of_slice`",
