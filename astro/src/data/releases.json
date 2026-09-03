@@ -1396,12 +1396,6 @@
       "release_name": "beta",
       "issues": [
         {
-          "title": "Tracking issue for release notes of #160369: When suggesting method names, prefer *exact* doc aliases over similar names",
-          "number": 160483,
-          "html_url": "https://github.com/rust-lang/rust/issues/160483",
-          "days_ago": 6
-        },
-        {
           "title": "core: implement FusedIterator for StepBy",
           "number": 159963,
           "html_url": "https://github.com/rust-lang/rust/pull/159963",
@@ -1605,6 +1599,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #157968: Preserve ambiguous glob lint for subtrait method picks",
+          "number": 162224,
+          "html_url": "https://github.com/rust-lang/rust/issues/162224",
+          "days_ago": 0
+        },
+        {
           "title": "compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia",
           "number": 161886,
           "html_url": "https://github.com/rust-lang/rust/pull/161886",
@@ -1685,7 +1685,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1851,7 +1851,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "stabilize `Box::take`",
@@ -2254,7 +2254,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 210
+      "days_old": 211
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
