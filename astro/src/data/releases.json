@@ -1764,7 +1764,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1884,7 +1884,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1967,7 +1967,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 61
+      "days_old": 62
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2004,7 +2004,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 64
+      "days_old": 65
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2133,7 +2133,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 165
+      "days_old": 166
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2212,7 +2212,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 194
+      "days_old": 195
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2353,7 +2353,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 260
+      "days_old": 261
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2496,7 +2496,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 358
+      "days_old": 359
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2562,7 +2562,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 438
+      "days_old": 439
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2682,7 +2682,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 509
+      "days_old": 510
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
