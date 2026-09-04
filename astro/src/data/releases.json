@@ -2051,7 +2051,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 94
+      "days_old": 95
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2080,7 +2080,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 96
+      "days_old": 97
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2193,7 +2193,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 186
+      "days_old": 187
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2318,7 +2318,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 244
+      "days_old": 245
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2412,7 +2412,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 301
+      "days_old": 302
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2457,7 +2457,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 315
+      "days_old": 316
     },
     {
       "title": "Stabilize stack-protector",
@@ -2729,7 +2729,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 639
+      "days_old": 640
     }
   ],
   "current_versions": {
