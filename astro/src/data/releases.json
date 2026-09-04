@@ -1685,7 +1685,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1851,7 +1851,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 29
+      "days_old": 30
     },
     {
       "title": "stabilize `Box::take`",
