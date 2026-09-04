@@ -1396,6 +1396,12 @@
       "release_name": "beta",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #159222: semicolon_in_expressions_from_macros: Lint on non-local macros too",
+          "number": 159223,
+          "html_url": "https://github.com/rust-lang/rust/issues/159223",
+          "days_ago": 0
+        },
+        {
           "title": "core: implement FusedIterator for StepBy",
           "number": 159963,
           "html_url": "https://github.com/rust-lang/rust/pull/159963",
@@ -2116,7 +2122,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 153
+      "days_old": 154
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2233,7 +2239,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 211
+      "days_old": 212
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2521,7 +2527,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 367
+      "days_old": 368
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2616,7 +2622,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 458
+      "days_old": 459
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2657,7 +2663,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 497
+      "days_old": 498
     },
     {
       "title": "Stabilize `offset_of_slice`",
