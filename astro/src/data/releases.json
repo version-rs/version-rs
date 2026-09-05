@@ -2122,7 +2122,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 154
+      "days_old": 155
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2239,7 +2239,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 212
+      "days_old": 213
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2527,7 +2527,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 368
+      "days_old": 369
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2663,7 +2663,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 498
+      "days_old": 499
     },
     {
       "title": "Stabilize `offset_of_slice`",
