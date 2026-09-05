@@ -1623,6 +1623,12 @@
           "days_ago": 7
         },
         {
+          "title": "Tracking issue for release notes of #160745: make closures act like MaybeDangling",
+          "number": 161363,
+          "html_url": "https://github.com/rust-lang/rust/issues/161363",
+          "days_ago": 8
+        },
+        {
           "title": "Cross-compile i686-pc-windows-gnu std from x86_64",
           "number": 161681,
           "html_url": "https://github.com/rust-lang/rust/pull/161681",
@@ -2051,7 +2057,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 95
+      "days_old": 96
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2080,7 +2086,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 97
+      "days_old": 98
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2193,7 +2199,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 187
+      "days_old": 188
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2318,7 +2324,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 245
+      "days_old": 246
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2412,7 +2418,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 302
+      "days_old": 303
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2457,7 +2463,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 316
+      "days_old": 317
     },
     {
       "title": "Stabilize stack-protector",
@@ -2729,7 +2735,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 640
+      "days_old": 641
     }
   ],
   "current_versions": {
