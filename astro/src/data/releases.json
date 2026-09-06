@@ -2057,7 +2057,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 96
+      "days_old": 97
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2324,7 +2324,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 246
+      "days_old": 247
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2418,7 +2418,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 303
+      "days_old": 304
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2463,7 +2463,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 317
+      "days_old": 318
     },
     {
       "title": "Stabilize stack-protector",
@@ -2735,7 +2735,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 641
+      "days_old": 642
     }
   ],
   "current_versions": {
