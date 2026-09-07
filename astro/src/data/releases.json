@@ -1842,7 +1842,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -1929,7 +1929,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1962,7 +1962,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 49
+      "days_old": 50
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2324,7 +2324,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 247
+      "days_old": 248
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2463,7 +2463,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 318
+      "days_old": 319
     },
     {
       "title": "Stabilize stack-protector",
@@ -2735,7 +2735,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 642
+      "days_old": 643
     }
   ],
   "current_versions": {
