@@ -2057,7 +2057,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 97
+      "days_old": 98
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2086,7 +2086,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 99
+      "days_old": 100
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2128,7 +2128,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 156
+      "days_old": 157
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2199,7 +2199,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 189
+      "days_old": 190
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2245,7 +2245,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 214
+      "days_old": 215
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2418,7 +2418,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 304
+      "days_old": 305
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2533,7 +2533,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 370
+      "days_old": 371
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
