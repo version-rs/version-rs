@@ -1962,7 +1962,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 50
+      "days_old": 51
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2057,7 +2057,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 98
+      "days_old": 99
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2086,7 +2086,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 100
+      "days_old": 101
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2324,7 +2324,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 248
+      "days_old": 249
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2418,7 +2418,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 305
+      "days_old": 306
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2463,7 +2463,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 319
+      "days_old": 320
     },
     {
       "title": "Stabilize stack-protector",
@@ -2735,7 +2735,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 643
+      "days_old": 644
     }
   ],
   "current_versions": {
