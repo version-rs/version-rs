@@ -2128,7 +2128,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 157
+      "days_old": 158
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2199,7 +2199,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 190
+      "days_old": 191
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2245,7 +2245,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 215
+      "days_old": 216
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2533,7 +2533,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 371
+      "days_old": 372
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2628,7 +2628,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 462
+      "days_old": 463
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2669,7 +2669,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 501
+      "days_old": 502
     },
     {
       "title": "Stabilize `offset_of_slice`",
