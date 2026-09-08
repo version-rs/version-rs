@@ -1697,7 +1697,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1863,7 +1863,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "stabilize `Box::take`",
@@ -2266,7 +2266,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 215
+      "days_old": 216
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
