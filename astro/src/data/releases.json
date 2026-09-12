@@ -1765,7 +1765,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `mem::conjure_zst`",
@@ -1856,7 +1856,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 29
+      "days_old": 30
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2213,7 +2213,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 176
+      "days_old": 177
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2338,7 +2338,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 221
+      "days_old": 222
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
