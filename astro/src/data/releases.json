@@ -1693,23 +1693,6 @@
   ],
   "stabilization_prs": [
     {
-      "title": "Stabilize `Vec::from_fn`",
-      "number": 162685,
-      "url": "https://github.com/rust-lang/rust/pull/162685",
-      "updated_at": "2026-09-12T11:34:33+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 0
-    },
-    {
       "title": "Stabilize `unsafe_cell_access`",
       "number": 162504,
       "url": "https://github.com/rust-lang/rust/pull/162504",
@@ -2022,7 +2005,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 54
+      "days_old": 55
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2117,7 +2100,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 102
+      "days_old": 103
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2384,7 +2367,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 252
+      "days_old": 253
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2478,7 +2461,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 309
+      "days_old": 310
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2523,7 +2506,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 323
+      "days_old": 324
     },
     {
       "title": "Stabilize stack-protector",
@@ -2795,7 +2778,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 647
+      "days_old": 648
     }
   ],
   "current_versions": {
