@@ -1693,6 +1693,23 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `Vec::from_fn`",
+      "number": 162685,
+      "url": "https://github.com/rust-lang/rust/pull/162685",
+      "updated_at": "2026-09-12T11:34:33+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `unsafe_cell_access`",
       "number": 162504,
       "url": "https://github.com/rust-lang/rust/pull/162504",
@@ -1819,7 +1836,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -1939,7 +1956,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 39
+      "days_old": 40
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -2022,7 +2039,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 70
+      "days_old": 71
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2059,7 +2076,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 73
+      "days_old": 74
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2188,7 +2205,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 174
+      "days_old": 175
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2267,7 +2284,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 203
+      "days_old": 204
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2408,7 +2425,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 269
+      "days_old": 270
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2551,7 +2568,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 367
+      "days_old": 368
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2617,7 +2634,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 447
+      "days_old": 448
     },
     {
       "title": "Stabilize the `breakpoint` function",
