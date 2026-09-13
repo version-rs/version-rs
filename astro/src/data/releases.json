@@ -1906,8 +1906,8 @@
           "description": "Announce this issue on triage meeting"
         },
         {
-          "name": "S-waiting-on-t-libs",
-          "description": "Status: Awaiting decision from T-libs"
+          "name": "I-libs-nominated",
+          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 41
@@ -2100,7 +2100,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 105
+      "days_old": 106
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2142,7 +2142,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2213,7 +2213,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 195
+      "days_old": 196
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2259,7 +2259,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 220
+      "days_old": 221
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2303,10 +2303,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-nominated",
-          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 223
@@ -2539,15 +2535,23 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "S-waiting-on-fcp",
+          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 376
+      "days_old": 377
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
