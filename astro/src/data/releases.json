@@ -1736,7 +1736,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1791,35 +1791,6 @@
         }
       ],
       "days_old": 19
-    },
-    {
-      "title": "Stabilize `core::mem::DropGuard`",
-      "number": 161520,
-      "url": "https://github.com/rust-lang/rust/pull/161520",
-      "updated_at": "2026-08-22T12:21:01+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        }
-      ],
-      "days_old": 21
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -2022,7 +1993,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 71
+      "days_old": 72
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2059,7 +2030,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 74
+      "days_old": 75
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2309,7 +2280,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 220
+      "days_old": 221
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2408,7 +2379,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 270
+      "days_old": 271
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2551,7 +2522,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 368
+      "days_old": 369
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2617,7 +2588,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 448
+      "days_old": 449
     },
     {
       "title": "Stabilize the `breakpoint` function",
