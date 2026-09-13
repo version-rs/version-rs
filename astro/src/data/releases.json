@@ -1856,7 +1856,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -1906,7 +1906,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 38
+      "days_old": 39
     },
     {
       "title": "stabilize `Box::take`",
@@ -2213,7 +2213,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 177
+      "days_old": 178
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2338,7 +2338,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 222
+      "days_old": 223
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
