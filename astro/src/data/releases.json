@@ -1910,7 +1910,7 @@
           "description": "Status: Awaiting decision from T-libs"
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -2159,7 +2159,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 175
+      "days_old": 176
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2238,7 +2238,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 204
+      "days_old": 205
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2642,7 +2642,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 467
+      "days_old": 468
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2683,7 +2683,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 506
+      "days_old": 507
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2708,7 +2708,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 519
+      "days_old": 520
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
