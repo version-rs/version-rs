@@ -1611,6 +1611,12 @@
           "days_ago": 5
         },
         {
+          "title": "windows-gnullvm: always link libunwind statically",
+          "number": 160712,
+          "html_url": "https://github.com/rust-lang/rust/pull/160712",
+          "days_ago": 6
+        },
+        {
           "title": "Promote `wasm32-wasip3` to a tier 2 target",
           "number": 161940,
           "html_url": "https://github.com/rust-lang/rust/pull/161940",
@@ -1703,8 +1709,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1736,7 +1742,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1910,7 +1916,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 41
+      "days_old": 42
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1993,7 +1999,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 72
+      "days_old": 73
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2030,7 +2036,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 75
+      "days_old": 76
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2159,7 +2165,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 176
+      "days_old": 177
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2238,7 +2244,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 205
+      "days_old": 206
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2280,7 +2286,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 221
+      "days_old": 222
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2375,7 +2381,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 271
+      "days_old": 272
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2518,7 +2524,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 369
+      "days_old": 370
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2592,7 +2598,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 449
+      "days_old": 450
     },
     {
       "title": "Stabilize the `breakpoint` function",
