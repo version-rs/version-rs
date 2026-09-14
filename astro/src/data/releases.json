@@ -1699,27 +1699,6 @@
   ],
   "stabilization_prs": [
     {
-      "title": "Stabilize `unsafe_cell_access`",
-      "number": 162504,
-      "url": "https://github.com/rust-lang/rust/pull/162504",
-      "updated_at": "2026-09-08T22:31:41+00:00",
-      "labels": [
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 5
-    },
-    {
       "title": "Stabilize `ExitCode::exit_process`",
       "number": 161908,
       "url": "https://github.com/rust-lang/rust/pull/161908",
@@ -2106,7 +2085,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 106
+      "days_old": 107
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2148,7 +2127,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 163
+      "days_old": 164
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2186,6 +2165,10 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         },
         {
+          "name": "has-merge-commits",
+          "description": "PR has merge commits, merge with caution."
+        },
+        {
           "name": "A-compiler-builtins",
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
@@ -2219,7 +2202,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 196
+      "days_old": 197
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2265,7 +2248,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 221
+      "days_old": 222
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2557,7 +2540,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 377
+      "days_old": 378
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2652,7 +2635,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 468
+      "days_old": 469
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2693,7 +2676,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 507
+      "days_old": 508
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2718,7 +2701,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 520
+      "days_old": 521
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
