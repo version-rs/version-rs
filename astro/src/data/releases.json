@@ -1736,12 +1736,12 @@
       "updated_at": "2026-08-25T00:29:02+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1765,12 +1765,12 @@
       "updated_at": "2026-08-25T00:10:42+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1798,12 +1798,12 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -2054,15 +2054,23 @@
           "description": "Area: Rustdoc JSON backend"
         },
         {
+          "name": "I-lang-nominated",
+          "description": "Nominated for discussion during a lang team meeting."
+        },
+        {
           "name": "I-lang-radar",
           "description": "Items that are on lang's radar and will need eventual work or consideration."
+        },
+        {
+          "name": "P-lang-drag-1",
+          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
         },
         {
           "name": "needs-reference-pr",
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 105
+      "days_old": 106
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2091,7 +2099,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 107
+      "days_old": 108
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2208,7 +2216,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 197
+      "days_old": 198
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2329,7 +2337,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 255
+      "days_old": 256
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2423,7 +2431,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 312
+      "days_old": 313
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2468,7 +2476,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 326
+      "days_old": 327
     },
     {
       "title": "Stabilize stack-protector",
@@ -2530,8 +2538,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "disposition-merge",
@@ -2544,6 +2552,10 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "I-libs-nominated",
+          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 379
@@ -2748,7 +2760,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 650
+      "days_old": 651
     }
   ],
   "current_versions": {
