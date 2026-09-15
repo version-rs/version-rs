@@ -1605,6 +1605,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Remove d32 feature from 32-bit Arm targets",
+          "number": 160911,
+          "html_url": "https://github.com/rust-lang/rust/pull/160911",
+          "days_ago": 0
+        },
+        {
           "title": "Generalise (most) impls on `Box`",
           "number": 161946,
           "html_url": "https://github.com/rust-lang/rust/pull/161946",
@@ -1721,7 +1727,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1895,7 +1901,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 42
+      "days_old": 43
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -1978,7 +1984,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 73
+      "days_old": 74
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2015,7 +2021,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 76
+      "days_old": 77
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2144,7 +2150,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 177
+      "days_old": 178
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2227,7 +2233,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 206
+      "days_old": 207
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2269,7 +2275,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 222
+      "days_old": 223
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2364,7 +2370,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 272
+      "days_old": 273
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2507,7 +2513,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 370
+      "days_old": 371
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2581,7 +2587,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 450
+      "days_old": 451
     },
     {
       "title": "Stabilize the `breakpoint` function",
