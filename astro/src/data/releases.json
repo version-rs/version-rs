@@ -1812,7 +1812,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 32
+      "days_old": 33
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -1862,7 +1862,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "stabilize `Box::take`",
@@ -2294,7 +2294,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 224
+      "days_old": 225
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
