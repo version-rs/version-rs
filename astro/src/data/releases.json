@@ -1715,8 +1715,8 @@
           "description": "Operating system: Windows"
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1935,8 +1935,8 @@
           "description": "Operating system: Windows"
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2120,7 +2120,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 108
+      "days_old": 109
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2162,7 +2162,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 165
+      "days_old": 166
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2237,7 +2237,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 198
+      "days_old": 199
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2452,7 +2452,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 313
+      "days_old": 314
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2579,7 +2579,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 379
+      "days_old": 380
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
