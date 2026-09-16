@@ -1705,6 +1705,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize CommandExt::show_window",
+      "number": 162856,
+      "url": "https://github.com/rust-lang/rust/pull/162856",
+      "updated_at": "2026-09-16T15:19:47+00:00",
+      "labels": [
+        {
+          "name": "O-windows",
+          "description": "Operating system: Windows"
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `ExitCode::exit_process`",
       "number": 161908,
       "url": "https://github.com/rust-lang/rust/pull/161908",
@@ -1769,12 +1790,12 @@
           "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "S-waiting-on-fcp",
+          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         },
         {
           "name": "T-libs",
@@ -1901,7 +1922,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 43
+      "days_old": 44
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -2021,7 +2042,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 77
+      "days_old": 78
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2158,7 +2179,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 178
+      "days_old": 179
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2241,7 +2262,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 207
+      "days_old": 208
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2262,7 +2283,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 223
+      "days_old": 224
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2653,7 +2674,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 470
+      "days_old": 471
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2694,7 +2715,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 509
+      "days_old": 510
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2719,7 +2740,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 522
+      "days_old": 523
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
