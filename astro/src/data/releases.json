@@ -1868,7 +1868,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 35
+      "days_old": 36
     },
     {
       "title": "Stabilize `feature(trim_prefix_suffix)` (`{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`)",
@@ -1881,8 +1881,8 @@
           "description": "Area: Code generation parts specific to LLVM. Both correctness bugs and optimization-related issues."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1988,7 +1988,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 58
+      "days_old": 59
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2091,7 +2091,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 106
+      "days_old": 107
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2358,7 +2358,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 256
+      "days_old": 257
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2497,7 +2497,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 327
+      "days_old": 328
     },
     {
       "title": "Stabilize stack-protector",
@@ -2781,7 +2781,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 651
+      "days_old": 652
     }
   ],
   "current_versions": {
