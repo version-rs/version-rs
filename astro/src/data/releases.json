@@ -1396,6 +1396,12 @@
       "release_name": "beta",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #162820: [beta] Backports for compiler-builtins",
+          "number": 162891,
+          "html_url": "https://github.com/rust-lang/rust/issues/162891",
+          "days_ago": 0
+        },
+        {
           "title": "Tracking issue for release notes of #159222: semicolon_in_expressions_from_macros: Lint on non-local macros too",
           "number": 159223,
           "html_url": "https://github.com/rust-lang/rust/issues/159223",
@@ -1611,6 +1617,12 @@
           "days_ago": 2
         },
         {
+          "title": "Fix soundness issues in std::sys::pal::sgx::waitqueue::unsafe_list",
+          "number": 161334,
+          "html_url": "https://github.com/rust-lang/rust/pull/161334",
+          "days_ago": 6
+        },
+        {
           "title": "Generalise (most) impls on `Box`",
           "number": 161946,
           "html_url": "https://github.com/rust-lang/rust/pull/161946",
@@ -1639,6 +1651,12 @@
           "number": 162224,
           "html_url": "https://github.com/rust-lang/rust/issues/162224",
           "days_ago": 14
+        },
+        {
+          "title": "attach global target features to module-level assembly",
+          "number": 160594,
+          "html_url": "https://github.com/rust-lang/rust/pull/160594",
+          "days_ago": 19
         },
         {
           "title": "compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia",
@@ -1748,7 +1766,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1922,7 +1940,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 44
+      "days_old": 45
     },
     {
       "title": "Stabilize `windows_process_extensions_main_thread_handle`",
@@ -2005,7 +2023,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 75
+      "days_old": 76
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2042,7 +2060,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 78
+      "days_old": 79
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2179,7 +2197,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 179
+      "days_old": 180
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2262,7 +2280,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 208
+      "days_old": 209
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2304,7 +2322,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 224
+      "days_old": 225
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2399,7 +2417,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 274
+      "days_old": 275
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2542,7 +2560,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 372
+      "days_old": 373
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2620,7 +2638,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 452
+      "days_old": 453
     },
     {
       "title": "Stabilize the `breakpoint` function",
