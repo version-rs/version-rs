@@ -1522,6 +1522,12 @@
           "days_ago": 52
         },
         {
+          "title": "rustc_parse: Stop returning `Option` from statement parsing",
+          "number": 159849,
+          "html_url": "https://github.com/rust-lang/rust/pull/159849",
+          "days_ago": 53
+        },
+        {
           "title": "Split non-local `semicolon_in_expressions_from_macros` into a separate lint",
           "number": 159700,
           "html_url": "https://github.com/rust-lang/rust/pull/159700",
@@ -1610,6 +1616,12 @@
       "branch_date": "2026-09-25",
       "release_name": "nightly",
       "issues": [
+        {
+          "title": "x86: on targets that requires SSE, use those registers for ABI",
+          "number": 161583,
+          "html_url": "https://github.com/rust-lang/rust/pull/161583",
+          "days_ago": 0
+        },
         {
           "title": "Remove d32 feature from 32-bit Arm targets",
           "number": 160911,
@@ -1770,7 +1782,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -2272,7 +2284,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 225
+      "days_old": 226
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2510,7 +2522,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 373
+      "days_old": 374
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
