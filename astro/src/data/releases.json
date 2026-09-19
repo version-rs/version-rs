@@ -1788,7 +1788,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1917,8 +1917,8 @@
       "updated_at": "2026-08-03T13:09:23+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "disposition-merge",
@@ -2290,7 +2290,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 226
+      "days_old": 227
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
