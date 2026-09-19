@@ -1772,16 +1772,16 @@
       "updated_at": "2026-08-28T09:25:01+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
           "name": "proposed-final-comment-period",
           "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "S-waiting-on-fcp",
+          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
         },
         {
           "name": "T-libs",
@@ -2077,7 +2077,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 109
+      "days_old": 110
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2106,7 +2106,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 111
+      "days_old": 112
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2223,7 +2223,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 201
+      "days_old": 202
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2438,7 +2438,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 316
+      "days_old": 317
     },
     {
       "title": "Stabilize Frontmatter",
