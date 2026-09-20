@@ -1978,7 +1978,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 47
+      "days_old": 48
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -2697,7 +2697,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 474
+      "days_old": 475
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2738,7 +2738,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 513
+      "days_old": 514
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2763,7 +2763,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 526
+      "days_old": 527
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
