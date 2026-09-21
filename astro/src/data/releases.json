@@ -1800,7 +1800,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1945,7 +1945,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "stabilize `Box::take`",
@@ -2011,7 +2011,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 63
+      "days_old": 64
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2114,7 +2114,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 111
+      "days_old": 112
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2377,7 +2377,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 261
+      "days_old": 262
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2471,7 +2471,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 318
+      "days_old": 319
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2516,7 +2516,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 332
+      "days_old": 333
     },
     {
       "title": "Stabilize stack-protector",
@@ -2800,7 +2800,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 656
+      "days_old": 657
     }
   ],
   "current_versions": {
