@@ -1747,16 +1747,16 @@
       "updated_at": "2026-09-20T12:17:18+00:00",
       "labels": [
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "relnotes",
           "description": "Marks issues that should be documented in the release notes of the next release."
         },
         {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
         },
         {
           "name": "disposition-merge",
@@ -1796,7 +1796,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2003,7 +2003,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 64
+      "days_old": 65
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2106,7 +2106,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 112
+      "days_old": 113
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2377,7 +2377,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 262
+      "days_old": 263
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2471,7 +2471,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 319
+      "days_old": 320
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2516,7 +2516,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 333
+      "days_old": 334
     },
     {
       "title": "Stabilize stack-protector",
@@ -2796,7 +2796,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 657
+      "days_old": 658
     }
   ],
   "current_versions": {
