@@ -1747,16 +1747,16 @@
       "updated_at": "2026-09-20T12:17:18+00:00",
       "labels": [
         {
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+        },
+        {
           "name": "relnotes",
           "description": "Marks issues that should be documented in the release notes of the next release."
         },
         {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
         },
         {
           "name": "disposition-merge",
@@ -1769,10 +1769,6 @@
         {
           "name": "O-unix",
           "description": "Operating system: Unix-like"
-        },
-        {
-          "name": "I-libs-nominated",
-          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 2
@@ -1784,12 +1780,12 @@
       "updated_at": "2026-09-17T21:18:49+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1798,10 +1794,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-nominated",
-          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 4
@@ -1958,8 +1950,8 @@
       "updated_at": "2026-08-03T13:09:23+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2143,7 +2135,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 114
+      "days_old": 115
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2185,7 +2177,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 171
+      "days_old": 172
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2264,7 +2256,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 204
+      "days_old": 205
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2310,7 +2302,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 229
+      "days_old": 230
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2586,8 +2578,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
         },
         {
           "name": "disposition-merge",
@@ -2600,13 +2592,9 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-nominated",
-          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 385
+      "days_old": 386
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2701,7 +2689,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 476
+      "days_old": 477
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2742,7 +2730,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 515
+      "days_old": 516
     },
     {
       "title": "Stabilize `offset_of_slice`",
