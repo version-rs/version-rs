@@ -1777,7 +1777,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize ptr_cast_slice",
@@ -2038,7 +2038,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 84
+      "days_old": 85
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2183,7 +2183,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 185
+      "days_old": 186
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2262,7 +2262,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 214
+      "days_old": 215
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2283,7 +2283,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 230
+      "days_old": 231
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2670,7 +2670,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 477
+      "days_old": 478
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2711,7 +2711,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 516
+      "days_old": 517
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2736,7 +2736,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 529
+      "days_old": 530
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
