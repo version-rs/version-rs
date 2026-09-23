@@ -1629,6 +1629,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "alloc: stabilise `Allocator`",
+          "number": 156882,
+          "html_url": "https://github.com/rust-lang/rust/pull/156882",
+          "days_ago": 0
+        },
+        {
           "title": "x86: on targets that requires SSE, use those registers for ABI",
           "number": 161583,
           "html_url": "https://github.com/rust-lang/rust/pull/161583",
@@ -1825,7 +1831,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -1995,7 +2001,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 81
+      "days_old": 82
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2298,7 +2304,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 230
+      "days_old": 231
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2393,7 +2399,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 280
+      "days_old": 281
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2536,7 +2542,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 378
+      "days_old": 379
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2610,7 +2616,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 458
+      "days_old": 459
     },
     {
       "title": "Stabilize the `breakpoint` function",
