@@ -2059,8 +2059,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "disposition-merge",
@@ -2087,7 +2087,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 113
+      "days_old": 114
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2116,7 +2116,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 115
+      "days_old": 116
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2158,7 +2158,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 172
+      "days_old": 173
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2237,7 +2237,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 205
+      "days_old": 206
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2452,7 +2452,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 320
+      "days_old": 321
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2559,8 +2559,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "disposition-merge",
@@ -2575,7 +2575,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 386
+      "days_old": 387
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
