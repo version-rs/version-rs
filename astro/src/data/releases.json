@@ -1480,6 +1480,12 @@
           "days_ago": 50
         },
         {
+          "title": "Update to LLVM 23",
+          "number": 158734,
+          "html_url": "https://github.com/rust-lang/rust/pull/158734",
+          "days_ago": 50
+        },
+        {
           "title": "When suggesting method names, prefer *exact* doc aliases over similar names",
           "number": 160369,
           "html_url": "https://github.com/rust-lang/rust/pull/160369",
@@ -1837,7 +1843,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "Stabilize `Result::into_{ok,err}`",
@@ -2310,7 +2316,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 231
+      "days_old": 232
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
