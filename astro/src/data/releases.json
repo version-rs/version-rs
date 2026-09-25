@@ -1847,7 +1847,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1881,10 +1881,6 @@
       "updated_at": "2026-08-25T00:29:02+00:00",
       "labels": [
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
@@ -1893,8 +1889,16 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "T-clippy",
@@ -1910,20 +1914,24 @@
       "updated_at": "2026-08-25T00:10:42+00:00",
       "labels": [
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
-          "name": "S-waiting-on-fcp",
-          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         }
       ],
       "days_old": 31
@@ -1943,10 +1951,6 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
@@ -1955,8 +1959,16 @@
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "I-lang-radar",
@@ -2025,7 +2037,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 67
+      "days_old": 68
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2120,7 +2132,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 115
+      "days_old": 116
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2149,7 +2161,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2391,7 +2403,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 265
+      "days_old": 266
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2485,7 +2497,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 322
+      "days_old": 323
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2530,7 +2542,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 336
+      "days_old": 337
     },
     {
       "title": "Stabilize stack-protector",
@@ -2818,7 +2830,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 660
+      "days_old": 661
     }
   ],
   "current_versions": {
