@@ -2191,7 +2191,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 174
+      "days_old": 175
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2270,7 +2270,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 207
+      "days_old": 208
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2316,7 +2316,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 232
+      "days_old": 233
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2543,6 +2543,10 @@
           "description": "Area: Code generation parts specific to LLVM. Both correctness bugs and optimization-related issues."
         },
         {
+          "name": "A-testsuite",
+          "description": "Area: The testsuite used to check the correctness of rustc"
+        },
+        {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
@@ -2569,6 +2573,10 @@
         {
           "name": "PG-exploit-mitigations",
           "description": "Project group: Exploit mitigations"
+        },
+        {
+          "name": "A-compiletest",
+          "description": "Area: The compiletest test runner"
         },
         {
           "name": "F-autodiff",
@@ -2608,7 +2616,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 388
+      "days_old": 389
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2703,7 +2711,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 479
+      "days_old": 480
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2744,7 +2752,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 518
+      "days_old": 519
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2769,7 +2777,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 531
+      "days_old": 532
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
