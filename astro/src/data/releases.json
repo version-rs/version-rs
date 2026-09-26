@@ -2153,7 +2153,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 118
+      "days_old": 119
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2195,7 +2195,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 175
+      "days_old": 176
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2274,7 +2274,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 208
+      "days_old": 209
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2620,7 +2620,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 389
+      "days_old": 390
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
