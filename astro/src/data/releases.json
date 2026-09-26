@@ -1765,24 +1765,16 @@
       "updated_at": "2026-09-26T08:54:05+00:00",
       "labels": [
         {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+          "name": "relnotes",
+          "description": "Marks issues that should be documented in the release notes of the next release."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "F-explicit_tail_calls",
-          "description": "`#![feature(explicit_tail_calls)]`"
         }
       ],
       "days_old": 0
@@ -2328,7 +2320,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 233
+      "days_old": 234
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2723,7 +2715,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 480
+      "days_old": 481
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2764,7 +2756,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 519
+      "days_old": 520
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2789,7 +2781,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 532
+      "days_old": 533
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
