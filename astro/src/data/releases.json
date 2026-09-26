@@ -1914,8 +1914,8 @@
       "updated_at": "2026-08-25T00:10:42+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -1975,7 +1975,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 43
+      "days_old": 44
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2374,7 +2374,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 235
+      "days_old": 236
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
