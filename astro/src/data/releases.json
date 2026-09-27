@@ -1765,6 +1765,12 @@
       "branch_date": "2026-11-06",
       "issues": [
         {
+          "title": "Guarantee 8 bytes of alignment of RawWakerVTable",
+          "number": 158186,
+          "html_url": "https://github.com/rust-lang/rust/pull/158186",
+          "days_ago": 0
+        },
+        {
           "title": "Stabilize SyncView",
           "number": 163366,
           "html_url": "https://github.com/rust-lang/rust/pull/163366",
@@ -1962,7 +1968,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 44
+      "days_old": 45
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2361,7 +2367,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 236
+      "days_old": 237
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
