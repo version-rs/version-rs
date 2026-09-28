@@ -1381,373 +1381,373 @@
           "title": "Tracking issue for release notes of #142748: Tracking Issue for producing a `Result<(), E>` from a `bool`",
           "number": 156336,
           "html_url": "https://github.com/rust-lang/rust/issues/156336",
-          "days_ago": 29
+          "days_ago": 30
         },
         {
           "title": "Tracking issue for release notes of #146561: Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`",
           "number": 148297,
           "html_url": "https://github.com/rust-lang/rust/issues/148297",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #153513: Syntactically reject equality predicates",
           "number": 154816,
           "html_url": "https://github.com/rust-lang/rust/issues/154816",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155750: Document that `ManuallyDrop`'s `Box` interaction has been fixed",
           "number": 156042,
           "html_url": "https://github.com/rust-lang/rust/issues/156042",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #148799: Switch the destructors implementation for thread locals on Windows to use FLS",
           "number": 156334,
           "html_url": "https://github.com/rust-lang/rust/issues/156334",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155113: Ensure Send/Sync impl for std::process::CommandArgs",
           "number": 156335,
           "html_url": "https://github.com/rust-lang/rust/issues/156335",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #129543: Make trait refs & assoc ty paths properly induce trait object lifetime defaults",
           "number": 156449,
           "html_url": "https://github.com/rust-lang/rust/issues/156449",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #149219: Allow shortening lifetime in CoerceUnsized for &mut",
           "number": 156457,
           "html_url": "https://github.com/rust-lang/rust/issues/156457",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155521: Add lint againts invalid runtime symbol definitions",
           "number": 156519,
           "html_url": "https://github.com/rust-lang/rust/issues/156519",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155153: Ensure Send/Sync is not implemented for std::env::Vars{,Os}",
           "number": 156521,
           "html_url": "https://github.com/rust-lang/rust/issues/156521",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155193: Check arguments of attributes where no arguments are expected",
           "number": 156641,
           "html_url": "https://github.com/rust-lang/rust/issues/156641",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #149195: resolve: Partially convert `ambiguous_glob_imports` lint into a hard error",
           "number": 156648,
           "html_url": "https://github.com/rust-lang/rust/issues/156648",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #145108: Resolver: Batched Import Resolution",
           "number": 156651,
           "html_url": "https://github.com/rust-lang/rust/issues/156651",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155527: Replace printables table with `unicode_data.rs` tables",
           "number": 156782,
           "html_url": "https://github.com/rust-lang/rust/issues/156782",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155418: transmute: fix check for whether newtypes have equal size",
           "number": 156852,
           "html_url": "https://github.com/rust-lang/rust/issues/156852",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #156379: lint on `core::ffi::c_void` as a return type",
           "number": 156853,
           "html_url": "https://github.com/rust-lang/rust/issues/156853",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #157509: remove solaris implementation for File::lock, it has the wrong semantics",
           "number": 157510,
           "html_url": "https://github.com/rust-lang/rust/issues/157510",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #156188: riscv: promote d, e, and f target_features to CfgStableToggleUnstable",
           "number": 157534,
           "html_url": "https://github.com/rust-lang/rust/issues/157534",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #157201: Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing",
           "number": 157704,
           "html_url": "https://github.com/rust-lang/rust/issues/157704",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155299: make repr_transparent_non_zst_fields a hard error",
           "number": 157730,
           "html_url": "https://github.com/rust-lang/rust/issues/157730",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #156908: Tracking Issue for LoongArch CRC Intrinsics",
           "number": 157844,
           "html_url": "https://github.com/rust-lang/rust/issues/157844",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #157029: stabilize feature `float_algebraic`",
           "number": 157864,
           "html_url": "https://github.com/rust-lang/rust/issues/157864",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #156807: Add `T: PartialEq` bounds to derived `StructuralPartialEq` impls.",
           "number": 157865,
           "html_url": "https://github.com/rust-lang/rust/issues/157865",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155739: Add temporary scope to assert_eq and assert_ne",
           "number": 158022,
           "html_url": "https://github.com/rust-lang/rust/issues/158022",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #156928: Remove -Zemscripten-wasm-eh",
           "number": 158091,
           "html_url": "https://github.com/rust-lang/rust/issues/158091",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155421: Document panic in `RangeInclusive::from(legacy::RangeInclusive)`",
           "number": 158142,
           "html_url": "https://github.com/rust-lang/rust/issues/158142",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #158020: Update mingw-w64 C toolchain",
           "number": 158296,
           "html_url": "https://github.com/rust-lang/rust/issues/158296",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155598: Implement fast path for `derive(PartialOrd)` when deriving `Ord`",
           "number": 159555,
           "html_url": "https://github.com/rust-lang/rust/issues/159555",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #158372: rustfmt: Discover modules via `cfg_select!`",
           "number": 159615,
           "html_url": "https://github.com/rust-lang/rust/issues/159615",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #144220: Add powerpc64-unknown-linux-gnuelfv2 target",
           "number": 160462,
           "html_url": "https://github.com/rust-lang/rust/issues/160462",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #158573: stabilize `feature(atomic_from_mut)`",
           "number": 160686,
           "html_url": "https://github.com/rust-lang/rust/issues/160686",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155763: Promotes 5 Thumb-mode bare-metal Arm targets to Tier 2",
           "number": 160688,
           "html_url": "https://github.com/rust-lang/rust/issues/160688",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #155722: Introduce aarch64-unknown-linux-pauthtest target",
           "number": 160689,
           "html_url": "https://github.com/rust-lang/rust/issues/160689",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #152544: Stabilize `int_format_into` feature",
           "number": 160690,
           "html_url": "https://github.com/rust-lang/rust/issues/160690",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #158012: Stabilize `strip_circumfix`",
           "number": 160694,
           "html_url": "https://github.com/rust-lang/rust/issues/160694",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #157877: Stabilize `nonzero_from_str_radix`",
           "number": 160698,
           "html_url": "https://github.com/rust-lang/rust/issues/160698",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #157912: stabilize str_from_utf16_endian",
           "number": 160699,
           "html_url": "https://github.com/rust-lang/rust/issues/160699",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #154645: Tracking Issue for `derive_macro_global_path`",
           "number": 161087,
           "html_url": "https://github.com/rust-lang/rust/issues/161087",
-          "days_ago": 38
+          "days_ago": 39
         },
         {
           "title": "Tracking issue for release notes of #126769: Tracking Issue for `substr_range` and related methods",
           "number": 148225,
           "html_url": "https://github.com/rust-lang/rust/issues/148225",
-          "days_ago": 40
+          "days_ago": 41
         },
         {
           "title": "Tracking issue for release notes of #141266: Stabilize `substr_range` and `subslice_range`",
           "number": 161286,
           "html_url": "https://github.com/rust-lang/rust/issues/161286",
-          "days_ago": 40
+          "days_ago": 41
         },
         {
           "title": "Tracking issue for release notes of #116258: Tracking Issue for explicit-endian String::from_utf16",
           "number": 157822,
           "html_url": "https://github.com/rust-lang/rust/issues/157822",
-          "days_ago": 51
+          "days_ago": 52
         },
         {
           "title": "Tracking issue for release notes of #152193: Tracking Issue for `nonzero_from_str_radix`",
           "number": 157847,
           "html_url": "https://github.com/rust-lang/rust/issues/157847",
-          "days_ago": 51
+          "days_ago": 52
         },
         {
           "title": "Tracking issue for release notes of #147946: Tracking Issue for `strip_circumfix`",
           "number": 157850,
           "html_url": "https://github.com/rust-lang/rust/issues/157850",
-          "days_ago": 51
+          "days_ago": 52
         },
         {
           "title": "rustfmt: Discover modules via `cfg_select!`",
           "number": 158372,
           "html_url": "https://github.com/rust-lang/rust/pull/158372",
-          "days_ago": 65
+          "days_ago": 66
         },
         {
           "title": "stabilize `feature(atomic_from_mut)`",
           "number": 158573,
           "html_url": "https://github.com/rust-lang/rust/pull/158573",
-          "days_ago": 88
+          "days_ago": 89
         },
         {
           "title": "Introduce aarch64-unknown-linux-pauthtest target",
           "number": 155722,
           "html_url": "https://github.com/rust-lang/rust/pull/155722",
-          "days_ago": 89
+          "days_ago": 90
         },
         {
           "title": "Change `Location<'_>` lifetime to `'static` in `Panic[Hook]Info`",
           "number": 146561,
           "html_url": "https://github.com/rust-lang/rust/pull/146561",
-          "days_ago": 91
+          "days_ago": 92
         },
         {
           "title": "Update mingw-w64 C toolchain",
           "number": 158020,
           "html_url": "https://github.com/rust-lang/rust/pull/158020",
-          "days_ago": 94
+          "days_ago": 95
         },
         {
           "title": "Stabilize `substr_range` and `subslice_range`",
           "number": 141266,
           "html_url": "https://github.com/rust-lang/rust/pull/141266",
-          "days_ago": 100
+          "days_ago": 101
         },
         {
           "title": "stabilize str_from_utf16_endian",
           "number": 157912,
           "html_url": "https://github.com/rust-lang/rust/pull/157912",
-          "days_ago": 101
+          "days_ago": 102
         },
         {
           "title": "Stabilize `strip_circumfix`",
           "number": 158012,
           "html_url": "https://github.com/rust-lang/rust/pull/158012",
-          "days_ago": 101
+          "days_ago": 102
         },
         {
           "title": "Stabilize `int_format_into` feature",
           "number": 152544,
           "html_url": "https://github.com/rust-lang/rust/pull/152544",
-          "days_ago": 104
+          "days_ago": 105
         },
         {
           "title": "Document that `ManuallyDrop`'s `Box` interaction has been fixed",
           "number": 155750,
           "html_url": "https://github.com/rust-lang/rust/pull/155750",
-          "days_ago": 104
+          "days_ago": 105
         },
         {
           "title": "Stabilize `nonzero_from_str_radix`",
           "number": 157877,
           "html_url": "https://github.com/rust-lang/rust/pull/157877",
-          "days_ago": 104
+          "days_ago": 105
         },
         {
           "title": "Move logic for emitting UNSAFE_CODE for unsafe attributes to attr parsing",
           "number": 157201,
           "html_url": "https://github.com/rust-lang/rust/pull/157201",
-          "days_ago": 106
+          "days_ago": 107
         },
         {
           "title": "Add powerpc64-unknown-linux-gnuelfv2 target",
           "number": 144220,
           "html_url": "https://github.com/rust-lang/rust/pull/144220",
-          "days_ago": 107
+          "days_ago": 108
         },
         {
           "title": "Resolver: Batched Import Resolution",
           "number": 145108,
           "html_url": "https://github.com/rust-lang/rust/pull/145108",
-          "days_ago": 111
+          "days_ago": 112
         },
         {
           "title": "Tracking issue for release notes of #157577: Fix parser error recovery treating 'dyn' as a strict keyword in Rust …",
           "number": 157579,
           "html_url": "https://github.com/rust-lang/rust/issues/157579",
-          "days_ago": 111
+          "days_ago": 112
         },
         {
           "title": "remove solaris implementation for File::lock, it has the wrong semantics",
           "number": 157509,
           "html_url": "https://github.com/rust-lang/rust/pull/157509",
-          "days_ago": 112
+          "days_ago": 113
         },
         {
           "title": "Promotes 5 Thumb-mode bare-metal Arm targets to Tier 2",
           "number": 155763,
           "html_url": "https://github.com/rust-lang/rust/pull/155763",
-          "days_ago": 116
+          "days_ago": 117
         },
         {
           "title": "Remove -Zemscripten-wasm-eh",
           "number": 156928,
           "html_url": "https://github.com/rust-lang/rust/pull/156928",
-          "days_ago": 116
+          "days_ago": 117
         },
         {
           "title": "Implement fast path for `derive(PartialOrd)` when deriving `Ord`",
           "number": 155598,
           "html_url": "https://github.com/rust-lang/rust/pull/155598",
-          "days_ago": 126
+          "days_ago": 127
         }
       ]
     },
@@ -1764,229 +1764,229 @@
           "title": "Tracking issue for release notes of #162820: [beta] Backports for compiler-builtins",
           "number": 162891,
           "html_url": "https://github.com/rust-lang/rust/issues/162891",
-          "days_ago": 10
+          "days_ago": 11
         },
         {
           "title": "Tracking issue for release notes of #159222: semicolon_in_expressions_from_macros: Lint on non-local macros too",
           "number": 159223,
           "html_url": "https://github.com/rust-lang/rust/issues/159223",
-          "days_ago": 23
+          "days_ago": 24
         },
         {
           "title": "attach global target features to module-level assembly",
           "number": 160594,
           "html_url": "https://github.com/rust-lang/rust/pull/160594",
-          "days_ago": 29
+          "days_ago": 30
         },
         {
           "title": "core: implement FusedIterator for StepBy",
           "number": 159963,
           "html_url": "https://github.com/rust-lang/rust/pull/159963",
-          "days_ago": 43
+          "days_ago": 44
         },
         {
           "title": "Enable `static_position_independent_executables` on all gnu targets",
           "number": 158510,
           "html_url": "https://github.com/rust-lang/rust/pull/158510",
-          "days_ago": 44
+          "days_ago": 45
         },
         {
           "title": "Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2",
           "number": 160765,
           "html_url": "https://github.com/rust-lang/rust/issues/160765",
-          "days_ago": 44
+          "days_ago": 45
         },
         {
           "title": "Add new `unused_footnote_definition` rustdoc lint",
           "number": 137858,
           "html_url": "https://github.com/rust-lang/rust/pull/137858",
-          "days_ago": 45
+          "days_ago": 46
         },
         {
           "title": "Tracking issue for release notes of #154202: rustfmt: Format `cfg_select!`",
           "number": 160321,
           "html_url": "https://github.com/rust-lang/rust/issues/160321",
-          "days_ago": 45
+          "days_ago": 46
         },
         {
           "title": "Also warn if an invalid `doc` attribute is used on a macro invocation",
           "number": 161003,
           "html_url": "https://github.com/rust-lang/rust/pull/161003",
-          "days_ago": 45
+          "days_ago": 46
         },
         {
           "title": "Stabilize fs_set_times",
           "number": 160820,
           "html_url": "https://github.com/rust-lang/rust/pull/160820",
-          "days_ago": 48
+          "days_ago": 49
         },
         {
           "title": "Introduce a `PinSafePointer` trait that generalizes `PinCoerceUnsized`",
           "number": 156935,
           "html_url": "https://github.com/rust-lang/rust/pull/156935",
-          "days_ago": 49
+          "days_ago": 50
         },
         {
           "title": "stabilize `c_variadic_naked_functions`",
           "number": 159746,
           "html_url": "https://github.com/rust-lang/rust/pull/159746",
-          "days_ago": 49
+          "days_ago": 50
         },
         {
           "title": "[rustdoc] Do not take `doc(cfg())` into account when filtering doctests",
           "number": 159014,
           "html_url": "https://github.com/rust-lang/rust/pull/159014",
-          "days_ago": 52
+          "days_ago": 53
         },
         {
           "title": "fully deprecate the legacy integral modules",
           "number": 146882,
           "html_url": "https://github.com/rust-lang/rust/pull/146882",
-          "days_ago": 53
+          "days_ago": 54
         },
         {
           "title": "Update to LLVM 23",
           "number": 158734,
           "html_url": "https://github.com/rust-lang/rust/pull/158734",
-          "days_ago": 53
+          "days_ago": 54
         },
         {
           "title": "When suggesting method names, prefer *exact* doc aliases over similar names",
           "number": 160369,
           "html_url": "https://github.com/rust-lang/rust/pull/160369",
-          "days_ago": 54
+          "days_ago": 55
         },
         {
           "title": "Tracking issue for release notes of #159503: allocations: document that they can be read-only",
           "number": 160319,
           "html_url": "https://github.com/rust-lang/rust/issues/160319",
-          "days_ago": 57
+          "days_ago": 58
         },
         {
           "title": "Box::leak: tell people to avoid unleaking",
           "number": 160323,
           "html_url": "https://github.com/rust-lang/rust/pull/160323",
-          "days_ago": 57
+          "days_ago": 58
         },
         {
           "title": "rustfmt: Format `cfg_select!`",
           "number": 154202,
           "html_url": "https://github.com/rust-lang/rust/pull/154202",
-          "days_ago": 58
+          "days_ago": 59
         },
         {
           "title": "Tracking issue for release notes of #158608: Implement `#[diagnostic::opaque]` attribute to hide backtraces of macros.",
           "number": 159824,
           "html_url": "https://github.com/rust-lang/rust/issues/159824",
-          "days_ago": 58
+          "days_ago": 59
         },
         {
           "title": "Tracking issue for release notes of #159960: Allow `UnsafeCell` content access without `get` in `invalid_reference_casting` lint",
           "number": 160260,
           "html_url": "https://github.com/rust-lang/rust/issues/160260",
-          "days_ago": 58
+          "days_ago": 59
         },
         {
           "title": "Tracking issue for release notes of #159513: Consider `()` as suspicious only when expecting `!` for runtime symbols",
           "number": 160265,
           "html_url": "https://github.com/rust-lang/rust/issues/160265",
-          "days_ago": 58
+          "days_ago": 59
         },
         {
           "title": "hermit/fs: Return `unsupported()` instead of `from_raw_os_error(22)`",
           "number": 158247,
           "html_url": "https://github.com/rust-lang/rust/pull/158247",
-          "days_ago": 59
+          "days_ago": 60
         },
         {
           "title": "Allow `UnsafeCell` content access without `get` in `invalid_reference_casting` lint",
           "number": 159960,
           "html_url": "https://github.com/rust-lang/rust/pull/159960",
-          "days_ago": 61
+          "days_ago": 62
         },
         {
           "title": "rustc_parse: Stop returning `Option` from statement parsing",
           "number": 159849,
           "html_url": "https://github.com/rust-lang/rust/pull/159849",
-          "days_ago": 62
+          "days_ago": 63
         },
         {
           "title": "Split non-local `semicolon_in_expressions_from_macros` into a separate lint",
           "number": 159700,
           "html_url": "https://github.com/rust-lang/rust/pull/159700",
-          "days_ago": 63
+          "days_ago": 64
         },
         {
           "title": "allow accessing the contents of UnsafeCell without going through get",
           "number": 159730,
           "html_url": "https://github.com/rust-lang/rust/pull/159730",
-          "days_ago": 63
+          "days_ago": 64
         },
         {
           "title": "Promote riscv64-unknown-linux-musl to tier 2 with host tools",
           "number": 158766,
           "html_url": "https://github.com/rust-lang/rust/pull/158766",
-          "days_ago": 65
+          "days_ago": 66
         },
         {
           "title": "Abort const-eval queries early when there are generics in the type",
           "number": 159504,
           "html_url": "https://github.com/rust-lang/rust/pull/159504",
-          "days_ago": 66
+          "days_ago": 67
         },
         {
           "title": "Stabilize c-variadic function definitions",
           "number": 155697,
           "html_url": "https://github.com/rust-lang/rust/pull/155697",
-          "days_ago": 67
+          "days_ago": 68
         },
         {
           "title": "Convert `-Ctarget-cpu` into a target-modifier for AVR, AMDGCN and NVPTX ",
           "number": 150732,
           "html_url": "https://github.com/rust-lang/rust/pull/150732",
-          "days_ago": 69
+          "days_ago": 70
         },
         {
           "title": "Lint against invalid POSIX symbol definitions",
           "number": 158522,
           "html_url": "https://github.com/rust-lang/rust/pull/158522",
-          "days_ago": 74
+          "days_ago": 75
         },
         {
           "title": "semicolon_in_expressions_from_macros: Lint on non-local macros too",
           "number": 159222,
           "html_url": "https://github.com/rust-lang/rust/pull/159222",
-          "days_ago": 74
+          "days_ago": 75
         },
         {
           "title": "Tracking issue for release notes of #158325: Document NonNull layout guarantees",
           "number": 159198,
           "html_url": "https://github.com/rust-lang/rust/issues/159198",
-          "days_ago": 76
+          "days_ago": 77
         },
         {
           "title": "Stabilize String::from_utf8_lossy_owned",
           "number": 159099,
           "html_url": "https://github.com/rust-lang/rust/pull/159099",
-          "days_ago": 78
+          "days_ago": 79
         },
         {
           "title": "Add `Step::forward/backward_overflowing` to enable RangeInclusive loop optimizations",
           "number": 155114,
           "html_url": "https://github.com/rust-lang/rust/pull/155114",
-          "days_ago": 80
+          "days_ago": 81
         },
         {
           "title": "Implement `IntoIterator` for `[&[mut]] Box<[T; N], A>`",
           "number": 134021,
           "html_url": "https://github.com/rust-lang/rust/pull/134021",
-          "days_ago": 84
+          "days_ago": 85
         },
         {
           "title": "Tracking issue for release notes of #156976: enable eager `param_env` norm in new solver",
           "number": 158528,
           "html_url": "https://github.com/rust-lang/rust/issues/158528",
-          "days_ago": 86
+          "days_ago": 87
         }
       ]
     },
@@ -2002,121 +2002,121 @@
           "title": "Rename the src install build step to rust-src.",
           "number": 162423,
           "html_url": "https://github.com/rust-lang/rust/pull/162423",
-          "days_ago": 3
+          "days_ago": 4
         },
         {
           "title": "alloc: stabilise `Allocator`",
           "number": 156882,
           "html_url": "https://github.com/rust-lang/rust/pull/156882",
-          "days_ago": 4
+          "days_ago": 5
         },
         {
           "title": "x86: on targets that requires SSE, use those registers for ABI",
           "number": 161583,
           "html_url": "https://github.com/rust-lang/rust/pull/161583",
-          "days_ago": 9
+          "days_ago": 10
         },
         {
           "title": "Remove d32 feature from 32-bit Arm targets",
           "number": 160911,
           "html_url": "https://github.com/rust-lang/rust/pull/160911",
-          "days_ago": 12
+          "days_ago": 13
         },
         {
           "title": "Fix soundness issues in std::sys::pal::sgx::waitqueue::unsafe_list",
           "number": 161334,
           "html_url": "https://github.com/rust-lang/rust/pull/161334",
-          "days_ago": 16
+          "days_ago": 17
         },
         {
           "title": "Generalise (most) impls on `Box`",
           "number": 161946,
           "html_url": "https://github.com/rust-lang/rust/pull/161946",
-          "days_ago": 18
+          "days_ago": 19
         },
         {
           "title": "windows-gnullvm: always link libunwind statically",
           "number": 160712,
           "html_url": "https://github.com/rust-lang/rust/pull/160712",
-          "days_ago": 19
+          "days_ago": 20
         },
         {
           "title": "Promote `wasm32-wasip3` to a tier 2 target",
           "number": 161940,
           "html_url": "https://github.com/rust-lang/rust/pull/161940",
-          "days_ago": 22
+          "days_ago": 23
         },
         {
           "title": "Add new Tier-3 target: `powerpc64-sony-ps3`",
           "number": 162072,
           "html_url": "https://github.com/rust-lang/rust/pull/162072",
-          "days_ago": 22
+          "days_ago": 23
         },
         {
           "title": "Tracking issue for release notes of #157968: Preserve ambiguous glob lint for subtrait method picks",
           "number": 162224,
           "html_url": "https://github.com/rust-lang/rust/issues/162224",
-          "days_ago": 24
+          "days_ago": 25
         },
         {
           "title": "compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia",
           "number": 161886,
           "html_url": "https://github.com/rust-lang/rust/pull/161886",
-          "days_ago": 29
+          "days_ago": 30
         },
         {
           "title": "Tracking issue for release notes of #161081: Add intrinsics for integer minimum and maximum",
           "number": 161981,
           "html_url": "https://github.com/rust-lang/rust/issues/161981",
-          "days_ago": 29
+          "days_ago": 30
         },
         {
           "title": "Tracking issue for release notes of #160745: make closures act like MaybeDangling",
           "number": 161363,
           "html_url": "https://github.com/rust-lang/rust/issues/161363",
-          "days_ago": 30
+          "days_ago": 31
         },
         {
           "title": "Cross-compile i686-pc-windows-gnu std from x86_64",
           "number": 161681,
           "html_url": "https://github.com/rust-lang/rust/pull/161681",
-          "days_ago": 32
+          "days_ago": 33
         },
         {
           "title": "stabilize never type",
           "number": 155499,
           "html_url": "https://github.com/rust-lang/rust/pull/155499",
-          "days_ago": 34
+          "days_ago": 35
         },
         {
           "title": "Tracking issue for release notes of #160705: Remove `From<!> for T` *reservation* impl",
           "number": 161659,
           "html_url": "https://github.com/rust-lang/rust/issues/161659",
-          "days_ago": 34
+          "days_ago": 35
         },
         {
           "title": "Stabilize `bool::toggle`",
           "number": 160299,
           "html_url": "https://github.com/rust-lang/rust/pull/160299",
-          "days_ago": 37
+          "days_ago": 38
         },
         {
           "title": "fix: fix the capture behavior of `if let` in closures",
           "number": 154210,
           "html_url": "https://github.com/rust-lang/rust/pull/154210",
-          "days_ago": 39
+          "days_ago": 40
         },
         {
           "title": "Require windowed (and exception) for Xtensa ABI",
           "number": 160643,
           "html_url": "https://github.com/rust-lang/rust/pull/160643",
-          "days_ago": 39
+          "days_ago": 40
         },
         {
           "title": "`Iterator::{min,max}(_by_key)` should use overridden `min`/`max`/`lt`",
           "number": 160203,
           "html_url": "https://github.com/rust-lang/rust/pull/160203",
-          "days_ago": 43
+          "days_ago": 44
         }
       ]
     },
@@ -2132,13 +2132,13 @@
           "title": "Guarantee 8 bytes of alignment of RawWakerVTable",
           "number": 158186,
           "html_url": "https://github.com/rust-lang/rust/pull/158186",
-          "days_ago": 0
+          "days_ago": 1
         },
         {
           "title": "Stabilize SyncView",
           "number": 163366,
           "html_url": "https://github.com/rust-lang/rust/pull/163366",
-          "days_ago": 1
+          "days_ago": 2
         }
       ]
     }
@@ -2291,7 +2291,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize `funnel_shifts` (including `const`)",
@@ -2361,7 +2361,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 46
+      "days_old": 47
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -2535,7 +2535,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 175
+      "days_old": 176
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -3059,7 +3059,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 473
+      "days_old": 474
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
