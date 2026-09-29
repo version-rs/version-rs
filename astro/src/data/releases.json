@@ -1790,23 +1790,6 @@
   ],
   "stabilization_prs": [
     {
-      "title": "Stabilize vec_try_remove",
-      "number": 163459,
-      "url": "https://github.com/rust-lang/rust/pull/163459",
-      "updated_at": "2026-09-28T19:55:50+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 0
-    },
-    {
       "title": "stabilize Arc::is_unique",
       "number": 163458,
       "url": "https://github.com/rust-lang/rust/pull/163458",
@@ -1842,12 +1825,12 @@
           "description": "Relevant to the bootstrap subteam: Rust's build system (x.py and src/bootstrap)"
         },
         {
-          "name": "T-cargo",
-          "description": "Relevant to the cargo team, which will review and decide on the PR/issue."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
+          "name": "T-cargo",
+          "description": "Relevant to the cargo team, which will review and decide on the PR/issue."
         },
         {
           "name": "needs-fcp",
@@ -1975,80 +1958,6 @@
         }
       ],
       "days_old": 31
-    },
-    {
-      "title": "Stabilize `Result::into_{ok,err}`",
-      "number": 161712,
-      "url": "https://github.com/rust-lang/rust/pull/161712",
-      "updated_at": "2026-08-25T00:29:02+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "T-clippy",
-          "description": "Relevant to the Clippy team."
-        }
-      ],
-      "days_old": 35
-    },
-    {
-      "title": "Stabilize `funnel_shifts` (including `const`)",
-      "number": 161015,
-      "url": "https://github.com/rust-lang/rust/pull/161015",
-      "updated_at": "2026-08-13T01:55:25+00:00",
-      "labels": [
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        },
-        {
-          "name": "I-lang-radar",
-          "description": "Items that are on lang's radar and will need eventual work or consideration."
-        }
-      ],
-      "days_old": 47
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
