@@ -1574,7 +1574,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1690,12 +1690,12 @@
       "updated_at": "2026-09-17T21:18:49+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1706,7 +1706,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1760,7 +1760,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 50
+      "days_old": 51
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1793,7 +1793,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 73
+      "days_old": 74
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -1888,7 +1888,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 121
+      "days_old": 122
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2159,7 +2159,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 271
+      "days_old": 272
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2253,7 +2253,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 328
+      "days_old": 329
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2298,7 +2298,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 342
+      "days_old": 343
     },
     {
       "title": "Stabilize stack-protector",
@@ -2458,7 +2458,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 477
+      "days_old": 478
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
@@ -2586,7 +2586,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 666
+      "days_old": 667
     }
   ],
   "current_versions": {
