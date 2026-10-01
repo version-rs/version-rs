@@ -1552,14 +1552,22 @@
   ],
   "stabilization_prs": [
     {
-      "title": "stabilize Arc::is_unique",
+      "title": "stabilize {Rc, Arc}::is_unique",
       "number": 163458,
       "url": "https://github.com/rust-lang/rust/pull/163458",
       "updated_at": "2026-09-28T19:43:10+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
           "name": "T-libs",
@@ -1909,7 +1917,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 123
+      "days_old": 124
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -1951,7 +1959,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 180
+      "days_old": 181
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2030,7 +2038,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 213
+      "days_old": 214
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2076,7 +2084,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 238
+      "days_old": 239
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2376,7 +2384,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 394
+      "days_old": 395
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2471,7 +2479,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 485
+      "days_old": 486
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2512,7 +2520,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 524
+      "days_old": 525
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2537,7 +2545,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 537
+      "days_old": 538
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
