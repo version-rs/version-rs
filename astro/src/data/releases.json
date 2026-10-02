@@ -1601,7 +1601,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1733,7 +1733,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1787,7 +1787,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 51
+      "days_old": 52
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1820,7 +1820,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 74
+      "days_old": 75
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -1915,7 +1915,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 122
+      "days_old": 123
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -1944,7 +1944,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 124
+      "days_old": 125
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2186,7 +2186,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 272
+      "days_old": 273
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2280,7 +2280,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 329
+      "days_old": 330
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2325,7 +2325,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 343
+      "days_old": 344
     },
     {
       "title": "Stabilize stack-protector",
@@ -2613,7 +2613,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 667
+      "days_old": 668
     }
   ],
   "current_versions": {
