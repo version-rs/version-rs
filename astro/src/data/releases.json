@@ -1542,6 +1542,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Update the minimum external LLVM to 22",
+          "number": 163572,
+          "html_url": "https://github.com/rust-lang/rust/pull/163572",
+          "days_ago": 0
+        },
+        {
           "title": "Guarantee 8 bytes of alignment of RawWakerVTable",
           "number": 158186,
           "html_url": "https://github.com/rust-lang/rust/pull/158186",
@@ -1576,7 +1582,7 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "stabilize {Rc, Arc}::is_unique",
