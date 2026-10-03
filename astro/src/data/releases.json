@@ -1564,6 +1564,23 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `int_from_ascii`",
+      "number": 163696,
+      "url": "https://github.com/rust-lang/rust/pull/163696",
+      "updated_at": "2026-10-03T10:34:21+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
       "number": 163636,
       "url": "https://github.com/rust-lang/rust/pull/163636",
@@ -1652,7 +1669,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1681,7 +1698,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1714,7 +1731,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "stabilize ptr_cast_slice",
@@ -1764,7 +1781,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 35
+      "days_old": 36
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -1843,7 +1860,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 91
+      "days_old": 92
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1880,7 +1897,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 94
+      "days_old": 95
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2017,7 +2034,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 195
+      "days_old": 196
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2096,7 +2113,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 224
+      "days_old": 225
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2138,7 +2155,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 240
+      "days_old": 241
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2233,7 +2250,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 290
+      "days_old": 291
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2384,7 +2401,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 388
+      "days_old": 389
     },
     {
       "title": "Stabilize `debug_closure_helpers`",
@@ -2458,7 +2475,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 468
+      "days_old": 469
     },
     {
       "title": "Stabilize the `breakpoint` function",
