@@ -1564,6 +1564,23 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `CStr::display`",
+      "number": 163711,
+      "url": "https://github.com/rust-lang/rust/pull/163711",
+      "updated_at": "2026-10-03T17:28:01+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `int_from_ascii`",
       "number": 163696,
       "url": "https://github.com/rust-lang/rust/pull/163696",
@@ -2009,7 +2026,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 182
+      "days_old": 183
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2134,7 +2151,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 240
+      "days_old": 241
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2434,7 +2451,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 396
+      "days_old": 397
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2529,7 +2546,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 487
+      "days_old": 488
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2570,7 +2587,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 526
+      "days_old": 527
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2595,7 +2612,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 539
+      "days_old": 540
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
