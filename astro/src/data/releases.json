@@ -1564,23 +1564,6 @@
   ],
   "stabilization_prs": [
     {
-      "title": "Stabilize `CStr::display`",
-      "number": 163711,
-      "url": "https://github.com/rust-lang/rust/pull/163711",
-      "updated_at": "2026-10-03T17:28:01+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 1
-    },
-    {
       "title": "Stabilize `int_from_ascii`",
       "number": 163696,
       "url": "https://github.com/rust-lang/rust/pull/163696",
@@ -1612,8 +1595,8 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "I-lang-nominated",
@@ -1649,7 +1632,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1781,7 +1764,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1971,7 +1954,7 @@
           "description": "This language change has an approved Reference PR."
         }
       ],
-      "days_old": 124
+      "days_old": 125
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2000,7 +1983,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 126
+      "days_old": 127
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2042,7 +2025,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 183
+      "days_old": 184
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2121,7 +2104,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 216
+      "days_old": 217
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2242,7 +2225,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 274
+      "days_old": 275
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2336,7 +2319,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 331
+      "days_old": 332
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2381,7 +2364,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 345
+      "days_old": 346
     },
     {
       "title": "Stabilize stack-protector",
@@ -2471,7 +2454,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 397
+      "days_old": 398
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2673,7 +2656,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 669
+      "days_old": 670
     }
   ],
   "current_versions": {
