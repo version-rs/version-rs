@@ -1578,7 +1578,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2167,7 +2167,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 241
+      "days_old": 242
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2566,7 +2566,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 488
+      "days_old": 489
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2607,7 +2607,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 527
+      "days_old": 528
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2632,7 +2632,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 540
+      "days_old": 541
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
