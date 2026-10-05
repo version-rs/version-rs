@@ -2079,7 +2079,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 199
+      "days_old": 200
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2196,7 +2196,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 244
+      "days_old": 245
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2418,43 +2418,6 @@
         }
       ],
       "days_old": 390
-    },
-    {
-      "title": "Stabilize `debug_closure_helpers`",
-      "number": 146099,
-      "url": "https://github.com/rust-lang/rust/pull/146099",
-      "updated_at": "2025-09-01T17:45:23+00:00",
-      "labels": [
-        {
-          "name": "T-rustdoc",
-          "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        }
-      ],
-      "days_old": 398
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
