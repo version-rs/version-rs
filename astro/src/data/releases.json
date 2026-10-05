@@ -1580,6 +1580,14 @@
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
@@ -1655,7 +1663,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1787,7 +1795,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1841,7 +1849,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 54
+      "days_old": 55
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1874,7 +1882,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 77
+      "days_old": 78
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -1977,7 +1985,7 @@
           "description": "This language change has an approved Reference PR."
         }
       ],
-      "days_old": 125
+      "days_old": 126
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2006,7 +2014,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 127
+      "days_old": 128
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2048,7 +2056,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 184
+      "days_old": 185
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2127,7 +2135,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 217
+      "days_old": 218
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2173,7 +2181,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 242
+      "days_old": 243
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2248,7 +2256,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 275
+      "days_old": 276
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2342,7 +2350,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 332
+      "days_old": 333
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2387,7 +2395,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 346
+      "days_old": 347
     },
     {
       "title": "Stabilize stack-protector",
@@ -2576,7 +2584,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 528
+      "days_old": 529
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2642,7 +2650,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 670
+      "days_old": 671
     }
   ],
   "current_versions": {
