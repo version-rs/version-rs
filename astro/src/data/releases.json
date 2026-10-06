@@ -1554,6 +1554,12 @@
           "days_ago": 3
         },
         {
+          "title": "windows-gnu: enable native TLS",
+          "number": 159021,
+          "html_url": "https://github.com/rust-lang/rust/pull/159021",
+          "days_ago": 4
+        },
+        {
           "title": "Guarantee 8 bytes of alignment of RawWakerVTable",
           "number": 158186,
           "html_url": "https://github.com/rust-lang/rust/pull/158186",
@@ -1609,7 +1615,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1638,7 +1644,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "stabilize {Rc, Arc}::is_unique",
@@ -1820,7 +1826,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 38
+      "days_old": 39
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2202,7 +2208,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 243
+      "days_old": 244
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
