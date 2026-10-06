@@ -1576,6 +1576,43 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
+      "number": 163895,
+      "url": "https://github.com/rust-lang/rust/pull/163895",
+      "updated_at": "2026-10-06T18:39:01+00:00",
+      "labels": [
+        {
+          "name": "T-rustdoc",
+          "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "proposed-final-comment-period",
+          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+        },
+        {
+          "name": "disposition-merge",
+          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "F-trim-paths",
+          "description": "Feature: trim-paths"
+        },
+        {
+          "name": "A-run-make",
+          "description": "Area: port run-make Makefiles to rmake.rs"
+        },
+        {
+          "name": "T-rustdoc-internals",
+          "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize RISC-V `relax` target feature",
       "number": 163890,
       "url": "https://github.com/rust-lang/rust/pull/163890",
@@ -1690,7 +1727,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1822,7 +1859,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1909,7 +1946,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 78
+      "days_old": 79
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2012,7 +2049,7 @@
           "description": "This language change has an approved Reference PR."
         }
       ],
-      "days_old": 126
+      "days_old": 127
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2041,7 +2078,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 128
+      "days_old": 129
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2083,7 +2120,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 185
+      "days_old": 186
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2162,7 +2199,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 218
+      "days_old": 219
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2283,7 +2320,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 276
+      "days_old": 277
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2377,7 +2414,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 333
+      "days_old": 334
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2422,7 +2459,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 347
+      "days_old": 348
     },
     {
       "title": "Stabilize stack-protector",
@@ -2677,7 +2714,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 671
+      "days_old": 672
     }
   ],
   "current_versions": {
