@@ -1576,6 +1576,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize RISC-V `relax` target feature",
+      "number": 163890,
+      "url": "https://github.com/rust-lang/rust/pull/163890",
+      "updated_at": "2026-10-06T16:13:15+00:00",
+      "labels": [
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "O-riscv",
+          "description": "Target: RISC-V architecture"
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize String::into_chars",
       "number": 163816,
       "url": "https://github.com/rust-lang/rust/pull/163816",
@@ -1598,7 +1619,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1714,7 +1735,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1743,7 +1764,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1776,7 +1797,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "stabilize ptr_cast_slice",
@@ -1905,7 +1926,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 94
+      "days_old": 95
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -1942,7 +1963,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 97
+      "days_old": 98
     },
     {
       "title": "Stabilize `optimize` attribute",
@@ -2087,7 +2108,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 198
+      "days_old": 199
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2166,7 +2187,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 227
+      "days_old": 228
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2187,7 +2208,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 243
+      "days_old": 244
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2303,7 +2324,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 293
+      "days_old": 294
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2454,7 +2475,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 391
+      "days_old": 392
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2495,7 +2516,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 471
+      "days_old": 472
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2549,7 +2570,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 490
+      "days_old": 491
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2590,7 +2611,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 529
+      "days_old": 530
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2615,7 +2636,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 542
+      "days_old": 543
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
