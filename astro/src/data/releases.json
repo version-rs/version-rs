@@ -1548,6 +1548,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Switch TLS implementation for wasi and bump SDK version to 34",
+          "number": 163809,
+          "html_url": "https://github.com/rust-lang/rust/pull/163809",
+          "days_ago": 0
+        },
+        {
           "title": "Update the minimum external LLVM to 22",
           "number": 163572,
           "html_url": "https://github.com/rust-lang/rust/pull/163572",
@@ -1710,7 +1716,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "stabilize {Rc, Arc}::is_unique",
