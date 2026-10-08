@@ -1616,7 +1616,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1741,7 +1741,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1873,7 +1873,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1960,7 +1960,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 80
+      "days_old": 81
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2043,7 +2043,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 130
+      "days_old": 131
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2085,7 +2085,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 187
+      "days_old": 188
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2164,7 +2164,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 220
+      "days_old": 221
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2210,7 +2210,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 245
+      "days_old": 246
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2285,7 +2285,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 278
+      "days_old": 279
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2379,7 +2379,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 335
+      "days_old": 336
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2424,7 +2424,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 349
+      "days_old": 350
     },
     {
       "title": "Stabilize stack-protector",
@@ -2679,7 +2679,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 673
+      "days_old": 674
     }
   ],
   "current_versions": {
