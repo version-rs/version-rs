@@ -1616,7 +1616,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1741,7 +1741,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -2043,7 +2043,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 131
+      "days_old": 132
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2085,7 +2085,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 188
+      "days_old": 189
     },
     {
       "title": "Stabilize `ptr::try_cast_aligned`",
@@ -2094,20 +2094,24 @@
       "updated_at": "2026-03-21T12:20:27+00:00",
       "labels": [
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
-          "name": "S-waiting-on-fcp",
-          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         }
       ],
       "days_old": 202
@@ -2164,7 +2168,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 221
+      "days_old": 222
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2210,7 +2214,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 246
+      "days_old": 247
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2285,7 +2289,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 279
+      "days_old": 280
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2379,7 +2383,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 336
+      "days_old": 337
     },
     {
       "title": "Stabilize Frontmatter",
