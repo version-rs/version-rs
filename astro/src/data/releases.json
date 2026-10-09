@@ -1716,7 +1716,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "stabilize {Rc, Arc}::is_unique",
