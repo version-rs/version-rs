@@ -2088,35 +2088,6 @@
       "days_old": 189
     },
     {
-      "title": "Stabilize `ptr::try_cast_aligned`",
-      "number": 154170,
-      "url": "https://github.com/rust-lang/rust/pull/154170",
-      "updated_at": "2026-03-21T12:20:27+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        }
-      ],
-      "days_old": 202
-    },
-    {
       "title": "Stabilize `fN::BITS`",
       "number": 154065,
       "url": "https://github.com/rust-lang/rust/pull/154065",
@@ -2143,7 +2114,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 204
+      "days_old": 205
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2264,7 +2235,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 249
+      "days_old": 250
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
