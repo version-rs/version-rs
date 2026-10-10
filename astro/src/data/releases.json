@@ -1548,6 +1548,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #163364: make semicolon_in_expressions_from_non_local_macros not report-in-deps",
+          "number": 164097,
+          "html_url": "https://github.com/rust-lang/rust/issues/164097",
+          "days_ago": 0
+        },
+        {
           "title": "Switch TLS implementation for wasi and bump SDK version to 34",
           "number": 163809,
           "html_url": "https://github.com/rust-lang/rust/pull/163809",
@@ -1616,7 +1622,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1637,7 +1643,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "stabilize String::into_chars",
@@ -1662,7 +1668,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2085,7 +2091,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 189
+      "days_old": 190
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2143,7 +2149,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 222
+      "days_old": 223
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2189,7 +2195,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 247
+      "days_old": 248
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2551,7 +2557,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 494
+      "days_old": 495
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2592,7 +2598,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 533
+      "days_old": 534
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2617,7 +2623,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 546
+      "days_old": 547
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
