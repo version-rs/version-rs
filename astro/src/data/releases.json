@@ -1730,7 +1730,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "stabilize {Rc, Arc}::is_unique",
