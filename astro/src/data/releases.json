@@ -1622,7 +1622,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1643,7 +1643,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "stabilize String::into_chars",
@@ -1668,7 +1668,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1755,7 +1755,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -2057,7 +2057,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 133
+      "days_old": 134
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2099,7 +2099,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 190
+      "days_old": 191
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2157,7 +2157,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 223
+      "days_old": 224
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2203,7 +2203,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 248
+      "days_old": 249
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2372,7 +2372,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 338
+      "days_old": 339
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2565,7 +2565,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 495
+      "days_old": 496
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2606,7 +2606,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 534
+      "days_old": 535
     },
     {
       "title": "Stabilize `offset_of_slice`",
