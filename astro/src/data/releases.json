@@ -1405,136 +1405,148 @@
       "release_name": "beta",
       "issues": [
         {
+          "title": "Tracking issue for release notes of #163364: make semicolon_in_expressions_from_non_local_macros not report-in-deps",
+          "number": 164097,
+          "html_url": "https://github.com/rust-lang/rust/issues/164097",
+          "days_ago": 3
+        },
+        {
+          "title": "Switch TLS implementation for wasi and bump SDK version to 34",
+          "number": 163809,
+          "html_url": "https://github.com/rust-lang/rust/pull/163809",
+          "days_ago": 5
+        },
+        {
           "title": "Tracking issue for release notes of #162423: Rename the src install build step to rust-src.",
           "number": 162743,
           "html_url": "https://github.com/rust-lang/rust/issues/162743",
-          "days_ago": 7
+          "days_ago": 8
         },
         {
           "title": "Rename the src install build step to rust-src.",
           "number": 162423,
           "html_url": "https://github.com/rust-lang/rust/pull/162423",
-          "days_ago": 18
+          "days_ago": 19
         },
         {
           "title": "alloc: stabilise `Allocator`",
           "number": 156882,
           "html_url": "https://github.com/rust-lang/rust/pull/156882",
-          "days_ago": 19
+          "days_ago": 20
         },
         {
           "title": "x86: on targets that requires SSE, use those registers for ABI",
           "number": 161583,
           "html_url": "https://github.com/rust-lang/rust/pull/161583",
-          "days_ago": 24
+          "days_ago": 25
         },
         {
           "title": "Remove d32 feature from 32-bit Arm targets",
           "number": 160911,
           "html_url": "https://github.com/rust-lang/rust/pull/160911",
-          "days_ago": 27
+          "days_ago": 28
         },
         {
           "title": "Fix soundness issues in std::sys::pal::sgx::waitqueue::unsafe_list",
           "number": 161334,
           "html_url": "https://github.com/rust-lang/rust/pull/161334",
-          "days_ago": 31
+          "days_ago": 32
         },
         {
           "title": "Generalise (most) impls on `Box`",
           "number": 161946,
           "html_url": "https://github.com/rust-lang/rust/pull/161946",
-          "days_ago": 33
+          "days_ago": 34
         },
         {
           "title": "windows-gnullvm: always link libunwind statically",
           "number": 160712,
           "html_url": "https://github.com/rust-lang/rust/pull/160712",
-          "days_ago": 34
+          "days_ago": 35
         },
         {
           "title": "Promote `wasm32-wasip3` to a tier 2 target",
           "number": 161940,
           "html_url": "https://github.com/rust-lang/rust/pull/161940",
-          "days_ago": 37
+          "days_ago": 38
         },
         {
           "title": "Add new Tier-3 target: `powerpc64-sony-ps3`",
           "number": 162072,
           "html_url": "https://github.com/rust-lang/rust/pull/162072",
-          "days_ago": 37
+          "days_ago": 38
         },
         {
           "title": "Tracking issue for release notes of #157968: Preserve ambiguous glob lint for subtrait method picks",
           "number": 162224,
           "html_url": "https://github.com/rust-lang/rust/issues/162224",
-          "days_ago": 39
+          "days_ago": 40
         },
         {
           "title": "compiler: Make +fix-cortex-a53-835769 a default feature for aarch64 fuchsia",
           "number": 161886,
           "html_url": "https://github.com/rust-lang/rust/pull/161886",
-          "days_ago": 44
+          "days_ago": 45
         },
         {
           "title": "Tracking issue for release notes of #161081: Add intrinsics for integer minimum and maximum",
           "number": 161981,
           "html_url": "https://github.com/rust-lang/rust/issues/161981",
-          "days_ago": 44
+          "days_ago": 45
         },
         {
           "title": "Tracking issue for release notes of #160745: make closures act like MaybeDangling",
           "number": 161363,
           "html_url": "https://github.com/rust-lang/rust/issues/161363",
-          "days_ago": 45
+          "days_ago": 46
         },
         {
           "title": "Prefer ambiguous candidates when deduplicating traits in scope, so `ambiguous_glob_imported_traits` doesn't depend on import order",
           "number": 161805,
           "html_url": "https://github.com/rust-lang/rust/pull/161805",
-          "days_ago": 45
+          "days_ago": 46
         },
         {
           "title": "Cross-compile i686-pc-windows-gnu std from x86_64",
           "number": 161681,
           "html_url": "https://github.com/rust-lang/rust/pull/161681",
-          "days_ago": 47
+          "days_ago": 48
         },
         {
           "title": "stabilize never type",
           "number": 155499,
           "html_url": "https://github.com/rust-lang/rust/pull/155499",
-          "days_ago": 49
+          "days_ago": 50
         },
         {
           "title": "Tracking issue for release notes of #160705: Remove `From<!> for T` *reservation* impl",
           "number": 161659,
           "html_url": "https://github.com/rust-lang/rust/issues/161659",
-          "days_ago": 49
+          "days_ago": 50
         },
         {
           "title": "Stabilize `bool::toggle`",
           "number": 160299,
           "html_url": "https://github.com/rust-lang/rust/pull/160299",
-          "days_ago": 52
+          "days_ago": 53
         },
         {
           "title": "fix: fix the capture behavior of `if let` in closures",
           "number": 154210,
           "html_url": "https://github.com/rust-lang/rust/pull/154210",
-          "days_ago": 54
+          "days_ago": 55
         },
         {
           "title": "Require windowed (and exception) for Xtensa ABI",
           "number": 160643,
           "html_url": "https://github.com/rust-lang/rust/pull/160643",
-          "days_ago": 54
+          "days_ago": 55
         },
         {
           "title": "`Iterator::{min,max}(_by_key)` should use overridden `min`/`max`/`lt`",
           "number": 160203,
           "html_url": "https://github.com/rust-lang/rust/pull/160203",
-          "days_ago": 58
+          "days_ago": 59
         }
       ]
     },
@@ -1548,40 +1560,28 @@
       "release_name": "nightly",
       "issues": [
         {
-          "title": "Tracking issue for release notes of #163364: make semicolon_in_expressions_from_non_local_macros not report-in-deps",
-          "number": 164097,
-          "html_url": "https://github.com/rust-lang/rust/issues/164097",
-          "days_ago": 2
-        },
-        {
-          "title": "Switch TLS implementation for wasi and bump SDK version to 34",
-          "number": 163809,
-          "html_url": "https://github.com/rust-lang/rust/pull/163809",
-          "days_ago": 4
-        },
-        {
           "title": "Update the minimum external LLVM to 22",
           "number": 163572,
           "html_url": "https://github.com/rust-lang/rust/pull/163572",
-          "days_ago": 9
+          "days_ago": 10
         },
         {
           "title": "windows-gnu: enable native TLS",
           "number": 159021,
           "html_url": "https://github.com/rust-lang/rust/pull/159021",
-          "days_ago": 10
+          "days_ago": 11
         },
         {
           "title": "Guarantee 8 bytes of alignment of RawWakerVTable",
           "number": 158186,
           "html_url": "https://github.com/rust-lang/rust/pull/158186",
-          "days_ago": 15
+          "days_ago": 16
         },
         {
           "title": "Stabilize SyncView",
           "number": 163366,
           "html_url": "https://github.com/rust-lang/rust/pull/163366",
-          "days_ago": 16
+          "days_ago": 17
         }
       ]
     }
@@ -1616,6 +1616,10 @@
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "S-waiting-on-perf",
+          "description": "Status: Waiting on a perf run to be completed."
         },
         {
           "name": "T-types",
@@ -1671,7 +1675,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1804,7 +1808,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1920,8 +1924,8 @@
       "updated_at": "2026-09-17T21:18:49+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1940,7 +1944,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1994,7 +1998,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 61
+      "days_old": 62
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -2027,7 +2031,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 84
+      "days_old": 85
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2110,7 +2114,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 134
+      "days_old": 135
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2127,7 +2131,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 190
+      "days_old": 191
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -2210,7 +2214,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 224
+      "days_old": 225
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2331,7 +2335,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 282
+      "days_old": 283
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2425,7 +2429,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 339
+      "days_old": 340
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2470,7 +2474,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 353
+      "days_old": 354
     },
     {
       "title": "Stabilize stack-protector",
@@ -2597,7 +2601,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 488
+      "days_old": 489
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
@@ -2725,7 +2729,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 677
+      "days_old": 678
     }
   ],
   "current_versions": {
