@@ -1643,7 +1643,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1726,7 +1726,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1751,7 +1751,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1780,15 +1780,15 @@
           "description": "Nominated for discussion during a lang team meeting."
         },
         {
-          "name": "P-lang-drag-1",
-          "description": "Lang team prioritization drag level 1. https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang"
+          "name": "P-lang-drag-2",
+          "description": "Lang team prioritization drag level 2.https://rust-lang.zulipchat.com/#narrow/channel/410516-t-lang."
         },
         {
           "name": "needs-reference-pr",
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "stabilize {Rc, Arc}::is_unique",
@@ -1858,7 +1858,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1887,7 +1887,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1920,7 +1920,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "stabilize ptr_cast_slice",
@@ -1974,7 +1974,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 45
+      "days_old": 46
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2053,7 +2053,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 101
+      "days_old": 102
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2090,7 +2090,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 104
+      "days_old": 105
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2213,10 +2213,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "I-libs-nominated",
-          "description": "Nominated for discussion during a libs team meeting."
         }
       ],
       "days_old": 225
@@ -2244,7 +2240,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 234
+      "days_old": 235
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2286,7 +2282,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 250
+      "days_old": 251
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2381,7 +2377,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 300
+      "days_old": 301
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2532,7 +2528,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 398
+      "days_old": 399
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2573,7 +2569,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 478
+      "days_old": 479
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2627,7 +2623,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 497
+      "days_old": 498
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2693,7 +2689,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 549
+      "days_old": 550
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
