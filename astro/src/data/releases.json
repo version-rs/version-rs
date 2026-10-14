@@ -1680,7 +1680,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1813,7 +1813,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -2119,7 +2119,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 136
+      "days_old": 137
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2161,7 +2161,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 193
+      "days_old": 194
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2215,7 +2215,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 226
+      "days_old": 227
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2430,7 +2430,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 341
+      "days_old": 342
     },
     {
       "title": "Stabilize Frontmatter",
