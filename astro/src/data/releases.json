@@ -1643,7 +1643,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1656,12 +1656,12 @@
           "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
@@ -1701,7 +1701,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "stabilize String::into_chars",
@@ -1726,7 +1726,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1887,7 +1887,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1920,7 +1920,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "stabilize ptr_cast_slice",
@@ -2240,7 +2240,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 235
+      "days_old": 236
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2261,7 +2261,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 251
+      "days_old": 252
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2623,7 +2623,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 498
+      "days_old": 499
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2664,7 +2664,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 537
+      "days_old": 538
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2689,7 +2689,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 550
+      "days_old": 551
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
