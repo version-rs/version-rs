@@ -1680,7 +1680,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1813,7 +1813,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1949,7 +1949,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2119,7 +2119,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 138
+      "days_old": 139
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2161,7 +2161,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 195
+      "days_old": 196
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2215,7 +2215,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 228
+      "days_old": 229
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2336,7 +2336,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 286
+      "days_old": 287
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2430,7 +2430,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 343
+      "days_old": 344
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2475,7 +2475,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 357
+      "days_old": 358
     },
     {
       "title": "Stabilize stack-protector",
@@ -2730,7 +2730,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 681
+      "days_old": 682
     }
   ],
   "current_versions": {
