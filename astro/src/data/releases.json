@@ -1643,7 +1643,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1701,7 +1701,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "stabilize String::into_chars",
@@ -1726,7 +1726,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1887,7 +1887,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -2261,7 +2261,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 253
+      "days_old": 254
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2623,7 +2623,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 500
+      "days_old": 501
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2664,7 +2664,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 539
+      "days_old": 540
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2689,7 +2689,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 552
+      "days_old": 553
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
