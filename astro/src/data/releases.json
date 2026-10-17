@@ -1701,7 +1701,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "stabilize String::into_chars",
@@ -1726,7 +1726,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2265,7 +2265,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 254
+      "days_old": 255
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2627,7 +2627,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 501
+      "days_old": 502
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2668,7 +2668,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 540
+      "days_old": 541
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2693,7 +2693,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 553
+      "days_old": 554
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
