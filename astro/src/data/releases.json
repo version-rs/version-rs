@@ -1643,7 +1643,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1862,7 +1862,7 @@
           "description": "Status: Awaiting decision from T-compiler"
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1891,7 +1891,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1924,7 +1924,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "stabilize ptr_cast_slice",
@@ -2057,7 +2057,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 105
+      "days_old": 106
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2094,7 +2094,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 108
+      "days_old": 109
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2244,7 +2244,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 238
+      "days_old": 239
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2381,7 +2381,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 304
+      "days_old": 305
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2532,7 +2532,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 402
+      "days_old": 403
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2573,7 +2573,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 482
+      "days_old": 483
     },
     {
       "title": "Stabilize the `breakpoint` function",
