@@ -1597,6 +1597,23 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize unchecked `nonzero_ops`",
+      "number": 164485,
+      "url": "https://github.com/rust-lang/rust/pull/164485",
+      "updated_at": "2026-10-17T19:03:14+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "stabilize `-Znext-solver=globally`",
       "number": 164209,
       "url": "https://github.com/rust-lang/rust/pull/164209",
@@ -1680,7 +1697,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -2123,7 +2140,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 139
+      "days_old": 140
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2165,7 +2182,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 196
+      "days_old": 197
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2219,7 +2236,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 229
+      "days_old": 230
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
