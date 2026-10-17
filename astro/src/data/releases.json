@@ -1830,7 +1830,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1970,7 +1970,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 29
+      "days_old": 30
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2057,7 +2057,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 89
+      "days_old": 90
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2357,7 +2357,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 287
+      "days_old": 288
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2451,7 +2451,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 344
+      "days_old": 345
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2496,7 +2496,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 358
+      "days_old": 359
     },
     {
       "title": "Stabilize stack-protector",
@@ -2751,7 +2751,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 682
+      "days_old": 683
     }
   ],
   "current_versions": {
