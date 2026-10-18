@@ -1705,7 +1705,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1726,7 +1726,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "stabilize String::into_chars",
@@ -1751,7 +1751,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2190,7 +2190,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 197
+      "days_old": 198
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2244,7 +2244,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 230
+      "days_old": 231
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2290,7 +2290,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 255
+      "days_old": 256
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2652,7 +2652,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 502
+      "days_old": 503
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2693,7 +2693,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 541
+      "days_old": 542
     },
     {
       "title": "Stabilize `offset_of_slice`",
