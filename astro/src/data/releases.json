@@ -2219,7 +2219,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 212
+      "days_old": 213
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2336,7 +2336,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 257
+      "days_old": 258
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
