@@ -1619,7 +1619,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1838,7 +1838,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "Stabilize `-Zembed-metadata`",
@@ -1881,10 +1881,6 @@
         {
           "name": "A-run-make",
           "description": "Area: port run-make Makefiles to rmake.rs"
-        },
-        {
-          "name": "S-waiting-on-t-compiler",
-          "description": "Status: Awaiting decision from T-compiler"
         }
       ],
       "days_old": 20
@@ -1978,7 +1974,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2148,7 +2144,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 140
+      "days_old": 141
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2365,7 +2361,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 288
+      "days_old": 289
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2459,7 +2455,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 345
+      "days_old": 346
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2504,7 +2500,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 359
+      "days_old": 360
     },
     {
       "title": "Stabilize stack-protector",
@@ -2759,7 +2755,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 683
+      "days_old": 684
     }
   ],
   "current_versions": {
