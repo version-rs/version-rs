@@ -1776,7 +1776,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1813,7 +1813,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "stabilize {Rc, Arc}::is_unique",
@@ -2003,7 +2003,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 50
+      "days_old": 51
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2311,7 +2311,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 255
+      "days_old": 256
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
