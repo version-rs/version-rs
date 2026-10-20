@@ -1581,6 +1581,12 @@
           "days_ago": 18
         },
         {
+          "title": "Stabilize `funnel_shifts` (including `const`)",
+          "number": 161015,
+          "html_url": "https://github.com/rust-lang/rust/pull/161015",
+          "days_ago": 21
+        },
+        {
           "title": "Guarantee 8 bytes of alignment of RawWakerVTable",
           "number": 158186,
           "html_url": "https://github.com/rust-lang/rust/pull/158186",
@@ -2287,7 +2293,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 259
+      "days_old": 260
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
