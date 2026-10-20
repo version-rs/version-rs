@@ -1603,6 +1603,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `slice_split_once`",
+      "number": 164641,
+      "url": "https://github.com/rust-lang/rust/pull/164641",
+      "updated_at": "2026-10-20T14:40:06+00:00",
+      "labels": [
+        {
+          "name": "relnotes",
+          "description": "Marks issues that should be documented in the release notes of the next release."
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize unchecked `nonzero_ops`",
       "number": 164485,
       "url": "https://github.com/rust-lang/rust/pull/164485",
@@ -1674,7 +1695,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1732,7 +1753,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "stabilize String::into_chars",
@@ -1757,7 +1778,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2147,7 +2168,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 199
+      "days_old": 200
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2201,7 +2222,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 232
+      "days_old": 233
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2247,7 +2268,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 257
+      "days_old": 258
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2609,7 +2630,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 504
+      "days_old": 505
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2650,7 +2671,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 543
+      "days_old": 544
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2675,7 +2696,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 556
+      "days_old": 557
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
