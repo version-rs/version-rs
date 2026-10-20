@@ -1603,6 +1603,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "stabilize ExitCodeExt for Windows",
+      "number": 164656,
+      "url": "https://github.com/rust-lang/rust/pull/164656",
+      "updated_at": "2026-10-20T19:58:50+00:00",
+      "labels": [
+        {
+          "name": "O-windows",
+          "description": "Operating system: Windows"
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `slice_split_once`",
       "number": 164641,
       "url": "https://github.com/rust-lang/rust/pull/164641",
@@ -1613,8 +1634,8 @@
           "description": "Marks issues that should be documented in the release notes of the next release."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -1646,7 +1667,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1732,7 +1753,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1865,7 +1886,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1956,7 +1977,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 32
+      "days_old": 33
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2043,7 +2064,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 92
+      "days_old": 93
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2126,7 +2147,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 142
+      "days_old": 143
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2343,7 +2364,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 290
+      "days_old": 291
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2437,7 +2458,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 347
+      "days_old": 348
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2482,7 +2503,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 361
+      "days_old": 362
     },
     {
       "title": "Stabilize stack-protector",
@@ -2737,7 +2758,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 685
+      "days_old": 686
     }
   ],
   "current_versions": {
