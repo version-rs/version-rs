@@ -1552,6 +1552,12 @@
           "days_ago": 63
         },
         {
+          "title": "Stabilize `extern \"custom\"`",
+          "number": 158504,
+          "html_url": "https://github.com/rust-lang/rust/pull/158504",
+          "days_ago": 67
+        },
+        {
           "title": "`Iterator::{min,max}(_by_key)` should use overridden `min`/`max`/`lt`",
           "number": 160203,
           "html_url": "https://github.com/rust-lang/rust/pull/160203",
@@ -1572,6 +1578,12 @@
           "title": "Stabilize `slice_split_once`",
           "number": 164641,
           "html_url": "https://github.com/rust-lang/rust/pull/164641",
+          "days_ago": 0
+        },
+        {
+          "title": "Tracking issue for release notes of #162840: tier 3 target policy: target CPU and features must be supported by upstream backend",
+          "number": 164682,
+          "html_url": "https://github.com/rust-lang/rust/issues/164682",
           "days_ago": 0
         },
         {
@@ -1609,27 +1621,6 @@
   ],
   "stabilization_prs": [
     {
-      "title": "stabilize ExitCodeExt for Windows",
-      "number": 164656,
-      "url": "https://github.com/rust-lang/rust/pull/164656",
-      "updated_at": "2026-10-20T19:58:50+00:00",
-      "labels": [
-        {
-          "name": "O-windows",
-          "description": "Operating system: Windows"
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 0
-    },
-    {
       "title": "Stabilize unchecked `nonzero_ops`",
       "number": 164485,
       "url": "https://github.com/rust-lang/rust/pull/164485",
@@ -1652,7 +1643,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1871,7 +1862,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1962,7 +1953,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2049,7 +2040,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 93
+      "days_old": 94
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2132,7 +2123,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 143
+      "days_old": 144
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2349,7 +2340,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 291
+      "days_old": 292
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2443,7 +2434,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 348
+      "days_old": 349
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2488,7 +2479,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 362
+      "days_old": 363
     },
     {
       "title": "Stabilize stack-protector",
@@ -2743,7 +2734,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 686
+      "days_old": 687
     }
   ],
   "current_versions": {
