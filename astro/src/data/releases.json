@@ -1569,6 +1569,12 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Stabilize `slice_split_once`",
+          "number": 164641,
+          "html_url": "https://github.com/rust-lang/rust/pull/164641",
+          "days_ago": 0
+        },
+        {
           "title": "Update the minimum external LLVM to 22",
           "number": 163572,
           "html_url": "https://github.com/rust-lang/rust/pull/163572",
@@ -1615,27 +1621,6 @@
         {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        }
-      ],
-      "days_old": 0
-    },
-    {
-      "title": "Stabilize `slice_split_once`",
-      "number": 164641,
-      "url": "https://github.com/rust-lang/rust/pull/164641",
-      "updated_at": "2026-10-20T14:40:06+00:00",
-      "labels": [
-        {
-          "name": "relnotes",
-          "description": "Marks issues that should be documented in the release notes of the next release."
-        },
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "T-libs",
@@ -2335,7 +2320,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 260
+      "days_old": 261
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
