@@ -1701,7 +1701,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1738,7 +1738,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1759,7 +1759,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 14
+      "days_old": 15
     },
     {
       "title": "stabilize String::into_chars",
@@ -1784,7 +1784,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2174,7 +2174,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 200
+      "days_old": 201
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2228,7 +2228,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 233
+      "days_old": 234
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2274,7 +2274,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 258
+      "days_old": 259
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2636,7 +2636,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 505
+      "days_old": 506
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2677,7 +2677,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 544
+      "days_old": 545
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2702,7 +2702,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 557
+      "days_old": 558
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
