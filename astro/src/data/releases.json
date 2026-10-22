@@ -1643,7 +1643,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1862,7 +1862,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1953,7 +1953,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 34
+      "days_old": 35
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2040,7 +2040,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 94
+      "days_old": 95
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2123,7 +2123,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 144
+      "days_old": 145
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2340,7 +2340,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 292
+      "days_old": 293
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2434,7 +2434,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 349
+      "days_old": 350
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2479,7 +2479,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 363
+      "days_old": 364
     },
     {
       "title": "Stabilize stack-protector",
@@ -2734,7 +2734,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 687
+      "days_old": 688
     }
   ],
   "current_versions": {
