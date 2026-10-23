@@ -1692,7 +1692,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 10
+      "days_old": 11
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1750,7 +1750,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "stabilize String::into_chars",
@@ -1775,7 +1775,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1933,8 +1933,8 @@
       "updated_at": "2026-09-17T21:18:49+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2165,7 +2165,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 202
+      "days_old": 203
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2265,7 +2265,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 260
+      "days_old": 261
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2627,7 +2627,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 507
+      "days_old": 508
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2668,7 +2668,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 546
+      "days_old": 547
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2693,7 +2693,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 559
+      "days_old": 560
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
