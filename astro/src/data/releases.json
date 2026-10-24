@@ -1986,7 +1986,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 73
+      "days_old": 74
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -2019,7 +2019,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 96
+      "days_old": 97
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2458,7 +2458,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 365
+      "days_old": 366
     },
     {
       "title": "Stabilize stack-protector",
@@ -2713,7 +2713,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 689
+      "days_old": 690
     }
   ],
   "current_versions": {
