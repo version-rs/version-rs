@@ -1627,8 +1627,8 @@
       "updated_at": "2026-10-17T19:03:14+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "proposed-final-comment-period",
@@ -1660,10 +1660,6 @@
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "T-bootstrap",
           "description": "Relevant to the bootstrap subteam: Rust's build system (x.py and src/bootstrap)"
         },
@@ -1674,6 +1670,14 @@
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "T-types",
@@ -1800,7 +1804,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1837,7 +1841,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "stabilize {Rc, Arc}::is_unique",
@@ -1949,7 +1953,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 56
+      "days_old": 57
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2257,7 +2261,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 261
+      "days_old": 262
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
