@@ -1709,16 +1709,20 @@
           "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
         },
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
-        },
-        {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
+        },
+        {
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         },
         {
           "name": "F-trim-paths",
@@ -1754,7 +1758,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "stabilize String::into_chars",
@@ -1779,7 +1783,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2140,7 +2144,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 203
+      "days_old": 204
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2178,8 +2182,8 @@
       "updated_at": "2026-03-01T18:32:17+00:00",
       "labels": [
         {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
+          "name": "final-comment-period",
+          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
         },
         {
           "name": "disposition-merge",
@@ -2240,7 +2244,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 261
+      "days_old": 262
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2602,7 +2606,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 508
+      "days_old": 509
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2643,7 +2647,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 547
+      "days_old": 548
     },
     {
       "title": "Stabilize `offset_of_slice`",
