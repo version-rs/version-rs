@@ -1643,7 +1643,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1709,8 +1709,8 @@
           "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
         },
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-blocked",
+          "description": "Status: Blocked on something else such as an RFC or other implementation work."
         },
         {
           "name": "disposition-merge",
@@ -1737,7 +1737,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1870,7 +1870,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -2102,7 +2102,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 146
+      "days_old": 147
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2198,7 +2198,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 236
+      "days_old": 237
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2319,7 +2319,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 294
+      "days_old": 295
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2413,7 +2413,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 351
+      "days_old": 352
     },
     {
       "title": "Stabilize Frontmatter",
