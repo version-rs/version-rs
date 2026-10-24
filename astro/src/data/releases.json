@@ -1696,7 +1696,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1895,7 +1895,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 28
+      "days_old": 29
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1928,7 +1928,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2032,7 +2032,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 112
+      "days_old": 113
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2069,7 +2069,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 115
+      "days_old": 116
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2219,7 +2219,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 245
+      "days_old": 246
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2356,7 +2356,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 311
+      "days_old": 312
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2507,7 +2507,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 409
+      "days_old": 410
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2548,7 +2548,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 489
+      "days_old": 490
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2668,7 +2668,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 560
+      "days_old": 561
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
