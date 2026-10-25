@@ -1627,8 +1627,8 @@
       "updated_at": "2026-10-17T19:03:14+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-author",
+          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
         {
           "name": "proposed-final-comment-period",
@@ -1758,7 +1758,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "stabilize String::into_chars",
@@ -1767,8 +1767,8 @@
       "updated_at": "2026-10-05T16:04:24+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -1787,7 +1787,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1858,8 +1858,8 @@
       "updated_at": "2026-09-28T19:43:10+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2152,7 +2152,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 204
+      "days_old": 205
     },
     {
       "title": "Stabilize `fN::BITS`",
@@ -2252,7 +2252,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 262
+      "days_old": 263
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2614,7 +2614,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 509
+      "days_old": 510
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2655,7 +2655,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 548
+      "days_old": 549
     },
     {
       "title": "Stabilize `offset_of_slice`",
