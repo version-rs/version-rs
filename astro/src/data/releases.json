@@ -1696,7 +1696,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 12
+      "days_old": 13
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1767,20 +1767,24 @@
       "updated_at": "2026-10-05T16:04:24+00:00",
       "labels": [
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
-          "name": "S-waiting-on-fcp",
-          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         }
       ],
       "days_old": 19
@@ -1808,7 +1812,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 21
+      "days_old": 22
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1854,20 +1858,24 @@
       "updated_at": "2026-09-28T19:43:10+00:00",
       "labels": [
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
-          "name": "S-waiting-on-fcp",
-          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         }
       ],
       "days_old": 26
@@ -1899,7 +1907,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 29
+      "days_old": 30
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1932,7 +1940,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 34
+      "days_old": 35
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2036,7 +2044,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 113
+      "days_old": 114
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2073,7 +2081,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 116
+      "days_old": 117
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2223,7 +2231,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 246
+      "days_old": 247
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2360,7 +2368,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 312
+      "days_old": 313
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2511,7 +2519,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 410
+      "days_old": 411
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2552,7 +2560,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 490
+      "days_old": 491
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2672,7 +2680,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 561
+      "days_old": 562
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
