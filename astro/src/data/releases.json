@@ -1696,7 +1696,7 @@
           "description": "Relevant to the Clippy team."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1783,7 +1783,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1820,7 +1820,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1849,7 +1849,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1882,7 +1882,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 35
+      "days_old": 36
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1907,7 +1907,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 58
+      "days_old": 59
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -1986,7 +1986,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 114
+      "days_old": 115
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2023,7 +2023,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2173,7 +2173,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 247
+      "days_old": 248
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2215,7 +2215,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 263
+      "days_old": 264
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2310,7 +2310,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 313
+      "days_old": 314
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2461,7 +2461,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 411
+      "days_old": 412
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2502,7 +2502,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 491
+      "days_old": 492
     },
     {
       "title": "Stabilize the `breakpoint` function",
