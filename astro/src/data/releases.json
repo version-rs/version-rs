@@ -1761,35 +1761,6 @@
       "days_old": 19
     },
     {
-      "title": "stabilize String::into_chars",
-      "number": 163816,
-      "url": "https://github.com/rust-lang/rust/pull/163816",
-      "updated_at": "2026-10-05T16:04:24+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        }
-      ],
-      "days_old": 20
-    },
-    {
       "title": "Stabilize `int_from_ascii`",
       "number": 163696,
       "url": "https://github.com/rust-lang/rust/pull/163696",
@@ -1850,35 +1821,6 @@
         }
       ],
       "days_old": 23
-    },
-    {
-      "title": "stabilize {Rc, Arc}::is_unique",
-      "number": 163458,
-      "url": "https://github.com/rust-lang/rust/pull/163458",
-      "updated_at": "2026-09-28T19:43:10+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        }
-      ],
-      "days_old": 27
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -2181,7 +2123,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 220
+      "days_old": 221
     },
     {
       "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
@@ -2298,7 +2240,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 265
+      "days_old": 266
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
