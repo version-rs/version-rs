@@ -1635,7 +1635,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize unchecked `nonzero_ops`",
@@ -1953,7 +1953,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 76
+      "days_old": 77
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1986,7 +1986,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 99
+      "days_old": 100
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2114,7 +2114,7 @@
       "days_old": 207
     },
     {
-      "title": "Stabilize `fN::BITS`",
+      "title": "Stabilize `float_bits_const` (`fN::BITS`)",
       "number": 154065,
       "url": "https://github.com/rust-lang/rust/pull/154065",
       "updated_at": "2026-03-19T01:30:45+00:00",
@@ -2130,10 +2130,6 @@
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "has-merge-commits",
-          "description": "PR has merge commits, merge with caution."
         },
         {
           "name": "A-compiler-builtins",
@@ -2286,7 +2282,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 297
+      "days_old": 298
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2380,7 +2376,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 354
+      "days_old": 355
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2425,7 +2421,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 368
+      "days_old": 369
     },
     {
       "title": "Stabilize stack-protector",
@@ -2680,7 +2676,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 692
+      "days_old": 693
     }
   ],
   "current_versions": {
