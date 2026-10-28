@@ -1673,6 +1673,10 @@
           "description": "Area: The testsuite used to check the correctness of rustc"
         },
         {
+          "name": "T-lang",
+          "description": "Relevant to the language team"
+        },
+        {
           "name": "T-compiler",
           "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
         },
@@ -1711,6 +1715,10 @@
         {
           "name": "T-clippy",
           "description": "Relevant to the Clippy team."
+        },
+        {
+          "name": "waived-reference-pr",
+          "description": "This language change does not need a Reference PR."
         }
       ],
       "days_old": 15
@@ -1800,7 +1808,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 24
+      "days_old": 25
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1837,7 +1845,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1866,7 +1874,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 32
+      "days_old": 33
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1899,7 +1907,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 37
+      "days_old": 38
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -1924,7 +1932,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 60
+      "days_old": 61
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2003,7 +2011,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 116
+      "days_old": 117
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2040,7 +2048,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 119
+      "days_old": 120
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2186,7 +2194,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 249
+      "days_old": 250
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2228,7 +2236,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 265
+      "days_old": 266
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2323,7 +2331,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 315
+      "days_old": 316
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2474,7 +2482,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 413
+      "days_old": 414
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2515,7 +2523,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 493
+      "days_old": 494
     },
     {
       "title": "Stabilize the `breakpoint` function",
