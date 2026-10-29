@@ -1725,7 +1725,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1787,7 +1787,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1812,7 +1812,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 25
+      "days_old": 26
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1878,7 +1878,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1911,7 +1911,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 38
+      "days_old": 39
     },
     {
       "title": "Stabilize `ExitCode::exit_process`",
@@ -2015,7 +2015,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 117
+      "days_old": 118
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2052,7 +2052,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 120
+      "days_old": 121
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2198,7 +2198,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 250
+      "days_old": 251
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2335,7 +2335,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 316
+      "days_old": 317
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2486,7 +2486,7 @@
           "description": "`#![feature(autodiff)]`"
         }
       ],
-      "days_old": 414
+      "days_old": 415
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2527,7 +2527,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 494
+      "days_old": 495
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2581,7 +2581,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 513
+      "days_old": 514
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2622,7 +2622,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 552
+      "days_old": 553
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2647,7 +2647,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 565
+      "days_old": 566
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
