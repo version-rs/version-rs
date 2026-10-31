@@ -1645,7 +1645,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize unchecked `nonzero_ops`",
@@ -1674,7 +1674,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -2008,7 +2008,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 103
+      "days_old": 104
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2091,7 +2091,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 153
+      "days_old": 154
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2304,7 +2304,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 301
+      "days_old": 302
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2398,7 +2398,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 358
+      "days_old": 359
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2443,7 +2443,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 372
+      "days_old": 373
     },
     {
       "title": "Stabilize stack-protector",
@@ -2698,7 +2698,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 696
+      "days_old": 697
     }
   ],
   "current_versions": {
