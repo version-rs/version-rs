@@ -1859,7 +1859,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 29
+      "days_old": 30
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1946,7 +1946,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 64
+      "days_old": 65
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
