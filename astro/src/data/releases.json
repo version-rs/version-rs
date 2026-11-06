@@ -1657,6 +1657,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize `core::time::Duration::as_millis_f{32,64}`",
+      "number": 165566,
+      "url": "https://github.com/rust-lang/rust/pull/165566",
+      "updated_at": "2026-11-06T21:15:21+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "A-time",
+          "description": "Area: `std::time`"
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `char::is_case_ignorable`, `char::is_cased`, and the `titlecase` feature",
       "number": 165434,
       "url": "https://github.com/rust-lang/rust/pull/165434",
@@ -1691,7 +1712,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize unchecked_disjoint_bitor",
@@ -1741,7 +1762,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1843,7 +1864,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1864,7 +1885,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2133,7 +2154,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 159
+      "days_old": 160
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2175,7 +2196,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 216
+      "days_old": 217
     },
     {
       "title": "Stabilize `float_bits_const` (`fN::BITS`)",
@@ -2233,7 +2254,7 @@
           "description": "Area: raw pointers, MaybeUninit, NonNull"
         }
       ],
-      "days_old": 249
+      "days_old": 250
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2279,7 +2300,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 274
+      "days_old": 275
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2354,7 +2375,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 307
+      "days_old": 308
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2444,7 +2465,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 364
+      "days_old": 365
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2489,7 +2510,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 378
+      "days_old": 379
     },
     {
       "title": "Stabilize stack-protector",
@@ -2637,7 +2658,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 521
+      "days_old": 522
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2678,7 +2699,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 560
+      "days_old": 561
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2744,7 +2765,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 702
+      "days_old": 703
     }
   ],
   "current_versions": {
