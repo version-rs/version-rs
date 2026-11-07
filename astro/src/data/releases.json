@@ -1599,6 +1599,18 @@
       "release_name": "nightly",
       "issues": [
         {
+          "title": "Lower #[no_mangle] to #[symbol_name]/#[link_name]",
+          "number": 159374,
+          "html_url": "https://github.com/rust-lang/rust/pull/159374",
+          "days_ago": 0
+        },
+        {
+          "title": "Drop array elements in order after a partial move",
+          "number": 165037,
+          "html_url": "https://github.com/rust-lang/rust/pull/165037",
+          "days_ago": 0
+        },
+        {
           "title": "Lower UEFI targets through LLVM's *uefi triple",
           "number": 164716,
           "html_url": "https://github.com/rust-lang/rust/pull/164716",
@@ -1665,6 +1677,10 @@
         {
           "name": "S-waiting-on-review",
           "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "needs-fcp",
+          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
         },
         {
           "name": "T-libs",
@@ -1947,7 +1963,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 35
+      "days_old": 36
     },
     {
       "title": "Stabilize `iter_advance_by`",
