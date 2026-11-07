@@ -1617,6 +1617,12 @@
           "days_ago": 2
         },
         {
+          "title": "Make inline attributes apply to the generated `poll` in async fn",
+          "number": 149245,
+          "html_url": "https://github.com/rust-lang/rust/pull/149245",
+          "days_ago": 3
+        },
+        {
           "title": "Stabilize `slice_split_once`",
           "number": 164641,
           "html_url": "https://github.com/rust-lang/rust/pull/164641",
@@ -1778,7 +1784,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 20
+      "days_old": 21
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1880,7 +1886,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 31
+      "days_old": 32
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1901,7 +1907,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 31
+      "days_old": 32
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -2170,7 +2176,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 160
+      "days_old": 161
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2212,7 +2218,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 217
+      "days_old": 218
     },
     {
       "title": "Stabilize `float_bits_const` (`fN::BITS`)",
@@ -2270,7 +2276,7 @@
           "description": "Area: raw pointers, MaybeUninit, NonNull"
         }
       ],
-      "days_old": 250
+      "days_old": 251
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2316,7 +2322,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 275
+      "days_old": 276
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2481,7 +2487,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 365
+      "days_old": 366
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2674,7 +2680,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 522
+      "days_old": 523
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2715,7 +2721,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 561
+      "days_old": 562
     },
     {
       "title": "Stabilize `offset_of_slice`",
