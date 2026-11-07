@@ -1697,7 +1697,7 @@
           "description": "Area: `std::time`"
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `char::is_case_ignorable`, `char::is_cased`, and the `titlecase` feature",
@@ -1734,7 +1734,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "stabilize unchecked_disjoint_bitor",
@@ -1755,7 +1755,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 11
+      "days_old": 12
     },
     {
       "title": "Stabilize unchecked `nonzero_ops`",
@@ -2060,7 +2060,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 87
+      "days_old": 88
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -2093,7 +2093,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 110
+      "days_old": 111
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2397,7 +2397,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 308
+      "days_old": 309
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2532,7 +2532,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 379
+      "days_old": 380
     },
     {
       "title": "Stabilize stack-protector",
@@ -2787,7 +2787,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 703
+      "days_old": 704
     }
   ],
   "current_versions": {
