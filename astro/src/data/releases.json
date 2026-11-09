@@ -1228,7 +1228,7 @@
       "version": "1.87.0",
       "date": "2025-05-15",
       "is_unreleased": false,
-      "changelog_md": "\n<a id=\"1.87.0-Language\"></a>\n\nLanguage\n--------\n- [Stabilize `asm_goto` feature](https://github.com/rust-lang/rust/pull/133870)\n- [Allow parsing open beginning ranges (`..EXPR`) after unary operators `!`, `-`, and `*`](https://github.com/rust-lang/rust/pull/134900).\n- [Don't require method impls for methods with `Self: Sized` bounds in `impl`s for unsized types](https://github.com/rust-lang/rust/pull/135480)\n- [Stabilize `feature(precise_capturing_in_traits)` allowing `use<...>` bounds on return position `impl Trait` in `trait`s](https://github.com/rust-lang/rust/pull/138128)\n\n<a id=\"1.87.0-Compiler\"></a>\n\nCompiler\n--------\n- [x86: make SSE2 required for i686 targets and use it to pass SIMD types](https://github.com/rust-lang/rust/pull/135408)\n\n<a id=\"1.87.0-Platform-Support\"></a>\n\nPlatform Support\n----------------\n- [Remove `i586-pc-windows-msvc` target](https://github.com/rust-lang/rust/pull/137957)\n\nRefer to Rust's [platform support page][platform-support-doc]\nfor more information on Rust's tiered platform support.\n\n[platform-support-doc]: https://doc.rust-lang.org/rustc/platform-support.html\n\n<a id=\"1.87.0-Libraries\"></a>\n\nLibraries\n---------\n- [Stabilize the anonymous pipe API](https://github.com/rust-lang/rust/issues/127154)\n- [Add support for unbounded left/right shift operations](https://github.com/rust-lang/rust/issues/129375)\n- [Print pointer metadata in `Debug` impl of raw pointers](https://github.com/rust-lang/rust/pull/135080)\n- [`Vec::with_capacity` guarantees it allocates with the amount requested, even if `Vec::capacity` returns a different number.](https://github.com/rust-lang/rust/pull/135933)\n- Most `std::arch` intrinsics which don't take pointer arguments can now be called from safe code if the caller has the appropriate target features already enabled (https://github.com/rust-lang/stdarch/pull/1714, https://github.com/rust-lang/stdarch/pull/1716, https://github.com/rust-lang/stdarch/pull/1717)\n- [Undeprecate `env::home_dir`](https://github.com/rust-lang/rust/pull/137327)\n- [Denote `ControlFlow` as `#[must_use]`](https://github.com/rust-lang/rust/pull/137449)\n- [Macros such as `assert_eq!` and `vec!` now support `const {...}` expressions](https://github.com/rust-lang/rust/pull/138162)\n\n<a id=\"1.87.0-Stabilized-APIs\"></a>\n\nStabilized APIs\n---------------\n\n- [`Vec::extract_if`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.extract_if)\n- [`vec::ExtractIf`](https://doc.rust-lang.org/stable/std/vec/struct.ExtractIf.html)\n- [`LinkedList::extract_if`](https://doc.rust-lang.org/stable/std/collections/struct.LinkedList.html#method.extract_if)\n- [`linked_list::ExtractIf`](https://doc.rust-lang.org/stable/std/collections/linked_list/struct.ExtractIf.html)\n- [`<[T]>::split_off`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off)\n- [`<[T]>::split_off_mut`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_mut)\n- [`<[T]>::split_off_first`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_first)\n- [`<[T]>::split_off_first_mut`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_first_mut)\n- [`<[T]>::split_off_last`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_last)\n- [`<[T]>::split_off_last_mut`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_last_mut)\n- [`String::extend_from_within`](https://doc.rust-lang.org/stable/alloc/string/struct.String.html#method.extend_from_within)\n- [`os_str::Display`](https://doc.rust-lang.org/stable/std/ffi/os_str/struct.Display.html)\n- [`OsString::display`](https://doc.rust-lang.org/stable/std/ffi/struct.OsString.html#method.display)\n- [`OsStr::display`](https://doc.rust-lang.org/stable/std/ffi/struct.OsStr.html#method.display)\n- [`io::pipe`](https://doc.rust-lang.org/stable/std/io/fn.pipe.html)\n- [`io::PipeReader`](https://doc.rust-lang.org/stable/std/io/struct.PipeReader.html)\n- [`io::PipeWriter`](https://doc.rust-lang.org/stable/std/io/struct.PipeWriter.html)\n- [`impl From<PipeReader> for OwnedHandle`](https://doc.rust-lang.org/stable/std/os/windows/io/struct.OwnedHandle.html#impl-From%3CPipeReader%3E-for-OwnedHandle)\n- [`impl From<PipeWriter> for OwnedHandle`](https://doc.rust-lang.org/stable/std/os/windows/io/struct.OwnedHandle.html#impl-From%3CPipeWriter%3E-for-OwnedHandle)\n- [`impl From<PipeReader> for Stdio`](https://doc.rust-lang.org/stable/std/process/struct.Stdio.html)\n- [`impl From<PipeWriter> for Stdio`](https://doc.rust-lang.org/stable/std/process/struct.Stdio.html#impl-From%3CPipeWriter%3E-for-Stdio)\n- [`impl From<PipeReader> for OwnedFd`](https://doc.rust-lang.org/stable/std/os/fd/struct.OwnedFd.html#impl-From%3CPipeReader%3E-for-OwnedFd)\n- [`impl From<PipeWriter> for OwnedFd`](https://doc.rust-lang.org/stable/std/os/fd/struct.OwnedFd.html#impl-From%3CPipeWriter%3E-for-OwnedFd)\n- [`Box<MaybeUninit<T>>::write`](https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#method.write)\n- [`impl TryFrom<Vec<u8>> for String`](https://doc.rust-lang.org/stable/std/string/struct.String.html#impl-TryFrom%3CVec%3Cu8%3E%3E-for-String)\n- [`<*const T>::offset_from_unsigned`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.offset_from_unsigned)\n- [`<*const T>::byte_offset_from_unsigned`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.byte_offset_from_unsigned)\n- [`<*mut T>::offset_from_unsigned`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.offset_from_unsigned-1)\n- [`<*mut T>::byte_offset_from_unsigned`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.byte_offset_from_unsigned-1)\n- [`NonNull::offset_from_unsigned`](https://doc.rust-lang.org/stable/std/ptr/struct.NonNull.html#method.offset_from_unsigned)\n- [`NonNull::byte_offset_from_unsigned`](https://doc.rust-lang.org/stable/std/ptr/struct.NonNull.html#method.byte_offset_from_unsigned)\n- [`<uN>::cast_signed`](https://doc.rust-lang.org/stable/std/primitive.usize.html#method.cast_signed)\n- [`NonZero::<uN>::cast_signed`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.cast_signed-5).\n- [`<iN>::cast_unsigned`](https://doc.rust-lang.org/stable/std/primitive.isize.html#method.cast_unsigned).\n- [`NonZero::<iN>::cast_unsigned`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.cast_unsigned-5).\n- [`<uN>::is_multiple_of`](https://doc.rust-lang.org/stable/std/primitive.usize.html#method.is_multiple_of)\n- [`<uN>::unbounded_shl`](https://doc.rust-lang.org/stable/std/primitive.usize.html#method.unbounded_shl)\n- [`<uN>::unbounded_shr`](https://doc.rust-lang.org/stable/std/primitive.usize.html#method.unbounded_shr)\n- [`<iN>::unbounded_shl`](https://doc.rust-lang.org/stable/std/primitive.isize.html#method.unbounded_shl)\n- [`<iN>::unbounded_shr`](https://doc.rust-lang.org/stable/std/primitive.isize.html#method.unbounded_shr)\n- [`<iN>::midpoint`](https://doc.rust-lang.org/stable/std/primitive.isize.html#method.midpoint)\n- [`<str>::from_utf8`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.from_utf8)\n- [`<str>::from_utf8_mut`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.from_utf8_mut)\n- [`<str>::from_utf8_unchecked`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.from_utf8_unchecked)\n- [`<str>::from_utf8_unchecked_mut`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.from_utf8_unchecked_mut)\n\nThese previously stable APIs are now stable in const contexts:\n\n- [`core::str::from_utf8_mut`](https://doc.rust-lang.org/stable/std/str/fn.from_utf8_mut.html)\n- [`<[T]>::copy_from_slice`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.copy_from_slice)\n- [`SocketAddr::set_ip`](https://doc.rust-lang.org/stable/std/net/enum.SocketAddr.html#method.set_ip)\n- [`SocketAddr::set_port`](https://doc.rust-lang.org/stable/std/net/enum.SocketAddr.html#method.set_port),\n- [`SocketAddrV4::set_ip`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV4.html#method.set_ip)\n- [`SocketAddrV4::set_port`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV4.html#method.set_port),\n- [`SocketAddrV6::set_ip`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV6.html#method.set_ip)\n- [`SocketAddrV6::set_port`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV6.html#method.set_port)\n- [`SocketAddrV6::set_flowinfo`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV6.html#method.set_flowinfo)\n- [`SocketAddrV6::set_scope_id`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV6.html#method.set_scope_id)\n- [`char::is_digit`](https://doc.rust-lang.org/stable/std/primitive.char.html#method.is_digit)\n- [`char::is_whitespace`](https://doc.rust-lang.org/stable/std/primitive.char.html#method.is_whitespace)\n- [`<[[T; N]]>::as_flattened`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.as_flattened)\n- [`<[[T; N]]>::as_flattened_mut`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.as_flattened_mut)\n- [`String::into_bytes`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.into_bytes)\n- [`String::as_str`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.as_str)\n- [`String::capacity`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.capacity)\n- [`String::as_bytes`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.as_bytes)\n- [`String::len`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.len)\n- [`String::is_empty`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.is_empty)\n- [`String::as_mut_str`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.as_mut_str)\n- [`String::as_mut_vec`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.as_mut_vec)\n- [`Vec::as_ptr`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.as_ptr)\n- [`Vec::as_slice`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.as_slice)\n- [`Vec::capacity`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.capacity)\n- [`Vec::len`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.len)\n- [`Vec::is_empty`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.is_empty)\n- [`Vec::as_mut_slice`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.as_mut_slice)\n- [`Vec::as_mut_ptr`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.as_mut_ptr)\n\n<a id=\"1.87.0-Cargo\"></a>\n\nCargo\n-----\n- [Add terminal integration via ANSI OSC 9;4 sequences](https://github.com/rust-lang/cargo/pull/14615/)\n- [chore: bump openssl to v3](https://github.com/rust-lang/cargo/pull/15232/)\n- [feat(package): add --exclude-lockfile flag](https://github.com/rust-lang/cargo/pull/15234/)\n\n<a id=\"1.87.0-Compatibility-Notes\"></a>\n\nCompatibility Notes\n-------------------\n- [Rust now raises an error for macro invocations inside the `#![crate_name]` attribute](https://github.com/rust-lang/rust/pull/127581)\n- [Unstable fields are now always considered to be inhabited](https://github.com/rust-lang/rust/pull/133889)\n- [Macro arguments of unary operators followed by open beginning ranges may now be matched differently](https://github.com/rust-lang/rust/pull/134900)\n- [Make `Debug` impl of raw pointers print metadata if present](https://github.com/rust-lang/rust/pull/135080)\n- [Warn against function pointers using unsupported ABI strings in dependencies](https://github.com/rust-lang/rust/pull/135767)\n- [Associated types on `dyn` types are no longer deduplicated](https://github.com/rust-lang/rust/pull/136458)\n- [Forbid attributes on `..` inside of struct patterns (`let Struct { #[attribute] .. }) =`](https://github.com/rust-lang/rust/pull/136490)\n- [Make `ptr_cast_add_auto_to_object` lint into hard error](https://github.com/rust-lang/rust/pull/136764)\n- Many `std::arch` intrinsics are now safe to call in some contexts, there may now be new `unused_unsafe` warnings in existing codebases.\n- [Limit `width` and `precision` formatting options to 16 bits on all targets](https://github.com/rust-lang/rust/pull/136932)\n- [Turn order dependent trait objects future incompat warning into a hard error](https://github.com/rust-lang/rust/pull/136968)\n- [Denote `ControlFlow` as `#[must_use]`](https://github.com/rust-lang/rust/pull/137449)\n- [Windows: The standard library no longer links `advapi32`, except on win7.](https://github.com/rust-lang/rust/pull/138233) Code such as C libraries that were relying on this assumption may need to explicitly link advapi32.\n- [Proc macros can no longer observe expanded `cfg(true)` attributes.](https://github.com/rust-lang/rust/pull/138844)\n- [Start changing the internal representation of pasted tokens](https://github.com/rust-lang/rust/pull/124141). Certain invalid declarative macros that were previously accepted in obscure circumstances are now correctly rejected by the compiler. Use of a `tt` fragment specifier can often fix these macros.\n- [Don't allow flattened format_args in const.](https://github.com/rust-lang/rust/pull/139624)\n\n<a id=\"1.87.0-Internal-Changes\"></a>\n\nInternal Changes\n----------------\n\nThese changes do not affect any public interfaces of Rust, but they represent\nsignificant improvements to the performance or internals of rustc and related\ntools.\n\n- [Update to LLVM 20](https://github.com/rust-lang/rust/pull/135763)\n\n",
+      "changelog_md": "\n<a id=\"1.87.0-Language\"></a>\n\nLanguage\n--------\n- [Stabilize `asm_goto` feature](https://github.com/rust-lang/rust/pull/133870)\n- [Allow parsing open beginning ranges (`..EXPR`) after unary operators `!`, `-`, and `*`](https://github.com/rust-lang/rust/pull/134900).\n- [Don't require method impls for methods with `Self: Sized` bounds in `impl`s for unsized types](https://github.com/rust-lang/rust/pull/135480)\n- [Stabilize `feature(precise_capturing_in_traits)` allowing `use<...>` bounds on return position `impl Trait` in `trait`s](https://github.com/rust-lang/rust/pull/138128)\n\n<a id=\"1.87.0-Compiler\"></a>\n\nCompiler\n--------\n- [x86: make SSE2 required for i686 targets and use it to pass SIMD types](https://github.com/rust-lang/rust/pull/135408)\n\n<a id=\"1.87.0-Platform-Support\"></a>\n\nPlatform Support\n----------------\n- [Remove `i586-pc-windows-msvc` target](https://github.com/rust-lang/rust/pull/137957)\n\nRefer to Rust's [platform support page][platform-support-doc]\nfor more information on Rust's tiered platform support.\n\n[platform-support-doc]: https://doc.rust-lang.org/rustc/platform-support.html\n\n<a id=\"1.87.0-Libraries\"></a>\n\nLibraries\n---------\n- [Stabilize the anonymous pipe API](https://github.com/rust-lang/rust/issues/127154)\n- [Add support for unbounded left/right shift operations](https://github.com/rust-lang/rust/issues/129375) \n- [Print pointer metadata in `Debug` impl of raw pointers](https://github.com/rust-lang/rust/pull/135080)\n- [`Vec::with_capacity` guarantees it allocates with the amount requested, even if `Vec::capacity` returns a different number.](https://github.com/rust-lang/rust/pull/135933)\n- Most `std::arch` intrinsics which don't take pointer arguments can now be called from safe code if the caller has the appropriate target features already enabled (https://github.com/rust-lang/stdarch/pull/1714, https://github.com/rust-lang/stdarch/pull/1716, https://github.com/rust-lang/stdarch/pull/1717)\n- [Undeprecate `env::home_dir`](https://github.com/rust-lang/rust/pull/137327)\n- [Denote `ControlFlow` as `#[must_use]`](https://github.com/rust-lang/rust/pull/137449)\n- [Macros such as `assert_eq!` and `vec!` now support `const {...}` expressions](https://github.com/rust-lang/rust/pull/138162)\n\n<a id=\"1.87.0-Stabilized-APIs\"></a>\n\nStabilized APIs\n---------------\n\n- [`Vec::extract_if`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.extract_if)\n- [`vec::ExtractIf`](https://doc.rust-lang.org/stable/std/vec/struct.ExtractIf.html)\n- [`LinkedList::extract_if`](https://doc.rust-lang.org/stable/std/collections/struct.LinkedList.html#method.extract_if)\n- [`linked_list::ExtractIf`](https://doc.rust-lang.org/stable/std/collections/linked_list/struct.ExtractIf.html)\n- [`<[T]>::split_off`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off)\n- [`<[T]>::split_off_mut`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_mut)\n- [`<[T]>::split_off_first`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_first)\n- [`<[T]>::split_off_first_mut`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_first_mut)\n- [`<[T]>::split_off_last`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_last)\n- [`<[T]>::split_off_last_mut`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.split_off_last_mut)\n- [`String::extend_from_within`](https://doc.rust-lang.org/stable/alloc/string/struct.String.html#method.extend_from_within)\n- [`os_str::Display`](https://doc.rust-lang.org/stable/std/ffi/os_str/struct.Display.html)\n- [`OsString::display`](https://doc.rust-lang.org/stable/std/ffi/struct.OsString.html#method.display)\n- [`OsStr::display`](https://doc.rust-lang.org/stable/std/ffi/struct.OsStr.html#method.display)\n- [`io::pipe`](https://doc.rust-lang.org/stable/std/io/fn.pipe.html)\n- [`io::PipeReader`](https://doc.rust-lang.org/stable/std/io/struct.PipeReader.html)\n- [`io::PipeWriter`](https://doc.rust-lang.org/stable/std/io/struct.PipeWriter.html)\n- [`impl From<PipeReader> for OwnedHandle`](https://doc.rust-lang.org/stable/std/os/windows/io/struct.OwnedHandle.html#impl-From%3CPipeReader%3E-for-OwnedHandle)\n- [`impl From<PipeWriter> for OwnedHandle`](https://doc.rust-lang.org/stable/std/os/windows/io/struct.OwnedHandle.html#impl-From%3CPipeWriter%3E-for-OwnedHandle)\n- [`impl From<PipeReader> for Stdio`](https://doc.rust-lang.org/stable/std/process/struct.Stdio.html)\n- [`impl From<PipeWriter> for Stdio`](https://doc.rust-lang.org/stable/std/process/struct.Stdio.html#impl-From%3CPipeWriter%3E-for-Stdio)\n- [`impl From<PipeReader> for OwnedFd`](https://doc.rust-lang.org/stable/std/os/fd/struct.OwnedFd.html#impl-From%3CPipeReader%3E-for-OwnedFd)\n- [`impl From<PipeWriter> for OwnedFd`](https://doc.rust-lang.org/stable/std/os/fd/struct.OwnedFd.html#impl-From%3CPipeWriter%3E-for-OwnedFd)\n- [`Box<MaybeUninit<T>>::write`](https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#method.write)\n- [`impl TryFrom<Vec<u8>> for String`](https://doc.rust-lang.org/stable/std/string/struct.String.html#impl-TryFrom%3CVec%3Cu8%3E%3E-for-String)\n- [`<*const T>::offset_from_unsigned`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.offset_from_unsigned)\n- [`<*const T>::byte_offset_from_unsigned`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.byte_offset_from_unsigned)\n- [`<*mut T>::offset_from_unsigned`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.offset_from_unsigned-1)\n- [`<*mut T>::byte_offset_from_unsigned`](https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.byte_offset_from_unsigned-1)\n- [`NonNull::offset_from_unsigned`](https://doc.rust-lang.org/stable/std/ptr/struct.NonNull.html#method.offset_from_unsigned)\n- [`NonNull::byte_offset_from_unsigned`](https://doc.rust-lang.org/stable/std/ptr/struct.NonNull.html#method.byte_offset_from_unsigned)\n- [`<uN>::cast_signed`](https://doc.rust-lang.org/stable/std/primitive.usize.html#method.cast_signed)\n- [`NonZero::<uN>::cast_signed`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.cast_signed-5).\n- [`<iN>::cast_unsigned`](https://doc.rust-lang.org/stable/std/primitive.isize.html#method.cast_unsigned).\n- [`NonZero::<iN>::cast_unsigned`](https://doc.rust-lang.org/stable/std/num/struct.NonZero.html#method.cast_unsigned-5).\n- [`<uN>::is_multiple_of`](https://doc.rust-lang.org/stable/std/primitive.usize.html#method.is_multiple_of)\n- [`<uN>::unbounded_shl`](https://doc.rust-lang.org/stable/std/primitive.usize.html#method.unbounded_shl)\n- [`<uN>::unbounded_shr`](https://doc.rust-lang.org/stable/std/primitive.usize.html#method.unbounded_shr)\n- [`<iN>::unbounded_shl`](https://doc.rust-lang.org/stable/std/primitive.isize.html#method.unbounded_shl)\n- [`<iN>::unbounded_shr`](https://doc.rust-lang.org/stable/std/primitive.isize.html#method.unbounded_shr)\n- [`<iN>::midpoint`](https://doc.rust-lang.org/stable/std/primitive.isize.html#method.midpoint)\n- [`<str>::from_utf8`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.from_utf8)\n- [`<str>::from_utf8_mut`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.from_utf8_mut)\n- [`<str>::from_utf8_unchecked`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.from_utf8_unchecked)\n- [`<str>::from_utf8_unchecked_mut`](https://doc.rust-lang.org/stable/std/primitive.str.html#method.from_utf8_unchecked_mut)\n\nThese previously stable APIs are now stable in const contexts:\n\n- [`core::str::from_utf8_mut`](https://doc.rust-lang.org/stable/std/str/fn.from_utf8_mut.html)\n- [`<[T]>::copy_from_slice`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.copy_from_slice)\n- [`SocketAddr::set_ip`](https://doc.rust-lang.org/stable/std/net/enum.SocketAddr.html#method.set_ip)\n- [`SocketAddr::set_port`](https://doc.rust-lang.org/stable/std/net/enum.SocketAddr.html#method.set_port),\n- [`SocketAddrV4::set_ip`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV4.html#method.set_ip)\n- [`SocketAddrV4::set_port`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV4.html#method.set_port),\n- [`SocketAddrV6::set_ip`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV6.html#method.set_ip)\n- [`SocketAddrV6::set_port`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV6.html#method.set_port)\n- [`SocketAddrV6::set_flowinfo`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV6.html#method.set_flowinfo)\n- [`SocketAddrV6::set_scope_id`](https://doc.rust-lang.org/stable/std/net/struct.SocketAddrV6.html#method.set_scope_id)\n- [`char::is_digit`](https://doc.rust-lang.org/stable/std/primitive.char.html#method.is_digit)\n- [`char::is_whitespace`](https://doc.rust-lang.org/stable/std/primitive.char.html#method.is_whitespace)\n- [`<[[T; N]]>::as_flattened`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.as_flattened)\n- [`<[[T; N]]>::as_flattened_mut`](https://doc.rust-lang.org/stable/std/primitive.slice.html#method.as_flattened_mut) \n- [`String::into_bytes`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.into_bytes)\n- [`String::as_str`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.as_str)\n- [`String::capacity`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.capacity)\n- [`String::as_bytes`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.as_bytes)\n- [`String::len`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.len)\n- [`String::is_empty`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.is_empty)\n- [`String::as_mut_str`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.as_mut_str)\n- [`String::as_mut_vec`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.as_mut_vec)\n- [`Vec::as_ptr`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.as_ptr)\n- [`Vec::as_slice`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.as_slice)\n- [`Vec::capacity`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.capacity)\n- [`Vec::len`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.len)\n- [`Vec::is_empty`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.is_empty)\n- [`Vec::as_mut_slice`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.as_mut_slice)\n- [`Vec::as_mut_ptr`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.as_mut_ptr)\n\n<a id=\"1.87.0-Cargo\"></a>\n\nCargo\n-----\n- [Add terminal integration via ANSI OSC 9;4 sequences](https://github.com/rust-lang/cargo/pull/14615/)\n- [chore: bump openssl to v3](https://github.com/rust-lang/cargo/pull/15232/)\n- [feat(package): add --exclude-lockfile flag](https://github.com/rust-lang/cargo/pull/15234/)\n\n<a id=\"1.87.0-Compatibility-Notes\"></a>\n\nCompatibility Notes\n-------------------\n- [Rust now raises an error for macro invocations inside the `#![crate_name]` attribute](https://github.com/rust-lang/rust/pull/127581)\n- [Unstable fields are now always considered to be inhabited](https://github.com/rust-lang/rust/pull/133889)\n- [Macro arguments of unary operators followed by open beginning ranges may now be matched differently](https://github.com/rust-lang/rust/pull/134900)\n- [Make `Debug` impl of raw pointers print metadata if present](https://github.com/rust-lang/rust/pull/135080)\n- [Warn against function pointers using unsupported ABI strings in dependencies](https://github.com/rust-lang/rust/pull/135767)\n- [Associated types on `dyn` types are no longer deduplicated](https://github.com/rust-lang/rust/pull/136458)\n- [Forbid attributes on `..` inside of struct patterns (`let Struct { #[attribute] .. }) =`](https://github.com/rust-lang/rust/pull/136490)\n- [Make `ptr_cast_add_auto_to_object` lint into hard error](https://github.com/rust-lang/rust/pull/136764)\n- Many `std::arch` intrinsics are now safe to call in some contexts, there may now be new `unused_unsafe` warnings in existing codebases.\n- [Limit `width` and `precision` formatting options to 16 bits on all targets](https://github.com/rust-lang/rust/pull/136932)\n- [Turn order dependent trait objects future incompat warning into a hard error](https://github.com/rust-lang/rust/pull/136968)\n- [Denote `ControlFlow` as `#[must_use]`](https://github.com/rust-lang/rust/pull/137449)\n- [Windows: The standard library no longer links `advapi32`, except on win7.](https://github.com/rust-lang/rust/pull/138233) Code such as C libraries that were relying on this assumption may need to explicitly link advapi32.\n- [Proc macros can no longer observe expanded `cfg(true)` attributes.](https://github.com/rust-lang/rust/pull/138844)\n- [Start changing the internal representation of pasted tokens](https://github.com/rust-lang/rust/pull/124141). Certain invalid declarative macros that were previously accepted in obscure circumstances are now correctly rejected by the compiler. Use of a `tt` fragment specifier can often fix these macros.\n- [Don't allow flattened format_args in const.](https://github.com/rust-lang/rust/pull/139624)\n\n<a id=\"1.87.0-Internal-Changes\"></a>\n\nInternal Changes\n----------------\n\nThese changes do not affect any public interfaces of Rust, but they represent\nsignificant improvements to the performance or internals of rustc and related\ntools.\n\n- [Update to LLVM 20](https://github.com/rust-lang/rust/pull/135763)\n\n",
       "weight": 18446744073692752127,
       "branch_date": "2025-03-28",
       "url": "https://blog.rust-lang.org/2025/05/15/Rust-1.87.0.html"
@@ -1388,30 +1388,539 @@
     },
     {
       "version": "1.99.0",
-      "date": "2026-10-01",
-      "is_unreleased": false,
-      "changelog_md": "\n<a id=\"1.99.0-Language\"></a>\n\nLanguage\n--------\n- [Add allow-by-default `raw_borrows_via_references` lint that checks for references that decay immediately into raw borrows](https://github.com/rust-lang/rust/pull/138230)\n- [Extend `unconditional_panic` lint to function calls that panic when the chunks/windows size is zero](https://github.com/rust-lang/rust/pull/153563)\n- [Stabilize C-variadic function definitions](https://github.com/rust-lang/rust/pull/155697)\n- [Stabilize the ability to use `#[unsafe(naked)]` functions to define C-variadic functions (`#![feature(c_variadic_naked_functions)]`).](https://github.com/rust-lang/rust/pull/159746)\n- [Trait methods are now resolved on an adjusted never type (producing a FCW)](https://github.com/rust-lang/rust/pull/156047)\n- [Coerce from inference variables to trait objects if the inference variable is related via subtyping to a type that is known to be `Sized`](https://github.com/rust-lang/rust/pull/157820)\n- [Stabilize `#[my_macro] mod foo;`](https://github.com/rust-lang/rust/pull/157857). This allows outlined modules (`mod foo;`) anywhere in the body of a custom attribute or derive macro.\n- [Fix the `overflowing_literals` lint with repeated negation](https://github.com/rust-lang/rust/pull/158302). For instance, it will now no longer lint on `--128_i8`, which is already detected by the `arithmetic_overflow` lint.\n- [Add POSIX symbols to the `invalid_runtime_symbol_definitions` and `suspicious_runtime_symbol_definitions` lints](https://github.com/rust-lang/rust/pull/158522)\n- [Lint unused `#[path]` attributes on inline modules](https://github.com/rust-lang/rust/pull/158835)\n- [Enable `unreachable_cfg_select_predicates` lint as part of `unused` lint group](https://github.com/rust-lang/rust/pull/159179)\n- [Stabilize passing 128-bit integers via vector registers with `asm!` on x86](https://github.com/rust-lang/rust/pull/159525)\n- [Explicitly document that some allocations are allowed to grow in-place (but none are allowed to shrink)](https://github.com/rust-lang/rust/pull/159729)\n- We now [guarantee](https://github.com/rust-lang/rust/pull/159730) that the contents of an `UnsafeCell` can be accessed without going through `get`\n  - [The `invalid_reference_casting` lint was adjusted accordingly](https://github.com/rust-lang/rust/pull/159960)\n- [Account for globally enabled target features in `global_asm!`](https://github.com/rust-lang/rust/pull/160594)\n- [Warn if an invalid `doc` attribute is used on a macro invocation](https://github.com/rust-lang/rust/pull/161003)\n\n\n<a id=\"1.99.0-Compiler\"></a>\n\nCompiler\n--------\n- [Convert `-Ctarget-cpu` into a target-modifier for AVR, AMDGCN and NVPTX](https://github.com/rust-lang/rust/pull/150732)\n- [Enable `static_position_independent_executables` on all gnu targets](https://github.com/rust-lang/rust/pull/158510)\n- When providing a suggestion about a missing method, rustc now prefers an exactly matching name from a [doc alias attribute](https://doc.rust-lang.org/rustdoc/advanced-features.html#add-aliases-for-an-item-in-documentation-search) over a similarity search from other method names. If your new users sometimes expect a method under a different name, adding a doc alias will now help them find it via rustc suggestions, in addition to helping them find it via rustdoc search: [When suggesting method names, prefer *exact* doc aliases over similar names](https://github.com/rust-lang/rust/pull/160369)\n\n\n<a id=\"1.99.0-Platform-Support\"></a>\n\nPlatform Support\n----------------\n- [Promote `riscv64-unknown-linux-musl` to Tier 2 with host tools](https://github.com/rust-lang/rust/pull/158766)\n\n\nRefer to Rust's [platform support page][platform-support-doc]\nfor more information on Rust's tiered platform support.\n\n[platform-support-doc]: https://doc.rust-lang.org/rustc/platform-support.html\n\n<a id=\"1.99.0-Libraries\"></a>\n\nLibraries\n---------\n- Iteration on `RangeInclusive` (`a..=b` ranges) is now [optimized better in some circumstances](https://github.com/rust-lang/rust/pull/155114). As a side effect of this, the behavior of `RangeInclusive` values that has already been exhausted (as an iterator) has changed. For example, the return values of `start()` and `end()` on such ranges may return different values, and using such ranges as slice indexes may have different behavior. These behaviors were not guaranteed to be stable, so these changes are considered to not be breaking changes.\n- [Relax `transmute_copy` to accept `?Sized` types](https://github.com/rust-lang/rust/pull/155989)\n- [Update `transmute_copy` to use a non-unwinding panic](https://github.com/rust-lang/rust/pull/155989)\n- [Don't escape U+FF9E and U+FF9F in `escape_debug_ext`](https://github.com/rust-lang/rust/pull/158057)\n- [Re-export `core::fmt::NumBuffer` in `alloc` (and `std`)](https://github.com/rust-lang/rust/pull/161430)\n\n\n<a id=\"1.99.0-Stabilized-APIs\"></a>\n\nStabilized APIs\n---------------\n\n- [`IntoIterator` for `Box<[T; N]>`](https://doc.rust-lang.org/stable/std/iter/trait.IntoIterator.html#impl-IntoIterator-for-Box%3C%5BT;+N%5D,+A%3E)\n- [`IntoIterator` for `&Box<[T; N]>`](https://doc.rust-lang.org/stable/std/iter/trait.IntoIterator.html#impl-IntoIterator-for-%26Box%3C%5BT;+N%5D,+A%3E)\n- [`IntoIterator` for `&mut Box<[T; N]>`](https://doc.rust-lang.org/stable/std/iter/trait.IntoIterator.html#impl-IntoIterator-for-%26mut+Box%3C%5BT;+N%5D,+A%3E)\n- [`VecDeque::retain_back`](https://doc.rust-lang.org/stable/std/collections/struct.VecDeque.html#method.retain_back)\n- [`core::ffi::VaList`](https://doc.rust-lang.org/stable/core/ffi/struct.VaList.html)\n- [`Box::into_non_null`](https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#method.into_non_null)\n- [`Box::from_non_null`](https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#method.from_non_null)\n- [`Vec::into_parts`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.into_parts)\n- [`Vec::from_parts`](https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.from_parts)\n- [`core::mem::size_of_val_raw`](https://doc.rust-lang.org/stable/core/mem/fn.size_of_val_raw.html)\n- [`core::mem::align_of_val_raw`](https://doc.rust-lang.org/stable/core/mem/fn.align_of_val_raw.html)\n- [`core::alloc::Layout::for_value_raw`](https://doc.rust-lang.org/stable/core/alloc/struct.Layout.html#method.for_value_raw)\n- [`String::from_utf8_lossy_owned`](https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf8_lossy_owned)\n- [`string::FromUtf8Error::into_utf8_lossy`](https://doc.rust-lang.org/stable/std/string/struct.FromUtf8Error.html#method.into_utf8_lossy)\n- [`FusedIterator for StepBy<I>`](https://doc.rust-lang.org/stable/std/iter/struct.StepBy.html#impl-FusedIterator-for-StepBy%3CI%3E)\n- [`std::fs::set_times`](https://doc.rust-lang.org/stable/std/fs/fn.set_times.html)\n- [`std::fs::set_times_nofollow`](https://doc.rust-lang.org/stable/std/fs/fn.set_times_nofollow.html)\n\n<a id=\"1.99.0-Cargo\"></a>\n\nCargo\n-----\n- Add a new built-in profile `debug`. This is a preparation for transitioning the `dev` profile away from debugging to give a saner default for faster development iterations. Currently there is no difference between `dev` and `debug` profiles. [docs](https://doc.rust-lang.org/nightly/cargo/reference/profiles.html#debug-1) [#17214](https://github.com/rust-lang/cargo/pull/17214)\n- Workspace members on edition 2024 or later can now override an inherited workspace dependency's `default-features` field. For example, `serde = { workspace = true, default-features = false }` now turns off default features even when the workspace definition enables them. On earlier editions, `default-features = false` is ignored with a warning. ([RFC 3945](https://github.com/rust-lang/rfcs/pull/3945)) [#17126](https://github.com/rust-lang/cargo/pull/17126)\n\nSee also the [full Cargo changelog](https://doc.rust-lang.org/nightly/cargo/CHANGELOG.html#cargo-199-2026-10-01)\n\n<a id=\"1.99.0-Rustdoc\"></a>\n\nRustdoc\n-----\n- [Add new `unused_footnote_definition` rustdoc lint](https://github.com/rust-lang/rust/pull/137858)\n- Smarter filtering of trait impls yields performance improvements of 20% on average and up to 40% on some real-world crates. ([1](https://github.com/rust-lang/rust/pull/159623), [2](https://github.com/rust-lang/rust/pull/159721), [3](https://github.com/rust-lang/rust/pull/159779), [4](https://github.com/rust-lang/rust/pull/159854), [5](https://github.com/rust-lang/rust/pull/159091))\n\n<a id=\"1.99.0-Compatibility-Notes\"></a>\n\nCompatibility Notes\n-------------------\n- [Fully deprecate the legacy integral modules](https://github.com/rust-lang/rust/pull/146882). For example, `std::i32::MAX` should be accessed via `i32::MAX` instead.\n- [Upgrade `no_mangle_generic_items` into hard error](https://github.com/rust-lang/rust/pull/154585)\n- [The `Pin::new_unchecked` has had its safety invariants changed slightly](https://github.com/rust-lang/rust/pull/156935)\n- [Do not promote references to extern statics](https://github.com/rust-lang/rust/pull/157641)\n- [Ensure that the inferred types of `let` patterns typecheck](https://github.com/rust-lang/rust/pull/157841)\n- [hermit/fs: Return `unsupported()` instead of `from_raw_os_error(22)`](https://github.com/rust-lang/rust/pull/158247)\n- [Fixed a bug where `#[repr(simd)]` was accidentally allowed on macro invocations on stable Rust](https://github.com/rust-lang/rust/pull/158523)\n- [Abort const-eval when there are generics in the type of the value being produced](https://github.com/rust-lang/rust/pull/159504)\n- [Attributes not applying to anything are now an error in code blocks in doc comments](https://github.com/rust-lang/rust/pull/159849)\n- [`Box::leak`: tell people to avoid unleaking](https://github.com/rust-lang/rust/pull/160323)\n- [PowerPC inline ASM: Fix scalar floats being in the wrong vector lane on little endian](https://github.com/rust-lang/rust/pull/160441)\n- [Do not take `doc(cfg())` into account when filtering doctests](https://github.com/rust-lang/rust/pull/159014)\n- [Infer anonymous lifetimes in the types of associated consts as `'static`](https://github.com/rust-lang/rust/pull/156508)\n- Macros that expand to a semicolon now produce a warning lint (`semicolon_in_expressions_from_non_local_macros`) even when the macro comes from another crate. Previously, such warnings only appeared for macros from the same crate, to avoid showing warnings that can't be fixed locally; however, this masked problems, as integration tests from the crate providing the macro get compiled as a separate crate, so tests often wouldn't reveal this issue. If you encounter a lint like this, please make sure to report it to the crate providing the macro so they can fix it; don't just silence it in your own crate.\n  - [`semicolon_in_expressions_from_macros`: Lint on non-local macros too](https://github.com/rust-lang/rust/pull/159222)\n  - [Split non-local `semicolon_in_expressions_from_macros` into a separate lint](https://github.com/rust-lang/rust/pull/159700)\n- In Cargo, incremental compilation is now disabled by default when running in CI. CI is detected via the `CI` environment variable. [#17220](https://github.com/rust-lang/cargo/pull/17220)\n- [The Rust Reference no longer recommends using a single pattern to match a union alongside another value, such as in a manually-written tagged union](https://github.com/rust-lang/reference/pull/2303). This was because it was found that such code would, in some circumstances, result in the compiler reading the contents of the union before checking if the rest of the scrutinee matches the rest of the pattern. This can cause undefined behavior in code similar to what the reference previously recommended.\n\n<a id=\"1.99.0-Internal-Changes\"></a>\n\nInternal Changes\n----------------\n\nThese changes do not affect any public interfaces of Rust, but they represent\nsignificant improvements to the performance or internals of rustc and related\ntools.\n\n- [Update to LLVM 23](https://github.com/rust-lang/rust/pull/158734)\n",
-      "weight": 18446744073692749055,
-      "branch_date": "2026-08-14",
-      "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0.html"
-    },
-    {
-      "version": "1.99.1",
-      "date": "2026-10-15",
-      "is_unreleased": false,
-      "changelog_md": "\n<a id=\"1.99.1\"></a>\n\n* [library: fix missing symbol `wcslen` on UEFI and embedded targets](https://github.com/rust-lang/rust/issues/163614)\n* [rustc: fix miscompilation of FFI `bool` return values on x86_64](https://github.com/rust-lang/rust/issues/163911)\n* [rust-lld: add the rpath for `libLLVM` on macOS](https://github.com/rust-lang/rust/issues/163947)\n",
-      "weight": 18446744073692749054,
-      "branch_date": "2026-09-25",
-      "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1.html"
-    },
-    {
-      "version": "1.100.0",
       "date": "2026-11-12",
       "is_unreleased": true,
       "changelog_md": "",
-      "weight": 18446744073692748799,
+      "weight": 18446744073692749055,
       "branch_date": "2026-09-25",
       "release_name": "beta",
+      "issues": [
+        {
+          "title": "Tracking issue for release notes of #146882: fully deprecate the legacy integral modules",
+          "number": 148110,
+          "html_url": "https://github.com/rust-lang/rust/issues/148110",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #134021: Implement `IntoIterator` for `[&[mut]] Box<[T; N], A>`",
+          "number": 153661,
+          "html_url": "https://github.com/rust-lang/rust/issues/153661",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #155114: Add `Step::forward/backward_overflowing` to enable RangeInclusive loop optimizations",
+          "number": 155633,
+          "html_url": "https://github.com/rust-lang/rust/issues/155633",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #151379: Stabilize `VecDeque::truncate_front`",
+          "number": 156329,
+          "html_url": "https://github.com/rust-lang/rust/issues/156329",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #155989: Update `transmute_copy` to ub_checks and `?Sized`",
+          "number": 157462,
+          "html_url": "https://github.com/rust-lang/rust/issues/157462",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #156047: Fix trait method resolution on an adjusted never type",
+          "number": 158332,
+          "html_url": "https://github.com/rust-lang/rust/issues/158332",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #153563: Lint against iterator functions that panic when `N` is zero ",
+          "number": 158491,
+          "html_url": "https://github.com/rust-lang/rust/issues/158491",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158522: Lint against invalid POSIX symbol definitions",
+          "number": 158662,
+          "html_url": "https://github.com/rust-lang/rust/issues/158662",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #157820: consider subtyping when checking if an infer var is sized",
+          "number": 158702,
+          "html_url": "https://github.com/rust-lang/rust/issues/158702",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #156508: Infer all anonymous lifetimes in assoc consts as `'static`",
+          "number": 158736,
+          "html_url": "https://github.com/rust-lang/rust/issues/158736",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #157857: Stabilize `#[my_macro] mod foo;` (part of `proc_macro_hygiene`)",
+          "number": 158779,
+          "html_url": "https://github.com/rust-lang/rust/issues/158779",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #157641: Do not promote extern statics",
+          "number": 158780,
+          "html_url": "https://github.com/rust-lang/rust/issues/158780",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #155697: Stabilize c-variadic function definitions",
+          "number": 158803,
+          "html_url": "https://github.com/rust-lang/rust/issues/158803",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158510: Enable `static_position_independent_executables` on all gnu and musl targets",
+          "number": 158987,
+          "html_url": "https://github.com/rust-lang/rust/issues/158987",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158523: Fix feature gate for `repr(simd)`",
+          "number": 159135,
+          "html_url": "https://github.com/rust-lang/rust/issues/159135",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #154585: treat no_mangle_generic_items as hard error instead of lint warning",
+          "number": 159136,
+          "html_url": "https://github.com/rust-lang/rust/issues/159136",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158302: Fix `overflowing_literals` lint with repeated negation",
+          "number": 159137,
+          "html_url": "https://github.com/rust-lang/rust/issues/159137",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158057: Don't escape U+FF9E and U+FF9F in `escape_debug_ext`",
+          "number": 159139,
+          "html_url": "https://github.com/rust-lang/rust/issues/159139",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159623: rustdoc: Only build extern trait impls if needed",
+          "number": 159674,
+          "html_url": "https://github.com/rust-lang/rust/issues/159674",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #150732: Convert `-Ctarget-cpu` into a target-modifier for AVR, AMDGCN and NVPTX ",
+          "number": 159823,
+          "html_url": "https://github.com/rust-lang/rust/issues/159823",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #157226: Partially stabilize `box_vec_non_null`",
+          "number": 159851,
+          "html_url": "https://github.com/rust-lang/rust/issues/159851",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159179: enable `unreachable_cfg_select_predicates` lint as part of `unused` lint group",
+          "number": 159909,
+          "html_url": "https://github.com/rust-lang/rust/issues/159909",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158835: rustc_passes: lint unused `#[path]` attributes on inline modules",
+          "number": 159910,
+          "html_url": "https://github.com/rust-lang/rust/issues/159910",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #157572: stabilize size_of_val_raw, align_of_val_raw, Layout::for_value_raw",
+          "number": 159912,
+          "html_url": "https://github.com/rust-lang/rust/issues/159912",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159700: Split non-local `semicolon_in_expressions_from_macros` into a separate lint",
+          "number": 160029,
+          "html_url": "https://github.com/rust-lang/rust/issues/160029",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #138230: Add `raw_borrows_via_references` lint",
+          "number": 160194,
+          "html_url": "https://github.com/rust-lang/rust/issues/160194",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158247: hermit/fs: Return `unsupported()` instead of `from_raw_os_error(22)`",
+          "number": 160258,
+          "html_url": "https://github.com/rust-lang/rust/issues/160258",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158766: Promote riscv64-unknown-linux-musl to tier 2 with host tools",
+          "number": 160259,
+          "html_url": "https://github.com/rust-lang/rust/issues/160259",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159504: Abort const-eval queries early when there are generics in the type",
+          "number": 160263,
+          "html_url": "https://github.com/rust-lang/rust/issues/160263",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159730: allow accessing the contents of UnsafeCell without going through get",
+          "number": 160266,
+          "html_url": "https://github.com/rust-lang/rust/issues/160266",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159525: Stabilize passing 128-bit integers via vector registers with `asm!` on x86",
+          "number": 160344,
+          "html_url": "https://github.com/rust-lang/rust/issues/160344",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159729: allocations are allowed to grow (but not shrink)",
+          "number": 160353,
+          "html_url": "https://github.com/rust-lang/rust/issues/160353",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #160369: When suggesting method names, prefer *exact* doc aliases over similar names",
+          "number": 160483,
+          "html_url": "https://github.com/rust-lang/rust/issues/160483",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #160323: Box::leak: tell people to avoid unleaking",
+          "number": 160611,
+          "html_url": "https://github.com/rust-lang/rust/issues/160611",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #157841: Ensure inferred let pattern types are well-formed",
+          "number": 160743,
+          "html_url": "https://github.com/rust-lang/rust/issues/160743",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159746: stabilize `c_variadic_naked_functions`",
+          "number": 160764,
+          "html_url": "https://github.com/rust-lang/rust/issues/160764",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #160820: Stabilize fs_set_times",
+          "number": 160822,
+          "html_url": "https://github.com/rust-lang/rust/issues/160822",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #156935: Introduce a `PinSafePointer` trait that generalizes `PinCoerceUnsized`",
+          "number": 161042,
+          "html_url": "https://github.com/rust-lang/rust/issues/161042",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #160441: PowerPC inline ASM: Fix scalar floats being in the wrong vector lane on little endian",
+          "number": 161140,
+          "html_url": "https://github.com/rust-lang/rust/issues/161140",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #137858: Add new `unused_footnote_definition` rustdoc lint",
+          "number": 161388,
+          "html_url": "https://github.com/rust-lang/rust/issues/161388",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #161003: Also warn if an invalid `doc` attribute is used on a macro invocation",
+          "number": 161918,
+          "html_url": "https://github.com/rust-lang/rust/issues/161918",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159099: Stabilize String::from_utf8_lossy_owned",
+          "number": 161921,
+          "html_url": "https://github.com/rust-lang/rust/issues/161921",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #161430: Re-export `core::fmt::NumBuffer` in `alloc` (and `std`)",
+          "number": 162649,
+          "html_url": "https://github.com/rust-lang/rust/issues/162649",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #160594: attach global target features to module-level assembly",
+          "number": 162892,
+          "html_url": "https://github.com/rust-lang/rust/issues/162892",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159849: rustc_parse: Stop returning `Option` from statement parsing",
+          "number": 162955,
+          "html_url": "https://github.com/rust-lang/rust/issues/162955",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159014: [rustdoc] Do not take `doc(cfg())` into account when filtering doctests",
+          "number": 162963,
+          "html_url": "https://github.com/rust-lang/rust/issues/162963",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #158734: Update to LLVM 23",
+          "number": 163248,
+          "html_url": "https://github.com/rust-lang/rust/issues/163248",
+          "days_ago": 30
+        },
+        {
+          "title": "Tracking issue for release notes of #159963: core: implement FusedIterator for StepBy",
+          "number": 161389,
+          "html_url": "https://github.com/rust-lang/rust/issues/161389",
+          "days_ago": 35
+        },
+        {
+          "title": "Tracking issue for release notes of #162820: [beta] Backports for compiler-builtins",
+          "number": 162891,
+          "html_url": "https://github.com/rust-lang/rust/issues/162891",
+          "days_ago": 53
+        },
+        {
+          "title": "Tracking issue for release notes of #159222: semicolon_in_expressions_from_macros: Lint on non-local macros too",
+          "number": 159223,
+          "html_url": "https://github.com/rust-lang/rust/issues/159223",
+          "days_ago": 66
+        },
+        {
+          "title": "attach global target features to module-level assembly",
+          "number": 160594,
+          "html_url": "https://github.com/rust-lang/rust/pull/160594",
+          "days_ago": 72
+        },
+        {
+          "title": "core: implement FusedIterator for StepBy",
+          "number": 159963,
+          "html_url": "https://github.com/rust-lang/rust/pull/159963",
+          "days_ago": 86
+        },
+        {
+          "title": "Enable `static_position_independent_executables` on all gnu targets",
+          "number": 158510,
+          "html_url": "https://github.com/rust-lang/rust/pull/158510",
+          "days_ago": 87
+        },
+        {
+          "title": "Tracking issue for release notes of #158447: Shallow resolve ty and const vars to their root vars, attempt 2",
+          "number": 160765,
+          "html_url": "https://github.com/rust-lang/rust/issues/160765",
+          "days_ago": 87
+        },
+        {
+          "title": "Add new `unused_footnote_definition` rustdoc lint",
+          "number": 137858,
+          "html_url": "https://github.com/rust-lang/rust/pull/137858",
+          "days_ago": 88
+        },
+        {
+          "title": "Tracking issue for release notes of #154202: rustfmt: Format `cfg_select!`",
+          "number": 160321,
+          "html_url": "https://github.com/rust-lang/rust/issues/160321",
+          "days_ago": 88
+        },
+        {
+          "title": "Also warn if an invalid `doc` attribute is used on a macro invocation",
+          "number": 161003,
+          "html_url": "https://github.com/rust-lang/rust/pull/161003",
+          "days_ago": 88
+        },
+        {
+          "title": "Stabilize fs_set_times",
+          "number": 160820,
+          "html_url": "https://github.com/rust-lang/rust/pull/160820",
+          "days_ago": 91
+        },
+        {
+          "title": "Introduce a `PinSafePointer` trait that generalizes `PinCoerceUnsized`",
+          "number": 156935,
+          "html_url": "https://github.com/rust-lang/rust/pull/156935",
+          "days_ago": 92
+        },
+        {
+          "title": "stabilize `c_variadic_naked_functions`",
+          "number": 159746,
+          "html_url": "https://github.com/rust-lang/rust/pull/159746",
+          "days_ago": 92
+        },
+        {
+          "title": "[rustdoc] Do not take `doc(cfg())` into account when filtering doctests",
+          "number": 159014,
+          "html_url": "https://github.com/rust-lang/rust/pull/159014",
+          "days_ago": 95
+        },
+        {
+          "title": "fully deprecate the legacy integral modules",
+          "number": 146882,
+          "html_url": "https://github.com/rust-lang/rust/pull/146882",
+          "days_ago": 96
+        },
+        {
+          "title": "Update to LLVM 23",
+          "number": 158734,
+          "html_url": "https://github.com/rust-lang/rust/pull/158734",
+          "days_ago": 96
+        },
+        {
+          "title": "When suggesting method names, prefer *exact* doc aliases over similar names",
+          "number": 160369,
+          "html_url": "https://github.com/rust-lang/rust/pull/160369",
+          "days_ago": 97
+        },
+        {
+          "title": "Tracking issue for release notes of #159503: allocations: document that they can be read-only",
+          "number": 160319,
+          "html_url": "https://github.com/rust-lang/rust/issues/160319",
+          "days_ago": 100
+        },
+        {
+          "title": "Box::leak: tell people to avoid unleaking",
+          "number": 160323,
+          "html_url": "https://github.com/rust-lang/rust/pull/160323",
+          "days_ago": 100
+        },
+        {
+          "title": "rustfmt: Format `cfg_select!`",
+          "number": 154202,
+          "html_url": "https://github.com/rust-lang/rust/pull/154202",
+          "days_ago": 101
+        },
+        {
+          "title": "Tracking issue for release notes of #158608: Implement `#[diagnostic::opaque]` attribute to hide backtraces of macros.",
+          "number": 159824,
+          "html_url": "https://github.com/rust-lang/rust/issues/159824",
+          "days_ago": 101
+        },
+        {
+          "title": "Tracking issue for release notes of #159960: Allow `UnsafeCell` content access without `get` in `invalid_reference_casting` lint",
+          "number": 160260,
+          "html_url": "https://github.com/rust-lang/rust/issues/160260",
+          "days_ago": 101
+        },
+        {
+          "title": "Tracking issue for release notes of #159513: Consider `()` as suspicious only when expecting `!` for runtime symbols",
+          "number": 160265,
+          "html_url": "https://github.com/rust-lang/rust/issues/160265",
+          "days_ago": 101
+        },
+        {
+          "title": "hermit/fs: Return `unsupported()` instead of `from_raw_os_error(22)`",
+          "number": 158247,
+          "html_url": "https://github.com/rust-lang/rust/pull/158247",
+          "days_ago": 102
+        },
+        {
+          "title": "Allow `UnsafeCell` content access without `get` in `invalid_reference_casting` lint",
+          "number": 159960,
+          "html_url": "https://github.com/rust-lang/rust/pull/159960",
+          "days_ago": 104
+        },
+        {
+          "title": "rustc_parse: Stop returning `Option` from statement parsing",
+          "number": 159849,
+          "html_url": "https://github.com/rust-lang/rust/pull/159849",
+          "days_ago": 105
+        },
+        {
+          "title": "Split non-local `semicolon_in_expressions_from_macros` into a separate lint",
+          "number": 159700,
+          "html_url": "https://github.com/rust-lang/rust/pull/159700",
+          "days_ago": 106
+        },
+        {
+          "title": "allow accessing the contents of UnsafeCell without going through get",
+          "number": 159730,
+          "html_url": "https://github.com/rust-lang/rust/pull/159730",
+          "days_ago": 106
+        },
+        {
+          "title": "Promote riscv64-unknown-linux-musl to tier 2 with host tools",
+          "number": 158766,
+          "html_url": "https://github.com/rust-lang/rust/pull/158766",
+          "days_ago": 108
+        },
+        {
+          "title": "Abort const-eval queries early when there are generics in the type",
+          "number": 159504,
+          "html_url": "https://github.com/rust-lang/rust/pull/159504",
+          "days_ago": 109
+        },
+        {
+          "title": "Stabilize c-variadic function definitions",
+          "number": 155697,
+          "html_url": "https://github.com/rust-lang/rust/pull/155697",
+          "days_ago": 110
+        },
+        {
+          "title": "Convert `-Ctarget-cpu` into a target-modifier for AVR, AMDGCN and NVPTX ",
+          "number": 150732,
+          "html_url": "https://github.com/rust-lang/rust/pull/150732",
+          "days_ago": 112
+        },
+        {
+          "title": "Lint against invalid POSIX symbol definitions",
+          "number": 158522,
+          "html_url": "https://github.com/rust-lang/rust/pull/158522",
+          "days_ago": 117
+        },
+        {
+          "title": "semicolon_in_expressions_from_macros: Lint on non-local macros too",
+          "number": 159222,
+          "html_url": "https://github.com/rust-lang/rust/pull/159222",
+          "days_ago": 117
+        },
+        {
+          "title": "Tracking issue for release notes of #158325: Document NonNull layout guarantees",
+          "number": 159198,
+          "html_url": "https://github.com/rust-lang/rust/issues/159198",
+          "days_ago": 119
+        },
+        {
+          "title": "Stabilize String::from_utf8_lossy_owned",
+          "number": 159099,
+          "html_url": "https://github.com/rust-lang/rust/pull/159099",
+          "days_ago": 121
+        },
+        {
+          "title": "Add `Step::forward/backward_overflowing` to enable RangeInclusive loop optimizations",
+          "number": 155114,
+          "html_url": "https://github.com/rust-lang/rust/pull/155114",
+          "days_ago": 123
+        },
+        {
+          "title": "Implement `IntoIterator` for `[&[mut]] Box<[T; N], A>`",
+          "number": 134021,
+          "html_url": "https://github.com/rust-lang/rust/pull/134021",
+          "days_ago": 127
+        },
+        {
+          "title": "Tracking issue for release notes of #156976: enable eager `param_env` norm in new solver",
+          "number": 158528,
+          "html_url": "https://github.com/rust-lang/rust/issues/158528",
+          "days_ago": 129
+        }
+      ]
+    },
+    {
+      "version": "1.100.0",
+      "date": "2026-12-24",
+      "is_unreleased": true,
+      "changelog_md": "",
+      "weight": 18446744073692748799,
+      "branch_date": "2026-11-06",
+      "release_name": "nightly",
       "issues": [
         {
           "title": "Tracking issue for release notes of #136327: Tracking Issue for `unsafe_cell_access`",
@@ -1591,25 +2100,12 @@
     },
     {
       "version": "1.101.0",
-      "date": "2026-12-24",
+      "date": "2027-02-04",
       "is_unreleased": true,
       "changelog_md": "",
       "weight": 18446744073692748543,
-      "branch_date": "2026-11-06",
-      "release_name": "nightly",
+      "branch_date": "2026-12-18",
       "issues": [
-        {
-          "title": "Lower #[no_mangle] to #[symbol_name]/#[link_name]",
-          "number": 159374,
-          "html_url": "https://github.com/rust-lang/rust/pull/159374",
-          "days_ago": 2
-        },
-        {
-          "title": "Drop array elements in order after a partial move",
-          "number": 165037,
-          "html_url": "https://github.com/rust-lang/rust/pull/165037",
-          "days_ago": 2
-        },
         {
           "title": "Lower UEFI targets through LLVM's *uefi triple",
           "number": 164716,
@@ -1671,9 +2167,60 @@
           "days_ago": 44
         }
       ]
+    },
+    {
+      "version": "1.102.0",
+      "date": "2027-03-18",
+      "is_unreleased": true,
+      "changelog_md": "",
+      "weight": 18446744073692748287,
+      "branch_date": "2027-01-29",
+      "issues": [
+        {
+          "title": "Lower #[no_mangle] to #[symbol_name]/#[link_name]",
+          "number": 159374,
+          "html_url": "https://github.com/rust-lang/rust/pull/159374",
+          "days_ago": 2
+        },
+        {
+          "title": "Drop array elements in order after a partial move",
+          "number": 165037,
+          "html_url": "https://github.com/rust-lang/rust/pull/165037",
+          "days_ago": 2
+        }
+      ]
     }
   ],
   "stabilization_prs": [
+    {
+      "title": "Stabilize stack-protector (try 2)",
+      "number": 165704,
+      "url": "https://github.com/rust-lang/rust/pull/165704",
+      "updated_at": "2026-11-09T16:17:19+00:00",
+      "labels": [
+        {
+          "name": "A-LLVM",
+          "description": "Area: Code generation parts specific to LLVM. Both correctness bugs and optimization-related issues."
+        },
+        {
+          "name": "T-compiler",
+          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "T-bootstrap",
+          "description": "Relevant to the bootstrap subteam: Rust's build system (x.py and src/bootstrap)"
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "PG-exploit-mitigations",
+          "description": "Project group: Exploit mitigations"
+        }
+      ],
+      "days_old": 0
+    },
     {
       "title": "Stabilize `core::time::Duration::as_millis_f{32,64}`",
       "number": 165566,
@@ -1697,7 +2244,7 @@
           "description": "Area: `std::time`"
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `char::is_case_ignorable`, `char::is_cased`, and the `titlecase` feature",
@@ -1734,7 +2281,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "stabilize unchecked_disjoint_bitor",
@@ -1755,7 +2302,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 13
+      "days_old": 14
     },
     {
       "title": "Stabilize unchecked `nonzero_ops`",
@@ -1784,7 +2331,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 22
+      "days_old": 23
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1845,7 +2392,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 27
+      "days_old": 28
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1886,7 +2433,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1907,7 +2454,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 33
+      "days_old": 34
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1998,7 +2545,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 44
+      "days_old": 45
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -2031,7 +2578,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 49
+      "days_old": 50
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2093,7 +2640,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 112
+      "days_old": 113
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2147,7 +2694,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 131
+      "days_old": 132
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2176,7 +2723,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 162
+      "days_old": 163
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2218,7 +2765,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 219
+      "days_old": 220
     },
     {
       "title": "Stabilize `float_bits_const` (`fN::BITS`)",
@@ -2252,6 +2799,10 @@
       "updated_at": "2026-03-01T18:32:17+00:00",
       "labels": [
         {
+          "name": "A-allocators",
+          "description": "Area: Custom and system allocators"
+        },
+        {
           "name": "S-waiting-on-author",
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         },
@@ -2276,7 +2827,7 @@
           "description": "Area: raw pointers, MaybeUninit, NonNull"
         }
       ],
-      "days_old": 252
+      "days_old": 253
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2301,7 +2852,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 261
+      "days_old": 262
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2322,7 +2873,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 277
+      "days_old": 278
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2397,7 +2948,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 310
+      "days_old": 311
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2487,7 +3038,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 367
+      "days_old": 368
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2532,60 +3083,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 381
-    },
-    {
-      "title": "Stabilize stack-protector",
-      "number": 146369,
-      "url": "https://github.com/rust-lang/rust/pull/146369",
-      "updated_at": "2025-09-09T11:29:33+00:00",
-      "labels": [
-        {
-          "name": "A-LLVM",
-          "description": "Area: Code generation parts specific to LLVM. Both correctness bugs and optimization-related issues."
-        },
-        {
-          "name": "A-testsuite",
-          "description": "Area: The testsuite used to check the correctness of rustc"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "T-bootstrap",
-          "description": "Relevant to the bootstrap subteam: Rust's build system (x.py and src/bootstrap)"
-        },
-        {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
-        },
-        {
-          "name": "proposed-final-comment-period",
-          "description": "Proposed to merge/close by relevant subteam, see T-<team> label. Will enter FCP once signed off."
-        },
-        {
-          "name": "S-blocked",
-          "description": "Status: Blocked on something else such as an RFC or other implementation work."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "PG-exploit-mitigations",
-          "description": "Project group: Exploit mitigations"
-        },
-        {
-          "name": "A-compiletest",
-          "description": "Area: The compiletest test runner"
-        },
-        {
-          "name": "F-autodiff",
-          "description": "`#![feature(autodiff)]`"
-        }
-      ],
-      "days_old": 426
+      "days_old": 382
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2680,7 +3178,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 524
+      "days_old": 525
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2721,7 +3219,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 563
+      "days_old": 564
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2746,7 +3244,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 576
+      "days_old": 577
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
@@ -2787,12 +3285,12 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 705
+      "days_old": 706
     }
   ],
   "current_versions": {
-    "stable": "1.99.1",
-    "beta": "1.100.0",
-    "nightly": "1.101.0"
+    "stable": "1.98.1",
+    "beta": "1.99.0",
+    "nightly": "1.100.0"
   }
 }
