@@ -1550,7 +1550,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 3
+      "days_old": 4
     },
     {
       "title": "Stabilize `core::time::Duration::as_millis_f{32,64}`",
@@ -1719,7 +1719,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 31
+      "days_old": 32
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1781,7 +1781,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 37
+      "days_old": 38
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1790,23 +1790,27 @@
       "updated_at": "2026-10-03T10:34:21+00:00",
       "labels": [
         {
-          "name": "final-comment-period",
-          "description": "In the final comment period and will be merged soon unless new substantive objections are raised."
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
         },
         {
           "name": "disposition-merge",
           "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
         },
         {
-          "name": "S-waiting-on-fcp",
-          "description": "Status: PR is in FCP and is awaiting for FCP to complete."
+          "name": "finished-final-comment-period",
+          "description": "The final comment period is finished for this PR / Issue."
         },
         {
           "name": "T-libs",
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "to-announce",
+          "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 40
+      "days_old": 41
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1872,7 +1876,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 48
+      "days_old": 49
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1905,7 +1909,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 53
+      "days_old": 54
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -1984,7 +1988,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 132
+      "days_old": 133
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2021,7 +2025,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 135
+      "days_old": 136
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2092,7 +2096,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 223
+      "days_old": 224
     },
     {
       "title": "Stabilize `float_bits_const` (`fN::BITS`)",
@@ -2142,7 +2146,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 265
+      "days_old": 266
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2163,7 +2167,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 281
+      "days_old": 282
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2184,7 +2188,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 281
+      "days_old": 282
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2275,7 +2279,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 331
+      "days_old": 332
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2414,7 +2418,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 509
+      "days_old": 510
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2468,7 +2472,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 528
+      "days_old": 529
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2509,7 +2513,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 567
+      "days_old": 568
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2534,7 +2538,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 580
+      "days_old": 581
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
