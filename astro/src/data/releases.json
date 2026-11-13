@@ -1575,7 +1575,7 @@
           "description": "Area: `std::time`"
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "Stabilize `char::is_case_ignorable`, `char::is_cased`, and the `titlecase` feature",
@@ -1608,7 +1608,7 @@
           "description": "Area: `str` and `String`"
         }
       ],
-      "days_old": 9
+      "days_old": 10
     },
     {
       "title": "stabilize unchecked_disjoint_bitor",
@@ -1629,7 +1629,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 17
+      "days_old": 18
     },
     {
       "title": "Stabilize unchecked `nonzero_ops`",
@@ -1658,7 +1658,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 26
+      "days_old": 27
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1760,7 +1760,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 37
+      "days_old": 38
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1938,7 +1938,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 93
+      "days_old": 94
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -1971,7 +1971,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 116
+      "days_old": 117
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2054,7 +2054,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 166
+      "days_old": 167
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2242,7 +2242,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 314
+      "days_old": 315
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2332,7 +2332,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 371
+      "days_old": 372
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2377,7 +2377,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 385
+      "days_old": 386
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2579,7 +2579,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 709
+      "days_old": 710
     }
   ],
   "current_versions": {
