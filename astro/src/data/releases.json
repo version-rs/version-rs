@@ -1843,7 +1843,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 41
+      "days_old": 42
     },
     {
       "title": "Stabilize `iter_advance_by`",
