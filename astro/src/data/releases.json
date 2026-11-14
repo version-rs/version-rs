@@ -1550,7 +1550,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize `core::time::Duration::as_millis_f{32,64}`",
@@ -1658,7 +1658,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 27
+      "days_old": 28
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1760,7 +1760,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 38
+      "days_old": 39
     },
     {
       "title": "Stabilize RISC-V `relax` target feature",
@@ -1781,7 +1781,7 @@
           "description": "Target: RISC-V architecture"
         }
       ],
-      "days_old": 38
+      "days_old": 39
     },
     {
       "title": "Stabilize `int_from_ascii`",
@@ -1790,8 +1790,8 @@
       "updated_at": "2026-10-03T10:34:21+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -2054,7 +2054,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 167
+      "days_old": 168
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2096,7 +2096,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 224
+      "days_old": 225
     },
     {
       "title": "Stabilize `float_bits_const` (`fN::BITS`)",
@@ -2167,7 +2167,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 282
+      "days_old": 283
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2472,7 +2472,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 529
+      "days_old": 530
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2513,7 +2513,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 568
+      "days_old": 569
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2538,7 +2538,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 581
+      "days_old": 582
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
