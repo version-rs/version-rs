@@ -1559,8 +1559,8 @@
       "updated_at": "2026-11-06T21:15:21+00:00",
       "labels": [
         {
-          "name": "S-waiting-on-review",
-          "description": "Status: Awaiting review from the assignee but also interested parties."
+          "name": "S-blocked",
+          "description": "Status: Blocked on something else such as an RFC or other implementation work."
         },
         {
           "name": "needs-fcp",
@@ -1810,7 +1810,7 @@
           "description": "Announce this issue on triage meeting"
         }
       ],
-      "days_old": 42
+      "days_old": 43
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1847,7 +1847,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 43
+      "days_old": 44
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -2188,7 +2188,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 283
+      "days_old": 284
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
