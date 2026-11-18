@@ -1516,6 +1516,39 @@
   ],
   "stabilization_prs": [
     {
+      "title": "stabilize `Box::new_uninit_in` and `Box::new_zeroed_in`",
+      "number": 166148,
+      "url": "https://github.com/rust-lang/rust/pull/166148",
+      "updated_at": "2026-11-18T11:33:59+00:00",
+      "labels": [
+        {
+          "name": "A-allocators",
+          "description": "Area: Custom and system allocators"
+        },
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "needs-fcp",
+          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "I-libs-nominated",
+          "description": "Nominated for discussion during a libs team meeting."
+        },
+        {
+          "name": "A-box",
+          "description": "Area: Our favorite opsem complication"
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize `Vec::repeat{_in}`",
       "number": 166120,
       "url": "https://github.com/rust-lang/rust/pull/166120",
@@ -1752,7 +1785,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 36
+      "days_old": 37
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1851,7 +1884,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 46
+      "days_old": 47
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1880,7 +1913,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 53
+      "days_old": 54
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1913,7 +1946,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 58
+      "days_old": 59
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -1992,7 +2025,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 137
+      "days_old": 138
     },
     {
       "title": "stabilize s390x specific target-feature backchain",
@@ -2029,7 +2062,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 140
+      "days_old": 141
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2150,7 +2183,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 270
+      "days_old": 271
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2192,7 +2225,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 286
+      "days_old": 287
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2283,7 +2316,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 336
+      "days_old": 337
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2422,7 +2455,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 514
+      "days_old": 515
     },
     {
       "title": "Stabilize the `breakpoint` function",
