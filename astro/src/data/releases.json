@@ -1538,7 +1538,7 @@
           "description": "Area: Our favorite opsem complication"
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "stabilize `Box::new_uninit_in` and `Box::new_zeroed_in`",
@@ -1604,7 +1604,7 @@
           "description": "Nominated for discussion during a libs team meeting."
         }
       ],
-      "days_old": 4
+      "days_old": 5
     },
     {
       "title": "Stabilize stack-protector (try 2)",
@@ -1666,7 +1666,7 @@
           "description": "Area: `std::time`"
         }
       ],
-      "days_old": 15
+      "days_old": 16
     },
     {
       "title": "Stabilize `char::is_case_ignorable`, `char::is_cased`, and the `titlecase` feature",
@@ -1679,8 +1679,8 @@
           "description": "Area: Unicode"
         },
         {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
+          "name": "S-waiting-on-bors",
+          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
         },
         {
           "name": "disposition-merge",
@@ -1703,7 +1703,7 @@
           "description": "Area: `str` and `String`"
         }
       ],
-      "days_old": 18
+      "days_old": 19
     },
     {
       "title": "stabilize unchecked_disjoint_bitor",
@@ -1724,36 +1724,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 26
-    },
-    {
-      "title": "Stabilize unchecked `nonzero_ops`",
-      "number": 164485,
-      "url": "https://github.com/rust-lang/rust/pull/164485",
-      "updated_at": "2026-10-17T19:03:14+00:00",
-      "labels": [
-        {
-          "name": "S-waiting-on-bors",
-          "description": "Status: Waiting on bors to run and complete tests. Bors will change the label on completion."
-        },
-        {
-          "name": "disposition-merge",
-          "description": "This issue / PR is in PFCP or FCP with a disposition to merge it."
-        },
-        {
-          "name": "finished-final-comment-period",
-          "description": "The final comment period is finished for this PR / Issue."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "to-announce",
-          "description": "Announce this issue on triage meeting"
-        }
-      ],
-      "days_old": 35
+      "days_old": 27
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -1855,7 +1826,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 46
+      "days_old": 47
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -2016,7 +1987,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 125
+      "days_old": 126
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2099,7 +2070,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 175
+      "days_old": 176
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2141,7 +2112,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 232
+      "days_old": 233
     },
     {
       "title": "Stabilize `float_bits_const` (`fN::BITS`)",
@@ -2212,7 +2183,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 290
+      "days_old": 291
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2287,7 +2258,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 323
+      "days_old": 324
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2377,7 +2348,7 @@
           "description": "Status: Awaiting decision from T-types"
         }
       ],
-      "days_old": 380
+      "days_old": 381
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2422,7 +2393,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 394
+      "days_old": 395
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2624,7 +2595,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 718
+      "days_old": 719
     }
   ],
   "current_versions": {
