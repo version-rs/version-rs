@@ -1516,6 +1516,27 @@
   ],
   "stabilization_prs": [
     {
+      "title": "Stabilize feature `unix_kill_process_group`",
+      "number": 166442,
+      "url": "https://github.com/rust-lang/rust/pull/166442",
+      "updated_at": "2026-11-24T08:10:13+00:00",
+      "labels": [
+        {
+          "name": "S-waiting-on-review",
+          "description": "Status: Awaiting review from the assignee but also interested parties."
+        },
+        {
+          "name": "T-libs",
+          "description": "Relevant to the library team, which will review and decide on the PR/issue."
+        },
+        {
+          "name": "O-unix",
+          "description": "Operating system: Unix-like"
+        }
+      ],
+      "days_old": 0
+    },
+    {
       "title": "Stabilize the order of query result encoding by sorting query results during encoding",
       "number": 166427,
       "url": "https://github.com/rust-lang/rust/pull/166427",
@@ -1528,10 +1549,6 @@
         {
           "name": "S-waiting-on-author",
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
-        },
-        {
-          "name": "S-waiting-on-perf",
-          "description": "Status: Waiting on a perf run to be completed."
         },
         {
           "name": "A-query-system",
@@ -1600,7 +1617,7 @@
           "description": "Area: Our favorite opsem complication"
         }
       ],
-      "days_old": 5
+      "days_old": 6
     },
     {
       "title": "Stabilize `Vec::repeat{_in}`",
@@ -1855,7 +1872,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 52
+      "days_old": 53
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -1884,7 +1901,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 59
+      "days_old": 60
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1917,7 +1934,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 64
+      "days_old": 65
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -1996,44 +2013,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 143
-    },
-    {
-      "title": "stabilize s390x specific target-feature backchain",
-      "number": 158612,
-      "url": "https://github.com/rust-lang/rust/pull/158612",
-      "updated_at": "2026-06-30T11:59:56+00:00",
-      "labels": [
-        {
-          "name": "A-LLVM",
-          "description": "Area: Code generation parts specific to LLVM. Both correctness bugs and optimization-related issues."
-        },
-        {
-          "name": "T-lang",
-          "description": "Relevant to the language team"
-        },
-        {
-          "name": "T-compiler",
-          "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "needs-fcp",
-          "description": "This change is insta-stable, or significant enough to need a team FCP to proceed."
-        },
-        {
-          "name": "S-waiting-on-MCP",
-          "description": "Status: PR has a compiler MCP and is waiting for the compiler MCP to complete."
-        },
-        {
-          "name": "I-lang-radar",
-          "description": "Items that are on lang's radar and will need eventual work or consideration."
-        },
-        {
-          "name": "needs-reference-pr",
-          "description": "This language change needs an approved Reference PR to proceed."
-        }
-      ],
-      "days_old": 146
+      "days_old": 144
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2107,31 +2087,6 @@
       "days_old": 234
     },
     {
-      "title": "Stabilize `float_bits_const` (`fN::BITS`)",
-      "number": 154065,
-      "url": "https://github.com/rust-lang/rust/pull/154065",
-      "updated_at": "2026-03-19T01:30:45+00:00",
-      "labels": [
-        {
-          "name": "relnotes",
-          "description": "Marks issues that should be documented in the release notes of the next release."
-        },
-        {
-          "name": "S-waiting-on-author",
-          "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
-        },
-        {
-          "name": "T-libs",
-          "description": "Relevant to the library team, which will review and decide on the PR/issue."
-        },
-        {
-          "name": "A-compiler-builtins",
-          "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
-        }
-      ],
-      "days_old": 250
-    },
-    {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
       "number": 152902,
       "url": "https://github.com/rust-lang/rust/pull/152902",
@@ -2154,7 +2109,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 276
+      "days_old": 277
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2196,7 +2151,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 292
+      "days_old": 293
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2287,7 +2242,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 342
+      "days_old": 343
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2422,7 +2377,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 520
+      "days_old": 521
     },
     {
       "title": "Stabilize the `breakpoint` function",
