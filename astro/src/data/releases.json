@@ -1426,61 +1426,61 @@
           "title": "Lower UEFI targets through LLVM's *uefi triple",
           "number": 164716,
           "html_url": "https://github.com/rust-lang/rust/pull/164716",
-          "days_ago": 19
+          "days_ago": 20
         },
         {
           "title": "Make inline attributes apply to the generated `poll` in async fn",
           "number": 149245,
           "html_url": "https://github.com/rust-lang/rust/pull/149245",
-          "days_ago": 20
+          "days_ago": 21
         },
         {
           "title": "Stabilize `slice_split_once`",
           "number": 164641,
           "html_url": "https://github.com/rust-lang/rust/pull/164641",
-          "days_ago": 34
+          "days_ago": 35
         },
         {
           "title": "Tracking issue for release notes of #162840: tier 3 target policy: target CPU and features must be supported by upstream backend",
           "number": 164682,
           "html_url": "https://github.com/rust-lang/rust/issues/164682",
-          "days_ago": 34
+          "days_ago": 35
         },
         {
           "title": "Tracking issue for release notes of #144090: Make `IoSlice` and `IoSliceMut` methods unstably const",
           "number": 148108,
           "html_url": "https://github.com/rust-lang/rust/issues/148108",
-          "days_ago": 42
+          "days_ago": 43
         },
         {
           "title": "Update the minimum external LLVM to 22",
           "number": 163572,
           "html_url": "https://github.com/rust-lang/rust/pull/163572",
-          "days_ago": 52
+          "days_ago": 53
         },
         {
           "title": "windows-gnu: enable native TLS",
           "number": 159021,
           "html_url": "https://github.com/rust-lang/rust/pull/159021",
-          "days_ago": 53
+          "days_ago": 54
         },
         {
           "title": "Stabilize `funnel_shifts` (including `const`)",
           "number": 161015,
           "html_url": "https://github.com/rust-lang/rust/pull/161015",
-          "days_ago": 56
+          "days_ago": 57
         },
         {
           "title": "Guarantee 8 bytes of alignment of RawWakerVTable",
           "number": 158186,
           "html_url": "https://github.com/rust-lang/rust/pull/158186",
-          "days_ago": 58
+          "days_ago": 59
         },
         {
           "title": "Stabilize SyncView",
           "number": 163366,
           "html_url": "https://github.com/rust-lang/rust/pull/163366",
-          "days_ago": 59
+          "days_ago": 60
         }
       ]
     },
@@ -1497,25 +1497,25 @@
           "title": "Remove ebadf handling from stdio",
           "number": 166117,
           "html_url": "https://github.com/rust-lang/rust/pull/166117",
-          "days_ago": 4
+          "days_ago": 5
         },
         {
           "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
           "number": 153261,
           "html_url": "https://github.com/rust-lang/rust/pull/153261",
-          "days_ago": 14
+          "days_ago": 15
         },
         {
           "title": "Lower #[no_mangle] to #[symbol_name]/#[link_name]",
           "number": 159374,
           "html_url": "https://github.com/rust-lang/rust/pull/159374",
-          "days_ago": 17
+          "days_ago": 18
         },
         {
           "title": "Drop array elements in order after a partial move",
           "number": 165037,
           "html_url": "https://github.com/rust-lang/rust/pull/165037",
-          "days_ago": 17
+          "days_ago": 18
         }
       ]
     }
@@ -1569,7 +1569,7 @@
           "description": "Area: The rustc query system (https://rustc-dev-guide.rust-lang.org/query.html)"
         }
       ],
-      "days_old": 0
+      "days_old": 1
     },
     {
       "title": "Stabilize `Box::pin_in`",
@@ -2094,7 +2094,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 233
+      "days_old": 234
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -2211,7 +2211,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 295
+      "days_old": 296
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2445,7 +2445,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 531
+      "days_old": 532
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
