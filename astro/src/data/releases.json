@@ -1557,7 +1557,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 1
+      "days_old": 2
     },
     {
       "title": "Stabilize the order of query result encoding by sorting query results during encoding",
@@ -1916,7 +1916,7 @@
           "description": "This language change needs an approved Reference PR to proceed."
         }
       ],
-      "days_old": 54
+      "days_old": 55
     },
     {
       "title": "Stabilize `iter_advance_by`",
@@ -2195,7 +2195,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 294
+      "days_old": 295
     },
     {
       "title": "Stabilize `proc_macro_value` feature",
@@ -2220,7 +2220,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 296
+      "days_old": 297
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
