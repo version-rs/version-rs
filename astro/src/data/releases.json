@@ -1607,7 +1607,7 @@
           "description": "Area: Our favorite opsem complication"
         }
       ],
-      "days_old": 6
+      "days_old": 7
     },
     {
       "title": "stabilize `Box::new_uninit_in` and `Box::new_zeroed_in`",
@@ -1640,7 +1640,7 @@
           "description": "Area: Our favorite opsem complication"
         }
       ],
-      "days_old": 7
+      "days_old": 8
     },
     {
       "title": "Stabilize `Vec::repeat{_in}`",
@@ -1673,7 +1673,7 @@
           "description": "Area: `[T]` and `Vec<T>`"
         }
       ],
-      "days_old": 8
+      "days_old": 9
     },
     {
       "title": "Stabilize stack-protector (try 2)",
@@ -1710,7 +1710,7 @@
           "description": "Project group: Exploit mitigations"
         }
       ],
-      "days_old": 16
+      "days_old": 17
     },
     {
       "title": "Stabilize `core::time::Duration::as_millis_f{32,64}`",
@@ -1756,7 +1756,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 23
+      "days_old": 24
     },
     {
       "title": "stabilize unchecked_disjoint_bitor",
@@ -1838,7 +1838,7 @@
           "description": "This language change does not need a Reference PR."
         }
       ],
-      "days_old": 44
+      "days_old": 45
     },
     {
       "title": "Stabilize `--remap-path-scope` in rustdoc and the `documentation` scope",
@@ -1879,7 +1879,7 @@
           "description": "Relevant to the rustdoc internals team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 50
+      "days_old": 51
     },
     {
       "title": "Stabilize `#[diagnostic::on_unknown]`",
@@ -1945,7 +1945,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 61
+      "days_old": 62
     },
     {
       "title": "Stabilize `std::os::unix::process::CommandExt::chroot` (`process_chroot`)",
@@ -1978,7 +1978,7 @@
           "description": "Operating system: Unix-like"
         }
       ],
-      "days_old": 66
+      "days_old": 67
     },
     {
       "title": "Stabilize `core::io::{Error(Kind), IoSlice(Mut), Result}`",
@@ -2057,7 +2057,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 145
+      "days_old": 146
     },
     {
       "title": "Stabilize `Rng` and `SystemRng`",
@@ -2086,7 +2086,7 @@
           "description": "Area: random data generation support"
         }
       ],
-      "days_old": 179
+      "days_old": 180
     },
     {
       "title": "Stabilize `tcp_deferaccept`",
@@ -2128,7 +2128,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 236
+      "days_old": 237
     },
     {
       "title": "Stabilize rustdoc `--merge` `--parts-out-dir`, and `--include-parts-dir` options",
@@ -2153,7 +2153,7 @@
           "description": "Area: port run-make Makefiles to rmake.rs"
         }
       ],
-      "days_old": 278
+      "days_old": 279
     },
     {
       "title": "Stabilize -Zinstrument-mcount",
@@ -2174,7 +2174,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 294
+      "days_old": 295
     },
     {
       "title": "Stabilize `refcell_try_map`",
@@ -2286,7 +2286,7 @@
           "description": "Relevant to the rustdoc-frontend team, which will review and decide on the web UI/UX output."
         }
       ],
-      "days_old": 344
+      "days_old": 345
     },
     {
       "title": "Stabilize the `supertrait_item_shadowing` feature",
@@ -2335,7 +2335,7 @@
           "description": "Area: compiler-builtins (https://github.com/rust-lang/compiler-builtins)"
         }
       ],
-      "days_old": 384
+      "days_old": 385
     },
     {
       "title": "Stabilize Frontmatter",
@@ -2421,7 +2421,7 @@
           "description": "Status: Waiting on approved PRs to documentation before merging"
         }
       ],
-      "days_old": 522
+      "days_old": 523
     },
     {
       "title": "Stabilize the `breakpoint` function",
@@ -2475,7 +2475,7 @@
           "description": "Status: This is awaiting some action (such as code changes or more information) from the author."
         }
       ],
-      "days_old": 541
+      "days_old": 542
     },
     {
       "title": "Stabilize `fn_align`: `#[align(N)]` on functions",
@@ -2516,7 +2516,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 580
+      "days_old": 581
     },
     {
       "title": "Stabilize `offset_of_slice`",
@@ -2541,7 +2541,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 593
+      "days_old": 594
     },
     {
       "title": "Stabilize `derive(CoercePointee)`",
