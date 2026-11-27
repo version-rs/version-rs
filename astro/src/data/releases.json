@@ -1435,61 +1435,61 @@
           "title": "Lower UEFI targets through LLVM's *uefi triple",
           "number": 164716,
           "html_url": "https://github.com/rust-lang/rust/pull/164716",
-          "days_ago": 21
+          "days_ago": 22
         },
         {
           "title": "Make inline attributes apply to the generated `poll` in async fn",
           "number": 149245,
           "html_url": "https://github.com/rust-lang/rust/pull/149245",
-          "days_ago": 22
+          "days_ago": 23
         },
         {
           "title": "Stabilize `slice_split_once`",
           "number": 164641,
           "html_url": "https://github.com/rust-lang/rust/pull/164641",
-          "days_ago": 36
+          "days_ago": 37
         },
         {
           "title": "Tracking issue for release notes of #162840: tier 3 target policy: target CPU and features must be supported by upstream backend",
           "number": 164682,
           "html_url": "https://github.com/rust-lang/rust/issues/164682",
-          "days_ago": 36
+          "days_ago": 37
         },
         {
           "title": "Tracking issue for release notes of #144090: Make `IoSlice` and `IoSliceMut` methods unstably const",
           "number": 148108,
           "html_url": "https://github.com/rust-lang/rust/issues/148108",
-          "days_ago": 44
+          "days_ago": 45
         },
         {
           "title": "Update the minimum external LLVM to 22",
           "number": 163572,
           "html_url": "https://github.com/rust-lang/rust/pull/163572",
-          "days_ago": 54
+          "days_ago": 55
         },
         {
           "title": "windows-gnu: enable native TLS",
           "number": 159021,
           "html_url": "https://github.com/rust-lang/rust/pull/159021",
-          "days_ago": 55
+          "days_ago": 56
         },
         {
           "title": "Stabilize `funnel_shifts` (including `const`)",
           "number": 161015,
           "html_url": "https://github.com/rust-lang/rust/pull/161015",
-          "days_ago": 58
+          "days_ago": 59
         },
         {
           "title": "Guarantee 8 bytes of alignment of RawWakerVTable",
           "number": 158186,
           "html_url": "https://github.com/rust-lang/rust/pull/158186",
-          "days_ago": 60
+          "days_ago": 61
         },
         {
           "title": "Stabilize SyncView",
           "number": 163366,
           "html_url": "https://github.com/rust-lang/rust/pull/163366",
-          "days_ago": 61
+          "days_ago": 62
         }
       ]
     },
@@ -1506,25 +1506,25 @@
           "title": "Remove ebadf handling from stdio",
           "number": 166117,
           "html_url": "https://github.com/rust-lang/rust/pull/166117",
-          "days_ago": 6
+          "days_ago": 7
         },
         {
           "title": "Partially stabilize `ptr_alignment_type` as `alignment_type`",
           "number": 153261,
           "html_url": "https://github.com/rust-lang/rust/pull/153261",
-          "days_ago": 16
+          "days_ago": 17
         },
         {
           "title": "Lower #[no_mangle] to #[symbol_name]/#[link_name]",
           "number": 159374,
           "html_url": "https://github.com/rust-lang/rust/pull/159374",
-          "days_ago": 19
+          "days_ago": 20
         },
         {
           "title": "Drop array elements in order after a partial move",
           "number": 165037,
           "html_url": "https://github.com/rust-lang/rust/pull/165037",
-          "days_ago": 19
+          "days_ago": 20
         }
       ]
     }
@@ -1578,7 +1578,7 @@
           "description": "Area: The rustc query system (https://rustc-dev-guide.rust-lang.org/query.html)"
         }
       ],
-      "days_old": 2
+      "days_old": 3
     },
     {
       "title": "Stabilize `Box::pin_in`",
@@ -1735,7 +1735,7 @@
           "description": "Area: `std::time`"
         }
       ],
-      "days_old": 19
+      "days_old": 20
     },
     {
       "title": "Stabilize the outline-atomics target feature",
@@ -1777,7 +1777,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 30
+      "days_old": 31
     },
     {
       "title": "stabilize `-Znext-solver=globally`",
@@ -2007,7 +2007,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 106
+      "days_old": 107
     },
     {
       "title": "Stabilize attributes on closure and method call expressions",
@@ -2040,7 +2040,7 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 129
+      "days_old": 130
     },
     {
       "title": "Stabilize `mpmc_channel`",
@@ -2103,7 +2103,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 235
+      "days_old": 236
     },
     {
       "title": "Stabilize `#![rustfmt::skip]`, and other inner tool attributes",
@@ -2220,7 +2220,7 @@
           "description": "Relevant to the library team, which will review and decide on the PR/issue."
         }
       ],
-      "days_old": 297
+      "days_old": 298
     },
     {
       "title": "Stabilize `-Zdebuginfo-compression` as `-Cdebuginfo-compression`",
@@ -2249,7 +2249,7 @@
           "description": "Relevant for the Rust-for-Linux project"
         }
       ],
-      "days_old": 327
+      "days_old": 328
     },
     {
       "title": "Stabilize `doc_cfg` feature",
@@ -2380,7 +2380,7 @@
           "description": "`#![feature(frontmatter)]`"
         }
       ],
-      "days_old": 398
+      "days_old": 399
     },
     {
       "title": "Stabilize `-Cmin-function-alignment`",
@@ -2454,7 +2454,7 @@
           "description": "Status: Awaiting decision from T-lang"
         }
       ],
-      "days_old": 533
+      "days_old": 534
     },
     {
       "title": "Stabilize `feature(more_qualified_paths)`",
@@ -2578,11 +2578,11 @@
           "description": "Items that are on lang's radar and will need eventual work or consideration."
         }
       ],
-      "days_old": 722
+      "days_old": 723
     }
   ],
   "current_versions": {
-    "stable": "1.100.0",
+    "stable": "1.100.1",
     "beta": "1.101.0",
     "nightly": "1.102.0"
   }
